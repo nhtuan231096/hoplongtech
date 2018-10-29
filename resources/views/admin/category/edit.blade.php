@@ -39,6 +39,18 @@
 			</select>
 		</div>
 		<div class="form-group">
+    		<label for="">Meta title</label>
+    		<input type="text" name="meta_title" class="form-control" id="meta_title" value="{{$cate->meta_title}}" placeholder="Meta title">
+    	</div>
+    	<div class="form-group">
+    		<label for="">Meta description</label>
+    		<input type="text" name="meta_description" class="form-control" id="meta_description" value="{{$cate->meta_description}}" placeholder="meta description">
+    	</div>
+    	<div class="form-group">
+    		<label for="">meta keywords</label>
+    		<input type="text" name="meta_keywords" class="form-control" id="meta_keywords" value="{{$cate->meta_keywords}}" placeholder="meta keywords">
+    	</div>
+		<div class="form-group">
 			<label for="">Trạng thái</label>
 			<select name="status" id="input" class="form-control">
 				@if($cate->status=='enable')

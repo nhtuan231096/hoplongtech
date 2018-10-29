@@ -17,6 +17,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <link rel="stylesheet" href="{{url('public/admin')}}/bower_components/bootstrap/dist/css/bootstrap.min.css">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="{{url('public/admin')}}/bower_components/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="{{url('public/')}}/fontawesome/css/fontawesome.css">
   <!-- Ionicons -->
   <link rel="stylesheet" href="{{url('public/admin')}}/bower_components/Ionicons/css/ionicons.min.css">
   <!-- Theme style -->
@@ -163,8 +164,8 @@ desired effect
             </a>
             <ul class="treeview-menu">
               <li><a href="{{route('product')}}"><i class="fa fa-align-center"></i>Sản phẩm</a></li>
-              <li><a href="{{route('importProduct')}}"><i class="fa fa-file"></i>Import sản phẩm</a></li>
-              <li><a href="{{route('insertProduct')}}"><i class="fa fa-file"></i>Cập nhật thông tin</a></li>
+              <li><a href="{{route('importProduct')}}"><i class="fa fa-cloud-upload"></i>Import sản phẩm</a></li>
+              <li><a href="{{route('insertProduct')}}"><i class="fa fa-cog"></i>Cập nhật thông tin</a></li>
               <li><a href="{{route('importProduct')}}"><i class="fa fa-file"></i>Set thuộc tính</a></li>
             </ul>
           </li>
@@ -172,7 +173,7 @@ desired effect
           <li><a href="{{route('category')}}"><i class="fa fa-table"></i> <span>Danh mục sản phẩm</span></a></li>
           <li><a href="{{route('partners')}}"><i class="fa fa-th"></i> <span>Hãng sản phẩm</span></a></li>
           <li><a href="{{route('partners')}}"><i class="fa fa-briefcase"></i> <span>Quản lý bán hàng</span></a></li>
-          <li><a href="#"><i class="fa fa-image"></i> <span>Quản lý banner</span></a></li>
+          <li><a href="{{route('slider')}}"><i class="fa fa-image"></i> <span>Quản lý slider</span></a></li>
           <li><a href="#"><i class="fa fa-users"></i><span>Supporter</span></a></li>
           <li class="treeview">
             <a href="#"><i class="fa fa-cogs"></i> <span>Cấu hình</span>
@@ -206,7 +207,17 @@ desired effect
           <li><a href="#"><i class="fa fa-users"></i><span>Supporter</span></a></li>
           <li><a href="{{route('account')}}"><i class="fa fa-user-circle"></i><span>Tài khoản quản trị</span></a></li>
           @endif
-          <li><a href="#"><i class="fa fa-edit"></i><span>Quản lý tin tức</span></a></li>
+          <li class="treeview">
+            <a href="#"><i class="fa fa-newspaper"></i> <span>Quản lý tin tức</span>
+              <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+            </a>
+            <ul class="treeview-menu">
+              <li><a href="{{route('news')}}"><i class="fa fa-newspaper"></i>Tin tức</a></li>
+              <li><a href="{{route('news_category')}}"><i class="fa fa-th"></i>Danh mục tin tức</a></li>
+            </ul>
+          </li>
           <li><a href="#"><i class="fa fa-download"></i><span>Download</span></a></li>
           <li><a href="{{route('infoAccount')}}"><i class="fa fa-info-circle"></i><span>Thông tin tài khoản</span></a></li>
         </ul>
@@ -336,6 +347,7 @@ desired effect
 
   <script src="{{url('public/admin')}}/tinymce/config.js"></script>
   <script src="{{url('public/admin')}}/toastr/toastr.min.js"></script>
+  <script src="{{url('public/admin')}}/fontawesome/js/fontawesome.js"></script>
   <!-- <script src="{{url('public/admin')}}/tinymce.js"></script> -->
 
 

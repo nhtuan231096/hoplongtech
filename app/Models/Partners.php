@@ -8,7 +8,7 @@ class Partners extends Model
 {
 	protected $table='partners';
 	protected $fillable=[
-		'title','slug','created_by','cover_image','cover_image','status','link'
+		'title','slug','created_by','cover_image','status','link'
 	];
 	public function scopeSearch($query)
 	{

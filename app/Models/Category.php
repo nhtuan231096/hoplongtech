@@ -8,7 +8,7 @@ class Category extends Model
 {
 	protected $table='category';
 	protected $fillable=[
-		'title','slug','created_by','description','cover_image','status','parent_id'
+		'title','slug','created_by','description','cover_image','status','parent_id','meta_keywords','meta_description','meta_title','content'
 	];
 	public function scopeSearch($query)
 		{

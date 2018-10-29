@@ -15,6 +15,8 @@ Route::group(['prefix'=>'admin','namespace'=>'Admin','middleware'=>'auth'],funct
 	include('admin/partners.php');
 	include('admin/product.php');
 	include('admin/account.php');
+	include('admin/news.php');
+	include('admin/slider.php');
 });
 // Route login admin
 Route::get('admin/login.html','Admin\AdminController@login')->name('login');
