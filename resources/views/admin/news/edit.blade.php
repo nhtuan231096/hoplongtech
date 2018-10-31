@@ -51,7 +51,7 @@
 							<label for="">Loại tin</label>
 							<select name="type" id="inputType" class="form-control">
 								<option value="">Chọn loại tin</option>
-								<option value="new">Tin mới</option>
+								<option value="news">Tin mới</option>
 								<option value="project">Dự án</option>
 								<option value="internal">Nội bộ</option>
 							</select>

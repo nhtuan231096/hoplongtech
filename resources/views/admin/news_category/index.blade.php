@@ -6,7 +6,7 @@
 	<div class="panel panel-info">
 		<div class="panel-body">
 			<form action="" method="POST" role="form">
-				<legend>@if(isset($editCate->id)) Cập nhật @else Tạo danh mục @endif</legend>
+				<legend>@if(isset($editCate->id)) Cập nhật: {{$editCate->title}} @else Tạo danh mục @endif</legend>
 			
 				<div class="form-group">
 					<label for="">Tiêu đề</label>

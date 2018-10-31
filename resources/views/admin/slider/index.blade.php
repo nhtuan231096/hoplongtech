@@ -6,7 +6,7 @@
 	<div class="panel panel-info">
 		<div class="panel-body">
 			<form action="" method="POST" enctype="multipart/form-data" role="form">
-				<legend>Tạo Slider</legend>
+				<legend>@if(isset($editSlider->id)) Cập nhật @else Tạo Slider @endif</legend>
 			
 				<div class="form-group">
 					<label for="">Tiêu đề</label>
@@ -42,8 +42,21 @@
 				</div>
 				<input type="hidden" name="created_by" value="{{Auth::user()->username}}">
 				@csrf
-			
-				<button type="submit" class="btn btn-primary">Thêm</button>
+				@if(isset($editSlider->id))
+				<div class="form-group">
+					<label for="">Trạng thái</label>
+					<select name="status" id="input" class="form-control">
+					@if($editSlider->status=='enable')
+						<option selected value="enable">Enable</option>
+						<option value="disable">Disable</option>
+					@else
+						<option selected value="disable">Disable</option>
+						<option value="enable">Enable</option>
+					@endif
+					</select>	
+				</div>
+				@endif
+				<button type="submit" class="btn btn-primary">Lưu</button>
 				<button type="reset" class="btn btn-danger">Hủy</button>
 			</form>
 		</div>
@@ -52,7 +65,37 @@
 <div class="col-md-8">
 	<div class="panel panel-info">
 		<div class="panel-heading">
-			<h4 class="panel-info">Danh sách slider</h4>
+			<div class="row">
+				<div class="col-md-2">
+					<h4 class="panel-info">Danh sách slider</h4>
+				</div>
+				<div class="col-md-10">
+					<form action="" method="GET" class="form-inline" role="form">
+
+					<div class="form-group">
+						<input type="" class="form-control" name="search" id="" placeholder="Tên danh mục cần tìm..">
+					</div>
+					<div class="form-group">
+						<select name="created_by" id="inputCreared_by" class="form-control">
+							<option value="">Người tạo</option>
+							@foreach($users as $user)
+							<option value="{{$user->username}}">{{$user->username}}</option>
+							@endforeach
+						</select>
+					</div>
+					<div class="form-group">
+						<select name="status" id="inputStatus" class="form-control">
+							<option value="">Trạng thái</option>
+							<option value="enable">Enable</option>
+							<option value="disable">Disable</option>
+						</select>
+					</div>
+					@csrf
+
+					<button type="submit" class="btn btn-info">Tìm kiếm</button>
+				</form>
+				</div>
+			</div>
 		</div>
 		<div class="panel-body">
 			<table class="table table-hover">

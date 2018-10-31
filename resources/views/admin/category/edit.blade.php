@@ -5,7 +5,7 @@
 <div class="panel panel-info">
 	<!-- Default panel contents -->
 	<div class="panel-heading">
-		<h4>Sửa danh mục</h4>
+		<h4>Sửa danh mục: {{$cate->title}}</h4>
 	</div>
 		@if(Session::has('success'))
 			<div class="alert alert-success">

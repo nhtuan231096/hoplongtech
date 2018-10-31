@@ -17,6 +17,10 @@ Route::group(['prefix'=>'admin','namespace'=>'Admin','middleware'=>'auth'],funct
 	include('admin/account.php');
 	include('admin/news.php');
 	include('admin/slider.php');
+	include('admin/supporter.php');
+	include('admin/webconfig.php');
+	include('admin/service.php');
+	include('admin/download.php');
 });
 // Route login admin
 Route::get('admin/login.html','Admin\AdminController@login')->name('login');
@@ -24,6 +28,11 @@ Route::post('admin/login.html','Admin\AdminController@post_login')->name('login'
 
 // Route logout admin
 Route::get('admin/logout','Admin\AdminController@logout')->name('logout');
+
+Route::group(['prefix'=>'','namespace'=>'Home'],function(){
+	route::get('/','HomeController@index')->name('home');
+});
+
 // Route::get('/', function () {
 //     return view('welcome');
 // });

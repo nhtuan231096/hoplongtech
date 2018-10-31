@@ -49,7 +49,7 @@
 									<div class="form-group">
 										<label for="">Danh mục cha</label>
 										<select name="parent_id" id="inputParent_id" class="form-control">
-										<option value="">Chọn danh mục cha *</option>
+										<option value="parent">Chọn danh mục cha</option>
 											@foreach($parent as $cate)
 											<option value="{{$cate->id}}">{{$cate->title}}</option>
 											@endforeach
@@ -107,11 +107,11 @@
 					<div class="form-group">
 						<input type="" class="form-control" name="search" id="" placeholder="Tên danh mục cần tìm..">
 					</div>
-					<!-- <div class="form-group">
+					<div class="form-group">
 						<select name="created_by" id="inputCreared_by" class="form-control">
 							<option value="">Người tạo</option>
 							@foreach($users as $user)
-							<option value="{{$user->id}}">{{$user->username}}</option>
+							<option value="{{$user->username}}">{{$user->username}}</option>
 							@endforeach
 						</select>
 					</div>
@@ -121,7 +121,7 @@
 							<option value="enable">Enable</option>
 							<option value="disable">Disable</option>
 						</select>
-					</div> -->
+					</div>
 					@csrf
 
 					<button type="submit" class="btn btn-info">Tìm kiếm</button>

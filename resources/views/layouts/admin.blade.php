@@ -174,7 +174,7 @@ desired effect
           <li><a href="{{route('partners')}}"><i class="fa fa-th"></i> <span>Hãng sản phẩm</span></a></li>
           <li><a href="{{route('partners')}}"><i class="fa fa-briefcase"></i> <span>Quản lý bán hàng</span></a></li>
           <li><a href="{{route('slider')}}"><i class="fa fa-image"></i> <span>Quản lý slider</span></a></li>
-          <li><a href="#"><i class="fa fa-users"></i><span>Supporter</span></a></li>
+          <li><a href="{{route('supporter')}}"><i class="fa fa-users"></i><span>Supporter</span></a></li>
           <li class="treeview">
             <a href="#"><i class="fa fa-cogs"></i> <span>Cấu hình</span>
               <span class="pull-right-container">
@@ -183,9 +183,9 @@ desired effect
             </a>
             <ul class="treeview-menu">
               <li><a href=""><i class="fa fa-cog"></i>List widgets</a></li>
-              <li><a href=""><i class="fa fa-object-group"></i>Web Configs</a></li>
-              <li><a href=""><i class="fa fa-server"></i>Service</a></li>
-              <li><a href=""><i class="fa fa-download"></i>Dowload service</a></li>
+              <li><a href="{{route('webConfig')}}"><i class="fa fa-object-group"></i>Web Configs</a></li>
+              <li><a href="{{route('service')}}"><i class="fa fa-server"></i>Service</a></li>
+              <li><a href="{{route('download')}}"><i class="fa fa-download"></i>Dowload service</a></li>
             </ul>
           </li>
           <li class="treeview">

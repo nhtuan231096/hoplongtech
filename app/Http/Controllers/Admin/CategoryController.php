@@ -20,7 +20,7 @@ class CategoryController extends Controller
 		// 	}
 		// }
 		$user=User::all();
-		$category=Category::search()->orderBy('id','DESC')->paginate(15);
+		$category=Category::search()->orderBy('id','DESC')->paginate(10);
 		$parent=Category::all();
 		// dd($category);
 		return view('admin.category.index',[
@@ -35,8 +35,8 @@ class CategoryController extends Controller
 		$file->move(base_path('uploads/category'),$file->getClientOriginalName());
 		$img=$file->getClientOriginalName();
 		$req->merge(['cover_image'=>$img]);
-		$addCategory=Category::create($req->all());
 		// dd($req->all());
+		$addCategory=Category::create($req->all());
 		if ($addCategory) {
 			return redirect()->route('category')->with('success','Thêm mới danh mục thành công');
 		}

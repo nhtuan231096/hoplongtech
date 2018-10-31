@@ -4,7 +4,37 @@
 @section('main')
 <div class="panel panel-info">
 	<div class="panel-heading">
-		<h3 class="panel-title"><a class="btn btn-md btn-default" href="{{route('addPartner')}}">Thêm mới hãng sản phẩm</a></h3>
+	<div class="row">
+		<div class="col-md-2">
+			<h3 class="panel-title"><a class="btn btn-md btn-default" href="{{route('addPartner')}}">Thêm mới hãng sản phẩm</a></h3>
+		</div>
+		<div class="col-md-10">
+			<form action="" method="GET" class="form-inline" role="form">
+
+					<div class="form-group">
+						<input type="" class="form-control" name="search" id="" placeholder="Tên danh mục cần tìm..">
+					</div>
+					<div class="form-group">
+						<select name="created_by" id="inputCreared_by" class="form-control">
+							<option value="">Người tạo</option>
+							@foreach($users as $user)
+							<option value="{{$user->username}}">{{$user->username}}</option>
+							@endforeach
+						</select>
+					</div>
+					<div class="form-group">
+						<select name="status" id="inputStatus" class="form-control">
+							<option value="">Trạng thái</option>
+							<option value="enable">Enable</option>
+							<option value="disable">Disable</option>
+						</select>
+					</div>
+					@csrf
+
+					<button type="submit" class="btn btn-info">Tìm kiếm</button>
+				</form>
+		</div>	
+		</div>
 	</div>
 	<div class="panel-body">
 	@if(Session::has('success'))

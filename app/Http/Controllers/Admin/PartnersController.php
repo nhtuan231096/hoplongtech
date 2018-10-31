@@ -2,6 +2,7 @@
 namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Models\Partners;
+use App\User;
 use Illuminate\Http\Request;
 /**
 * 
@@ -11,9 +12,11 @@ class PartnersController extends Controller
 	
 	public function index()
 	{
-		$partners=Partners::paginate(15);
+		$user=User::all();
+		$partners=Partners::search()->paginate(15);
 		return view('admin.partners.index',[
-			'partners'=>$partners
+			'partners'=>$partners,
+			'users'=>$user
 			]);
 	}
 	public function addPartner(){
