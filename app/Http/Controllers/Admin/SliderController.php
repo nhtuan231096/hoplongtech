@@ -76,7 +76,7 @@ class SliderController extends Controller
 	public function postEditSlider($id, Request $req){
 		$this->validate($req,[
 			'title' => 'required',
-			'slug' => 'required|unique:slider,slug,'.$id,
+			'slug' => 'required',
 			'link' => 'required',
 			'file_upload' => 'mimes:jpeg,jpg,bmp,png'
 		],[

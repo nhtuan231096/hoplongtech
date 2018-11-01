@@ -1,21 +1,58 @@
-.home-guide .pyr {
-    height: 410px;
-    overflow: hidden;
+.site-header .site-logo-anchor img, .site-header .site-logo-link img, .site-header .custom-logo-link img {
+    max-width: 200px;
+    max-height: 50px;
+    max-width: 100px;
+    margin:0 auto;
 }
-.expo .expo-items .item .inr .expo-img-content .expo-img-wrap img {
-    width: 100%;
-    position: absolute;
-    left: 0;
-    margin-left: 0;
-    top: -50%;
+.kc-col-container .kc_single_image img{
+	opacity: 0.1;
 }
-.image-partners img{
-	width: 100%;
-    height: 50px;
+.garden-market .top-bar.top-bar-v4 .nav > li > a, .garden-market .site-header.header-v4 .site-header-cart .cart-contents .amount .price-label {
+    color: #444;
 }
-.trade-header{
-    padding-bottom: 20px;
+.top-bar {
+    background-color: #ddd !important;
+    font-size: 0.875em;
+    line-height: 2.714em;
+    font-weight: 300;
 }
-.trade-show .inr {
-    padding: 15px 30px;
+html, body {
+  margin: 0;
+  padding: 0;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+.slider {
+    width: 90%;
+    margin: 100px auto;
+}
+
+.slick-slide {
+ 
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+.slick-active {
+  opacity: .5;
+}
+
+.slick-current {
+  opacity: 1;
+} 

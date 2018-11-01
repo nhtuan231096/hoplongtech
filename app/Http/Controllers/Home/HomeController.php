@@ -15,7 +15,7 @@ class HomeController extends Controller
 {
 	public function index(){
 		$slider=Slider::where('status','enable')->get();
-		$categorys=Category::Where('parent_id','parent')->get();
+		$categorys=Category::Where('parent_id','parent')->paginate(12);
 		$best_seller=Product::Where('is_best_seller','enable')->get();
 		$new_product=Product::Where('is_new_product','enable')->paginate(5);
 		$promotion=Product::Where('is_promotion','enable')->get();

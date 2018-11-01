@@ -83,7 +83,7 @@
 										<input type="text" name="meta_description" class="form-control" id="meta_description" placeholder="meta description">
 									</div>
 
-
+									<input type="hidden" name="status" value="enable">
 									<div class="form-group">
 										<label for="">Ảnh *</label>
 										<input type="file" name="upload_file" class="form-control" id="upload_file" placeholder="" required>

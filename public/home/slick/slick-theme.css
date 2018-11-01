@@ -147,10 +147,6 @@
 
     cursor: pointer;
 }
-.partners .slick-dots li
-{
-   display: none;
-}
 .slick-dots li button
 {
     font-size: 0;
