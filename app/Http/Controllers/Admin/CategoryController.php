@@ -74,15 +74,16 @@ class CategoryController extends Controller
 			'slug.min' => 'Đường dẫn tĩnh ít nhất :min ký tự',
 			'slug.required' => 'Đường dẫn không được để trống',
 		]);
-		// dd($req->all());
+		
 		$editCategory=Category::find($id);
 		$img=$editCategory->cover_image;
-		if($req->hasFile('cover_image')) {
+		if($req->hasFile('upload_file')) {
 			$file=$req->upload_file;
 			$file->move(base_path('uploads/category'),$file->getClientOriginalName());
 			$img=$file->getClientOriginalName();
 			$req->merge(['cover_image'=>$img]);
 		}
+		// dd($req->all());
 		$editCategory->update($req->all());	
 		if($editCategory)
 		{

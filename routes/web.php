@@ -30,7 +30,8 @@ Route::post('admin/login.html','Admin\AdminController@post_login')->name('login'
 Route::get('admin/logout','Admin\AdminController@logout')->name('logout');
 
 Route::group(['prefix'=>'','namespace'=>'Home'],function(){
-	route::get('/','HomeController@index')->name('home');
+	Route::get('/','HomeController@index')->name('home');
+	Route::get('//{slug}','HomeController@view')->name('view');
 });
 
 // Route::get('/', function () {

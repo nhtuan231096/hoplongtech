@@ -164,7 +164,7 @@ class NewsController extends Controller
 	public function deleteCate($id){
 		$del=NewsCate::destroy($id);
 		if ($del) {
-			return redirect()->route('news_category')->with('success','Xóa thành công');
+			return redirect()->back()->with('success','Xóa thành công');
 		}
 		else
 		{
