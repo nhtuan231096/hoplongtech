@@ -22,14 +22,14 @@ class ProductController extends Controller
      */
     public function myPost()
     {
-        $cates=Category::where('status','enable')->get();
-        $pros=Product::where('status','enable')->get();
-        $users=User::all();
-        return view('admin.product.index',[
-            'cates'=>$cates,
-            'users'=>$users,
-            'pros'=>$pros,
-            ]);
+      $cates=Category::where('status','enable')->get();
+      $pros=Product::where('status','enable')->get();
+      $users=User::all();
+      return view('admin.product.index',[
+        'cates'=>$cates,
+        'users'=>$users,
+        'pros'=>$pros,
+        ]);
     }
 
     /**
@@ -39,8 +39,8 @@ class ProductController extends Controller
      */
     public function index()
     {
-        $post = Product::Where('status','enable')->orWhere('status','disable')->latest()->paginate(12);
-        return response()->json($post);
+      $post = Product::Where('status','enable')->orWhere('status','disable')->latest()->paginate(12);
+      return response()->json($post);
     }
 
     /**
@@ -63,31 +63,31 @@ class ProductController extends Controller
         //     'slug.unique'=>'Duong dan da ton tai',
         //     'title.unique'=>'Ten da ton tai'
         // ]);
-        $validator = \Validator::make($request->all(), [
-            'title' => 'required|unique:product,title',
-            'slug' => 'required|unique:product,slug',
-            'category_id' => 'required',
-            'meta_title' => 'max:70',
-            'meta_description' => 'max:170'
-            ],[
-            'title.required'=>'Tên không được để trống',
-            'category_id.required'=>'Bạn chưa chọn danh mục',
-            'slug.required'=>'Đường dẫn không được để trống',
-            'slug.unique'=>'Đường dẫn đã tồn tại',
-            'title.unique'=>'Tên đã tồn tại',
-            'meta_title.max' => 'Meta Title vượt quá :max ký tự',
-            'meta_description.max' => 'Meta Description vượt quá :max ký tự'
-            ]);
-        
-        if ($validator->fails())
-        {
-            return Response::json(['errors' => $validator->errors()]);
-        }
-        if ($validator->passes()) 
-        {
-            $posts = Product::create($request->all());
-            return response()->json($posts);
-        }
+      $validator = \Validator::make($request->all(), [
+        'title' => 'required|unique:product,title',
+        'slug' => 'required|unique:product,slug',
+        'category_id' => 'required',
+        'meta_title' => 'max:70',
+        'meta_description' => 'max:170'
+        ],[
+        'title.required'=>'Tên không được để trống',
+        'category_id.required'=>'Bạn chưa chọn danh mục',
+        'slug.required'=>'Đường dẫn không được để trống',
+        'slug.unique'=>'Đường dẫn đã tồn tại',
+        'title.unique'=>'Tên đã tồn tại',
+        'meta_title.max' => 'Meta Title vượt quá :max ký tự',
+        'meta_description.max' => 'Meta Description vượt quá :max ký tự'
+        ]);
+
+      if ($validator->fails())
+      {
+        return Response::json(['errors' => $validator->errors()]);
+      }
+      if ($validator->passes()) 
+      {
+        $posts = Product::create($request->all());
+        return response()->json($posts);
+      }
     }
 
     /**
@@ -99,8 +99,8 @@ class ProductController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $posts = Product::find($id)->update($request->all());
-        return response()->json($posts);
+      $posts = Product::find($id)->update($request->all());
+      return response()->json($posts);
     }
 
     /**
@@ -111,89 +111,90 @@ class ProductController extends Controller
      */
     public function destroy($id)
     {
-        Product::find($id)->delete();
-        return response()->json(['done']);
+      Product::find($id)->delete();
+      return response()->json(['done']);
     }
 
     public function edit($id){
-        $data = Product::find($id);
-        return response()->json($data);
+      $data = Product::find($id);
+      return response()->json($data);
     }
     public function trash(){
-        $posts = Product::where('status','delete')->latest()->paginate(14);
-        return view('admin.product.trash',[
-            'posts'=>$posts
-            ]);
+      $posts = Product::where('status','delete')->latest()->paginate(14);
+      return view('admin.product.trash',[
+        'posts'=>$posts
+        ]);
     }
     public function undo($id){
-        $product=Product::find($id);
-        if($product->status=='delete'){
-            $product->status='enable';
-        }
+      $product=Product::find($id);
+      if($product->status=='delete'){
+        $product->status='enable';
+      }
              // dd($product->status);
-        $undo=$product->update();
-        if ($undo) 
-        {
-            return redirect()->back()->with('success','Khôi phục sản phẩm thành công');
-        }
-        else
-        {
-         return redirect()->back()->with('error','Có lỗi'); 
+      $undo=$product->update();
+      if ($undo) 
+      {
+        return redirect()->back()->with('success','Khôi phục sản phẩm thành công');
+      }
+      else
+      {
+       return redirect()->back()->with('error','Có lỗi'); 
      }
 
- }
- public function deletePro($id){
+   }
+   public function deletePro($id){
     $deletePro=Product::destroy($id);
     if ($deletePro) {
-        return redirect()->back()->with('success','Đã xóa sản phẩm');
+      return redirect()->back()->with('success','Đã xóa sản phẩm');
     }
     else
     {
-        return redirect()->back()->with('error','Lỗi khi xóa');
+      return redirect()->back()->with('error','Lỗi khi xóa');
     }
-}
+  }
 
-function action(Request $request)
-{
- if($request->ajax())
- {
-  $output = '';
-  $query = $request->get('query');
-  if($query != '')
+  function action(Request $request)
   {
-   $data = Product::where('title', 'like', '%'.$query.'%')->get();  
-}
-$total_row = $data->count();
-if($total_row > 0)
-{
-   foreach($data as $row)
+   if($request->ajax())
    {
-    $output .= '
-    <tr>
-     <td>'.$row->title.'</td>
-     <td>'.$row->slug.'</td>
-     <td>'.$row->category_id.'</td>
-     <td>'.$row->created_by.'</td>
-     <td>'.$row->status.'</td>
-     <td>'.$row->created_at.'</td>
-     <td>'.'<button data-toggle="modal" data-target="#edit-item" class="edit-item btn btn-info fa fa-edit"></button>'
-      .'<button class="btn btn-danger fa fa-trash remove-item"></button>'.'</td>
-  </tr>
-  ';
-}
-}
-else
-{
+    $output = '';
+    $query = $request->get('query');
+    if($query != '')
+    {
+     $data = Product::where('title', 'like', '%'.$query.'%')->get();  
+   }
+   $total_row = $data->count();
+   if($total_row > 0)
+   {
+     foreach($data as $row)
+     {
+      $output .= '
+      <tr>
+       <td>'.$row->title.'</td>
+       <td>'.$row->slug.'</td>
+       <td>'.$row->category_id.'</td>
+       <td>'.$row->created_by.'</td>
+       <td>'.$row->sorder.'</td>
+       <td>'.$row->status.'</td>
+       <td>'.$row->created_at.'</td>
+       <td>'.'<button data-toggle="modal" data-target="#edit-item" class="edit-item btn btn-info fa fa-edit"></button>'
+        .'<button class="btn btn-danger fa fa-trash remove-item"></button>'.'</td>
+      </tr>
+      ';
+    }
+  }
+  else
+  {
    $output = '
    <tr>
     <td align="center" colspan="7">Không có dữ liệu</td>
-</tr>
-';
+  </tr>
+  ';
 }
 $data = array(
-   'table_data'  => $output,
-   'total_data'  => $total_row
-   );
+ 'table_data'  => $output,
+ 'total_data'  => $total_row
+ );
 
 echo json_encode($data);
 }
@@ -202,69 +203,69 @@ echo json_encode($data);
     // controller import file csv
 
 public function importProduct(){
-    return view('admin.product.importProduct');
+  return view('admin.product.importProduct');
 }
 public function parseImport(CsvImportRequest $request)
 {
 
-    $path = $request->file('csv_file')->getRealPath();
+  $path = $request->file('csv_file')->getRealPath();
 
+  if ($request->has('header')) {
+    $data = Excel::load($path, function($reader) {})->get()->toArray();
+  } else {
+    $data = array_map('str_getcsv', file($path));
+  }
+
+  if (count($data) > 0) {
     if ($request->has('header')) {
-        $data = Excel::load($path, function($reader) {})->get()->toArray();
-    } else {
-        $data = array_map('str_getcsv', file($path));
+      $csv_header_fields = [];
+      foreach ($data[0] as $key => $value) {
+        $csv_header_fields[] = $key;
+      }
     }
+    $csv_data = array_slice($data, 0, 10000);
 
-    if (count($data) > 0) {
-        if ($request->has('header')) {
-            $csv_header_fields = [];
-            foreach ($data[0] as $key => $value) {
-                $csv_header_fields[] = $key;
-            }
-        }
-        $csv_data = array_slice($data, 0, 10000);
+    $csv_data_file = CsvData::create([
+      'csv_filename' => $request->file('csv_file')->getClientOriginalName(),
+      'csv_header' => $request->has('header'),
+      'csv_data' => json_encode($data)
+      ]);
+  } else {
+    return redirect()->back();
+  }
 
-        $csv_data_file = CsvData::create([
-            'csv_filename' => $request->file('csv_file')->getClientOriginalName(),
-            'csv_header' => $request->has('header'),
-            'csv_data' => json_encode($data)
-            ]);
-    } else {
-        return redirect()->back();
-    }
-
-    return view('admin.product.import_fields', compact( 'csv_header_fields', 'csv_data', 'csv_data_file'));
+  return view('admin.product.import_fields', compact( 'csv_header_fields', 'csv_data', 'csv_data_file'));
 
 }
 public function processImport(Request $request)
 {
-    $data = CsvData::find($request->csv_data_file_id);
-    $csv_data = json_decode($data->csv_data, true);
-    foreach ($csv_data as $row) {
-        $contact = new Product();
-        foreach (config('app.db_fields') as $index => $field) {
-            if ($data->csv_header) {
-                $contact->$field = $row[$request->fields[$field]];
-            } else {
-                $contact->$field = $row[$request->fields[$field]];
-            }
-        }
-        $contact->save();
+  $data = CsvData::find($request->csv_data_file_id);
+  $csv_data = json_decode($data->csv_data, true);
+  foreach ($csv_data as $row) {
+    $contact = new Product();
+    foreach (config('app.db_fields') as $index => $field) {
+      if ($data->csv_header) {
+        $contact->$field = $row[$request->fields[$field]];
+      } else {
+        $contact->$field = $row[$request->fields[$field]];
+      }
     }
+    $contact->save();
+  }
 
-    return redirect()->route('importProduct')->with('success','Import file thành công.');
+  return redirect()->route('importProduct')->with('success','Import file thành công.');
 }
 
 // insert thông tin sản phẩm
 public function insertProduct()
-    {
-        $cates=Category::where('status','enable')->get();
-        return view('admin.product.insert',[
-            'cates'=>$cates
-            ]);
-    }
+{
+  $cates=Category::where('status','enable')->get();
+  return view('admin.product.insert',[
+    'cates'=>$cates
+    ]);
+}
 public function postInsertProduct(Request $req){
-    $pros=Product::Where('category_id',$req->category_id)->get();
+  $pros=Product::Where('category_id',$req->category_id)->get();
     // $this->validate($req,[
     //     'category_id' => 'required'
     //     ],[
@@ -272,29 +273,32 @@ public function postInsertProduct(Request $req){
     //     ]);
         // dd($pros);
     // dd($pros); 
-    if($pros->count()>0){
-        foreach($pros as $pro){
-            $req->contents=$pro->contents;
-            $req->catalog=$pro->catalog;
-            $req->lineup=$pro->lineup;
-            if(!empty($req->contents)){
-                $pro->contents=$req->contents;
-            }
-            if(!empty($req->catalog)) {
-                $pro->catalog=$req->catalog;
-            }
-            if(!empty($req->lineup)) {
-                $pro->lineup=$req->lineup;
-            } 
+  if($pros->count()>0){
+    foreach($pros as $pro){
+      $req->contents=$pro->contents;
+      $req->catalog=$pro->catalog;
+      $req->lineup=$pro->lineup;
+      if(!empty($req->contents)){
+        $pro->contents=$req->contents;
+      }
+      if(!empty($req->catalog)) {
+        $pro->catalog=$req->catalog;
+      }
+      if(!empty($req->lineup)) {
+        $pro->lineup=$req->lineup;
+      } 
             // dd($req->all());
-            Product::find($pro->id)->update($req->all());
-        }
-        return redirect()->route('insertProduct')->with('success','Insert file thành công.');
+      Product::find($pro->id)->update($req->all());
+    }
+    return redirect()->route('insertProduct')->with('success','Insert file thành công.');
     // dd($pro->contents);
-    }
-    else{
-        return redirect()->back()->with('error','Không có sản phẩm nào trong danh mục.');
-    }
+  }
+  else{
+    return redirect()->back()->with('error','Không có sản phẩm nào trong danh mục.');
+  }
+}
+public function order(){
+  echo "string";
 }
 }
 ?>

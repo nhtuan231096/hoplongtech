@@ -106,5 +106,18 @@ class SliderController extends Controller
 			return redirect()->back()->with('errors','Có lỗi');
 		}
 	}
+	public function orderSlider($id, Request $req){
+			$sorder=request()->sorder > 0 ? request()->sorder : '';
+			// dd($sorder);
+			$order=Slider::find($id)->update(['sorder'=>$sorder]);
+			if ($order) {
+				return redirect()->route('slider')->with('success','Cập nhật thành công');
+			}
+			else
+			{
+				return redirect()->back()->with('errors','Có lỗi');
+			}
+	}
+
 }
  ?>

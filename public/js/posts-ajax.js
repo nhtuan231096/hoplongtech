@@ -55,6 +55,14 @@ function manageRow(data) {
         rows = rows + '<td>'+value.slug+'</td>';
         rows = rows + '<td>'+value.category_id+'</td>';
         rows = rows + '<td>'+value.created_by+'</td>';
+        rows = rows + '<td>'+
+        '<form class="form-inline" method="post">'
+            +'<div class="form-group">'
+            +'<input style="width:50px" class="form-control" type="text"/>'
+            +'<button class="fa fa-save btn btn-primary">'+'</button>'
+            +'</div>'
+            +'</form>'
+        +'</td>';
         rows = rows + '<td>'+value.status+'</td>';
         rows = rows + '<td>'+value.created_at+'</td>';
         rows = rows + '<td data-id="'+value.id+'">';

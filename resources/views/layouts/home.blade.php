@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
@@ -21,6 +21,25 @@
 <link rel="shortcut icon" href="{{url('uploads/logo/Logo-hl.png')}}">
 <link rel="stylesheet" href="{{url('public/css/mystyle.css')}}">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext,vietnamese" rel="stylesheet">
+
+
+    <script src="//code.jquery.com/jquery.js"></script>
+
+    <script type="text/javascript" src="{{url('public/home')}}/assets/js/tether.min.js"></script>
+    <script type="text/javascript" src="{{url('public/home')}}/assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="{{url('public/home')}}/assets/js/jquery-migrate.min.js"></script>
+    <script type="text/javascript" src="{{url('public/home')}}/assets/js/hidemaxlistitem.min.js"></script>
+    <script type="text/javascript" src="{{url('public/home')}}/assets/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="{{url('public/home')}}/assets/js/hidemaxlistitem.min.js"></script>
+    <script type="text/javascript" src="{{url('public/home')}}/assets/js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="{{url('public/home')}}/assets/js/scrollup.min.js"></script>
+    <script type="text/javascript" src="{{url('public/home')}}/assets/js/jquery.waypoints.min.js"></script>
+    <script type="text/javascript" src="{{url('public/home')}}/assets/js/waypoints-sticky.min.js"></script>
+    <script type="text/javascript" src="{{url('public/home')}}/assets/js/pace.min.js"></script>
+    <script type="text/javascript" src="{{url('public/home')}}/assets/js/slick.min.js"></script>
+    <script type="text/javascript" src="{{url('public/home')}}/assets/js/scripts.js"></script>
+    <!-- For demo purposes – can be removed on production -->
+    <script src="{{url('public/home')}}/switchstylesheet/switchstylesheet.js"></script>
 </head>
 <body class="garden-market page-template-template-homepage-v6 woocommerce-active">
 <div id="page" class="hfeed site">
@@ -882,11 +901,12 @@
                     <!-- .header-v4 -->
                     <!-- ============================================================= Header End ============================================================= -->
 
-
+                    <div id="content" class="site-content" tabindex="-1">
                                 <!-- #primary -->
                                 @yield('content')
                                 <!-- #secondary -->
-
+                                @yield('banner_bottom')
+                    </div>
                    <!-- #content -->
                    <footer class="site-footer footer-v1">
                     <div class="col-full">
@@ -1070,22 +1090,7 @@
     <!-- For demo purposes – can be removed on production -->
 
     <!-- For demo purposes – can be removed on production : End -->
-    <script type="text/javascript" src="{{url('public/home')}}/assets/js/jquery.min.js"></script>
-    <script type="text/javascript" src="{{url('public/home')}}/assets/js/tether.min.js"></script>
-    <script type="text/javascript" src="{{url('public/home')}}/assets/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="{{url('public/home')}}/assets/js/jquery-migrate.min.js"></script>
-    <script type="text/javascript" src="{{url('public/home')}}/assets/js/hidemaxlistitem.min.js"></script>
-    <script type="text/javascript" src="{{url('public/home')}}/assets/js/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="{{url('public/home')}}/assets/js/hidemaxlistitem.min.js"></script>
-    <script type="text/javascript" src="{{url('public/home')}}/assets/js/jquery.easing.min.js"></script>
-    <script type="text/javascript" src="{{url('public/home')}}/assets/js/scrollup.min.js"></script>
-    <script type="text/javascript" src="{{url('public/home')}}/assets/js/jquery.waypoints.min.js"></script>
-    <script type="text/javascript" src="{{url('public/home')}}/assets/js/waypoints-sticky.min.js"></script>
-    <script type="text/javascript" src="{{url('public/home')}}/assets/js/pace.min.js"></script>
-    <script type="text/javascript" src="{{url('public/home')}}/assets/js/slick.min.js"></script>
-    <script type="text/javascript" src="{{url('public/home')}}/assets/js/scripts.js"></script>
-    <!-- For demo purposes – can be removed on production -->
-    <script src="{{url('public/home')}}/switchstylesheet/switchstylesheet.js"></script>
+
     <!-- For demo purposes – can be removed on production : End -->
 </body>
 </html>

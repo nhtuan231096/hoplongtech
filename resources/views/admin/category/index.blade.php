@@ -77,12 +77,20 @@
 											</div>
 										</div>
 									</div>
-
-									<div class="form-group">
+									<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
 										<label for="">Meta description</label>
 										<input type="text" name="meta_description" class="form-control" id="meta_description" placeholder="meta description">
 									</div>
-
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+										<label for="">sorder</label>
+										<input type="text" name="sorder" class="form-control" id="" placeholder="Sorder">
+									</div>
+									</div>
+									</div>
 									<input type="hidden" name="status" value="enable">
 									<div class="form-group">
 										<label for="">Ảnh *</label>
@@ -164,7 +172,7 @@
 					<th>Người tạo</th>
 					<th>Ảnh</th>
 					<th>ID Danh mục cha</th>
-					<!-- <th>Mô tả</th> -->
+					<th>Sorder</th>
 					<th>Trạng thái</th>
 					<th>Ngày tạo</th>
 					<th></th>
@@ -181,7 +189,19 @@
 						<img width="50px" src="{{url('uploads/category')}}/{{$cate->cover_image}}" alt="">
 					</td>
 					<td>{{$cate->parent_id}}</td>
-					<!-- <td>{{$cate->description}}</td> -->
+					<td>
+						<form action="{{route('update-cate',['id'=>$cate['id']])}}" method="POST" class="form-inline" role="form">
+						
+							<div class="form-group">
+								<label class="sr-only" for="">label</label>
+								<input style="width: 50px;" type="" class="form-control" name="sorder" value="{{$cate->sorder}}" id="" placeholder="">
+							</div>
+						@csrf()
+							
+						
+							<button type="submit" class="fa fa-save btn btn-primary"></button>
+						</form>
+					</td>
 					@if($cate->status=='enable')
 					<td><div class="label label-primary">{{$cate->status}}</div></td>
 					@else

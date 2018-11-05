@@ -288,6 +288,7 @@
                     <th>Đường dẫn tĩnh</th>
                     <th>Danh mục</th>
                     <th>Người tạo</th>
+                    <th>Sorder</th>
                     <th>Trạng thái</th>
                     <th>Ngày tạo</th>
                     <th>Action</th>

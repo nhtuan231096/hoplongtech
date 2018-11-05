@@ -15,8 +15,8 @@ use App\Models\Support;
 class HomeController extends Controller
 {
 	public function index(){
-		$slider=Slider::where('status','enable')->get();
-		$categorys=Category::Where('parent_id','parent')->get();
+		$slider=Slider::orderBy('sorder','ASC')->where('status','enable')->get();
+		$categorys=Category::orderBy('sorder','ASC')->Where('parent_id','parent')->get();
 		$best_seller=Product::Where('is_best_seller','enable')->get();
 		$new_product=Product::Where('is_new_product','enable')->paginate(10);
 		$promotion=Product::Where('is_promotion','enable')->get();
@@ -44,7 +44,6 @@ class HomeController extends Controller
 		{
 			$category= Category::where('slug',$slug)->first();
 			$product= Product::where('slug',$slug)->first();
-			
 
 			//sản phẩm khác
 			$others=Product::where('category_id','<>','$id')->paginate(8);
@@ -69,7 +68,10 @@ class HomeController extends Controller
 			}
 			else if($product)
 			{
-				return view('home.pro-detail',['product'=>$product,'others'=>$others]);
+				return view('home.detail',[
+					'product'=>$product,
+					'others'=>$others
+					]);
 			}
 			else
 			{
@@ -77,5 +79,6 @@ class HomeController extends Controller
 			}
 
 		}
+
 }
  ?>

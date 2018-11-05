@@ -94,5 +94,13 @@ class CategoryController extends Controller
 			return redirect()->route('category')->with('error','Có lỗi khi cập nhật');
 		}
 	}
+	public function updateCate($id, Request $req){
+			$sorder=request()->sorder > 0 ? request()->sorder : '';
+			// dd($sorder);
+			$order=Category::find($id)->update(['sorder'=>$sorder]);
+			if ($order) {
+				return redirect()->route('category')->with('success','Cập nhật danh mục thành công');
+			}
+	}
 }
  ?>

@@ -10,14 +10,14 @@
 			
 				<div class="form-group">
 					<label for="">Tiêu đề</label>
-					<input type="text" name="title" class="form-control" id="" placeholder="Nhập tiêu đề" @if(isset($editSlider->id)) value="{{$editSlider->title}}" @endif>
+					<input type="text" name="title" class="form-control" id="name" placeholder="Nhập tiêu đề" @if(isset($editSlider->id)) value="{{$editSlider->title}}" @endif>
 					@if($errors->has('title'))
 						<div class="help-block error">{{$errors->first('title')}}</div>
 					@endif
 				</div>
 				<div class="form-group">
 					<label for="">Đường dẫn tĩnh</label>
-					<input type="text" name="slug" class="form-control" id="" placeholder="Nhập đường dẫn" @if(isset($editSlider->id)) value="{{$editSlider->slug}}" @endif>
+					<input type="text" name="slug" class="form-control" id="slug" placeholder="Nhập đường dẫn" @if(isset($editSlider->id)) value="{{$editSlider->slug}}" @endif>
 					@if($errors->has('slug'))
 						<div class="help-block error">{{$errors->first('slug')}}</div>
 					@endif
@@ -56,6 +56,15 @@
 					</select>	
 				</div>
 				@endif
+
+				<div class="form-group">
+					<label for="">Order</label>
+					@if(isset($editSlider->id)) 
+					<input class="form-control" type="number" value="{{$editSlider->sorder}}" name="sorder">
+					@else
+					<input class="form-control" type="number" name="sorder">
+					@endif
+				</div>
 				<button type="submit" class="btn btn-primary">Lưu</button>
 				<button type="reset" class="btn btn-danger">Hủy</button>
 			</form>
@@ -117,6 +126,7 @@
 						<th>Tiêu đề</th>
 						<th>Ảnh</th>
 						<th>Người tạo</th>
+						<th>Sorder</th>
 						<th>Trạng thái</th>
 						<th></th>
 					</tr>
@@ -127,9 +137,21 @@
 						<td>{{$slider->id}}</td>
 						<td>{{$slider->title}}</td>
 						<td>
-							<img width="100px" src="{{url('uploads/slider')}}/{{$slider->cover_image}}" alt="{{$slider->cover_title}}">
+							<img height="50px" width="100px" src="{{url('uploads/slider')}}/{{$slider->cover_image}}" alt="{{$slider->cover_title}}">
 						</td>
 						<td>{{$slider->created_by}}</td>
+						<td>
+							<form action="{{route('order-slider',['id'=>$slider->id])}}" method="POST" class="form-inline" role="form">
+							
+								<div class="form-group">
+									<input style="width: 50px" name="sorder" type="" class="form-control" value="{{$slider->sorder}}" id="" placeholder="">
+								</div>
+							
+								@csrf()
+							
+								<button type="submit" class="btn btn-primary fa fa-save"></button>
+							</form>
+						</td>
 						<td>{{$slider->status}}</td>
 						<td class="text-right">
 							<a href="{{route('editSlider',['id'=>$slider->id])}}" class="btn btn-primary fa fa-edit"></a>

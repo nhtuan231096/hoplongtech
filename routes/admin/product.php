@@ -22,7 +22,7 @@ Route::get('/search','ProductController@search')->name('search');
 
 Route::get('/live-search/action', 'ProductController@action')->name('live_search.action');
 
-
+// Route::post('order-pro','ProductController@order')->name('product');
 // Route::get('/product','ProductController@product')->name('product');
 // Route::post('/add-product','ProductController@addProduct')->name('addProduct');
  ?>
