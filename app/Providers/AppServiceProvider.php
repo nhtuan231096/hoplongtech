@@ -10,7 +10,7 @@ use App\Models\Product;
 use App\Models\News;
 use App\Models\Partners;
 use App\Models\Support;
-
+use DateTime;
 class AppServiceProvider extends ServiceProvider
 {
     /**
@@ -22,6 +22,7 @@ class AppServiceProvider extends ServiceProvider
     {
         Schema::defaultStringLength(191);
         View::share([
+            $now = new DateTime(),
             'sliders' => Slider::where('status','enable')->get(),
             'categorys' => Category::Where('parent_id','parent')->get(),
             'best_seller' => Product::Where('is_best_seller','enable')->get(),

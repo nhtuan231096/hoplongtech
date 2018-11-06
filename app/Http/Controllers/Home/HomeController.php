@@ -9,6 +9,7 @@ use App\Models\Product;
 use App\Models\News;
 use App\Models\Partners;
 use App\Models\Support;
+use App\Models\Comment;
 /**
 * 
 */
@@ -32,7 +33,7 @@ class HomeController extends Controller
 			'best_seller'=>$best_seller,
 			'new_products'=>$new_product,
 			'special_products'=>$special_product,
-			'promotion'=>$promotion,
+			'promotions'=>$promotion,
 			'news'=>$company_news,
 			'news_1'=>$news,
 			'partners'=>$partners,
@@ -68,9 +69,11 @@ class HomeController extends Controller
 			}
 			else if($product)
 			{
+				$comment=Comment::orderBy('id','DESC')->where('status',1)->where('product_id',$product->id)->paginate(4);
 				return view('home.detail',[
 					'product'=>$product,
-					'others'=>$others
+					'others'=>$others,
+					'comments'=>$comment
 					]);
 			}
 			else
@@ -79,6 +82,21 @@ class HomeController extends Controller
 			}
 
 		}
+	public function comment(Request $req){
+		$this->validate($req,[
+			'comment' => 'required',
+			'name' => 'required',
+			'email' => 'required|email'
+			],[
+			'comment.required' => 'Nội dung không được để trống',
+			'name.required' => 'Tên không được để trống',
+			'email.required' => 'Email không được để trống',
+			'email.email' => 'Email không đúng định dạng'
+			]);
 
+		$comment = Comment::create($req->all());
+		return redirect()->back()->with('success','Đánh giá đang chờ phê duyệt');
+
+	}
 }
  ?>

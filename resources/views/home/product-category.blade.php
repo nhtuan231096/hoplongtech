@@ -17,10 +17,9 @@
                 <img width="416" height="283" alt="" src="{{url('public/home')}}/assets/images/products/jumbo.jpg" class="jumbo-image alignright">
             </div>
             <div class="jumbotron-caption">
-                <h3 class="jumbo-title">Virtual Reality Headsets</h3>
-                <p class="jumbo-subtitle">Nullam dignissim elit ut urna rutrum, a fermentum mi auctor. Mauris efficitur magna orci, et dignissim lacus scelerisque sit amet. Proin malesuada tincidunt nisl ac commodo. Vivamus eleifend porttitor ex sit amet suscipit. Vestibulum at ullamcorper lacus, vel facilisis arcu. Aliquam erat volutpat.
-                   <br>
-                   <br>Maecenas in sodales nisl. Pellentesque ac nibh mi. Ut lobortis odio nulla, congue rhoncus risus facilisis eget. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                <h3 class="jumbo-title">{{$category->title}}</h3>
+                <p class="jumbo-subtitle">{{$category->description}}
+                   <br>Mô tả abc xyz ac nibh mi. Ut lobortis odio nulla, congue rhoncus risus facilisis eget. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
                    <a href="#">abc<i class="tm tm-long-arrow-right"></i></a>
                </p>
            </div>
@@ -108,7 +107,7 @@
                  <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
              </div>
              <!-- .yith-wcwl-add-to-wishlist -->
-             <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+             <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="{{route('view',['slug'=>$pro->slug])}}">
                  <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="{{url('public/home')}}/assets/images/products/2.jpg">
 <!--                                     <span class="price">
                                         <span class="woocommerce-Price-amount amount">
@@ -139,7 +138,7 @@
                     					<a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                     				</div>
                     				<!-- .yith-wcwl-add-to-wishlist -->
-                    				<a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                    				<a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="{{route('view',['slug'=>$pro->slug])}}">
                     					<img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="{{url('public/home')}}/assets/images/products/1.jpg">
 <!--                                     <span class="price">
                                         <span class="woocommerce-Price-amount amount">
@@ -172,7 +171,7 @@
                                     </ul>
                                 </div> -->
                                 <!-- .woocommerce-product-details__short-description -->
-                                <a class="button product_type_simple add_to_cart_button" href="cart.html">Xem chi tiết</a>
+                                <a class="button product_type_simple add_to_cart_button" href="{{route('view',['slug'=>$pro->slug])}}">Xem chi tiết</a>
                             </div>
                             @endforeach
                             <!-- <div class="product ">
@@ -234,7 +233,7 @@
                 								<a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                 							</div>
                 							<!-- .yith-wcwl-add-to-wishlist -->
-                							<a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                							<a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="{{route('view',['slug'=>$pro->slug])}}">
                 								<h2 class="woocommerce-loop-product__title">{{$pro->title}}</h2>
                 								<div class="techmarket-product-rating">
                 									<div title="Rated 5.00 out of 5" class="star-rating">
@@ -266,7 +265,7 @@
                 									<p class="stock in-stock">1000 in stock</p>
                 								</div>
                 								<!-- .price -->
-                								<a class="button add_to_cart_button" href="cart.html">Xem chi tiết</a>
+                								<a class="button add_to_cart_button" href="{{route('view',['slug'=>$pro->slug])}}">Xem chi tiết</a>
                 								<a href="" class="button add_to_cart_button">Báo giá sản phẩm</a>
                 							</div>
                 							<!-- .product-actions -->
@@ -297,7 +296,7 @@
                 									<a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                 								</div>
                 								<!-- .yith-wcwl-add-to-wishlist -->
-                								<a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                								<a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="{{route('view',['slug'=>$pro->slug])}}">
                 									<h2 class="woocommerce-loop-product__title">{{$pro->title}}</h2>
                 									<div class="techmarket-product-rating">
                 										<div title="Rated 5.00 out of 5" class="star-rating">
@@ -330,7 +329,7 @@
                                                     <span class="woocommerce-Price-currencySymbol">$</span>730.00</span>
                                                 </span> -->
                                                 <!-- .price -->
-                                                <a class="button add_to_cart_button" href="cart.html">Xem chi tiết</a>
+                                                <a class="button add_to_cart_button" href="{{route('view',['slug'=>$pro->slug])}}">Xem chi tiết</a>
                                                 <!--                                             <a class="add-to-compare-link" href="compare.html">Add to compare</a> -->
                                             </div>
                                             <!-- .product-actions -->
@@ -360,7 +359,7 @@
                     								<a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                     							</div>
                     							<!-- .yith-wcwl-add-to-wishlist -->
-                    							<a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                    							<a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="{{route('view',['slug'=>$pro->slug])}}">
                     								<h2 class="woocommerce-loop-product__title">{{$pro->title}}</h2>
                     								<div class="techmarket-product-rating">
                     									<div title="Rated 5.00 out of 5" class="star-rating">
@@ -378,7 +377,7 @@
                     							</div>
                     							<!-- .product-info -->
                     							<div class="product-actions">
-                    								<a class="button add_to_cart_button" href="cart.html">Xem chi tiết</a>
+                    								<a class="button add_to_cart_button" href="{{route('view',['slug'=>$pro->slug])}}">Xem chi tiết</a>
                     								<!--                                             <a class="add-to-compare-link" href="compare.html">Add to compare</a> -->
                     							</div>
                     							<!-- .product-actions -->

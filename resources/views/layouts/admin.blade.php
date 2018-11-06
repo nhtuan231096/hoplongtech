@@ -182,10 +182,10 @@ desired effect
               </span>
             </a>
             <ul class="treeview-menu">
-              <li><a href=""><i class="fa fa-cog"></i>List widgets</a></li>
-              <li><a href="{{route('webConfig')}}"><i class="fa fa-object-group"></i>Web Configs</a></li>
-              <li><a href="{{route('service')}}"><i class="fa fa-server"></i>Service</a></li>
-              <li><a href="{{route('download')}}"><i class="fa fa-download"></i>Dowload service</a></li>
+              <li><a href=""><i class="fa fa-cog"> </i>List widgets</a></li>
+              <li><a href="{{route('webConfig')}}"> <i class="fa fa-object-group"></i>Web Configs</a></li>
+              <li><a href="{{route('service')}}"> <i class="fa fa-server"></i>Service</a></li>
+              <li><a href="{{route('download')}}"> <i class="fa fa-download"></i>Dowload service</a></li>
             </ul>
           </li>
           <li class="treeview">
@@ -204,9 +204,10 @@ desired effect
           <li><a href="{{route('category')}}"><i class="fa fa-table"></i> <span>Danh mục sản phẩm</span></a></li>
           <li><a href="{{route('partners')}}"><i class="fa fa-th"></i> <span>Hãng sản phẩm</span></a></li>
           <li><a href="#"><i class="fa fa-image"></i> <span>Quản lý banner</span></a></li>
-          <li><a href="#"><i class="fa fa-users"></i><span>Supporter</span></a></li>
-          <li><a href="{{route('account')}}"><i class="fa fa-user-circle"></i><span>Tài khoản quản trị</span></a></li>
+          <li><a href="#"><i class="fa fa-users"></i> <span>Supporter</span></a></li>
+          <li><a href="{{route('account')}}"><i class="fa fa-user-circle"></i> <span>Tài khoản quản trị</span></a></li>
           @endif
+          <li><a href="{{route('comments')}}"><i class="fa fa-comment"></i> <span>Quản lý bình luận</span></a></li>
           <li class="treeview">
             <a href="#"><i class="fa fa-newspaper"></i> <span>Quản lý tin tức</span>
               <span class="pull-right-container">
@@ -214,12 +215,12 @@ desired effect
               </span>
             </a>
             <ul class="treeview-menu">
-              <li><a href="{{route('news')}}"><i class="fa fa-newspaper"></i>Tin tức</a></li>
-              <li><a href="{{route('news_category')}}"><i class="fa fa-th"></i>Danh mục tin tức</a></li>
+              <li><a href="{{route('news')}}"><i class="fa fa-newspaper"> </i>Tin tức</a></li>
+              <li><a href="{{route('news_category')}}"><i class="fa fa-th"> </i>Danh mục tin tức</a></li>
             </ul>
           </li>
-          <li><a href="#"><i class="fa fa-download"></i><span>Download</span></a></li>
-          <li><a href="{{route('infoAccount')}}"><i class="fa fa-info-circle"></i><span>Thông tin tài khoản</span></a></li>
+          <li><a href="#"><i class="fa fa-download"></i> <span>Download</span></a></li>
+          <li><a href="{{route('infoAccount')}}"><i class="fa fa-info-circle"></i> <span>Thông tin tài khoản</span></a></li>
         </ul>
         <!-- /.sidebar-menu -->
       </section>

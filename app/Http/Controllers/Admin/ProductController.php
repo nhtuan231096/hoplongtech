@@ -274,23 +274,23 @@ public function postInsertProduct(Request $req){
         // dd($pros);
     // dd($pros); 
   if($pros->count()>0){
+    $product=Product::find($pro->id);
     foreach($pros as $pro){
-      $req->contents=$pro->contents;
-      $req->catalog=$pro->catalog;
-      $req->lineup=$pro->lineup;
       if(!empty($req->contents)){
-        $pro->contents=$req->contents;
+        $product->update(['contents'=>$req->contents]);
       }
       if(!empty($req->catalog)) {
-        $pro->catalog=$req->catalog;
+        $product->update(['catalog'=>$req->catalog]);
       }
       if(!empty($req->lineup)) {
-        $pro->lineup=$req->lineup;
+        $product->update(['lineup'=>$req->lineup]);
       } 
-            // dd($req->all());
-      Product::find($pro->id)->update($req->all());
+      else{
+        return redirect()->back()->with('error','error');
+      }
+      
     }
-    return redirect()->route('insertProduct')->with('success','Insert file thành công.');
+    return redirect()->route('insertProduct')->with('success','Cập nhật thành công.');
     // dd($pro->contents);
   }
   else{

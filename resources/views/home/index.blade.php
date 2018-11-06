@@ -190,7 +190,7 @@
 <div class="products">
 @foreach($best_seller as $product)
 <div class="product-category product">
-<a href="product-category.html">
+<a href="{{route('view',['slug'=>$product->slug])}}">
 <img width="224" height="197" alt="{{$product->title}}" title="{{$product->title}}" src="{{url('public/home')}}/assets/images/garden/cat-1.png">
 <h2 class="woocommerce-loop-category__title">{{$product->title}}</h2>
 </a>
@@ -211,13 +211,13 @@
 <div class="section-products-carousel-tabs-wrap">
 <header class="section-header">
 <ul role="tablist" class="nav justify-content-end">
-<li class="nav-item"><a class="nav-link active" href="#tab-5a0483f26f2dc0" data-toggle="tab">Sản phẩm mới</a></li>
+<li class="nav-item"><a class="nav-link active" href="#tab-5a0483f26f2dc2" data-toggle="tab">Sản phẩm nổi bật</a></li>
+<li class="nav-item"><a class="nav-link " href="#tab-5a0483f26f2dc0" data-toggle="tab">Sản phẩm mới</a></li>
 <li class="nav-item"><a class="nav-link " href="#tab-5a0483f26f2dc1" data-toggle="tab">Đang khuyến mại</a></li>
-<li class="nav-item"><a class="nav-link " href="#tab-5a0483f26f2dc2" data-toggle="tab">Best Rated</a></li>
 </ul>
 </header>
 <div class="tab-content">
-<div id="tab-5a0483f26f2dc0" class="tab-pane active" role="tabpanel">
+<div id="tab-5a0483f26f2dc0" class="tab-pane" role="tabpanel">
 <div class="products-carousel" data-ride="tm-slick-carousel" data-wrap=".products" data-slick="{&quot;infinite&quot;:false,&quot;slidesToShow&quot;:6,&quot;slidesToScroll&quot;:4,&quot;dots&quot;:false,&quot;arrows&quot;:false,&quot;prevArrow&quot;:&quot;&lt;a href=\&quot;#\&quot;&gt;&lt;i class=\&quot;tm tm-arrow-left\&quot;&gt;&lt;\/i&gt;&lt;\/a&gt;&quot;,&quot;nextArrow&quot;:&quot;&lt;a href=\&quot;#\&quot;&gt;&lt;i class=\&quot;tm tm-arrow-right\&quot;&gt;&lt;\/i&gt;&lt;\/a&gt;&quot;,&quot;responsive&quot;:[{&quot;breakpoint&quot;:800,&quot;settings&quot;:{&quot;slidesToShow&quot;:2,&quot;slidesToScroll&quot;:2}},{&quot;breakpoint&quot;:1200,&quot;settings&quot;:{&quot;slidesToShow&quot;:3,&quot;slidesToScroll&quot;:3}},{&quot;breakpoint&quot;:1400,&quot;settings&quot;:{&quot;slidesToShow&quot;:3,&quot;slidesToScroll&quot;:3}}]}">
 <div class="container-fluid">
 <div class="woocommerce columns-4">
@@ -227,7 +227,7 @@
 <div class="yith-wcwl-add-to-wishlist">
 <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
 </div>
-<a href="single-product-fullwidth.html" class="woocommerce-LoopProduct-link">
+<a href="{{route('view',['slug'=>$new_product->slug])}}" class="woocommerce-LoopProduct-link">
 <img src="{{url('public/home')}}/assets/images/garden/4.jpg" class="wp-post-image" title="{{$new_product->title}}" alt="{{$new_product->title}}">
 <span class="price">
 <ins>
@@ -237,10 +237,10 @@
 <span class="amount title-pro">{{$new_product->title}}</span>
 </span>
 <!-- /.price -->
-<h2 class="woocommerce-loop-product__title">{{$new_product->short_description}}</h2>
+<!-- <h2 class="woocommerce-loop-product__title">{{$new_product->short_description}}</h2> -->
 </a>
 <div class="hover-area">
-<a class="button add_to_cart_button" href="cart.html" rel="nofollow">Add to cart</a>
+<a class="button add_to_cart_button" href="{{route('view',['slug'=>$product->slug])}}" rel="nofollow">Xem chi tiết</a>
 <!-- <a class="add-to-compare-link" href="compare.html">Compare</a> -->
 </div>
 </div>
@@ -260,24 +260,24 @@
 <div class="container-fluid">
 <div class="woocommerce columns-4">
 <div class="products">
-@foreach($special_products as $special_product)
+@foreach($promotions as $promotion)
 <div class="product">
 <div class="yith-wcwl-add-to-wishlist">
 <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
 </div>
-<a href="single-product-fullwidth.html" class="woocommerce-LoopProduct-link">
+<a href="{{route('view',['slug'=>$promotion->slug])}}" class="woocommerce-LoopProduct-link">
 <img src="{{url('public/home')}}/assets/images/garden/10.jpg" class="wp-post-image" alt="">
 <span class="price">
 <ins>
 <span class="amount"> </span>
 </ins>
-<span class="amount title-pro">{{$special_product->title}}</span>
+<!-- <span class="amount title-pro">{{$promotion->title}}</span> -->
 </span>
 <!-- /.price -->
-<h2 class="woocommerce-loop-product__title">Cacao Chip Cookies, 6 count</h2>
+<h2 class="woocommerce-loop-product__title">{{$promotion->title}}</h2>
 </a>
 <div class="hover-area">
-<a class="button add_to_cart_button" href="cart.html" rel="nofollow">Add to cart</a>
+<a class="button add_to_cart_button" href="{{route('view',['slug'=>$promotion->slug])}}" rel="nofollow">Add to cart</a>
 <!-- <a class="add-to-compare-link" href="compare.html">Compare</a> -->
 </div>
 </div>
@@ -292,367 +292,33 @@
 <!-- .products-carousel -->
 </div>
 <!-- .tab-pane -->
-<div id="tab-5a0483f26f2dc2" class="tab-pane " role="tabpanel">
+<div id="tab-5a0483f26f2dc2" class="tab-pane active" role="tabpanel">
 <div class="products-carousel" data-ride="tm-slick-carousel" data-wrap=".products" data-slick="{&quot;infinite&quot;:false,&quot;slidesToShow&quot;:6,&quot;slidesToScroll&quot;:4,&quot;dots&quot;:false,&quot;arrows&quot;:false,&quot;prevArrow&quot;:&quot;&lt;a href=\&quot;#\&quot;&gt;&lt;i class=\&quot;tm tm-arrow-left\&quot;&gt;&lt;\/i&gt;&lt;\/a&gt;&quot;,&quot;nextArrow&quot;:&quot;&lt;a href=\&quot;#\&quot;&gt;&lt;i class=\&quot;tm tm-arrow-right\&quot;&gt;&lt;\/i&gt;&lt;\/a&gt;&quot;,&quot;responsive&quot;:[{&quot;breakpoint&quot;:800,&quot;settings&quot;:{&quot;slidesToShow&quot;:2,&quot;slidesToScroll&quot;:2}},{&quot;breakpoint&quot;:1200,&quot;settings&quot;:{&quot;slidesToShow&quot;:3,&quot;slidesToScroll&quot;:3}},{&quot;breakpoint&quot;:1400,&quot;settings&quot;:{&quot;slidesToShow&quot;:3,&quot;slidesToScroll&quot;:3}}]}">
 <div class="container-fluid">
 <div class="woocommerce columns-4">
 <div class="products">
-<div class="product">
-<div class="yith-wcwl-add-to-wishlist">
-<a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
-</div>
-<a href="single-product-fullwidth.html" class="woocommerce-LoopProduct-link">
-<img src="{{url('public/home')}}/assets/images/garden/10.jpg" class="wp-post-image" alt="">
-<span class="price">
-<ins>
-<span class="amount"> </span>
-</ins>
-<span class="amount"> 456.00</span>
-</span>
-<!-- /.price -->
-<h2 class="woocommerce-loop-product__title">Cacao Chip Cookies, 6 count</h2>
-</a>
-<div class="hover-area">
-<a class="button add_to_cart_button" href="cart.html" rel="nofollow">Add to cart</a>
-<!-- <a class="add-to-compare-link" href="compare.html">Compare</a> -->
-</div>
-</div>
-<!-- /.product-outer -->
-<div class="product">
-<div class="yith-wcwl-add-to-wishlist">
-<a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
-</div>
-<a href="single-product-fullwidth.html" class="woocommerce-LoopProduct-link">
-<span class="onsale">
-<span class="woocommerce-Price-amount amount">
-<span class="woocommerce-Price-currencySymbol">$</span>150.04</span>
-</span>
-<img src="{{url('public/home')}}/assets/images/garden/2.jpg" class="wp-post-image" alt="">
-<span class="price">
-<ins>
-<span class="amount"> 262.81</span>
-</ins>
-<del>
-<span class="amount">399.00</span>
-</del>
-<span class="amount"> </span>
-</span>
-<!-- /.price -->
-<h2 class="woocommerce-loop-product__title">Gerber, Rice Cereal, Single Grain</h2>
-</a>
-<div class="hover-area">
-<a class="button add_to_cart_button" href="cart.html" rel="nofollow">Add to cart</a>
-<!-- <a class="add-to-compare-link" href="compare.html">Compare</a> -->
-</div>
-</div>
-<!-- /.product-outer -->
-<div class="product">
-<div class="yith-wcwl-add-to-wishlist">
-<a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
-</div>
-<a href="single-product-fullwidth.html" class="woocommerce-LoopProduct-link">
-<img src="{{url('public/home')}}/assets/images/garden/6.jpg" class="wp-post-image" alt="">
-<span class="price">
-<ins>
-<span class="amount"> </span>
-</ins>
-<span class="amount"> 456.00</span>
-</span>
-<!-- /.price -->
-<h2 class="woocommerce-loop-product__title">Avocado Oil Mayo</h2>
-</a>
-<div class="hover-area">
-<a class="button add_to_cart_button" href="cart.html" rel="nofollow">Add to cart</a>
-<!-- <a class="add-to-compare-link" href="compare.html">Compare</a> -->
-</div>
-</div>
-<!-- /.product-outer -->
-<div class="product">
-<div class="yith-wcwl-add-to-wishlist">
-<a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
-</div>
-<a href="single-product-fullwidth.html" class="woocommerce-LoopProduct-link">
-<img src="{{url('public/home')}}/assets/images/garden/3.jpg" class="wp-post-image" alt="">
-<span class="price">
-<ins>
-<span class="amount"> </span>
-</ins>
-<span class="amount"> 456.00</span>
-</span>
-<!-- /.price -->
-<h2 class="woocommerce-loop-product__title">VeganEgg, 100% Plant Based</h2>
-</a>
-<div class="hover-area">
-<a class="button add_to_cart_button" href="cart.html" rel="nofollow">Add to cart</a>
-<!-- <a class="add-to-compare-link" href="compare.html">Compare</a> -->
-</div>
-</div>
-<!-- /.product-outer -->
-<div class="product">
-<div class="yith-wcwl-add-to-wishlist">
-<a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
-</div>
-<a href="single-product-fullwidth.html" class="woocommerce-LoopProduct-link">
-<img src="{{url('public/home')}}/assets/images/garden/9.jpg" class="wp-post-image" alt="">
-<span class="price">
-<ins>
-<span class="amount"> </span>
-</ins>
-<span class="amount"> 456.00</span>
-</span>
-<!-- /.price -->
-<h2 class="woocommerce-loop-product__title">Organic Extra Virgin Olive Oil</h2>
-</a>
-<div class="hover-area">
-<a class="button add_to_cart_button" href="cart.html" rel="nofollow">Add to cart</a>
-<!-- <a class="add-to-compare-link" href="compare.html">Compare</a> -->
-</div>
-</div>
-<!-- /.product-outer -->
-<div class="product">
-<div class="yith-wcwl-add-to-wishlist">
-<a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
-</div>
-<a href="single-product-fullwidth.html" class="woocommerce-LoopProduct-link">
-<img src="{{url('public/home')}}/assets/images/garden/10.jpg" class="wp-post-image" alt="">
-<span class="price">
-<ins>
-<span class="amount"> </span>
-</ins>
-<span class="amount"> 456.00</span>
-</span>
-<!-- /.price -->
-<h2 class="woocommerce-loop-product__title">Cacao Chip Cookies, 6 count</h2>
-</a>
-<div class="hover-area">
-<a class="button add_to_cart_button" href="cart.html" rel="nofollow">Add to cart</a>
-<!-- <a class="add-to-compare-link" href="compare.html">Compare</a> -->
-</div>
-</div>
-<!-- /.product-outer -->
-<div class="product">
-<div class="yith-wcwl-add-to-wishlist">
-<a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
-</div>
-<a href="single-product-fullwidth.html" class="woocommerce-LoopProduct-link">
-<img src="{{url('public/home')}}/assets/images/garden/4.jpg" class="wp-post-image" alt="">
-<span class="price">
-<ins>
-<span class="amount"> </span>
-</ins>
-<span class="amount"> 456.00</span>
-</span>
-<!-- /.price -->
-<h2 class="woocommerce-loop-product__title">5-Day Healthy Detox Plan</h2>
-</a>
-<div class="hover-area">
-<a class="button add_to_cart_button" href="cart.html" rel="nofollow">Add to cart</a>
-<!-- <a class="add-to-compare-link" href="compare.html">Compare</a> -->
-</div>
-</div>
-<!-- /.product-outer -->
-<div class="product">
-<div class="yith-wcwl-add-to-wishlist">
-<a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
-</div>
-<a href="single-product-fullwidth.html" class="woocommerce-LoopProduct-link">
-<img src="{{url('public/home')}}/assets/images/garden/5.jpg" class="wp-post-image" alt="">
-<span class="price">
-<ins>
-<span class="amount"> </span>
-</ins>
-<span class="amount"> 456.00</span>
-</span>
-<!-- /.price -->
-<h2 class="woocommerce-loop-product__title">Ranch Dressing with Avocado Oil, Dairy-Free</h2>
-</a>
-<div class="hover-area">
-<a class="button add_to_cart_button" href="cart.html" rel="nofollow">Add to cart</a>
-<!-- <a class="add-to-compare-link" href="compare.html">Compare</a> -->
-</div>
-</div>
-<!-- /.product-outer -->
-<div class="product">
-<div class="yith-wcwl-add-to-wishlist">
-<a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
-</div>
-<a href="single-product-fullwidth.html" class="woocommerce-LoopProduct-link">
-<img src="{{url('public/home')}}/assets/images/garden/7.jpg" class="wp-post-image" alt="">
-<span class="price">
-<ins>
-<span class="amount"> </span>
-</ins>
-<span class="amount"> 456.00</span>
-</span>
-<!-- /.price -->
-<h2 class="woocommerce-loop-product__title">One Nutritional Shake, Berry</h2>
-</a>
-<div class="hover-area">
-<a class="button add_to_cart_button" href="cart.html" rel="nofollow">Add to cart</a>
-<!-- <a class="add-to-compare-link" href="compare.html">Compare</a> -->
-</div>
-</div>
-<!-- /.product-outer -->
-<div class="product">
-<div class="yith-wcwl-add-to-wishlist">
-<a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
-</div>
-<a href="single-product-fullwidth.html" class="woocommerce-LoopProduct-link">
-<span class="onsale">
-<span class="woocommerce-Price-amount amount">
-<span class="woocommerce-Price-currencySymbol">$</span>150.04</span>
-</span>
-<img src="{{url('public/home')}}/assets/images/garden/7.jpg" class="wp-post-image" alt="">
-<span class="price">
-<ins>
-<span class="amount"> 789.95</span>
-</ins>
-<del>
-<span class="amount">999.00</span>
-</del>
-<span class="amount"> </span>
-</span>
-<!-- /.price -->
-<h2 class="woocommerce-loop-product__title">Organic Fruit Strips, Strawberry</h2>
-</a>
-<div class="hover-area">
-<a class="button add_to_cart_button" href="cart.html" rel="nofollow">Add to cart</a>
-<!-- <a class="add-to-compare-link" href="compare.html">Compare</a> -->
-</div>
-</div>
-<!-- /.product-outer -->
-<div class="product">
-<div class="yith-wcwl-add-to-wishlist">
-<a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
-</div>
-<a href="single-product-fullwidth.html" class="woocommerce-LoopProduct-link">
-<img src="{{url('public/home')}}/assets/images/garden/1.jpg" class="wp-post-image" alt="">
-<span class="price">
-<ins>
-<span class="amount"> </span>
-</ins>
-<span class="amount"> 456.00</span>
-</span>
-<!-- /.price -->
-<h2 class="woocommerce-loop-product__title">Sea Salt Seaweed Snack</h2>
-</a>
-<div class="hover-area">
-<a class="button add_to_cart_button" href="cart.html" rel="nofollow">Add to cart</a>
-<!-- <a class="add-to-compare-link" href="compare.html">Compare</a> -->
-</div>
-</div>
-<!-- /.product-outer -->
-<div class="product">
-<div class="yith-wcwl-add-to-wishlist">
-<a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
-</div>
-<a href="single-product-fullwidth.html" class="woocommerce-LoopProduct-link">
-<img src="{{url('public/home')}}/assets/images/garden/9.jpg" class="wp-post-image" alt="">
-<span class="price">
-<ins>
-<span class="amount"> </span>
-</ins>
-<span class="amount"> 399.00</span>
-</span>
-<!-- /.price -->
-<h2 class="woocommerce-loop-product__title">Baby Wipes, Free and Clear</h2>
-</a>
-<div class="hover-area">
-<a class="button add_to_cart_button" href="cart.html" rel="nofollow">Add to cart</a>
-<!-- <a class="add-to-compare-link" href="compare.html">Compare</a> -->
-</div>
-</div>
-<!-- /.product-outer -->
-<div class="product">
-<div class="yith-wcwl-add-to-wishlist">
-<a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
-</div>
-<a href="single-product-fullwidth.html" class="woocommerce-LoopProduct-link">
-<span class="onsale">
-<span class="woocommerce-Price-amount amount">
-<span class="woocommerce-Price-currencySymbol">$</span>150.04</span>
-</span>
-<img src="{{url('public/home')}}/assets/images/garden/2.jpg" class="wp-post-image" alt="">
-<span class="price">
-<ins>
-<span class="amount"> 309.95</span>
-</ins>
-<del>
-<span class="amount">459.00</span>
-</del>
-<span class="amount"> </span>
-</span>
-<!-- /.price -->
-<h2 class="woocommerce-loop-product__title">Organic Corn Flakes Cereal, Fruit Juice Sweetened</h2>
-</a>
-<div class="hover-area">
-<a class="button add_to_cart_button" href="cart.html" rel="nofollow">Add to cart</a>
-<!-- <a class="add-to-compare-link" href="compare.html">Compare</a> -->
-</div>
-</div>
-<!-- /.product-outer -->
-<div class="product">
-<div class="yith-wcwl-add-to-wishlist">
-<a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
-</div>
-<a href="single-product-fullwidth.html" class="woocommerce-LoopProduct-link">
-<img src="{{url('public/home')}}/assets/images/garden/1.jpg" class="wp-post-image" alt="">
-<span class="price">
-<ins>
-<span class="amount"> </span>
-</ins>
-<span class="amount"> 456.00</span>
-</span>
-<!-- /.price -->
-<h2 class="woocommerce-loop-product__title">Natural Force – Organic Whey Unflavored – 13.76 oz</h2>
-</a>
-<div class="hover-area">
-<a class="button add_to_cart_button" href="cart.html" rel="nofollow">Add to cart</a>
-<!-- <a class="add-to-compare-link" href="compare.html">Compare</a> -->
-</div>
-</div>
-<!-- /.product-outer -->
-<div class="product">
-<div class="yith-wcwl-add-to-wishlist">
-<a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
-</div>
-<a href="single-product-fullwidth.html" class="woocommerce-LoopProduct-link">
-<img src="{{url('public/home')}}/assets/images/garden/4.jpg" class="wp-post-image" alt="">
-<span class="price">
-<ins>
-<span class="amount"> </span>
-</ins>
-<span class="amount"> 456.00</span>
-</span>
-<!-- /.price -->
-<h2 class="woocommerce-loop-product__title">Orange Organic Dark Chocolate- 70% Cocoa</h2>
-</a>
-<div class="hover-area">
-<a class="button add_to_cart_button" href="cart.html" rel="nofollow">Add to cart</a>
-<!-- <a class="add-to-compare-link" href="compare.html">Compare</a> -->
-</div>
-</div>
-<!-- /.product-outer -->
-<div class="product">
-<div class="yith-wcwl-add-to-wishlist">
-<a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
-</div>
-<a href="single-product-fullwidth.html" class="woocommerce-LoopProduct-link">
-<img src="{{url('public/home')}}/assets/images/garden/8.jpg" class="wp-post-image" alt="">
-<span class="price">
-<ins>
-<span class="amount"> </span>
-</ins>
-<span class="amount"> 456.00</span>
-</span>
-<!-- /.price -->
-<h2 class="woocommerce-loop-product__title">Organic Creamy Peanut Butter</h2>
-</a>
-<div class="hover-area">
-<a class="button add_to_cart_button" href="cart.html" rel="nofollow">Add to cart</a>
-<!-- <a class="add-to-compare-link" href="compare.html">Compare</a> -->
-</div>
-</div>
+@foreach($special_products as $special_product)
+	<div class="product">
+	<div class="yith-wcwl-add-to-wishlist">
+	<a href="" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+	</div>
+	<a href="{{route('view',['slug'=>$special_product->slug])}}" class="woocommerce-LoopProduct-link">
+	<img src="{{url('public/home')}}/assets/images/garden/10.jpg" class="wp-post-image" alt="">
+<!-- 	<span class="price">
+	<ins>
+	<span class="amount"> </span>
+	</ins>
+	<span class="amount"> 456.00</span>
+	</span> -->
+	<!-- /.price -->
+	<h2 class="woocommerce-loop-product__title">{{$special_product->title}}</h2>
+	</a>
+	<div class="hover-area">
+	<a class="button add_to_cart_button" href="{{route('view',['slug'=>$special_product->slug])}}" rel="nofollow">Xem chi tiết</a>
+	<!-- <a class="add-to-compare-link" href="compare.html">Compare</a> -->
+	</div>
+	</div>
+@endforeach
 <!-- /.product-outer -->
 </div>
 </div>
@@ -1097,7 +763,7 @@
 </div>
 <!-- /.techmarket-product-gallery -->
 <div class="media-body">
-<h3 class="">Tin tức tự động hóa</h3><hr>
+<h3 class="">Hoạt động công ty</h3><hr>
 <div id="techmarket-product-gallery-5a0483f26fb5e1" class="" data-columns="">
 <figure class="techmarket-wc-product-gallery__wrapper" data-ride="tm-slick-carousel" data-wrap=".techmarket-wc-product-gallery__wrapper" data-slick="{&quot;infinite&quot;:false,&quot;slidesToShow&quot;:1,&quot;slidesToScroll&quot;:1,&quot;dots&quot;:false,&quot;arrows&quot;:false,&quot;prevArrow&quot;:&quot;&lt;a href=\&quot;#\&quot;&gt;&lt;i class=\&quot;tm tm-arrow-left\&quot;&gt;&lt;\/i&gt;&lt;\/a&gt;&quot;,&quot;nextArrow&quot;:&quot;&lt;a href=\&quot;#\&quot;&gt;&lt;i class=\&quot;tm tm-arrow-right\&quot;&gt;&lt;\/i&gt;&lt;\/a&gt;&quot;,&quot;asNavFor&quot;:&quot;#techmarket-product-gallery-5a0483f26fb5e1 .techmarket-wc-product-gallery-thumbnails__wrapper&quot;}">
 @foreach($news_1 as $new)
@@ -1163,7 +829,7 @@
 </div>
 <!-- /.techmarket-product-gallery -->
 <div class="media-body">
-<h3 class="title-news">Hoạt động công ty</h3><hr>
+<h3 class="title-news">Tin tức tự động hóa</h3><hr>
 <div id="techmarket-product-gallery-5a0483f26fb5e2" class="" data-columns="">
 <figure class="techmarket-wc-product-gallery__wrapper" data-ride="tm-slick-carousel" data-wrap=".techmarket-wc-product-gallery__wrapper" data-slick="{&quot;infinite&quot;:false,&quot;slidesToShow&quot;:1,&quot;slidesToScroll&quot;:1,&quot;dots&quot;:false,&quot;arrows&quot;:false,&quot;prevArrow&quot;:&quot;&lt;a href=\&quot;#\&quot;&gt;&lt;i class=\&quot;tm tm-arrow-left\&quot;&gt;&lt;\/i&gt;&lt;\/a&gt;&quot;,&quot;nextArrow&quot;:&quot;&lt;a href=\&quot;#\&quot;&gt;&lt;i class=\&quot;tm tm-arrow-right\&quot;&gt;&lt;\/i&gt;&lt;\/a&gt;&quot;,&quot;asNavFor&quot;:&quot;#techmarket-product-gallery-5a0483f26fb5e2 .techmarket-wc-product-gallery-thumbnails__wrapper&quot;}">
 @foreach($news_1 as $new)
@@ -1590,7 +1256,7 @@
 <section class="section-products-carousel-tabs techmarket-tabs">
 <div class="section-products-carousel-tabs-wrap">
 <header class="section-header">
-<h2 class="section-title">Wearable Gadgets 2017</h2>
+<h2 class="section-title">Sản phẩm ngành công nghiệp 4.0</h2>
 <ul role="tablist" class="nav justify-content-end">
 <li class="nav-item"><a class="nav-link active" href="#tab-5a0483f26fff70" data-toggle="tab">Giải pháp tự động hóa</a></li>
 <li class="nav-item"><a class="nav-link " href="#tab-5a0483f26fff71" data-toggle="tab">Thang máy</a></li>

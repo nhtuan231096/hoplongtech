@@ -1391,8 +1391,48 @@ Memory card123
                                                             <input type="number" size="4" class="input-text qty text" title="Qty" value="1" name="quantity" id="quantity-input">
                                                         </div> -->
                                                         <!-- .quantity -->
-                                                        <button class="single_add_to_cart_button button alt bgbtn" value="185" name="add-to-cart" type="submit">Yêu cầu báo giá</button>
-                                                        <button class="single_add_to_cart_button button" value="185" name="add-to-cart" type="submit">Hotline đặt hàng: 1900.6536</button>
+                                                        <a class="single_add_to_cart_button button alt bgbtn" data-toggle="modal" href='#modal-id' value="185" name="add-to-cart" type="submit">Yêu cầu báo giá </a>
+                                                        <div class="modal fade" id="modal-id">
+                                                            <div class="modal-dialog modal-lg">
+                                                                <div class="modal-content">
+                                                                    <div class="modal-header">
+                                                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                                        <h4 class="modal-title">Tổng đài hỗ trợ: <span style="color:red">1900.6536</span></h4>
+                                                                    </div>
+                                                                    <div class="modal-body">
+                                                                        <form action="" method="POST" role="form">
+                                                                            <legend>Nhập thông tin để nhận báo giá</legend>
+                                                                        
+                                                                            <div class="form-group">
+                                                                                <label for="">Họ tên *</label>
+                                                                                <input type="text" name="name" class="form-control" id="" placeholder="Nhập họ tên" required>
+                                                                            </div>
+                                                                            <div class="form-group">
+                                                                                <label for="">Email *</label>
+                                                                                <input type="text" name="email" class="form-control" id="" placeholder="Nhập email" required>
+                                                                            </div>
+                                                                            <div class="form-group">
+                                                                                <label for="">Số điện thoại *</label>
+                                                                                <input type="number" name="phone" class="form-control" id="" placeholder="Nhập số điện thoại" required>
+                                                                            </div>
+                                                                            <div class="form-group">
+                                                                                <label for="">Nội dung</label>
+                                                                                <textarea type="text" rows="10" name="content" class="form-control">
+                                                                                </textarea>
+                                                                            </div>
+                                                                            <div class="form-group text-right">
+                                                                                 <button type="submit" class="btn btn-primary">Gửi</button>
+                                                                                 <button type="button" class="btn btn-info" data-dismiss="modal">Đóng</button>
+                                                                            </div>
+                                                                           
+                                                                        </form>
+                                                                        </div>
+                                                                    <div class="modal-footer">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <button style="cursor:none" class="single_add_to_cart_button button" type="button">Hotline đặt hàng: 1900.6536</button>
                                                     </form>
                                                     <!-- .cart -->
                                                    <!--  <a class="add-to-compare-link" href="compare.html">Add to compare</a> -->
@@ -1445,14 +1485,14 @@ Memory card123
                                             <li class="nav-item accessories_tab">
                                                 <a class="nav-link active" data-toggle="tab" role="tab" aria-controls="tab-accessories" href="#tab-accessories">Ảnh thực tế</a>
                                             </li>
-                                            <li class="nav-item description_tab">
-                                                <a class="nav-link" data-toggle="tab" role="tab" aria-controls="tab-description" href="#tab-description">Tổng quan</a>
-                                            </li>
                                             <li class="nav-item specification_tab">
                                                 <a class="nav-link" data-toggle="tab" role="tab" aria-controls="tab-specification" href="#tab-specification">Thông số kỹ thuật</a>
                                             </li>
                                             <li class="nav-item reviews_tab">
                                                 <a class="nav-link" data-toggle="tab" role="tab" aria-controls="tab-reviews" href="#tab-reviews">Đánh giá (1)</a>
+                                            </li>
+                                            <li class="nav-item description_tab">
+                                                <a class="nav-link" data-toggle="tab" role="tab" aria-controls="tab-description" href="#tab-description">Đặt hàng</a>
                                             </li>
                                         </ul>
                                         <!-- /.ec-tabs -->
@@ -1578,43 +1618,7 @@ Memory card123
                                                 </div>
                                                 <!-- .accessories -->
                                             </div>
-                                            <div class="tab-pane panel wc-tab" id="tab-description" role="tabpanel">
-                                                <h2>Description</h2>
-                                                <h1 style="text-align: center;">Exceptional color. Authentic images.</h1>
-                                                <p style="text-align: center;max-width: 1160px;margin: auto auto 60px;">Nullam dignissim elit ut urna rutrum, a fermentum mi auctor. Mauris efficitur magna orci, et dignissim lacus scelerisque sit amet. Proin malesuada tincidunt nisl ac commodo. Vivamus eleifend porttitor ex sit amet suscipit. Vestibulum at ullamcorper lacus, vel facilisis arcu. Aliquam erat volutpat.</p>
-                                                <div style="text-align: center;">
-                                                    <iframe width="854" height="480" allowfullscreen="allowfullscreen" src="embed/K5OGs8a3vlM?ecver=1"></iframe>
-                                                </div>
-                                                <div class="outer-wrap">
-                                                    <div class="content-info">
-                                                        <h1 style="text-align: left;">Dynamic brightness
-                                                            <br> reveals hidden details</h1>
-                                                        <p style="text-align: left;">Nullam dignissim elit ut urna rutrum, a fermentum mi auctor. Mauris efficitur magna orci, et dignissim lacus
-                                                            <br> scelerisque sit amet. Proin malesuada tincidunt nisl ac commodo. Vivamus eleifend porttitor ex sit amet suscipit.
-                                                            <br> Vestibulum at ullamcorper lacus, vel facilisis arcu. Aliquam erat volutpat.</p>
-                                                    </div>
-                                                    <!-- .content-info -->
-                                                    <div class="image-info">
-                                                        <img src="{{url('public/home')}}/assets/images/products/des1.png" alt="">
-                                                    </div>
-                                                    <!-- .image-info -->
-                                                </div>
-                                                <!-- .outer-wrap -->
-                                                <div class="outer-wrap">
-                                                    <div class="image-info">
-                                                        <img src="{{url('public/home')}}/assets/images/products/des2.png" class="alignnone" alt="">
-                                                    </div>
-                                                    <!-- .image-info -->
-                                                    <div class="content-info">
-                                                        <h1 style="text-align: right;">An incredible view,
-                                                            <br> wherever you sit</h1>
-                                                        <p style="text-align: right;">Nullam dignissim elit ut urna rutrum, a fermentum mi auctor. Mauris efficitur magna orci, et dignissim lacus
-                                                            <br> scelerisque sit amet. Proin malesuada tincidunt nisl ac commodo. Vivamus eleifend porttitor ex sit amet suscipit. Vestibulum at ullamcorper lacus, vel facilisis arcu. Aliquam erat volutpat.</p>
-                                                    </div>
-                                                    <!-- .content-info -->
-                                                </div>
-                                                <!-- .outer-wrap -->
-                                            </div>
+                                            
                                             <div class="tab-pane" id="tab-specification" role="tabpanel">
                                                 <div class="tm-shop-attributes-detail like-column columns-3">
                                                     <h3 class="tm-attributes-title">General</h3>
@@ -1717,61 +1721,41 @@ Memory card123
                                                 <div class="techmarket-advanced-reviews" id="reviews">
                                                     <div class="advanced-review row">
                                                         <div class="advanced-review-rating">
-                                                            <h2 class="based-title">Review (1)</h2>
-                                                            <div class="avg-rating">
-                                                                <span class="avg-rating-number">5.0</span>
-                                                                <div title="Rated 5.0 out of 5" class="star-rating">
-                                                                    <span style="width:100%"></span>
-                                                                </div>
-                                                            </div>
+                                                            <h3>Bình luận</h3>
+                                                            <div id="comments">
+                                                            <ol class="commentlist">
+                                                            @foreach($comments as $comment)
+                                                                <li id="li-comment-83" class="comment byuser comment-author-admin bypostauthor even thread-even depth-1">
+                                                                    <div class="comment_container" id="comment-83">
+                                                                        <div class="comment-text">
+                                                                           <!--  <div class="star-rating">
+                                                                                <span style="width:100%">Rated
+                                                                                    <strong class="rating">5</strong> out of 5</span>
+                                                                            </div> -->
+                                                                            <p class="meta">
+                                                                                <strong itemprop="author" class="woocommerce-review__author">{{$comment->name}}</strong>
+                                                                                <span class="woocommerce-review__dash">&ndash;</span>
+                                                                                <time datetime="2017-06-21T08:05:40+00:00" itemprop="datePublished" class="woocommerce-review__published-date"><!-- {{($comment->created_at)}} --></time>
+                                                                            </p>
+                                                                            <div class="description">
+                                                                                <p style="font-size:14px;">{{$comment->comment}}</p>
+                                                                            </div>
+                                                                            <!-- /.description -->
+                                                                        </div>
+                                                                        
+                                                                        <!-- /.comment-text -->
+                                                                    </div>
+                                                                    <!-- /.comment_container -->
+                                                                </li>
+                                                            @endforeach
+                                                            {{$comments->links()}}
+                                                                <!-- /.comment -->
+                                                            </ol>
+
+                                                            <!-- /.commentlist -->
+                                                        </div>
                                                             <!-- /.avg-rating -->
-                                                            <div class="rating-histogram">
-                                                                <div class="rating-bar">
-                                                                    <div title="Rated 5 out of 5" class="star-rating">
-                                                                        <span style="width:100%"></span>
-                                                                    </div>
-                                                                    <div class="rating-count">1</div>
-                                                                    <div class="rating-percentage-bar">
-                                                                        <span class="rating-percentage" style="width:100%"></span>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="rating-bar">
-                                                                    <div title="Rated 4 out of 5" class="star-rating">
-                                                                        <span style="width:80%"></span>
-                                                                    </div>
-                                                                    <div class="rating-count zero">0</div>
-                                                                    <div class="rating-percentage-bar">
-                                                                        <span class="rating-percentage" style="width:0%"></span>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="rating-bar">
-                                                                    <div title="Rated 3 out of 5" class="star-rating">
-                                                                        <span style="width:60%"></span>
-                                                                    </div>
-                                                                    <div class="rating-count zero">0</div>
-                                                                    <div class="rating-percentage-bar">
-                                                                        <span class="rating-percentage" style="width:0%"></span>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="rating-bar">
-                                                                    <div title="Rated 2 out of 5" class="star-rating">
-                                                                        <span style="width:40%"></span>
-                                                                    </div>
-                                                                    <div class="rating-count zero">0</div>
-                                                                    <div class="rating-percentage-bar">
-                                                                        <span class="rating-percentage" style="width:0%"></span>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="rating-bar">
-                                                                    <div title="Rated 1 out of 5" class="star-rating">
-                                                                        <span style="width:20%"></span>
-                                                                    </div>
-                                                                    <div class="rating-count zero">0</div>
-                                                                    <div class="rating-percentage-bar">
-                                                                        <span class="rating-percentage" style="width:0%"></span>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
+                                                            
                                                             <!-- /.rating-histogram -->
                                                         </div>
                                                         <!-- /.advanced-review-rating -->
@@ -1780,33 +1764,49 @@ Memory card123
                                                                 <div id="review_form">
                                                                     <div class="comment-respond" id="respond">
                                                                         <h3 class="comment-reply-title" id="reply-title">Add a review</h3>
-                                                                        <form novalidate="" class="comment-form" id="commentform" method="post" action="#">
+                                                                        <form novalidate="" class="comment-form" id="commentform" method="post" action="{{route('comment')}}">
                                                                             <div class="comment-form-rating">
-                                                                                <label>Your Rating</label>
+                                                                            @if(Session::has('success'))
+                                                                                <div class="alert alert-success">
+                                                                                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                                                                                    <strong>!!</strong> {{Session::get('success')}}
+                                                                                </div>
+                                                                            @endif
+                                                                                <!-- <label>Your Rating</label>
                                                                                 <p class="stars">
                                                                                     <span><a href="#" class="star-1">1</a><a href="#" class="star-2">2</a><a href="#" class="star-3">3</a><a href="#" class="star-4">4</a><a href="#" class="star-5">5</a></span>
-                                                                                </p>
+                                                                                </p> -->
+                                                                                
                                                                             </div>
                                                                             <p class="comment-form-comment">
                                                                                 <label for="comment">Your Review</label>
                                                                                 <textarea aria-required="true" rows="8" cols="45" name="comment" id="comment"></textarea>
+                                                                                <!-- @if($errors->has('comment'))
+                                                                                    <div class="help-bloc error">{{$errors->first}}</div>
+                                                                                @endif -->
                                                                             </p>
                                                                             <p class="comment-form-author">
                                                                                 <label for="author">Name
                                                                                     <span class="required">*</span>
                                                                                 </label>
-                                                                                <input type="text" aria-required="true" size="30" value="" name="author" id="author">
+                                                                                <input type="text" name="name" aria-required="true" size="30" value="" id="author" required>
+                                                                                <!-- @if($errors->has('comment'))
+                                                                                    <div class="help-bloc error">{{$errors->first}}</div>
+                                                                                @endif -->
                                                                             </p>
+                                                                            @csrf
                                                                             <p class="comment-form-email">
                                                                                 <label for="email">Email
                                                                                     <span class="required">*</span>
                                                                                 </label>
-                                                                                <input type="text" aria-required="true" size="30" value="" name="email" id="email">
+                                                                                <input type="text" aria-required="true" size="30" value="" name="email" id="email" required>
+                                                                               <!--  @if($errors->has('comment'))
+                                                                                    <div class="help-bloc error">{{$errors->first}}</div>
+                                                                                @endif -->
                                                                             </p>
+                                                                            <input type="hidden" name="product_id" value="{{$product->id}}">
                                                                             <p class="form-submit">
-                                                                                <input type="submit" value="Add Review" class="submit" id="submit" name="submit">
-                                                                                <input type="hidden" id="comment_post_ID" value="185" name="comment_post_ID">
-                                                                                <input type="hidden" value="0" id="comment_parent" name="comment_parent">
+                                                                                <input type="submit" class="submit" id="submit">
                                                                             </p>
                                                                         </form>
                                                                         <!-- /.comment-form -->
@@ -1820,36 +1820,24 @@ Memory card123
                                                         <!-- /.advanced-review-comment -->
                                                     </div>
                                                     <!-- /.advanced-review -->
-                                                    <div id="comments">
-                                                        <ol class="commentlist">
-                                                            <li id="li-comment-83" class="comment byuser comment-author-admin bypostauthor even thread-even depth-1">
-                                                                <div class="comment_container" id="comment-83">
-                                                                    <div class="comment-text">
-                                                                        <div class="star-rating">
-                                                                            <span style="width:100%">Rated
-                                                                                <strong class="rating">5</strong> out of 5</span>
-                                                                        </div>
-                                                                        <p class="meta">
-                                                                            <strong itemprop="author" class="woocommerce-review__author">first last</strong>
-                                                                            <span class="woocommerce-review__dash">&ndash;</span>
-                                                                            <time datetime="2017-06-21T08:05:40+00:00" itemprop="datePublished" class="woocommerce-review__published-date">June 21, 2017</time>
-                                                                        </p>
-                                                                        <div class="description">
-                                                                            <p>Wow great product</p>
-                                                                        </div>
-                                                                        <!-- /.description -->
-                                                                    </div>
-                                                                    <!-- /.comment-text -->
-                                                                </div>
-                                                                <!-- /.comment_container -->
-                                                            </li>
-                                                            <!-- /.comment -->
-                                                        </ol>
-                                                        <!-- /.commentlist -->
-                                                    </div>
+
                                                     <!-- /#comments -->
                                                 </div>
                                                 <!-- /.techmarket-advanced-reviews -->
+                                            </div>
+                                            <div class="tab-pane panel wc-tab" id="tab-description" role="tabpanel">
+                                                <form action="" method="POST" role="form">
+                                                    <legend>Liên hệ đặt hàng: 1900.6536</legend>
+                                                
+                                                    <div class="form-group">
+                                                        <label for="">Họ tên</label>
+                                                        <input type="text" class="form-control" id="" placeholder="Input field">
+                                                    </div>
+                                                
+                                                    
+                                                
+                                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                                </form>
                                             </div>
                                         </div>
                                     </div>

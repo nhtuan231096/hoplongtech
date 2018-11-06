@@ -155,7 +155,7 @@
                                                         <button class="single_add_to_cart_button button alt" value="185" name="add-to-cart" type="submit">Add to cart</button>
                                                     </form>
                                                     <!-- .cart -->
-                                                    <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                    <!-- <a class="add-to-compare-link" href="compare.html">Add to compare</a> -->
                                                 </div>
                                                 <!-- .product-actions -->
                                             </div>
@@ -189,7 +189,7 @@
                                                     </a>
                                                     <div class="hover-area">
                                                         <a class="button add_to_cart_button" href="cart.html" rel="nofollow">Add to cart</a>
-                                                        <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                        <!-- <a class="add-to-compare-link" href="compare.html">Add to compare</a> -->
                                                     </div>
                                                 </div>
                                                 <!-- /.product-outer -->
@@ -210,7 +210,7 @@
                                                     </a>
                                                     <div class="hover-area">
                                                         <a class="button add_to_cart_button" href="cart.html" rel="nofollow">Add to cart</a>
-                                                        <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                        <!-- <a class="add-to-compare-link" href="compare.html">Add to compare</a> -->
                                                     </div>
                                                 </div>
                                                 <!-- /.product-outer -->
@@ -231,7 +231,7 @@
                                                     </a>
                                                     <div class="hover-area">
                                                         <a class="button add_to_cart_button" href="cart.html" rel="nofollow">Add to cart</a>
-                                                        <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                        <!-- <a class="add-to-compare-link" href="compare.html">Add to compare</a> -->
                                                     </div>
                                                 </div>
                                                 <!-- /.product-outer -->
@@ -252,7 +252,7 @@
                                                     </a>
                                                     <div class="hover-area">
                                                         <a class="button add_to_cart_button" href="cart.html" rel="nofollow">Add to cart</a>
-                                                        <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                        <!-- <a class="add-to-compare-link" href="compare.html">Add to compare</a> -->
                                                     </div>
                                                 </div>
                                                 <!-- /.product-outer -->
@@ -273,7 +273,7 @@
                                                     </a>
                                                     <div class="hover-area">
                                                         <a class="button add_to_cart_button" href="cart.html" rel="nofollow">Add to cart</a>
-                                                        <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                        <!-- <a class="add-to-compare-link" href="compare.html">Add to compare</a> -->
                                                     </div>
                                                 </div>
                                                 <!-- /.product-outer -->
@@ -294,7 +294,7 @@
                                                     </a>
                                                     <div class="hover-area">
                                                         <a class="button add_to_cart_button" href="cart.html" rel="nofollow">Add to cart</a>
-                                                        <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                        <!-- <a class="add-to-compare-link" href="compare.html">Add to compare</a> -->
                                                     </div>
                                                 </div>
                                                 <!-- /.product-outer -->
@@ -315,7 +315,7 @@
                                                     </a>
                                                     <div class="hover-area">
                                                         <a class="button add_to_cart_button" href="cart.html" rel="nofollow">Add to cart</a>
-                                                        <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                        <!-- <a class="add-to-compare-link" href="compare.html">Add to compare</a> -->
                                                     </div>
                                                 </div>
                                                 <!-- /.product-outer -->
@@ -343,7 +343,7 @@
                                                     </a>
                                                     <div class="hover-area">
                                                         <a class="button add_to_cart_button" href="cart.html" rel="nofollow">Add to cart</a>
-                                                        <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                        <!-- <a class="add-to-compare-link" href="compare.html">Add to compare</a> -->
                                                     </div>
                                                 </div>
                                                 <!-- /.product-outer -->
@@ -371,7 +371,7 @@
                                                     </a>
                                                     <div class="hover-area">
                                                         <a class="button add_to_cart_button" href="cart.html" rel="nofollow">Add to cart</a>
-                                                        <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                        <!-- <a class="add-to-compare-link" href="compare.html">Add to compare</a> -->
                                                     </div>
                                                 </div>
                                                 <!-- /.product-outer -->
@@ -399,7 +399,7 @@
                                                     </a>
                                                     <div class="hover-area">
                                                         <a class="button add_to_cart_button" href="cart.html" rel="nofollow">Add to cart</a>
-                                                        <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                        <!-- <a class="add-to-compare-link" href="compare.html">Add to compare</a> -->
                                                     </div>
                                                 </div>
                                                 <!-- /.product-outer -->
@@ -420,7 +420,7 @@
                                                     </a>
                                                     <div class="hover-area">
                                                         <a class="button add_to_cart_button" href="cart.html" rel="nofollow">Add to cart</a>
-                                                        <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                        <!-- <a class="add-to-compare-link" href="compare.html">Add to compare</a> -->
                                                     </div>
                                                 </div>
                                                 <!-- /.product-outer -->
@@ -441,7 +441,7 @@
                                                     </a>
                                                     <div class="hover-area">
                                                         <a class="button add_to_cart_button" href="cart.html" rel="nofollow">Add to cart</a>
-                                                        <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                        <!-- <a class="add-to-compare-link" href="compare.html">Add to compare</a> -->
                                                     </div>
                                                 </div>
                                                 <!-- /.product-outer -->
@@ -462,7 +462,7 @@
                                                     </a>
                                                     <div class="hover-area">
                                                         <a class="button add_to_cart_button" href="cart.html" rel="nofollow">Add to cart</a>
-                                                        <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                        <!-- <a class="add-to-compare-link" href="compare.html">Add to compare</a> -->
                                                     </div>
                                                 </div>
                                                 <!-- /.product-outer -->
@@ -483,7 +483,7 @@
                                                     </a>
                                                     <div class="hover-area">
                                                         <a class="button add_to_cart_button" href="cart.html" rel="nofollow">Add to cart</a>
-                                                        <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                        <!-- <a class="add-to-compare-link" href="compare.html">Add to compare</a> -->
                                                     </div>
                                                 </div>
                                                 <!-- /.product-outer -->
@@ -504,7 +504,7 @@
                                                     </a>
                                                     <div class="hover-area">
                                                         <a class="button add_to_cart_button" href="cart.html" rel="nofollow">Add to cart</a>
-                                                        <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                        <!-- <a class="add-to-compare-link" href="compare.html">Add to compare</a> -->
                                                     </div>
                                                 </div>
                                                 <!-- /.product-outer -->
@@ -525,7 +525,7 @@
                                                     </a>
                                                     <div class="hover-area">
                                                         <a class="button add_to_cart_button" href="cart.html" rel="nofollow">Add to cart</a>
-                                                        <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                        <!-- <a class="add-to-compare-link" href="compare.html">Add to compare</a> -->
                                                     </div>
                                                 </div>
                                                 <!-- /.product-outer -->
@@ -868,9 +868,9 @@
                                                                 <div id="review_form">
                                                                     <div class="comment-respond" id="respond">
                                                                         <h3 class="comment-reply-title" id="reply-title">Add a review</h3>
-                                                                        <form novalidate="" class="comment-form" id="commentform" method="post" action="#">
+                                                                        <form class="comment-form" id="commentform" method="post" action="{{route('abc')}}">
                                                                             <div class="comment-form-rating">
-                                                                                <label>Your Rating</label>
+                                                                                <label>Your abc</label>
                                                                                 <p class="stars">
                                                                                     <span><a href="#" class="star-1">1</a><a href="#" class="star-2">2</a><a href="#" class="star-3">3</a><a href="#" class="star-4">4</a><a href="#" class="star-5">5</a></span>
                                                                                 </p>
@@ -880,20 +880,22 @@
                                                                                 <textarea aria-required="true" rows="8" cols="45" name="comment" id="comment"></textarea>
                                                                             </p>
                                                                             <p class="comment-form-author">
-                                                                                <label for="author">Name
-                                                                                    <span class="required">*</span>
+                                                                                <label for="author">Name  
+                                                                                <span class="required">*</span>
                                                                                 </label>
-                                                                                <input type="text" aria-required="true" size="30" value="" name="author" id="author">
+                                                                                <input type="text" aria-required="true" size="30" value="" name="name" id="author">
                                                                             </p>
+                                                                            
                                                                             <p class="comment-form-email">
                                                                                 <label for="email">Email
                                                                                     <span class="required">*</span>
                                                                                 </label>
                                                                                 <input type="text" aria-required="true" size="30" value="" name="email" id="email">
+                                                                                @csrf()
                                                                             </p>
                                                                             <p class="form-submit">
-                                                                                <input type="submit" value="Add Review" class="submit" id="submit" name="submit">
-                                                                                <input type="hidden" id="comment_post_ID" value="185" name="comment_post_ID">
+                                                                                <button value="submit"></button>
+                                                                                <input type="hidden" id="comment_post_ID" value="" name="comment_post_ID">
                                                                                 <input type="hidden" value="0" id="comment_parent" name="comment_parent">
                                                                             </p>
                                                                         </form>
