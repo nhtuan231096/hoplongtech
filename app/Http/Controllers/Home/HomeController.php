@@ -10,6 +10,9 @@ use App\Models\News;
 use App\Models\Partners;
 use App\Models\Support;
 use App\Models\Comment;
+use App\Models\Quotes_product;
+use Illuminate\Support\Facades\Session;
+use Mail;
 /**
 * 
 */
@@ -70,7 +73,7 @@ class HomeController extends Controller
 			else if($product)
 			{
 				$comment=Comment::orderBy('id','DESC')->where('status',1)->where('product_id',$product->id)->paginate(4);
-				return view('home.detail',[
+				return view('home.pro-detail',[
 					'product'=>$product,
 					'others'=>$others,
 					'comments'=>$comment
@@ -97,6 +100,15 @@ class HomeController extends Controller
 		$comment = Comment::create($req->all());
 		return redirect()->back()->with('success','Đánh giá đang chờ phê duyệt');
 
+	}
+	public function send_mail(Request $req){
+		$input = $req->all();
+		Quotes_product::create($input);
+        Mail::send('mail', array('name'=>$input["name"],'email'=>$input["email"], 'content'=>$input['content'], 'phone'=>$input['phone']), function($message){
+	        $message->to('nhtuan231096@gmail.com', 'Hoplongtech')->subject('Yêu cầu báo giá sản phẩm');
+	    });
+        Session::flash('flash_message', 'Send message successfully!');
+		return redirect()->back()->with('success','success');
 	}
 }
  ?>

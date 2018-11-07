@@ -297,8 +297,11 @@ public function postInsertProduct(Request $req){
     return redirect()->back()->with('error','Không có sản phẩm nào trong danh mục.');
   }
 }
-public function order(){
-  echo "string";
-}
+// public function order(){
+//   echo "string";
+// }
+  public function proJson(){
+    return Product::orderBy('id','DESC')->paginate(10);
+  }
 }
 ?>

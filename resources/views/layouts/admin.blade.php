@@ -3,7 +3,7 @@
 This is a starter template page. Use this page to start your new project from
 scratch. This page gets rid of all links and provides the needed markup only.
 -->
-<html>
+<html ng-app="admin" ng-controller="AdminController">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -349,6 +349,8 @@ desired effect
   <script src="{{url('public/admin')}}/tinymce/config.js"></script>
   <script src="{{url('public/admin')}}/toastr/toastr.min.js"></script>
   <script src="{{url('public/admin')}}/fontawesome/js/fontawesome.js"></script>
+  <script src="{{url('public/js')}}/angular.min.js"></script>
+  <script src="{{url('public/js')}}/app-angular.js"></script>
   <!-- <script src="{{url('public/admin')}}/tinymce.js"></script> -->
 
 

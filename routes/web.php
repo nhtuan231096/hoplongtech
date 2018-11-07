@@ -34,6 +34,7 @@ Route::group(['prefix'=>'','namespace'=>'Home'],function(){
 	Route::get('/','HomeController@index')->name('home');
 	Route::get('//{slug}','HomeController@view')->name('view');
 	Route::post('/comment','HomeController@comment')->name('comment');
+	Route::post('/send-mail','HomeController@send_mail')->name('send_mail');
 });
 
 // Route::get('/', function () {

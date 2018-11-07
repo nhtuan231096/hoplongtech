@@ -2907,8 +2907,8 @@ body.can-uppercase .section-categories-carousel.section-top-categories .readmore
 @media (min-width: 1200px) {
     @media (max-width: 1399px) {
         .site-header.header-v5 .primary-navigation {
-            flex: 0 0 73.666667%;
-            max-width: 73.666667%;
+            flex: 0 0 56.6666666667%;
+            max-width: 56.6666666667%;
         }
     }
 }
@@ -5610,8 +5610,8 @@ article .section-products-carousel-widget-with-tabs .carousel-tabs-with-no-hover
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
-    flex: 0 0 26.333333%;
-    max-width: 26.333333%;
+    flex: 0 0 27.3333333333%;
+    max-width: 27.3333333333%;
 }
 @media (min-width: 576px) {
     .section-deals-carousel-and-products-carousel-tabs .deals-carousel.column-1 {
@@ -8892,7 +8892,7 @@ article .wl-create-new.more-link:before {
 }
 .primary-navigation .nav .sale-clr a,
 .navbar-primary .nav .sale-clr a {
-    color: #3296d2;
+    color: #e14546;
 }
 .primary-navigation .nav .dropdown-menu,
 .navbar-primary .nav .dropdown-menu {
@@ -10635,8 +10635,8 @@ article .wl-create-new.more-link:before {
 }
 @media (min-width: 1590px) {
     .homev6-slider-with-banners .column-1 {
-        flex: 0 0 73.666667%;
-        max-width: 73.666667%;
+        flex: 0 0 56.6666666667%;
+        max-width: 56.6666666667%;
     }
 }
 @media (min-width: 1590px) {
@@ -10685,8 +10685,8 @@ article .wl-create-new.more-link:before {
 }
 @media (min-width: 1590px) {
     .homev6-slider-with-banners .column-2 {
-        flex: 0 0 26.333333%;
-        max-width: 26.333333%;
+        flex: 0 0 43.3333333333%;
+        max-width: 43.3333333333%;
     }
 }
 .homev12-slider-with-banners .column-1 {
@@ -19607,13 +19607,9 @@ article .page-template-template-homepage-v6 .section-single-carousel-with-tab-pr
 }
 .page-template-template-homepage-v6 .section-landscape-products-carousel-with-thumbnails.section-landscape-products-carousel .products .landscape-product-card-featured .media .images .techmarket-wc-product-gallery__wrapper {
     width: 323px;
-    max-height: 300px;
-    min-height: 300px;
 }
 .page-template-template-homepage-v6 .section-landscape-products-carousel-with-thumbnails.section-landscape-products-carousel .products .landscape-product-card-featured .media .images .techmarket-wc-product-gallery__wrapper img {
     max-width: 323px;
-    max-height: 300px;
-    min-height: 300px;
 }
 @media (max-width: 360px) {
     .page-template-template-homepage-v6 .section-landscape-products-carousel-with-thumbnails.section-landscape-products-carousel .products .landscape-product-card-featured .media .images .techmarket-wc-product-gallery__wrapper img {
