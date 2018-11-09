@@ -32,10 +32,13 @@ Route::get('admin/logout','Admin\AdminController@logout')->name('logout');
 
 Route::group(['prefix'=>'','namespace'=>'Home'],function(){
 	Route::get('/','HomeController@index')->name('home');
+	Route::get('/du-an','HomeController@project')->name('projects');
+	Route::get('/du-an/{slug}','HomeController@detail_project')->name('detail_project');
 	Route::get('//{slug}','HomeController@view')->name('view');
 	Route::post('/comment','HomeController@comment')->name('comment');
 	Route::post('/send-mail','HomeController@send_mail')->name('send_mail');
-});
+	Route::get('/confirm/{id}','HomeController@confirm')->name('confirm');
+	});
 
 // Route::get('/', function () {
 //     return view('welcome');

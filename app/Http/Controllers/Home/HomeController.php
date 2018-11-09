@@ -4,6 +4,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Auth;
 use App\Models\Slider;
+// use App\Models\Project;
 use App\Models\Category;
 use App\Models\Product;
 use App\Models\News;
@@ -55,17 +56,6 @@ class HomeController extends Controller
 			if($category)
 			{
 				$products= Product::where('category_id',$category->id);
-				// if($req->ordering)
-				// {	
-				// 	$ordering = explode('-',$req->ordering);
-				// 	$products =$products->orderBy($ordering[0],$ordering[1]);
-				// }
-
-				// if($req->price)
-				// {	
-				// 	$price = explode('-',$req->price);
-				// 	$products =$products->where('price','>=',$price[0])->where('price','<=',$price[1]);
-				// }
 				$products = $products->paginate(10);
 			
 				return view('home.product-category',['category'=>$category,'products' => $products]);
@@ -86,6 +76,7 @@ class HomeController extends Controller
 
 		}
 	public function comment(Request $req){
+		// dd($req->all());
 		$this->validate($req,[
 			'comment' => 'required',
 			'name' => 'required',
@@ -96,19 +87,51 @@ class HomeController extends Controller
 			'email.required' => 'Email không được để trống',
 			'email.email' => 'Email không đúng định dạng'
 			]);
-
 		$comment = Comment::create($req->all());
 		return redirect()->back()->with('success','Đánh giá đang chờ phê duyệt');
 
 	}
 	public function send_mail(Request $req){
 		$input = $req->all();
-		Quotes_product::create($input);
-        Mail::send('mail', array('name'=>$input["name"],'email'=>$input["email"], 'content'=>$input['content'], 'phone'=>$input['phone']), function($message){
+		$quotes=Quotes_product::create($input);
+        Mail::send('mail', array(
+        	'id'=>$quotes->id,
+        	'name'=>$input["name"],
+        	'email'=>$input["email"], 
+        	'content'=>$input['content'],  
+        	'product'=>$input['product'],
+			'product_id'=>$input['product_id'], 
+        	'phone'=>$input['phone']), 
+        function($message){
 	        $message->to('nhtuan231096@gmail.com', 'Hoplongtech')->subject('Yêu cầu báo giá sản phẩm');
 	    });
         Session::flash('flash_message', 'Send message successfully!');
-		return redirect()->back()->with('success','success');
+		return redirect()->back()->with('success','Yêu cầu báo giá thành công');
+	}
+	public function confirm($id){
+		$confirm=Quotes_product::find($id);
+		$confirm->update(['status'=>1]);
+		return view('home.confirm_pro');
+
+	}
+
+	public function project(){
+		$project = News::where('type','project')->paginate(12);
+		$nproject = News::orderBy('id','DESC')->paginate(12);
+		// dd($project);
+		return view('home.project',[
+			'project' => $project,
+			'nproject' => $nproject
+			]);
+	}
+	public function detail_project($slug){
+		$news=News::where('slug',$slug)->first();
+		$new=News::where('slug','<>',$slug)->paginate(10);
+		// dd($news);
+		return view('home.detail_project',[
+			'news_project'=>$news,
+			'news'=>$new
+			]);
 	}
 }
  ?>

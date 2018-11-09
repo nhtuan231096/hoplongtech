@@ -5,6 +5,7 @@ use App\Models\Category;
 use App\User;
 use App\Models\News;
 use App\Models\NewsCate;
+use App\Models\Project;
 use DB;
 use Illuminate\Http\Request;
 /**
@@ -171,5 +172,37 @@ class NewsController extends Controller
 			return redirect()->back()->with('error','Có lỗi khi xóa');
 		}
 	}	
+	public function news_project(){
+		$project = Project::all();
+		return view('admin.news.project',[
+			'project' => $project
+			]);
+	}
+	public function create_project(){
+		return view('admin.news.addproject');
+	}
+	public function post_project(Request $req){
+		$this->validate($req,[
+			'title' => 'required',
+			'slug' => 'required',
+			'content' => 'required',
+			],[
+			'title.required' => 'Tiêu đề không được để trống',
+			'slug.required' => 'Đường dẫn không được để trống',
+			'content.required' => 'Nội dung không được để trống'
+			]);
+		$project=Project::create($req->all());
+		if ($project) {
+			return redirect()->route('news_project')->with('success','Tạo mới thành công');
+		}
+		else{
+			return redirect()->back()->with('error','Có lỗi');		
+		}
+
+	}
+	public function delProject($id){
+			Project::destroy($id);
+			return redirect()->route('news_project')->with('success','xóa thành công');
+	}
 }
  ?>

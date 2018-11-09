@@ -12,6 +12,7 @@ use App\CsvData;
 use DB;
 use Maatwebsite\Excel\Facades\Excel;
 use App\Models\Category;
+use App\Models\Quotes_product;
 
 class ProductController extends Controller
 {
@@ -297,11 +298,14 @@ public function postInsertProduct(Request $req){
     return redirect()->back()->with('error','Không có sản phẩm nào trong danh mục.');
   }
 }
-// public function order(){
-//   echo "string";
-// }
   public function proJson(){
     return Product::orderBy('id','DESC')->paginate(10);
+  }
+  public function quotesProduct(){
+    $quotes = Quotes_product::search()->paginate(10);
+    return view('admin.product.quotes',[
+      'quotes' => $quotes
+      ]);
   }
 }
 ?>

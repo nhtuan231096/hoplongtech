@@ -167,6 +167,7 @@ desired effect
               <li><a href="{{route('importProduct')}}"><i class="fa fa-cloud-upload"></i>Import sản phẩm</a></li>
               <li><a href="{{route('insertProduct')}}"><i class="fa fa-cog"></i>Cập nhật thông tin</a></li>
               <li><a href="{{route('importProduct')}}"><i class="fa fa-file"></i>Set thuộc tính</a></li>
+              <li><a href="{{route('quotesProduct')}}"><i class="fa fa-bell"></i>Yêu cầu báo giá</a></li>
             </ul>
           </li>
           @if(Auth::user()->group_id==1)
@@ -217,6 +218,7 @@ desired effect
             <ul class="treeview-menu">
               <li><a href="{{route('news')}}"><i class="fa fa-newspaper"> </i>Tin tức</a></li>
               <li><a href="{{route('news_category')}}"><i class="fa fa-th"> </i>Danh mục tin tức</a></li>
+              <!-- <li><a href="{{route('news_project')}}"><i class="fa fa-tasks"> </i>Dự án</a></li> -->
             </ul>
           </li>
           <li><a href="#"><i class="fa fa-download"></i> <span>Download</span></a></li>
