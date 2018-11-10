@@ -12,19 +12,19 @@ function manageData() {
         url: url,
         data: {page:page}
     }).done(function(data) {
-    	total_page = data.last_page;
-    	current_page = data.current_page;
-    	$('#pagination').twbsPagination({
-	        totalPages: total_page,
-	        visiblePages: current_page,
-	        onPageClick: function (event, pageL) {
-	        	page = pageL;
+        total_page = data.last_page;
+        current_page = data.current_page;
+        $('#pagination').twbsPagination({
+            totalPages: total_page,
+            visiblePages: current_page,
+            onPageClick: function (event, pageL) {
+                page = pageL;
                 if(is_ajax_fire != 0){
-	        	  getPageData();
+                  getPageData();
                 }
-	        }
-	    });
-    	manageRow(data.data);
+            }
+        });
+        manageRow(data.data);
         is_ajax_fire = 1;
     });
 }
@@ -37,21 +37,21 @@ $.ajaxSetup({
 
 /* Get Page Data*/
 function getPageData() {
-	$.ajax({
-    	dataType: 'json',
-    	url: url,
-    	data: {page:page}
-	}).done(function(data) {
-		manageRow(data.data);
-	});
+    $.ajax({
+        dataType: 'json',
+        url: url,
+        data: {page:page}
+    }).done(function(data) {
+        manageRow(data.data);
+    });
 }
 
 /* Add new Post table row */
 function manageRow(data) {
-	var	rows = '';
-	$.each( data, function( key, value ) {
-	  	rows = rows + '<tr>';
-	  	rows = rows + '<td>'+value.title+'</td>';
+    var rows = '';
+    $.each( data, function( key, value ) {
+        rows = rows + '<tr>';
+        rows = rows + '<td>'+value.title+'</td>';
         rows = rows + '<td>'+value.slug+'</td>';
         rows = rows + '<td>'+value.category_id+'</td>';
         rows = rows + '<td>'+value.created_by+'</td>';
@@ -66,12 +66,12 @@ function manageRow(data) {
         rows = rows + '<td>'+value.status+'</td>';
         rows = rows + '<td>'+value.created_at+'</td>';
         rows = rows + '<td data-id="'+value.id+'">';
-        rows = rows + '<button data-toggle="modal" data-target="#edit-item" class="edit-item btn btn-info fa fa-edit"></button> ';
+        rows = rows + '<button data-toggle="modal" data-id="'+value.id+'" data-target="#edit-item" class="edit-item btn btn-info fa fa-edit"></button> ';
         rows = rows + '<button class="btn btn-danger fa fa-trash remove-item"></button>';
         rows = rows + '</td>';
-	  	rows = rows + '</tr>';
-	});
-	$("tbody").html(rows);
+        rows = rows + '</tr>';
+    });
+    $("tbody").html(rows);
 }
 
 /* Create new Post */
@@ -124,9 +124,10 @@ $("body").on("click",".remove-item",function() {
 
 /* Edit Post */
 $("body").on("click",".edit-item",function() {
-    var id = $(this).parent("td").data('id');
+    var id = $(this).data('id');
+    // alert(id);
     $.ajax({
-        url:'/code_hoplong/admin/product/edit/'+id,
+        url: 'http://localhost/codehoplongtech/admin/product/edit/' + id,
         type:'GET',
         success:function(res){
             console.log(res);

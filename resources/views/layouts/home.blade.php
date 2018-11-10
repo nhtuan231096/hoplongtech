@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+<html lang="en-US" itemscope="itemscope" itemtype="http://schema.org/WebPage" ng-app="myApp">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
@@ -14,21 +14,22 @@
         <link rel="stylesheet" type="text/css" href="{{url('public/home')}}/assets/css/slick-style.css" media="all" />
         <link rel="stylesheet" type="text/css" href="{{url('public/home')}}/assets/css/animate.min.css" media="all" />
         <link rel="stylesheet" type="text/css" href="{{url('public/home')}}/assets/css/style.css" media="all" />
-        <link rel="stylesheet" type="text/css" href="{{url('public/home')}}/assets/css/colors/orange.css" media="all" />
+        <script src="{{url('public/js')}}/appm.js"></script>
+        <!-- <link rel="stylesheet" type="text/css" href="{{url('public/home')}}/assets/css/colors/orange.css" media="all" /> -->
         <!-- Demo Purpose Only. Should be removed in production -->
         <link rel="stylesheet" href="{{url('public/home')}}/assets/css/config.css">
-        <link href="{{url('public/home')}}/assets/css/colors/blue.css" rel="alternate stylesheet" title="Blue color">
+<!--         <link href="{{url('public/home')}}/assets/css/colors/blue.css" rel="alternate stylesheet" title="Blue color">
         <link href="{{url('public/home')}}/assets/css/colors/flat-green.css" rel="alternate stylesheet" title="Flat Green color">
         <link href="{{url('public/home')}}/assets/css/colors/green.css" rel="alternate stylesheet" title="Green color">
         <link href="{{url('public/home')}}/assets/css/colors/orange.css" rel="alternate stylesheet" title="Orange color">
         <link href="{{url('public/home')}}/assets/css/colors/red.css" rel="alternate stylesheet" title="Red color">
-        <link href="{{url('public/home')}}/assets/css/colors/yellow.css" rel="alternate stylesheet" title="Yellow color">
+        <link href="{{url('public/home')}}/assets/css/colors/yellow.css" rel="alternate stylesheet" title="Yellow color"> -->
         <link rel="stylesheet" href="{{url('public/css')}}/mystyle.css">
         <!-- Demo Purpose Only. Should be removed in production : END -->
         <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,900" rel="stylesheet">
         <link rel="shortcut icon" href="{{url('uploads/logo/Logo-hl.png')}}">
     </head>
-    <body class="garden-market page-template-template-homepage-v6 woocommerce-active">
+    <body class="garden-market page-template-template-homepage-v6 woocommerce-active" ng-controller="checkboxCtrl">
         <div id="page" class="hfeed site">
         <div class="top-bar top-bar-v4">
             <div class="col-full">
@@ -261,7 +262,7 @@
                                                         <li class="woocommerce-mini-cart-item mini_cart_item">
                                                             <a href="#" class="remove" aria-label="Remove this item" data-product_id="65" data-product_sku="">×</a>
                                                             <a href="single-product-sidebar.html">
-                                                                <img src="assets/images/products/mini-cart1.jpg" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="">XONE Wireless Controller&nbsp;
+                                                                <img src="" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="">XONE Wireless Controller&nbsp;
                                                             </a>
                                                             <span class="quantity">1 ×
                                                                 <span class="woocommerce-Price-amount amount">
@@ -271,7 +272,7 @@
                                                         <li class="woocommerce-mini-cart-item mini_cart_item">
                                                             <a href="#" class="remove" aria-label="Remove this item" data-product_id="27" data-product_sku="">×</a>
                                                             <a href="single-product-sidebar.html">
-                                                                <img src="assets/images/products/mini-cart2.jpg" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="">Gear Virtual Reality 3D with Bluetooth Glasses&nbsp;
+                                                                <img src="" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="">Gear Virtual Reality 3D with Bluetooth Glasses&nbsp;
                                                             </a>
                                                             <span class="quantity">1 ×
                                                                 <span class="woocommerce-Price-amount amount">
@@ -635,6 +636,10 @@
         <script type="text/javascript" src="{{url('public/home')}}/assets/js/pace.min.js"></script>
         <script type="text/javascript" src="{{url('public/home')}}/assets/js/slick.min.js"></script>
         <script type="text/javascript" src="{{url('public/home')}}/assets/js/scripts.js"></script>
+        <script src="{{url('public/js')}}/angular.min.js"></script>
+        <script src="{{url('public/js')}}/app-angular.js"></script>
+        <script src="{{url('public/js')}}/dirPagination.js"></script>
+
         <!-- For demo purposes – can be removed on production -->
         <script src="{{url('public/home')}}/switchstylesheet/switchstylesheet.js"></script>
         <!-- For demo purposes – can be removed on production : End -->

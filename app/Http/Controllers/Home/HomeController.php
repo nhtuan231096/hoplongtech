@@ -20,6 +20,9 @@ use Mail;
 class HomeController extends Controller
 {
 	public function index(){
+		return view('home.index_1');
+	}
+	public function index_product(){
 		$slider=Slider::orderBy('sorder','ASC')->where('status','enable')->get();
 		$categorys=Category::orderBy('sorder','ASC')->Where('parent_id','parent')->get();
 		$best_seller=Product::Where('is_best_seller','enable')->get();
@@ -132,6 +135,13 @@ class HomeController extends Controller
 			'news_project'=>$news,
 			'news'=>$new
 			]);
+	}
+	public function productJson(){
+	    return Product::paginate(10);
+	    // return Category::where('status','enable')->get();
+	  	}  
+	public function filter($filter){
+		return Product::where('capacity',$filter)->get();
 	}
 }
  ?>

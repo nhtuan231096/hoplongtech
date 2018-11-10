@@ -104,24 +104,31 @@
                         <div id="grid" class="tab-pane active" role="tabpanel">
                             <div class="woocommerce columns-5">
                                 <div class="products">
-                                    @foreach($products as $pro)
-                                    <div class="product first">
+                                  
+                                    <div class="product" dir-paginate="pro in pros | itemsPerPage: 1">
                                         <div class="yith-wcwl-add-to-wishlist">
+
                                             <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                         </div>
                                         <!-- .yith-wcwl-add-to-wishlist -->
-                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="{{route('view',['slug'=>$pro->slug])}}">
+                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="">
                                             <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="{{url('public/home')}}/assets/images/products/1.jpg">
-                                            <h2 class="woocommerce-loop-product__title">{{$pro->title}}</h2>
+                                            <h2 class="woocommerce-loop-product__title" >@{{pro.title}}</h2>
                                         </a>
                                         
                                         <div class="hover-area">
-                                            <a class="button" href="{{route('view',['slug'=>$pro->slug])}}">Xem chi tiết</a>
+                                            <a class="button" href="">Xem chi tiết</a>
                                             <!-- <a class="add-to-compare-link" href="compare.html">Add to compare</a> -->
                                         </div>
                                         <!-- .hover-area -->
                                     </div>
-                                    @endforeach
+                                </div>
+                                <div class="div">aa
+                                    <dir-pagination-controls
+                                                max-size="5"
+                                                direction-links="true"
+                                                boundary-links="true" >
+                                </dir-pagination-controls>
                                 </div>
                                 <!-- .products -->
                             </div>
@@ -399,7 +406,7 @@
                                         </p>
                                         <!-- .woocommerce-result-count -->
                                         <nav class="woocommerce-pagination">
-                                            {{$products->links()}}
+                                          
                                             <!-- .page-numbers -->
                                         </nav>
                                         <!-- .woocommerce-pagination -->
@@ -439,35 +446,17 @@
                                         <div class="widget woocommerce widget_layered_nav maxlist-more" id="woocommerce_layered_nav-3">
                                             <span class="gamma widget-title">Công suất</span>
                                             <ul>
-                                                <li class="wc-layered-nav-term "><a href="#">Black</a>
-                                                    <span class="count">(4)</span>
+                                                <li>
+                                                    <input  value="0.75kW" ng-model="">
+                                                        0.75kW
                                                 </li>
-                                                <li class="wc-layered-nav-term "><a href="#">Blue</a>
-                                                    <span class="count">(4)</span>
+                                                <li>
+                                                    <input type="checkbox" value="0.18kW" ng-click="selection('0.18kW')">
+                                                        0.18kW
                                                 </li>
-                                                <li class="wc-layered-nav-term "><a href="#">Green</a>
-                                                    <span class="count">(5)</span>
-                                                </li>
-                                                <li class="wc-layered-nav-term "><a href="#">Orange</a>
-                                                    <span class="count">(5)</span>
-                                                </li>
-                                                <li class="wc-layered-nav-term "><a href="#">Red</a>
-                                                    <span class="count">(4)</span>
-                                                </li>
-                                                <li class="wc-layered-nav-term "><a href="#">Yellow</a>
-                                                    <span class="count">(5)</span>
-                                                </li>
-                                                <li class="wc-layered-nav-term "><a href="#">Green</a>
-                                                    <span class="count">(5)</span>
-                                                </li>
-                                                <li class="wc-layered-nav-term "><a href="#">Orange</a>
-                                                    <span class="count">(5)</span>
-                                                </li>
-                                                <li class="wc-layered-nav-term "><a href="#">Red</a>
-                                                    <span class="count">(4)</span>
-                                                </li>
-                                                <li class="wc-layered-nav-term "><a href="#">Yellow</a>
-                                                    <span class="count">(5)</span>
+                                                <li>
+                                                    <input type="checkbox" value="0.37kW" ng-model="selected" ng-checked="exist(product)" ng-click="selection(capacity)">
+                                                        0.37kW
                                                 </li>
                                             </ul>
                                         </div>

@@ -17,3 +17,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 Route::get('product','\App\Http\Controllers\Admin\ProductController@proJson');
+Route::get('filter','\App\Http\Controllers\Home\HomeController@productJson');
+Route::get('filter/{filter}','\App\Http\Controllers\Home\HomeController@filter');
