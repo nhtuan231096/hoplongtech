@@ -105,7 +105,7 @@
                             <div class="woocommerce columns-5">
                                 <div class="products">
                                   
-                                    <div class="product" dir-paginate="pro in pros | itemsPerPage: 1">
+                                    <div class="product" dir-paginate="pro in pros | itemsPerPage: 10">
                                         <div class="yith-wcwl-add-to-wishlist">
 
                                             <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
@@ -113,7 +113,7 @@
                                         <!-- .yith-wcwl-add-to-wishlist -->
                                         <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="">
                                             <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="{{url('public/home')}}/assets/images/products/1.jpg">
-                                            <h2 class="woocommerce-loop-product__title" >@{{pro.title}}</h2>
+                                            <h2 class="woocommerce-loop-product__title" ng-bind="pro.title"></h2>
                                         </a>
                                         
                                         <div class="hover-area">
@@ -123,13 +123,14 @@
                                         <!-- .hover-area -->
                                     </div>
                                 </div>
-                                <div class="div">aa
+                                {{$products->links()}}
+<!--                                 <div class="div">
                                     <dir-pagination-controls
                                                 max-size="5"
                                                 direction-links="true"
                                                 boundary-links="true" >
                                 </dir-pagination-controls>
-                                </div>
+                                </div> -->
                                 <!-- .products -->
                             </div>
                             <!-- .woocommerce -->
@@ -447,16 +448,16 @@
                                             <span class="gamma widget-title">Công suất</span>
                                             <ul>
                                                 <li>
-                                                    <input  value="0.75kW" ng-model="">
-                                                        0.75kW
-                                                </li>
-                                                <li>
                                                     <input type="checkbox" value="0.18kW" ng-click="selection('0.18kW')">
                                                         0.18kW
                                                 </li>
                                                 <li>
-                                                    <input type="checkbox" value="0.37kW" ng-model="selected" ng-checked="exist(product)" ng-click="selection(capacity)">
+                                                    <input type="checkbox" value="0.37kW" ng-click="selection('0.37kW')">
                                                         0.37kW
+                                                </li>
+                                                <li>
+                                                    <input type="checkbox" value="0.75kW" ng-click="selection('0.75kW')">
+                                                        0.75kW
                                                 </li>
                                             </ul>
                                         </div>

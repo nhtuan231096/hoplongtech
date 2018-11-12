@@ -10639,7 +10639,7 @@ article .wl-create-new.more-link:before {
 @media (min-width: 1590px) {
     .homev6-slider-with-banners .column-1 {
         flex: 0 0 73.33%;
-        max-width: 73.33%;
+        max-width: 66.33%;
     }
 }
 @media (min-width: 1590px) {
@@ -10688,8 +10688,8 @@ article .wl-create-new.more-link:before {
 }
 @media (min-width: 1590px) {
     .homev6-slider-with-banners .column-2 {
-        flex: 0 0 26.6%;
-        max-width: 26.6%;
+        flex: 0 0 33.6%;
+        max-width: 33.6%;
     }
 }
 .homev12-slider-with-banners .column-1 {

@@ -142,3 +142,44 @@ img.img-project{
 .top-bar a:focus, .top-bar a:hover {
     color: #444;
 }
+.name-company{
+    width: 100%;
+    text-align: center;
+}
+.name-company h3{
+    text-transform: uppercase;
+    font-weight: 600 !important;
+    color: #189eff !important;
+    padding-bottom: 15px;
+}
+.media-body.info h4 {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #189eff !important;
+    font-weight: bold;
+}
+.media-body.info{
+    color: #189eff;
+}
+.media-body.info ul li{
+    list-style: none;
+}
+.media-body.info ul li{
+    line-height: 2;
+    list-style: none;
+}
+.media-body.info ul li span{
+    font-family: 'Open Sans', sans-serif;
+    /*list-style: none;*/
+}
+.garden-market .site-header.header-v4 .navbar-search button, .garden-market .site-header.header-v4 .site-header-cart .cart-contents .count {
+    padding: 14px;
+    background-color: #edeef2;
+}
+@media (min-width: 1200px){
+.page-template-template-homepage-v6 .header-v4.style .departments-menu button::before, .page-template-template-homepage-v6 .header-v4.style .departments-menu.show button::before {
+    width: 0px;
+    height: 0px;
+    border: none;
+}
+}
