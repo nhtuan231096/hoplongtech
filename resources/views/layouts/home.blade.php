@@ -34,9 +34,15 @@
         <div class="top-bar top-bar-v4">
             <div class="col-full">
                 <ul id="menu-top-bar-left" class="nav justify-content-center">
-<!--                     <li class="menu-item animate-dropdown">
+                    <li class="menu-item animate-dropdown">
+                        <a title="Quality Guarantee of products" href="shop.html">Ưu đãi dành cho đối tác &#8211; Bán hàng cùng hoplongtech</a>
+                    </li>
+                    <li class="menu-item animate-dropdown">
+                        <a title="Fast returnings program" href="track-your-order.html">Khuyến mại hot</a>
+                    </li>
+                    <li class="menu-item animate-dropdown">
                         <a title="No additional fees" href="contact-v2.html"><i class="tm tm-order-tracking"></i>Miễn phí vận chuyển</a>
-                    </li> -->
+                    </li>
                     <li class="menu-item menu-item-has-children animate-dropdown dropdown">
                         <a title="Dollar (US)" data-toggle="dropdown" class="dropdown-toggle" href="#" aria-expanded="false">
                             <i class="fa fa-language"></i>Vietnamese

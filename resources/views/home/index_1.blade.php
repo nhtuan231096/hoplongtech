@@ -8,7 +8,7 @@
     <link type="text/css" media="all" href="{{url('public/home/home')}}/wp-content/cache/autoptimize/1/css/autoptimize_c9d4c9f1f8acc1abca83fd87c00cb628.css" rel="stylesheet" />
     <link type="text/css" media="screen" href="{{url('public/home/home')}}/wp-content/cache/autoptimize/1/css/autoptimize_aa70d04ac018ff6c48774c3cb5f049f0.css" rel="stylesheet" />
     <link type="text/css" media="only screen and (max-width: 768px)" href="{{url('public/home/home')}}/wp-content/cache/autoptimize/1/css/autoptimize_61c4e7278d6f0e3a9c27218c07ea9ab5.css" rel="stylesheet" />
-    <title>Công ty cổ phẩn công nghệ hợp long - Hoplongtech Automation</title>
+    <title>Consulting WP &#8211; New York &#8211; Business, Finance WordPress theme</title>
     <style type="text/css" media="screen">#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td a.ui-state-active,#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td a.ui-state-active:hover,body #booked-profile-page input[type=submit].button-primary:hover,body .booked-list-view button.button:hover, body .booked-list-view input[type=submit].button-primary:hover,body table.booked-calendar input[type=submit].button-primary:hover,body .booked-modal input[type=submit].button-primary:hover,body table.booked-calendar th,body table.booked-calendar thead,body table.booked-calendar thead th,body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button:hover,body #booked-profile-page .booked-profile-header,body #booked-profile-page .booked-tabs li.active a,body #booked-profile-page .booked-tabs li.active a:hover,body #booked-profile-page .appt-block .google-cal-button > a:hover,#ui-datepicker-div.booked_custom_date_picker .ui-datepicker-header{ background:#002e5b !important; }body #booked-profile-page input[type=submit].button-primary:hover,body table.booked-calendar input[type=submit].button-primary:hover,body .booked-list-view button.button:hover, body .booked-list-view input[type=submit].button-primary:hover,body .booked-modal input[type=submit].button-primary:hover,body table.booked-calendar th,body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button:hover,body #booked-profile-page .booked-profile-header,body #booked-profile-page .appt-block .google-cal-button > a:hover{ border-color:#002e5b !important; }body table.booked-calendar tr.days,body table.booked-calendar tr.days th,body .booked-calendarSwitcher.calendar,body #booked-profile-page .booked-tabs,#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar thead,#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar thead th{ background:#6c98e1 !important; }body table.booked-calendar tr.days th,body #booked-profile-page .booked-tabs{ border-color:#6c98e1 !important; }#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td.ui-datepicker-today a,#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td.ui-datepicker-today a:hover,body #booked-profile-page input[type=submit].button-primary,body table.booked-calendar input[type=submit].button-primary,body .booked-list-view button.button, body .booked-list-view input[type=submit].button-primary,body .booked-list-view button.button, body .booked-list-view input[type=submit].button-primary,body .booked-modal input[type=submit].button-primary,body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button,body #booked-profile-page .booked-profile-appt-list .appt-block.approved .status-block,body #booked-profile-page .appt-block .google-cal-button > a,body .booked-modal p.booked-title-bar,body table.booked-calendar td:hover .date span,body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active,body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active:hover,.booked-ms-modal .booked-book-appt /* Multi-Slot Booking */{ background:#6c98e1; }body #booked-profile-page input[type=submit].button-primary,body table.booked-calendar input[type=submit].button-primary,body .booked-list-view button.button, body .booked-list-view input[type=submit].button-primary,body .booked-list-view button.button, body .booked-list-view input[type=submit].button-primary,body .booked-modal input[type=submit].button-primary,body #booked-profile-page .appt-block .google-cal-button > a,body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button,body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active,body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active:hover{ border-color:#6c98e1; }body .booked-modal .bm-window p i.fa,body .booked-modal .bm-window a,body .booked-appt-list .booked-public-appointment-title,body .booked-modal .bm-window p.appointment-title,.booked-ms-modal.visible:hover .booked-book-appt{ color:#6c98e1; }.booked-appt-list .timeslot.has-title .booked-public-appointment-title { color:inherit; }</style><link rel='dns-prefetch' href='//fonts.googleapis.com' />
     <link rel='dns-prefetch' href='//s.w.org' />
     <link rel="alternate" type="application/rss+xml" title="Consulting WP - New York &raquo; Feed" href="feed/" />
@@ -97,7 +97,8 @@
     <noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
     <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress.">
     <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="{{url('public/home/home')}}/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><meta name="generator" content="Powered by Slider Revolution 5.4.8 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
-    <link rel="shortcut icon" href="{{url('uploads/logo/Logo-hl.png')}}">
+    <link rel="icon" href="{{url('public/home/home')}}/wp-content/uploads/2016/02/cropped-cropped-favicon-2-1-50x50.png" sizes="32x32" />
+    <link rel="icon" href="{{url('public/home/home')}}/wp-content/uploads/2016/02/cropped-cropped-favicon-2-1-300x300.png" sizes="192x192" />
     <link rel="apple-touch-icon-precomposed" href="{{url('public/home/home')}}/wp-content/uploads/2016/02/cropped-cropped-favicon-2-1-300x300.png" />
     <meta name="msapplication-TileImage" content="{{url('public/home/home')}}/wp-content/uploads/2016/02/cropped-cropped-favicon-2-1-300x300.png" />
     <script type="text/javascript">function setREVStartSize(e){                                 
@@ -191,1790 +192,1613 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="ns.html?id=GTM-WXK4VRR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-        <script type="text/javascript">
-            (function($){
-                $(document).ready(function(){
-                    var preview = $('.pearl-envato-preview');
-                    if (preview.length) {
-                        if (window.top == window.self) {
-                            $('.pearl-envato-preview').slideDown();
-                            $('.pearl-envato-preview-holder').slideDown();
-                            $('body').addClass('envato-preview-visible');
-                        }
+    <div class="pearl-envato-preview-holder" style="display: none;"></div>
+
+    <script type="text/javascript">
+        (function($){
+            $(document).ready(function(){
+                var preview = $('.pearl-envato-preview');
+                if (preview.length) {
+                    if (window.top == window.self) {
+                        $('.pearl-envato-preview').slideDown();
+                        $('.pearl-envato-preview-holder').slideDown();
+                        $('body').addClass('envato-preview-visible');
                     }
+                }
+                
+                $('.preview__action--close').on('click', function () {
+                    $('.pearl-envato-preview').slideUp();
+                    $('.pearl-envato-preview-holder').slideUp();
+                    $('body').removeClass('envato-preview-visible');
+                    return false;
+                });
+                
+                var api_url = 'https://stylemixthemes.scdn2.secure.raxcdn.com/api/prices.json';
+                
+                $.ajax({
+                    url: api_url,
+                    dataType: 'json',
+                    context: this,
+                    complete: function (data) {
+                        var r = data.responseJSON;
+                        $('#stm_price_api').text(r.themes.consulting.price);
 
-                    $('.preview__action--close').on('click', function () {
-                        $('.pearl-envato-preview').slideUp();
-                        $('.pearl-envato-preview-holder').slideUp();
-                        $('body').removeClass('envato-preview-visible');
-                        return false;
-                    });
-
-                    var api_url = 'https://stylemixthemes.scdn2.secure.raxcdn.com/api/prices.json';
-
-                    $.ajax({
-                        url: api_url,
-                        dataType: 'json',
-                        context: this,
-                        complete: function (data) {
-                            var r = data.responseJSON;
-                            $('#stm_price_api').text(r.themes.consulting.price);
-
-                        }
-                    });
-
-                })
-            })(jQuery);
-        </script>
-        <div id="wrapper">
-            <div id="fullpage" class="content_wrapper">
-                <header id="header">
-                    <div class="top_bar">
-                        <div class="container">
-                            <div id="lang_sel">
+                    }
+                });
+                
+            })
+        })(jQuery);
+    </script>
+    <div id="wrapper">
+        <div id="fullpage" class="content_wrapper">
+            <header id="header">
+                <div class="top_bar">
+                    <div class="container">
+                        <div id="lang_sel">
+                            <ul>
+                                <li><a href="#" class="lang_sel_sel icl-en">English</a>
+                                    <ul>
+                                        <li class="icl-fr"><a href="#fr">French</a></li>
+                                        <li class="icl-de"><a href="#de">German</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="top_bar_info_wr">
+                            <div class="top_bar_info_switcher">
+                                <div class="active">
+                                    <span>New York Office</span>
+                                </div>
                                 <ul>
-                                    <li><a href="#" class="lang_sel_sel icl-en">English</a>
-                                        <ul>
-                                            <li class="icl-fr"><a href="#fr">French</a></li>
-                                            <li class="icl-de"><a href="#de">German</a></li>
+                                    <li>
+                                        <a href="#top_bar_info_1">New York Office</a>
+                                    </li>
+                                    <li>
+                                        <a href="#top_bar_info_2">London Office</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <ul class="top_bar_info" id="top_bar_info_1" style="display: block;">
+                                <li>
+                                    <i class="stm-marker"></i>
+                                    <span>1010 New York, NY 10018 US.</span>
+                                </li>
+                                <li>
+                                    <i class="fa fa-clock-o"></i>
+                                    <span>Mon - Sat 8.00 - 18.00. Sunday CLOSED</span>
+                                </li>
+                                <li>
+                                    <i class="fa fa-phone"></i>
+                                    <span>212 386 5575</span>
+                                </li>
+                            </ul>
+                            <ul class="top_bar_info" id="top_bar_info_2">
+                                <li>
+                                    <i class="stm-marker"></i>
+                                    <span>15 Baker Str., London, HA018 UK.</span>
+                                </li>
+                                <li>
+                                    <i class="fa fa-clock-o"></i>
+                                    <span>Mon - Sat 8.00 - 18.00. Sunday CLOSED</span>
+                                </li>
+                                <li>
+                                    <i class="fa fa-phone"></i>
+                                    <span>44 382 5555</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="header_top clearfix">
+                    <div class="container">
+                        <div class="logo media-left media-middle">
+                            <a href=""><img src="{{url('public/home/home')}}/wp-content/uploads/2016/12/logo_dark.svg" style="width: px; height: px;" alt="Consulting WP &#8211; New York" /></a>
+                        </div>
+                        <div class="top_nav media-body media-middle">
+                            <div class="header_socials">
+                                <a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a>
+                                <a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a>
+                                <a target="_blank" href="http://www.google.com"><i class="fa fa-google-plus"></i></a>
+                                <a href="shop/cart/" class="cart_count"><i class="stm-cart-2"></i>            <span class="count shopping-cart__product">0</span>
+                                </a>
+                            </div>
+                            <div class="top_nav_wrapper clearfix">
+                                <ul id="menu-main-menu" class="main_menu_nav"><li id="menu-item-13" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-13"><a href="">home</a></li>
+                                    <li id="menu-item-281" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-281"><a href="company-overview/">about us</a>
+                                        <ul  class="sub-menu">
+                                            <li id="menu-item-379" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-379 stm_col_width_default stm_mega_cols_inside_default"><a href="company-overview/company-history/">About</a>
+                                                <ul  class="sub-menu">
+                                                    <li id="menu-item-1394" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1394 stm_mega_second_col_width_default"><a href="company-overview/">About Layout 1</a></li>
+                                                    <li id="menu-item-1392" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1392 stm_mega_second_col_width_default"><a href="about-layout-2/">About Layout 2</a></li>
+                                                    <li id="menu-item-1393" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1393 stm_mega_second_col_width_default"><a href="about-layout-3/">About Layout 3</a></li>
+                                                </ul>
+                                            </li>
+                                            <li id="menu-item-346" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-346 stm_col_width_default stm_mega_cols_inside_default"><a href="company-overview/our-approach/">Our approach</a></li>
+                                            <li id="menu-item-393" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-393 stm_col_width_default stm_mega_cols_inside_default"><a href="company-overview/our-partners/">partners</a></li>
+                                            <li id="menu-item-410" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-410 stm_col_width_default stm_mega_cols_inside_default"><a href="company-overview/careers/">careers</a>
+                                                <ul  class="sub-menu">
+                                                    <li id="menu-item-812" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-812 stm_mega_second_col_width_default"><a href="company-overview/careers/">Jobs listing</a></li>
+                                                    <li id="menu-item-792" class="menu-item menu-item-type-post_type menu-item-object-stm_careers menu-item-792 stm_mega_second_col_width_default"><a href="careers_archive/deputy-principal-construction-manager-2/">vacancy page</a></li>
+                                                </ul>
+                                            </li>
+                                            <li id="menu-item-808" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-808 stm_col_width_default stm_mega_cols_inside_default"><a href="company-overview/our-team-grid/">our team</a>
+                                                <ul  class="sub-menu">
+                                                    <li id="menu-item-444" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-444 stm_mega_second_col_width_default"><a href="company-overview/our-team-list/">Team list</a></li>
+                                                    <li id="menu-item-466" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-466 stm_mega_second_col_width_default"><a href="company-overview/our-team-grid/">Team grid</a></li>
+                                                    <li id="menu-item-810" class="menu-item menu-item-type-post_type menu-item-object-stm_staff menu-item-810 stm_mega_second_col_width_default"><a href="staff/brandon-copperfield/">Team member</a></li>
+                                                </ul>
+                                            </li>
                                         </ul>
                                     </li>
-                                </ul>
+                                    <li id="menu-item-560" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-560"><a href="services-grid/">services</a>
+                                        <ul  class="sub-menu">
+                                            <li id="menu-item-813" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-813 stm_col_width_default stm_mega_cols_inside_default"><a href="services-grid/">Services Grid</a></li>
+                                            <li id="menu-item-1295" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1295 stm_col_width_default stm_mega_cols_inside_default"><a href="services-with-tabs/">Services with Tabs</a></li>
+                                            <li id="menu-item-586" class="menu-item menu-item-type-post_type menu-item-object-stm_service menu-item-586 stm_col_width_default stm_mega_cols_inside_default"><a href="services/turnaround-consulting/">Service Layout 1</a></li>
+                                            <li id="menu-item-587" class="menu-item menu-item-type-post_type menu-item-object-stm_service menu-item-587 stm_col_width_default stm_mega_cols_inside_default"><a href="services/bonds-commodities/">Service Layout  2</a></li>
+                                            <li id="menu-item-588" class="menu-item menu-item-type-post_type menu-item-object-stm_service menu-item-588 stm_col_width_default stm_mega_cols_inside_default"><a href="services/audit-assurance/">Service Layout 3</a></li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-1528" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1528"><a href="our-work-grid/">cases</a>
+                                        <ul  class="sub-menu">
+                                            <li id="menu-item-603" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-603 stm_col_width_default stm_mega_cols_inside_default"><a href="our-work-grid/">cases grid</a></li>
+                                            <li id="menu-item-617" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-617 stm_col_width_default stm_mega_cols_inside_default"><a href="our-work-with-filter/">cases with filter</a></li>
+                                            <li id="menu-item-633" class="menu-item menu-item-type-post_type menu-item-object-stm_works menu-item-633 stm_col_width_default stm_mega_cols_inside_default"><a href="works/applying-commercial-excellence-in-chemicals/">single case layout 1</a></li>
+                                            <li id="menu-item-634" class="menu-item menu-item-type-post_type menu-item-object-stm_works menu-item-634 stm_col_width_default stm_mega_cols_inside_default"><a href="works/constructing-a-best-in-class-global/">single case layout 2</a></li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-524" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-524"><a href="blog/?layout=grid&#038;sidebar_id=none">news</a>
+                                        <ul  class="sub-menu">
+                                            <li id="menu-item-525" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-525 stm_col_width_default stm_mega_cols_inside_default"><a href="blog/">list view</a></li>
+                                            <li id="menu-item-526" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-526 stm_col_width_default stm_mega_cols_inside_default"><a href="blog/?layout=grid&#038;sidebar_id=none">grid view</a></li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-1368" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1368"><a href="portfolio-grid/">portfolio</a>
+                                        <ul  class="sub-menu">
+                                            <li id="menu-item-2012" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2012 stm_col_width_default stm_mega_cols_inside_default"><a href="portfolio-grid/">Portfolio Grid</a></li>
+                                            <li id="menu-item-1369" class="menu-item menu-item-type-post_type menu-item-object-stm_portfolio menu-item-1369 stm_col_width_default stm_mega_cols_inside_default"><a href="portfolio/beff-baffer-construction/">Portfolio Single One</a></li>
+                                            <li id="menu-item-1370" class="menu-item menu-item-type-post_type menu-item-object-stm_portfolio menu-item-1370 stm_col_width_default stm_mega_cols_inside_default"><a href="portfolio/focus-on-core-delivers-growth-for-retailer/">Portfolio Single Two</a></li>
+                                            <li id="menu-item-1371" class="menu-item menu-item-type-post_type menu-item-object-stm_portfolio menu-item-1371 stm_col_width_default stm_mega_cols_inside_default"><a href="portfolio/construction-of-railways/">Portfolio Single Three</a></li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-179" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-179 stm_megamenu stm_megamenu__boxed stm_megamenu_default"><a href="#">pages</a>
+                                        <ul  class="sub-menu">
+                                            <li id="menu-item-1670" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1670 stm_col_width_default stm_mega_cols_inside_default"><a href="company-overview/">Company Overview</a>
+                                                <ul  class="sub-menu">
+                                                    <li id="menu-item-1671" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1671 stm_mega_second_col_width_default"><a href="company-overview/"><img alt="Company Overview1" src="{{url('public/home/home')}}/wp-content/uploads/2017/07/thumbnail_3342.jpg" /><span class="stm_mega_textarea">Consulting WP is a global consulting powerhouse.</span></a></li>
+                                                </ul>
+                                            </li>
+                                            <li id="menu-item-1071" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1071 stm_col_width_default stm_mega_cols_inside_default"><a href="testimonials-page">Example Pages</a>
+                                                <ul  class="sub-menu">
+                                                    <li id="menu-item-326" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-326 stm_mega_second_col_width_default"><a href="testimonials-page/"><i class="stm_megaicon fa fa-arrow-circle-right"></i>Testimonials 1</a></li>
+                                                    <li id="menu-item-1076" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1076 stm_mega_second_col_width_default"><a href="layout-2/"><i class="stm_megaicon fa fa-arrow-circle-right"></i>Testimonials 2</a></li>
+                                                    <li id="menu-item-178" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-178 stm_mega_second_col_width_default"><a href="typography/"><i class="stm_megaicon fa fa-arrow-circle-right"></i>Typography</a></li>
+                                                    <li id="menu-item-1674" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1674 stm_mega_second_col_width_default"><a href="error"><i class="stm_megaicon fa fa-arrow-circle-right"></i>404 Page</a></li>
+                                                </ul>
+                                            </li>
+                                            <li id="menu-item-1348" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1348 stm_col_width_default stm_mega_cols_inside_default"><a href="events-classic">Events</a>
+                                                <ul  class="sub-menu">
+                                                    <li id="menu-item-1351" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1351 stm_mega_second_col_width_default"><a href="events-grid/"><i class="stm_megaicon fa fa-th-large"></i>Event Grid</a></li>
+                                                    <li id="menu-item-1349" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1349 stm_mega_second_col_width_default"><a href="events-classic/"><i class="stm_megaicon fa fa-bank"></i>Event Classic</a></li>
+                                                    <li id="menu-item-1350" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1350 stm_mega_second_col_width_default"><a href="events-modern/"><i class="stm_megaicon fa fa-list-ul"></i>Event Modern</a></li>
+                                                    <li id="menu-item-1352" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1352 stm_mega_second_col_width_default"><a href="make-an-appointment/"><i class="stm_megaicon fa fa-calendar-check-o"></i>Appointment</a></li>
+                                                </ul>
+                                            </li>
+                                            <li id="menu-item-1673" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1673 stm_col_width_default stm_mega_cols_inside_default"><a href="contact-us/">Contacts</a>
+                                                <ul  class="sub-menu">
+                                                    <li id="menu-item-1676" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1676 stm_mega_second_col_width_default"><a href="#"><span class="stm_mega_textarea"><table class="megamenu-contacts">
+                                                        <tr>
+                                                            <td><i class="stm_megaicon stm-marker"></i></td>
+                                                            <td>1010 Avenue of the Moon New York, NY 10018 US.</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><i class="fa fa-phone" aria-hidden="true"></i></td>
+                                                            <td>+1 628 123 4000</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><i class="fa fa-envelope" aria-hidden="true"></i></td>
+                                                            <td><a href="mailto:berg@consulting.wp">berg@consulting.wp</a></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><i class="fa fa-clock-o" aria-hidden="true"></i></td>
+                                                            <td>Mon–Sat: 8:00AM–6:00PM Sunday: CLOSED</td>
+                                                        </tr>
+                                                    </table></span></a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-838" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-838"><a href="shop/">shop</a>
+                                        <ul  class="sub-menu">
+                                            <li id="menu-item-923" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-923 stm_col_width_default stm_mega_cols_inside_default"><a href="shop/my-account/">my account</a></li>
+                                            <li id="menu-item-917" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-917 stm_col_width_default stm_mega_cols_inside_default"><a href="shop/cart/">cart</a></li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-467" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-467"><a href="contact-us/">contacts</a>
+                                        <ul  class="sub-menu">
+                                            <li id="menu-item-1402" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1402 stm_col_width_default stm_mega_cols_inside_default"><a href="contact-us/">Contact one</a></li>
+                                            <li id="menu-item-1401" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1401 stm_col_width_default stm_mega_cols_inside_default"><a href="contact-two/">Contact two</a></li>
+                                            <li id="menu-item-1400" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1400 stm_col_width_default stm_mega_cols_inside_default"><a href="contact-three/">Contact three</a></li>
+                                            <li id="menu-item-1399" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1399 stm_col_width_default stm_mega_cols_inside_default"><a href="contact-four/">Contact four</a></li>
+                                            <li id="menu-item-1398" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1398 stm_col_width_default stm_mega_cols_inside_default"><a href="contact-five/">Contact five</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>                                \
                             </div>
-                            <div class="top_bar_info_wr">
-                                <div class="top_bar_info_switcher">
-                                    <div class="active">
-                                        <span>New York Office</span>
-                                    </div>
-                                    <ul>
-                                        <li>
-                                            <a href="#top_bar_info_1">New York Office</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mobile_header">
+                    <div class="logo_wrapper clearfix">
+                        <div class="logo">
+                            <a href=""><img src="{{url('public/home/home')}}/wp-content/uploads/2016/12/logo_dark.svg" style="width: px; height: px;" alt="Consulting WP &#8211; New York" /></a>
+                        </div>
+                        <div id="menu_toggle">
+                            <button></button>
+                        </div>
+                    </div>
+                    <div class="header_info">
+                        <div class="top_nav_mobile">
+                            <ul id="menu-main-menu-1" class="main_menu_nav"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-13"><a href="">home</a></li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-281"><a href="company-overview/">about us</a>
+                                    <ul  class="sub-menu">
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-379 stm_col_width_default stm_mega_cols_inside_default"><a href="company-overview/company-history/">About</a>
+                                            <ul  class="sub-menu">
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1394 stm_mega_second_col_width_default"><a href="company-overview/">About Layout 1</a></li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1392 stm_mega_second_col_width_default"><a href="about-layout-2/">About Layout 2</a></li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1393 stm_mega_second_col_width_default"><a href="about-layout-3/">About Layout 3</a></li>
+                                            </ul>
                                         </li>
-                                        <li>
-                                            <a href="#top_bar_info_2">London Office</a>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-346 stm_col_width_default stm_mega_cols_inside_default"><a href="company-overview/our-approach/">Our approach</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-393 stm_col_width_default stm_mega_cols_inside_default"><a href="company-overview/our-partners/">partners</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-410 stm_col_width_default stm_mega_cols_inside_default"><a href="company-overview/careers/">careers</a>
+                                            <ul  class="sub-menu">
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-812 stm_mega_second_col_width_default"><a href="company-overview/careers/">Jobs listing</a></li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-stm_careers menu-item-792 stm_mega_second_col_width_default"><a href="careers_archive/deputy-principal-construction-manager-2/">vacancy page</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-808 stm_col_width_default stm_mega_cols_inside_default"><a href="company-overview/our-team-grid/">our team</a>
+                                            <ul  class="sub-menu">
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-444 stm_mega_second_col_width_default"><a href="company-overview/our-team-list/">Team list</a></li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-466 stm_mega_second_col_width_default"><a href="company-overview/our-team-grid/">Team grid</a></li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-stm_staff menu-item-810 stm_mega_second_col_width_default"><a href="staff/brandon-copperfield/">Team member</a></li>
+                                            </ul>
                                         </li>
                                     </ul>
-                                </div>
-                                <ul class="top_bar_info" id="top_bar_info_1" style="display: block;">
-                                    <li>
-                                        <i class="stm-marker"></i>
-                                        <span>1010 New York, NY 10018 US.</span>
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-clock-o"></i>
-                                        <span>Mon - Sat 8.00 - 18.00. Sunday CLOSED</span>
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-phone"></i>
-                                        <span>212 386 5575</span>
-                                    </li>
-                                </ul>
-                                <ul class="top_bar_info" id="top_bar_info_2">
-                                    <li>
-                                        <i class="stm-marker"></i>
-                                        <span>15 Baker Str., London, HA018 UK.</span>
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-clock-o"></i>
-                                        <span>Mon - Sat 8.00 - 18.00. Sunday CLOSED</span>
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-phone"></i>
-                                        <span>44 382 5555</span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="header_top clearfix">
-                        <div class="container">
-                            <div class="logo media-left media-middle">
-                                <a href=""><img src="{{url('uploads/logo/Logo-hl.png')}}/" style="width:110px; height: px;" alt="Consulting WP &#8211; New York" /></a>
-                            </div>
-                            <div class="top_nav media-body media-middle">
-                                <div class="header_socials">
-                                    <a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a>
-                                    <a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a>
-                                    <a target="_blank" href="http://www.google.com"><i class="fa fa-google-plus"></i></a>
-                                    <a href="shop/cart/" class="cart_count"><i class="stm-cart-2"></i>            <span class="count shopping-cart__product">0</span>
-                                    </a>
-                                </div>
-                                <div class="top_nav_wrapper clearfix">
-                                    <ul id="menu-main-menu" class="main_menu_nav"><li id="menu-item-13" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-13"><a href="">home</a></li>
-                                        <li id="menu-item-281" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-281"><a href="company-overview/">about us</a>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-560"><a href="services-grid/">services</a>
+                                    <ul  class="sub-menu">
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-813 stm_col_width_default stm_mega_cols_inside_default"><a href="services-grid/">Services Grid</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1295 stm_col_width_default stm_mega_cols_inside_default"><a href="services-with-tabs/">Services with Tabs</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-stm_service menu-item-586 stm_col_width_default stm_mega_cols_inside_default"><a href="services/turnaround-consulting/">Service Layout 1</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-stm_service menu-item-587 stm_col_width_default stm_mega_cols_inside_default"><a href="services/bonds-commodities/">Service Layout  2</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-stm_service menu-item-588 stm_col_width_default stm_mega_cols_inside_default"><a href="services/audit-assurance/">Service Layout 3</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1528"><a href="our-work-grid/">cases</a>
+                                    <ul  class="sub-menu">
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-603 stm_col_width_default stm_mega_cols_inside_default"><a href="our-work-grid/">cases grid</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-617 stm_col_width_default stm_mega_cols_inside_default"><a href="our-work-with-filter/">cases with filter</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-stm_works menu-item-633 stm_col_width_default stm_mega_cols_inside_default"><a href="works/applying-commercial-excellence-in-chemicals/">single case layout 1</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-stm_works menu-item-634 stm_col_width_default stm_mega_cols_inside_default"><a href="works/constructing-a-best-in-class-global/">single case layout 2</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-524"><a href="blog/?layout=grid&#038;sidebar_id=none">news</a>
+                                    <ul  class="sub-menu">
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-525 stm_col_width_default stm_mega_cols_inside_default"><a href="blog/">list view</a></li>
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-526 stm_col_width_default stm_mega_cols_inside_default"><a href="blog/?layout=grid&#038;sidebar_id=none">grid view</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1368"><a href="portfolio-grid/">portfolio</a>
+                                    <ul  class="sub-menu">
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2012 stm_col_width_default stm_mega_cols_inside_default"><a href="portfolio-grid/">Portfolio Grid</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-stm_portfolio menu-item-1369 stm_col_width_default stm_mega_cols_inside_default"><a href="portfolio/beff-baffer-construction/">Portfolio Single One</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-stm_portfolio menu-item-1370 stm_col_width_default stm_mega_cols_inside_default"><a href="portfolio/focus-on-core-delivers-growth-for-retailer/">Portfolio Single Two</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-stm_portfolio menu-item-1371 stm_col_width_default stm_mega_cols_inside_default"><a href="portfolio/construction-of-railways/">Portfolio Single Three</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-179 stm_megamenu stm_megamenu__boxed stm_megamenu_default"><a href="#">pages</a>
+                                    <ul  class="sub-menu">
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1670 stm_col_width_default stm_mega_cols_inside_default"><a href="company-overview/">Company Overview</a>
                                             <ul  class="sub-menu">
-                                                <li id="menu-item-379" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-379 stm_col_width_default stm_mega_cols_inside_default"><a href="company-overview/company-history/">About</a>
-                                                    <ul  class="sub-menu">
-                                                        <li id="menu-item-1394" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1394 stm_mega_second_col_width_default"><a href="company-overview/">About Layout 1</a></li>
-                                                        <li id="menu-item-1392" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1392 stm_mega_second_col_width_default"><a href="about-layout-2/">About Layout 2</a></li>
-                                                        <li id="menu-item-1393" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1393 stm_mega_second_col_width_default"><a href="about-layout-3/">About Layout 3</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li id="menu-item-346" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-346 stm_col_width_default stm_mega_cols_inside_default"><a href="company-overview/our-approach/">Our approach</a></li>
-                                                <li id="menu-item-393" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-393 stm_col_width_default stm_mega_cols_inside_default"><a href="company-overview/our-partners/">partners</a></li>
-                                                <li id="menu-item-410" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-410 stm_col_width_default stm_mega_cols_inside_default"><a href="company-overview/careers/">careers</a>
-                                                    <ul  class="sub-menu">
-                                                        <li id="menu-item-812" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-812 stm_mega_second_col_width_default"><a href="company-overview/careers/">Jobs listing</a></li>
-                                                        <li id="menu-item-792" class="menu-item menu-item-type-post_type menu-item-object-stm_careers menu-item-792 stm_mega_second_col_width_default"><a href="careers_archive/deputy-principal-construction-manager-2/">vacancy page</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li id="menu-item-808" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-808 stm_col_width_default stm_mega_cols_inside_default"><a href="company-overview/our-team-grid/">our team</a>
-                                                    <ul  class="sub-menu">
-                                                        <li id="menu-item-444" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-444 stm_mega_second_col_width_default"><a href="company-overview/our-team-list/">Team list</a></li>
-                                                        <li id="menu-item-466" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-466 stm_mega_second_col_width_default"><a href="company-overview/our-team-grid/">Team grid</a></li>
-                                                        <li id="menu-item-810" class="menu-item menu-item-type-post_type menu-item-object-stm_staff menu-item-810 stm_mega_second_col_width_default"><a href="staff/brandon-copperfield/">Team member</a></li>
-                                                    </ul>
-                                                </li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1671 stm_mega_second_col_width_default"><a href="company-overview/"><img alt="Company Overview1" src="{{url('public/home/home')}}/wp-content/uploads/2017/07/thumbnail_3342.jpg" /><span class="stm_mega_textarea">Consulting WP is a global consulting powerhouse.</span></a></li>
                                             </ul>
                                         </li>
-                                        <li id="menu-item-560" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-560"><a href="services-grid/">services</a>
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1071 stm_col_width_default stm_mega_cols_inside_default"><a href="testimonials-page">Example Pages</a>
                                             <ul  class="sub-menu">
-                                                <li id="menu-item-813" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-813 stm_col_width_default stm_mega_cols_inside_default"><a href="services-grid/">Services Grid</a></li>
-                                                <li id="menu-item-1295" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1295 stm_col_width_default stm_mega_cols_inside_default"><a href="services-with-tabs/">Services with Tabs</a></li>
-                                                <li id="menu-item-586" class="menu-item menu-item-type-post_type menu-item-object-stm_service menu-item-586 stm_col_width_default stm_mega_cols_inside_default"><a href="services/turnaround-consulting/">Service Layout 1</a></li>
-                                                <li id="menu-item-587" class="menu-item menu-item-type-post_type menu-item-object-stm_service menu-item-587 stm_col_width_default stm_mega_cols_inside_default"><a href="services/bonds-commodities/">Service Layout  2</a></li>
-                                                <li id="menu-item-588" class="menu-item menu-item-type-post_type menu-item-object-stm_service menu-item-588 stm_col_width_default stm_mega_cols_inside_default"><a href="services/audit-assurance/">Service Layout 3</a></li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-326 stm_mega_second_col_width_default"><a href="testimonials-page/"><i class="stm_megaicon fa fa-arrow-circle-right"></i>Testimonials 1</a></li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1076 stm_mega_second_col_width_default"><a href="layout-2/"><i class="stm_megaicon fa fa-arrow-circle-right"></i>Testimonials 2</a></li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-178 stm_mega_second_col_width_default"><a href="typography/"><i class="stm_megaicon fa fa-arrow-circle-right"></i>Typography</a></li>
+                                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1674 stm_mega_second_col_width_default"><a href="error"><i class="stm_megaicon fa fa-arrow-circle-right"></i>404 Page</a></li>
                                             </ul>
                                         </li>
-                                        <li id="menu-item-1528" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1528"><a href="our-work-grid/">cases</a>
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1348 stm_col_width_default stm_mega_cols_inside_default"><a href="events-classic">Events</a>
                                             <ul  class="sub-menu">
-                                                <li id="menu-item-603" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-603 stm_col_width_default stm_mega_cols_inside_default"><a href="our-work-grid/">cases grid</a></li>
-                                                <li id="menu-item-617" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-617 stm_col_width_default stm_mega_cols_inside_default"><a href="our-work-with-filter/">cases with filter</a></li>
-                                                <li id="menu-item-633" class="menu-item menu-item-type-post_type menu-item-object-stm_works menu-item-633 stm_col_width_default stm_mega_cols_inside_default"><a href="works/applying-commercial-excellence-in-chemicals/">single case layout 1</a></li>
-                                                <li id="menu-item-634" class="menu-item menu-item-type-post_type menu-item-object-stm_works menu-item-634 stm_col_width_default stm_mega_cols_inside_default"><a href="works/constructing-a-best-in-class-global/">single case layout 2</a></li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1351 stm_mega_second_col_width_default"><a href="events-grid/"><i class="stm_megaicon fa fa-th-large"></i>Event Grid</a></li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1349 stm_mega_second_col_width_default"><a href="events-classic/"><i class="stm_megaicon fa fa-bank"></i>Event Classic</a></li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1350 stm_mega_second_col_width_default"><a href="events-modern/"><i class="stm_megaicon fa fa-list-ul"></i>Event Modern</a></li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1352 stm_mega_second_col_width_default"><a href="make-an-appointment/"><i class="stm_megaicon fa fa-calendar-check-o"></i>Appointment</a></li>
                                             </ul>
                                         </li>
-                                        <li id="menu-item-524" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-524"><a href="blog/?layout=grid&#038;sidebar_id=none">news</a>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1673 stm_col_width_default stm_mega_cols_inside_default"><a href="contact-us/">Contacts</a>
                                             <ul  class="sub-menu">
-                                                <li id="menu-item-525" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-525 stm_col_width_default stm_mega_cols_inside_default"><a href="blog/">list view</a></li>
-                                                <li id="menu-item-526" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-526 stm_col_width_default stm_mega_cols_inside_default"><a href="blog/?layout=grid&#038;sidebar_id=none">grid view</a></li>
+                                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1676 stm_mega_second_col_width_default"><a href="#"><span class="stm_mega_textarea"><table class="megamenu-contacts">
+                                                    <tr>
+                                                        <td><i class="stm_megaicon stm-marker"></i></td>
+                                                        <td>1010 Avenue of the Moon New York, NY 10018 US.</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><i class="fa fa-phone" aria-hidden="true"></i></td>
+                                                        <td>+1 628 123 4000</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><i class="fa fa-envelope" aria-hidden="true"></i></td>
+                                                        <td><a href="mailto:berg@consulting.wp">berg@consulting.wp</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><i class="fa fa-clock-o" aria-hidden="true"></i></td>
+                                                        <td>Mon–Sat: 8:00AM–6:00PM Sunday: CLOSED</td>
+                                                    </tr>
+                                                </table></span></a></li>
                                             </ul>
                                         </li>
-                                        <li id="menu-item-1368" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1368"><a href="portfolio-grid/">portfolio</a>
-                                            <ul  class="sub-menu">
-                                                <li id="menu-item-2012" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2012 stm_col_width_default stm_mega_cols_inside_default"><a href="portfolio-grid/">Portfolio Grid</a></li>
-                                                <li id="menu-item-1369" class="menu-item menu-item-type-post_type menu-item-object-stm_portfolio menu-item-1369 stm_col_width_default stm_mega_cols_inside_default"><a href="portfolio/beff-baffer-construction/">Portfolio Single One</a></li>
-                                                <li id="menu-item-1370" class="menu-item menu-item-type-post_type menu-item-object-stm_portfolio menu-item-1370 stm_col_width_default stm_mega_cols_inside_default"><a href="portfolio/focus-on-core-delivers-growth-for-retailer/">Portfolio Single Two</a></li>
-                                                <li id="menu-item-1371" class="menu-item menu-item-type-post_type menu-item-object-stm_portfolio menu-item-1371 stm_col_width_default stm_mega_cols_inside_default"><a href="portfolio/construction-of-railways/">Portfolio Single Three</a></li>
-                                            </ul>
-                                        </li>
-                                        <li id="menu-item-179" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-179 stm_megamenu stm_megamenu__boxed stm_megamenu_default"><a href="#">pages</a>
-                                            <ul  class="sub-menu">
-                                                <li id="menu-item-1670" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1670 stm_col_width_default stm_mega_cols_inside_default"><a href="company-overview/">Company Overview</a>
-                                                    <ul  class="sub-menu">
-                                                        <li id="menu-item-1671" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1671 stm_mega_second_col_width_default"><a href="company-overview/"><img alt="Company Overview1" src="{{url('public/home/home')}}/wp-content/uploads/2017/07/thumbnail_3342.jpg" /><span class="stm_mega_textarea">Consulting WP is a global consulting powerhouse.</span></a></li>
-                                                    </ul>
-                                                </li>
-                                                <li id="menu-item-1071" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1071 stm_col_width_default stm_mega_cols_inside_default"><a href="testimonials-page">Example Pages</a>
-                                                    <ul  class="sub-menu">
-                                                        <li id="menu-item-326" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-326 stm_mega_second_col_width_default"><a href="testimonials-page/"><i class="stm_megaicon fa fa-arrow-circle-right"></i>Testimonials 1</a></li>
-                                                        <li id="menu-item-1076" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1076 stm_mega_second_col_width_default"><a href="layout-2/"><i class="stm_megaicon fa fa-arrow-circle-right"></i>Testimonials 2</a></li>
-                                                        <li id="menu-item-178" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-178 stm_mega_second_col_width_default"><a href="typography/"><i class="stm_megaicon fa fa-arrow-circle-right"></i>Typography</a></li>
-                                                        <li id="menu-item-1674" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1674 stm_mega_second_col_width_default"><a href="error"><i class="stm_megaicon fa fa-arrow-circle-right"></i>404 Page</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li id="menu-item-1348" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1348 stm_col_width_default stm_mega_cols_inside_default"><a href="events-classic">Events</a>
-                                                    <ul  class="sub-menu">
-                                                        <li id="menu-item-1351" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1351 stm_mega_second_col_width_default"><a href="events-grid/"><i class="stm_megaicon fa fa-th-large"></i>Event Grid</a></li>
-                                                        <li id="menu-item-1349" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1349 stm_mega_second_col_width_default"><a href="events-classic/"><i class="stm_megaicon fa fa-bank"></i>Event Classic</a></li>
-                                                        <li id="menu-item-1350" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1350 stm_mega_second_col_width_default"><a href="events-modern/"><i class="stm_megaicon fa fa-list-ul"></i>Event Modern</a></li>
-                                                        <li id="menu-item-1352" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1352 stm_mega_second_col_width_default"><a href="make-an-appointment/"><i class="stm_megaicon fa fa-calendar-check-o"></i>Appointment</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li id="menu-item-1673" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1673 stm_col_width_default stm_mega_cols_inside_default"><a href="contact-us/">Contacts</a>
-                                                    <ul  class="sub-menu">
-                                                        <li id="menu-item-1676" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1676 stm_mega_second_col_width_default"><a href="#"><span class="stm_mega_textarea"><table class="megamenu-contacts">
-                                                            <tr>
-                                                                <td><i class="stm_megaicon stm-marker"></i></td>
-                                                                <td>1010 Avenue of the Moon New York, NY 10018 US.</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td><i class="fa fa-phone" aria-hidden="true"></i></td>
-                                                                <td>+1 628 123 4000</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td><i class="fa fa-envelope" aria-hidden="true"></i></td>
-                                                                <td><a href="mailto:berg@consulting.wp">berg@consulting.wp</a></td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td><i class="fa fa-clock-o" aria-hidden="true"></i></td>
-                                                                <td>Mon–Sat: 8:00AM–6:00PM Sunday: CLOSED</td>
-                                                            </tr>
-                                                        </table></span></a></li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li id="menu-item-838" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-838"><a href="shop/">shop</a>
-                                            <ul  class="sub-menu">
-                                                <li id="menu-item-923" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-923 stm_col_width_default stm_mega_cols_inside_default"><a href="shop/my-account/">my account</a></li>
-                                                <li id="menu-item-917" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-917 stm_col_width_default stm_mega_cols_inside_default"><a href="shop/cart/">cart</a></li>
-                                            </ul>
-                                        </li>
-                                        <li id="menu-item-467" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-467"><a href="contact-us/">contacts</a>
-                                            <ul  class="sub-menu">
-                                                <li id="menu-item-1402" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1402 stm_col_width_default stm_mega_cols_inside_default"><a href="contact-us/">Contact one</a></li>
-                                                <li id="menu-item-1401" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1401 stm_col_width_default stm_mega_cols_inside_default"><a href="contact-two/">Contact two</a></li>
-                                                <li id="menu-item-1400" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1400 stm_col_width_default stm_mega_cols_inside_default"><a href="contact-three/">Contact three</a></li>
-                                                <li id="menu-item-1399" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1399 stm_col_width_default stm_mega_cols_inside_default"><a href="contact-four/">Contact four</a></li>
-                                                <li id="menu-item-1398" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1398 stm_col_width_default stm_mega_cols_inside_default"><a href="contact-five/">Contact five</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="mobile_header">
-                            <div class="logo_wrapper clearfix">
-                                <div class="logo">
-                                    <a href=""><img src="{{url('public/home/home')}}/wp-content/uploads/2016/12/logo_dark.svg" style="width: px; height: px;" alt="Consulting WP &#8211; New York" /></a>
-                                </div>
-                                <div id="menu_toggle">
-                                    <button></button>
-                                </div>
-                            </div>
-                            <div class="header_info">
-                                <div class="top_nav_mobile">
-                                    <ul id="menu-main-menu-1" class="main_menu_nav"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-13"><a href="">home</a></li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-281"><a href="company-overview/">about us</a>
-                                            <ul  class="sub-menu">
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-379 stm_col_width_default stm_mega_cols_inside_default"><a href="company-overview/company-history/">About</a>
-                                                    <ul  class="sub-menu">
-                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1394 stm_mega_second_col_width_default"><a href="company-overview/">About Layout 1</a></li>
-                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1392 stm_mega_second_col_width_default"><a href="about-layout-2/">About Layout 2</a></li>
-                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1393 stm_mega_second_col_width_default"><a href="about-layout-3/">About Layout 3</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-346 stm_col_width_default stm_mega_cols_inside_default"><a href="company-overview/our-approach/">Our approach</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-393 stm_col_width_default stm_mega_cols_inside_default"><a href="company-overview/our-partners/">partners</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-410 stm_col_width_default stm_mega_cols_inside_default"><a href="company-overview/careers/">careers</a>
-                                                    <ul  class="sub-menu">
-                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-812 stm_mega_second_col_width_default"><a href="company-overview/careers/">Jobs listing</a></li>
-                                                        <li class="menu-item menu-item-type-post_type menu-item-object-stm_careers menu-item-792 stm_mega_second_col_width_default"><a href="careers_archive/deputy-principal-construction-manager-2/">vacancy page</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-808 stm_col_width_default stm_mega_cols_inside_default"><a href="company-overview/our-team-grid/">our team</a>
-                                                    <ul  class="sub-menu">
-                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-444 stm_mega_second_col_width_default"><a href="company-overview/our-team-list/">Team list</a></li>
-                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-466 stm_mega_second_col_width_default"><a href="company-overview/our-team-grid/">Team grid</a></li>
-                                                        <li class="menu-item menu-item-type-post_type menu-item-object-stm_staff menu-item-810 stm_mega_second_col_width_default"><a href="staff/brandon-copperfield/">Team member</a></li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-560"><a href="services-grid/">services</a>
-                                            <ul  class="sub-menu">
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-813 stm_col_width_default stm_mega_cols_inside_default"><a href="services-grid/">Services Grid</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1295 stm_col_width_default stm_mega_cols_inside_default"><a href="services-with-tabs/">Services with Tabs</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-stm_service menu-item-586 stm_col_width_default stm_mega_cols_inside_default"><a href="services/turnaround-consulting/">Service Layout 1</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-stm_service menu-item-587 stm_col_width_default stm_mega_cols_inside_default"><a href="services/bonds-commodities/">Service Layout  2</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-stm_service menu-item-588 stm_col_width_default stm_mega_cols_inside_default"><a href="services/audit-assurance/">Service Layout 3</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1528"><a href="our-work-grid/">cases</a>
-                                            <ul  class="sub-menu">
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-603 stm_col_width_default stm_mega_cols_inside_default"><a href="our-work-grid/">cases grid</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-617 stm_col_width_default stm_mega_cols_inside_default"><a href="our-work-with-filter/">cases with filter</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-stm_works menu-item-633 stm_col_width_default stm_mega_cols_inside_default"><a href="works/applying-commercial-excellence-in-chemicals/">single case layout 1</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-stm_works menu-item-634 stm_col_width_default stm_mega_cols_inside_default"><a href="works/constructing-a-best-in-class-global/">single case layout 2</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-524"><a href="blog/?layout=grid&#038;sidebar_id=none">news</a>
-                                            <ul  class="sub-menu">
-                                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-525 stm_col_width_default stm_mega_cols_inside_default"><a href="blog/">list view</a></li>
-                                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-526 stm_col_width_default stm_mega_cols_inside_default"><a href="blog/?layout=grid&#038;sidebar_id=none">grid view</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1368"><a href="portfolio-grid/">portfolio</a>
-                                            <ul  class="sub-menu">
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2012 stm_col_width_default stm_mega_cols_inside_default"><a href="portfolio-grid/">Portfolio Grid</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-stm_portfolio menu-item-1369 stm_col_width_default stm_mega_cols_inside_default"><a href="portfolio/beff-baffer-construction/">Portfolio Single One</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-stm_portfolio menu-item-1370 stm_col_width_default stm_mega_cols_inside_default"><a href="portfolio/focus-on-core-delivers-growth-for-retailer/">Portfolio Single Two</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-stm_portfolio menu-item-1371 stm_col_width_default stm_mega_cols_inside_default"><a href="portfolio/construction-of-railways/">Portfolio Single Three</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-179 stm_megamenu stm_megamenu__boxed stm_megamenu_default"><a href="#">pages</a>
-                                            <ul  class="sub-menu">
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1670 stm_col_width_default stm_mega_cols_inside_default"><a href="company-overview/">Company Overview</a>
-                                                    <ul  class="sub-menu">
-                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1671 stm_mega_second_col_width_default"><a href="company-overview/"><img alt="Company Overview1" src="{{url('public/home/home')}}/wp-content/uploads/2017/07/thumbnail_3342.jpg" /><span class="stm_mega_textarea">Consulting WP is a global consulting powerhouse.</span></a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1071 stm_col_width_default stm_mega_cols_inside_default"><a href="testimonials-page">Example Pages</a>
-                                                    <ul  class="sub-menu">
-                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-326 stm_mega_second_col_width_default"><a href="testimonials-page/"><i class="stm_megaicon fa fa-arrow-circle-right"></i>Testimonials 1</a></li>
-                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1076 stm_mega_second_col_width_default"><a href="layout-2/"><i class="stm_megaicon fa fa-arrow-circle-right"></i>Testimonials 2</a></li>
-                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-178 stm_mega_second_col_width_default"><a href="typography/"><i class="stm_megaicon fa fa-arrow-circle-right"></i>Typography</a></li>
-                                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1674 stm_mega_second_col_width_default"><a href="error"><i class="stm_megaicon fa fa-arrow-circle-right"></i>404 Page</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1348 stm_col_width_default stm_mega_cols_inside_default"><a href="events-classic">Events</a>
-                                                    <ul  class="sub-menu">
-                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1351 stm_mega_second_col_width_default"><a href="events-grid/"><i class="stm_megaicon fa fa-th-large"></i>Event Grid</a></li>
-                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1349 stm_mega_second_col_width_default"><a href="events-classic/"><i class="stm_megaicon fa fa-bank"></i>Event Classic</a></li>
-                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1350 stm_mega_second_col_width_default"><a href="events-modern/"><i class="stm_megaicon fa fa-list-ul"></i>Event Modern</a></li>
-                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1352 stm_mega_second_col_width_default"><a href="make-an-appointment/"><i class="stm_megaicon fa fa-calendar-check-o"></i>Appointment</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1673 stm_col_width_default stm_mega_cols_inside_default"><a href="contact-us/">Contacts</a>
-                                                    <ul  class="sub-menu">
-                                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1676 stm_mega_second_col_width_default"><a href="#"><span class="stm_mega_textarea"><table class="megamenu-contacts">
-                                                            <tr>
-                                                                <td><i class="stm_megaicon stm-marker"></i></td>
-                                                                <td>1010 Avenue of the Moon New York, NY 10018 US.</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td><i class="fa fa-phone" aria-hidden="true"></i></td>
-                                                                <td>+1 628 123 4000</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td><i class="fa fa-envelope" aria-hidden="true"></i></td>
-                                                                <td><a href="mailto:berg@consulting.wp">berg@consulting.wp</a></td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td><i class="fa fa-clock-o" aria-hidden="true"></i></td>
-                                                                <td>Mon–Sat: 8:00AM–6:00PM Sunday: CLOSED</td>
-                                                            </tr>
-                                                        </table></span></a></li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-838"><a href="shop/">shop</a>
-                                            <ul  class="sub-menu">
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-923 stm_col_width_default stm_mega_cols_inside_default"><a href="shop/my-account/">my account</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-917 stm_col_width_default stm_mega_cols_inside_default"><a href="shop/cart/">cart</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-467"><a href="contact-us/">contacts</a>
-                                            <ul  class="sub-menu">
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1402 stm_col_width_default stm_mega_cols_inside_default"><a href="contact-us/">Contact one</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1401 stm_col_width_default stm_mega_cols_inside_default"><a href="contact-two/">Contact two</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1400 stm_col_width_default stm_mega_cols_inside_default"><a href="contact-three/">Contact three</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1399 stm_col_width_default stm_mega_cols_inside_default"><a href="contact-four/">Contact four</a></li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1398 stm_col_width_default stm_mega_cols_inside_default"><a href="contact-five/">Contact five</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>                            </div>
-                                    <div class="icon_texts">
-                                        <div class="icon_text clearfix">
-                                            <div class="icon"><i class="fa stm-phone"></i></div>
-                                            <div class="text">
-                                                <strong>212 714 0177</strong><span>Free call</span>                                            </div>
-                                            </div>
-                                            <div class="icon_text clearfix">
-                                                <div class="icon"><i class="fa fa fa-clock-o"></i></div>
-                                                <div class="text">
-                                                    <strong>Mon - Sat 9.00 - 18.00</strong><span>Sunday CLOSED</span>                                            </div>
-                                                </div>
-                                                <div class="icon_text clearfix">
-                                                    <div class="icon"><i class="fa stm-marker"></i></div>
-                                                    <div class="text">
-                                                        <strong>1020 Avenue of the Moon<br /></strong><br />
-                                                        <span>New York, NY 10018 US.</span>                                            </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </header>
-                                    <div id="main" >
-                                        <div class="container">
-
-                                            <div class="content-area">
-
-                                                <article id="post-2" class="post-2 page type-page status-publish hentry">
-
-                                                    <div class="entry-content">
-                                                        <div class="vc_row wpb_row vc_row-fluid vc_custom_1450677977665"><div class="wpb_column vc_column_container vc_col-sm-12 vc_hidden-sm vc_hidden-xs"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_revslider_element wpb_content_element">
-                                                            <div id="rev_slider_4_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-source="gallery" style="background:transparent;padding:0px;">
-                                                                <!-- START REVOLUTION SLIDER 5.4.8 fullscreen mode -->
-                                                                <div id="rev_slider_4_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.4.8">
-                                                                    <ul>    <!-- SLIDE  -->
-                                                                        <li data-index="rs-15" data-transition="random" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="{{url('public/home/home')}}/wp-content/uploads/2016/01/slide_1-2-100x50.jpg"  data-delay="5000"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                                                                            <!-- MAIN IMAGE -->
-                                                                            <img src="{{url('public/home/home')}}/wp-content/plugins/revslider/admin/assets/images/dummy.png"  alt="" title="slide_1-2"  width="1920" height="759" data-lazyload="{{url('public/home/home')}}/wp-content/uploads/2016/01/slide_1-2.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                                                                            <!-- LAYERS -->
-
-                                                                            <!-- LAYER NR. 1 -->
-                                                                            <div class="tp-caption   tp-resizeme" 
-                                                                            id="slide-15-layer-1" 
-                                                                            data-x="134" 
-                                                                            data-y="center" data-voffset="" 
-                                                                            data-width="['auto']"
-                                                                            data-height="['auto']"
-
-                                                                            data-type="text" 
-                                                                            data-responsive_offset="on" 
-
-                                                                            data-frames='[{"delay":500,"speed":1000,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"nothing"}]'
-                                                                            data-textAlign="['left','left','left','left']"
-                                                                            data-paddingtop="[0,0,0,0]"
-                                                                            data-paddingright="[0,0,0,0]"
-                                                                            data-paddingbottom="[0,0,0,0]"
-                                                                            data-paddingleft="[0,0,0,0]"
-
-                                                                            style="z-index: 5; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: rgba(255,255,255,1); letter-spacing: px;"><div class="consulting-rev-title">
-                                                                            <mark>helping <br/>
-                                                                                companies <br/></mark>
-                                                                                navigate <br/>
-                                                                                change.
-                                                                            </div> </div>
-
-                                                                            <!-- LAYER NR. 2 -->
-                                                                            <div class="tp-caption   tp-resizeme" 
-                                                                            id="slide-15-layer-2" 
-                                                                            data-x="30" 
-                                                                            data-y="center" data-voffset="-81" 
-                                                                            data-width="['auto']"
-                                                                            data-height="['auto']"
-
-                                                                            data-type="text" 
-                                                                            data-responsive_offset="on" 
-
-                                                                            data-frames='[{"delay":500,"speed":1000,"frame":"0","from":"y:30px;opacity:0;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"nothing"}]'
-                                                                            data-textAlign="['left','left','left','left']"
-                                                                            data-paddingtop="[0,0,0,0]"
-                                                                            data-paddingright="[0,0,0,0]"
-                                                                            data-paddingbottom="[0,0,0,0]"
-                                                                            data-paddingleft="[0,0,0,0]"
-
-                                                                            style="z-index: 6; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: rgba(255,255,255,1); letter-spacing: ;"><i class="stm-compass consulting-rev-title-icon"></i> </div>
-                                                                        </li>
-                                                                        <!-- SLIDE  -->
-                                                                        <li data-index="rs-17" data-transition="random" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="{{url('public/home/home')}}/wp-content/uploads/2017/01/slide_3-2-100x50.jpg"  data-delay="5000"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                                                                            <!-- MAIN IMAGE -->
-                                                                            <img src="{{url('public/home/home')}}/wp-content/plugins/revslider/admin/assets/images/dummy.png"  alt="" title="slide_3-2"  width="1920" height="759" data-lazyload="{{url('public/home/home')}}/wp-content/uploads/2017/01/slide_3-2.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                                                                            <!-- LAYERS -->
-
-                                                                            <!-- LAYER NR. 3 -->
-                                                                            <div class="tp-caption   tp-resizeme" 
-                                                                            id="slide-17-layer-1" 
-                                                                            data-x="30" 
-                                                                            data-y="center" data-voffset="-83" 
-                                                                            data-width="['auto']"
-                                                                            data-height="['auto']"
-
-                                                                            data-type="text" 
-                                                                            data-responsive_offset="on" 
-
-                                                                            data-frames='[{"delay":500,"speed":1000,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"nothing"}]'
-                                                                            data-textAlign="['left','left','left','left']"
-                                                                            data-paddingtop="[0,0,0,0]"
-                                                                            data-paddingright="[0,0,0,0]"
-                                                                            data-paddingbottom="[0,0,0,0]"
-                                                                            data-paddingleft="[0,0,0,0]"
-
-                                                                            style="z-index: 5; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: rgba(255,255,255,1); letter-spacing: ;"><div class="consulting-rev-title">
-                                                                            <mark>thought leadership</mark>
-                                                                        </div> </div>
-
-                                                                        <!-- LAYER NR. 4 -->
-                                                                        <div class="tp-caption   tp-resizeme" 
-                                                                        id="slide-17-layer-3" 
-                                                                        data-x="30" 
-                                                                        data-y="center" data-voffset="20" 
-                                                                        data-width="['auto']"
-                                                                        data-height="['auto']"
-
-                                                                        data-type="text" 
-                                                                        data-responsive_offset="on" 
-
-                                                                        data-frames='[{"delay":500,"speed":1000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"nothing"}]'
-                                                                        data-textAlign="['left','left','left','left']"
-                                                                        data-paddingtop="[0,0,0,0]"
-                                                                        data-paddingright="[0,0,0,0]"
-                                                                        data-paddingbottom="[0,0,0,0]"
-                                                                        data-paddingleft="[0,0,0,0]"
-
-                                                                        style="z-index: 6; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: rgba(255,255,255,1); letter-spacing: px;"><div class="consulting-rev-text">With over 10 years of experience helping <br/>businesses to find comprehensive solutions</div> </div>
-
-                                                                        <!-- LAYER NR. 5 -->
-                                                                        <div class="tp-caption   tp-resizeme" 
-                                                                        id="slide-17-layer-4" 
-                                                                        data-x="30" 
-                                                                        data-y="center" data-voffset="121" 
-                                                                        data-width="['auto']"
-                                                                        data-height="['auto']"
-
-                                                                        data-type="text" 
-                                                                        data-responsive_offset="on" 
-
-                                                                        data-frames='[{"delay":760,"speed":1000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"nothing"}]'
-                                                                        data-textAlign="['left','left','left','left']"
-                                                                        data-paddingtop="[0,0,0,0]"
-                                                                        data-paddingright="[0,0,0,0]"
-                                                                        data-paddingbottom="[0,0,0,0]"
-                                                                        data-paddingleft="[0,0,0,0]"
-
-                                                                        style="z-index: 7; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: rgba(255,255,255,1); letter-spacing: ;"><a href="company-overview/" class="button bordered icon_right">our company<i class="fa fa-chevron-right"></i></a> </div>
-
-                                                                        <!-- LAYER NR. 6 -->
-                                                                        <div class="tp-caption   tp-resizeme" 
-                                                                        id="slide-17-layer-5" 
-                                                                        data-x="215" 
-                                                                        data-y="center" data-voffset="121" 
-                                                                        data-width="['auto']"
-                                                                        data-height="['auto']"
-
-                                                                        data-type="text" 
-                                                                        data-responsive_offset="on" 
-
-                                                                        data-frames='[{"delay":880,"speed":950,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"nothing"}]'
-                                                                        data-textAlign="['left','left','left','left']"
-                                                                        data-paddingtop="[0,0,0,0]"
-                                                                        data-paddingright="[0,0,0,0]"
-                                                                        data-paddingbottom="[0,0,0,0]"
-                                                                        data-paddingleft="[0,0,0,0]"
-
-                                                                        style="z-index: 8; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: rgba(255,255,255,1); letter-spacing: ;"><a href="contact-us/" class="button bordered icon_right theme_style_4">contact us<i class="fa fa-chevron-right"></i></a> </div>
-                                                                    </li>
-                                                                    <!-- SLIDE  -->
-                                                                    <li data-index="rs-16" data-transition="random" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="{{url('public/home/home')}}/wp-content/uploads/2017/01/slider_2-100x50.jpg"  data-delay="5000"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                                                                        <!-- MAIN IMAGE -->
-                                                                        <img src="{{url('public/home/home')}}/wp-content/plugins/revslider/admin/assets/images/dummy.png"  alt="" title="slider_2"  width="1920" height="1080" data-lazyload="{{url('public/home/home')}}/wp-content/uploads/2017/01/slider_2.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                                                                        <!-- LAYERS -->
-
-                                                                        <!-- LAYER NR. 7 -->
-                                                                        <div class="tp-caption   tp-resizeme" 
-                                                                        id="slide-16-layer-1" 
-                                                                        data-x="30" 
-                                                                        data-y="center" data-voffset="-83" 
-                                                                        data-width="['auto']"
-                                                                        data-height="['auto']"
-
-                                                                        data-type="text" 
-                                                                        data-responsive_offset="on" 
-
-                                                                        data-frames='[{"delay":500,"speed":1000,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"nothing"}]'
-                                                                        data-textAlign="['left','left','left','left']"
-                                                                        data-paddingtop="[0,0,0,0]"
-                                                                        data-paddingright="[0,0,0,0]"
-                                                                        data-paddingbottom="[0,0,0,0]"
-                                                                        data-paddingleft="[0,0,0,0]"
-
-                                                                        style="z-index: 5; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: rgba(255,255,255,1); letter-spacing: ;"><div class="consulting-rev-title">
-                                                                        <mark>talented consultants</mark>
-                                                                    </div> </div>
-
-                                                                    <!-- LAYER NR. 8 -->
-                                                                    <div class="tp-caption   tp-resizeme" 
-                                                                    id="slide-16-layer-3" 
-                                                                    data-x="30" 
-                                                                    data-y="center" data-voffset="20" 
-                                                                    data-width="['auto']"
-                                                                    data-height="['auto']"
-
-                                                                    data-type="text" 
-                                                                    data-responsive_offset="on" 
-
-                                                                    data-frames='[{"delay":500,"speed":1000,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"nothing"}]'
-                                                                    data-textAlign="['left','left','left','left']"
-                                                                    data-paddingtop="[0,0,0,0]"
-                                                                    data-paddingright="[0,0,0,0]"
-                                                                    data-paddingbottom="[0,0,0,0]"
-                                                                    data-paddingleft="[0,0,0,0]"
-
-                                                                    style="z-index: 6; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: rgba(255,255,255,1); letter-spacing: px;"><div class="consulting-rev-text">We look forward to getting to know you and to <br/>helping you take your company to new heights!</div> </div>
-
-                                                                    <!-- LAYER NR. 9 -->
-                                                                    <div class="tp-caption   tp-resizeme" 
-                                                                    id="slide-16-layer-4" 
-                                                                    data-x="30" 
-                                                                    data-y="center" data-voffset="121" 
-                                                                    data-width="['auto']"
-                                                                    data-height="['auto']"
-
-                                                                    data-type="text" 
-                                                                    data-responsive_offset="on" 
-
-                                                                    data-frames='[{"delay":500,"speed":1000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"nothing"}]'
-                                                                    data-textAlign="['left','left','left','left']"
-                                                                    data-paddingtop="[0,0,0,0]"
-                                                                    data-paddingright="[0,0,0,0]"
-                                                                    data-paddingbottom="[0,0,0,0]"
-                                                                    data-paddingleft="[0,0,0,0]"
-
-                                                                    style="z-index: 7; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: rgba(255,255,255,1); letter-spacing: ;"><a href="services-grid/" class="button bordered icon_right">our services<i class="fa fa-chevron-right"></i></a> </div>
-                                                                </li>
-                                                            </ul>
-                                                            <script>var htmlDiv = document.getElementById("rs-plugin-settings-inline-css"); var htmlDivCss="";
-                                                                if(htmlDiv) {
-                                                                    htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
-                                                                }else{
-                                                                    var htmlDiv = document.createElement("div");
-                                                                    htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>";
-                                                                    document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
-                                                                }
-                                                            </script>
-                                                            <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div> </div>
-                                                            <script>var htmlDiv = document.getElementById("rs-plugin-settings-inline-css"); var htmlDivCss="";
-                                                                if(htmlDiv) {
-                                                                    htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
-                                                                }else{
-                                                                    var htmlDiv = document.createElement("div");
-                                                                    htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>";
-                                                                    document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
-                                                                }
-                                                            </script>
-                                                            <script type="text/javascript">
-                                                                if (setREVStartSize!==undefined) setREVStartSize(
-                                                                    {c: '#rev_slider_4_1', gridwidth: [1170], gridheight: [574], sliderLayout: 'fullscreen', fullScreenAutoWidth:'off', fullScreenAlignForce:'off', fullScreenOffsetContainer:'', fullScreenOffset:''});
-
-                                                                    var revapi4,
-                                                                tpj;    
-                                                                (function() {           
-                                                                    if (!/loaded|interactive|complete/.test(document.readyState)) document.addEventListener("DOMContentLoaded",onLoad); else onLoad();  
-                                                                    function onLoad() {             
-                                                                        if (tpj===undefined) { tpj = jQuery; if("off" == "on") tpj.noConflict();}
-                                                                        if(tpj("#rev_slider_4_1").revolution == undefined){
-                                                                            revslider_showDoubleJqueryError("#rev_slider_4_1");
-                                                                        }else{
-                                                                            revapi4 = tpj("#rev_slider_4_1").show().revolution({
-                                                                                sliderType:"standard",
-                                                                                jsFileLocation:"//consulting.stylemixthemes.com/{{url('public/home/home')}}/wp-content/plugins/revslider/public/assets/js/",
-                                                                                sliderLayout:"fullscreen",
-                                                                                dottedOverlay:"none",
-                                                                                delay:9000,
-                                                                                navigation: {
-                                                                                    keyboardNavigation:"off",
-                                                                                    keyboard_direction: "horizontal",
-                                                                                    mouseScrollNavigation:"off",
-                                                                                    mouseScrollReverse:"default",
-                                                                                    onHoverStop:"off",
-                                                                                    arrows: {
-                                                                                        style:"",
-                                                                                        enable:true,
-                                                                                        hide_onmobile:true,
-                                                                                        hide_under:1200,
-                                                                                        hide_onleave:false,
-                                                                                        tmp:'',
-                                                                                        left: {
-                                                                                            h_align:"left",
-                                                                                            v_align:"center",
-                                                                                            h_offset:20,
-                                                                                            v_offset:0
-                                                                                        },
-                                                                                        right: {
-                                                                                            h_align:"right",
-                                                                                            v_align:"center",
-                                                                                            h_offset:20,
-                                                                                            v_offset:0
-                                                                                        }
-                                                                                    }
-                                                                                },
-                                                                                visibilityLevels:[1240,1024,778,480],
-                                                                                gridwidth:1170,
-                                                                                gridheight:574,
-                                                                                lazyType:"smart",
-                                                                                shadow:0,
-                                                                                spinner:"spinner0",
-                                                                                stopLoop:"off",
-                                                                                stopAfterLoops:-1,
-                                                                                stopAtSlide:-1,
-                                                                                shuffle:"off",
-                                                                                autoHeight:"off",
-                                                                                fullScreenAutoWidth:"off",
-                                                                                fullScreenAlignForce:"off",
-                                                                                fullScreenOffsetContainer: "",
-                                                                                fullScreenOffset: "",
-                                                                                disableProgressBar:"on",
-                                                                                hideThumbsOnMobile:"off",
-                                                                                hideSliderAtLimit:0,
-                                                                                hideCaptionAtLimit:0,
-                                                                                hideAllCaptionAtLilmit:0,
-                                                                                debugMode:false,
-                                                                                fallbacks: {
-                                                                                    simplifyAll:"off",
-                                                                                    nextSlideOnWindowFocus:"off",
-                                                                                    disableFocusListener:false,
-                                                                                }
-                                                                            });
-}; /* END OF revapi call */
-
-}; /* END OF ON LOAD FUNCTION */
-}()); /* END OF WRAPPING FUNCTION */
-</script>
-</div><!-- END REVOLUTION SLIDER --></div></div></div></div></div><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid third_bg_color vc_custom_1450692516354"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">
-
-<div id="particles_5be68b278a95c"></div>
-
-<style>
-    #particles_5be68b278a95c {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-    }
-    .vc_cta3_content-container {
-        position: relative;
-    }
-</style>
-
-<script type="text/javascript">
-    jQuery(document).ready(function ($) {
-        var screenWidth = $(window).width();
-        if(screenWidth < 1140) {
-            var defaultWidth = screenWidth;
-        } else {
-            var defaultWidth = 1140;
-        }
-        var marginLeft = (screenWidth - defaultWidth) / 2;
-
-        $('#particles_5be68b278a95c').css({
-            'width': screenWidth + 'px',
-            'margin-left': '-' + marginLeft + 'px'
-        });
-
-        particlesJS('particles_5be68b278a95c',
-
-        {
-            "particles": {
-                "number": {
-                    "value": 120,
-                    "density": {
-                        "enable": true,
-                        "value_area": 800
-                    }
-                },
-                "color": {
-                    "value": "#ffffff"
-                },
-                "opacity": {
-                    "value": 0.5,
-                    "random": false,
-                    "anim": {
-                        "enable": false,
-                        "speed": 1,
-                        "opacity_min": 0.1,
-                        "sync": false
-                    }
-                },
-                "size": {
-                    "value": 8,
-                    "random": true,
-                    "anim": {
-                        "enable": false,
-                        "speed": 40,
-                        "size_min": 0.1,
-                        "sync": false
-                    }
-                },
-                "line_linked": {
-                    "enable": true,
-                    "distance": 150,
-                    "color": "#ffffff",
-                    "opacity": 0.4,
-                    "width": 1
-                },
-                "move": {
-                    "enable": true,
-                    "speed": 6,
-                    "direction": "none",
-                    "random": false,
-                    "straight": false,
-                    "out_mode": "out",
-                    "attract": {
-                        "enable": false,
-                        "rotateX": 600,
-                        "rotateY": 1200
-                    }
-                }
-            },
-            "interactivity": {
-                "detect_on": "canvas",
-                "events": {
-                    "onhover": {
-                        "enable": true,
-                        "mode": "grab"
-                    },
-                    "onclick": {
-                        "enable": true,
-                        "mode": "push"
-                    },
-                    "resize": true
-                }
-            },
-            "retina_detect": true
-        }
-
-        );
-    });
-</script>
-
-<section class="vc_cta3-container" >
-    <div class="vc_general vc_cta3 third_bg_color vc_cta3-style-flat vc_cta3-shape-square vc_cta3-align-left vc_cta3-color-classic vc_cta3-icon-size-md vc_cta3-actions-right vc_custom_1495630569356">
-        <div class="vc_cta3_content-container">
-            <div class="vc_cta3-content">
-                <header class="vc_cta3-content-header">
-                    <div class="vc_custom_heading" ><h2 style="font-size: 20px;color: #000000;line-height: 24px" >Looking for a First-Class Business Consultant?</h2></div>                                    </header>
-                </div>
-                <div class="vc_cta3-actions"><div class="vc_btn3-container vc_btn3-right" >
-                    <a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-flat vc_btn3-block vc_btn3-icon-right vc_btn3-color-theme_style_2" href="contact-us/" title="">get a quote <i class="vc_btn3-icon fa fa-chevron-right"></i></a></div>
-                </div>        </div>
-            </div>
-        </section>
-
-    </div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1450856873482"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="stm_animation stm_viewport" style="" data-animate="fadeInUp" data-animation-delay="0" data-animation-duration="1" data-viewport_position="90" >
-    
-    <div class="info_box style_3 ">
-
-
-        <div class="info_box_wrapper">
-
-
-            <div class="info_box_image"><img width="350" height="250" src="{{url('public/home/home')}}/wp-content/uploads/2015/12/img-why-our-consulting-350x250.jpg" class="attachment-consulting-image-350x250-croped size-consulting-image-350x250-croped" alt="" /></div>
-
-            <div class="info_box_text">
-
-                <div class="title">
-                    <div class="icon">
-                        <i class="stm-chart-monitor"></i>
-                    </div>
-                    <h6 class="no_stripe"><span>Why our consulting</span></h6>
-                </div>
-                <p>We are a full service business development group – we build strategies and systems.</p>
-                <a class="read_more" target="_self" href="company-overview/"><span>read more</span><i class=" fa fa-chevron-right stm_icon"></i></a>                   </div>
-
-
-            </div>
-        </div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="stm_animation stm_viewport" style="" data-animate="fadeInUp" data-animation-delay="0.05" data-animation-duration="1" data-viewport_position="90" >
-
-        <div class="info_box style_3 ">
-
-
-            <div class="info_box_wrapper">
-
-
-                <div class="info_box_image"><img width="350" height="250" src="{{url('public/home/home')}}/wp-content/uploads/2015/12/img-global-consumer-insights-350x250.jpg" class="attachment-consulting-image-350x250-croped size-consulting-image-350x250-croped" alt="" /></div>
-
-                <div class="info_box_text">
-
-                    <div class="title">
-                        <div class="icon">
-                            <i class="stm-chart-refresh"></i>
-                        </div>
-                        <h6 class="no_stripe"><span>Global consumer insights</span></h6>
-                    </div>
-                    <p>Rapid solutions to the most complex business challenges with cooperative process-driven.</p>
-                    <a class="read_more" target="_self" href="services/turnaround-consulting/"><span>read more</span><i class=" fa fa-chevron-right stm_icon"></i></a>                 </div>
-
-
-                </div>
-            </div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="stm_animation stm_viewport" style="" data-animate="fadeInUp" data-animation-delay="0.1" data-animation-duration="1" data-viewport_position="90" >
-
-            <div class="info_box style_3 ">
-
-
-                <div class="info_box_wrapper">
-
-
-                    <div class="info_box_image"><img width="350" height="250" src="{{url('public/home/home')}}/wp-content/uploads/2015/12/img-thought-leadership-350x250.jpg" class="attachment-consulting-image-350x250-croped size-consulting-image-350x250-croped" alt="" /></div>
-                    
-                    <div class="info_box_text">
-
-                        <div class="title">
-                            <div class="icon">
-                                <i class="stm-earth"></i>
-                            </div>
-                            <h6 class="no_stripe"><span>Thought Leadership</span></h6>
-                        </div>
-                        <p>A solution is proposed, from here you can action the plan with just outline assistance.</p>
-                        <a class="read_more" target="_self" href="works/applying-commercial-excellence-in-chemicals/"><span>read more</span><i class=" fa fa-chevron-right stm_icon"></i></a>                  </div>
-
-
-                    </div>
-                </div></div></div></div></div></div><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1451476985704 vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="vc_custom_heading base_font_color vc_custom_1455871682892 text_align_center" ><h2 style="font-size: 45px;line-height: 60px;text-align: center" >industries</h2></div><div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1455871593995"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper">
-
-                <div class="icon_box hexagon hexanog_animation style_1 icon_left clearfix">
-                    <div class="icon font-color_default font-color_base_bg" style="width:78px"><i style="font-size:15px;  " class="stm-airplane"></i></div>
-                    <div class="icon_text">
-                        <h5 class="font-color_base no_stripe">Travel and Aviation<br />
-                            Consulting</h5>
-                            <p>Company that offers design and build services for you from initial sketches to the final production.</p>
-                        </div>
-                    </div>
-
-                </div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper">
-
-                <div class="icon_box hexagon hexanog_animation style_1 icon_left clearfix">
-                    <div class="icon font-color_default font-color_base_bg" style="width:78px"><i style="font-size:22px;  " class="stm-graph"></i></div>
-                    <div class="icon_text">
-                        <h5 class="font-color_base no_stripe">Business Services<br />
-                            Consulting</h5>
-                            <p>We consider all the drivers of change &#8211; from the ground up and we&#8217;ll motivate and support you to make the change.</p>
-                        </div>
-                    </div>
-
-                </div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper">
-
-                <div class="icon_box hexagon hexanog_animation style_1 icon_left clearfix">
-                    <div class="icon font-color_default font-color_base_bg" style="width:78px"><i style="font-size:22px;  " class="stm-cart"></i></div>
-                    <div class="icon_text">
-                        <h5 class="font-color_base no_stripe">Consumer Products<br />
-                            Consulting</h5>
-                            <p>Design repeatable growth models and innovation pipelines that generate new products with higher potential and lower risks of failure.</p>
-                        </div>
-                    </div>
-
-                </div></div></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper">
-
-                <div class="icon_box hexagon hexanog_animation style_1 icon_left clearfix">
-                    <div class="icon font-color_default font-color_base_bg" style="width:78px"><i style="font-size:24px;  " class="stm-home"></i></div>
-                    <div class="icon_text">
-                        <h5 class="font-color_base no_stripe">Financial Services<br />
-                            Consulting</h5>
-                            <p>We work buy-side and sell-side and give our clients hard-hitting and objective answers and focus hard on the best opportunities.</p>
-                        </div>
-                    </div>
-
-                </div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper">
-
-                <div class="icon_box hexagon hexanog_animation style_1 icon_left clearfix">
-                    <div class="icon font-color_default font-color_base_bg" style="width:78px"><i style="font-size:28px;  " class="stm-lamp"></i></div>
-                    <div class="icon_text">
-                        <h5 class="font-color_base no_stripe">Energy and Environment<br />
-                            Consulting</h5>
-                            <p>We work across all the major geographies, meaning we understand the underlying drivers in construction markets.</p>
-                        </div>
-                    </div>
-
-                </div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper">
-
-                <div class="icon_box hexagon hexanog_animation style_1 icon_left clearfix">
-                    <div class="icon font-color_default font-color_base_bg" style="width:78px"><i style="font-size:20px;  " class="stm-truck"></i></div>
-                    <div class="icon_text">
-                        <h5 class="font-color_base no_stripe">Surface Transport &amp;<br />
-                            Logistics Consulting</h5>
-                            <p>Scheduled transport operations, from broad market trends and strategy to the development of integrated commercial strategies.</p>
-                        </div>
-                    </div>
-
-                </div></div></div></div></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid overlay fixed_bg vc_custom_1483436740696 vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="vc_custom_heading no_stripe vc_custom_1495714664917 text_align_left has_icon" ><div class="icon" style="font-size: 67px; line-height: 67px;"><i class="stm-check"></i></div><h4 style="font-size: 45px;color: #ffffff;line-height: 45px;text-align: left" ><mark>Doing the right thing,</mark><br />
-                at the right time.</h4></div></div></div></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-2 vc_col-lg-offset-1"><div class="vc_column-inner "><div class="wpb_wrapper">
-                <div class="stats_counter style_1 left " >
-                    <div class="inner">
-                        <h3 class="no_stripe" id="counter_5be68b2795b27" >0</h3>
-                        <div class="counter_title" >Cases completed</div>
-                        <script type="text/javascript">
-                            jQuery(document).ready(function($) {
-                                var counter_5be68b2795b27 = new countUp("counter_5be68b2795b27", 0, 321, 0, 2.5, {
-                                    useEasing : true,
-                                    useGrouping: false,
-                                    prefix : '',
-                                    suffix : ''
-                                });
-                                $(window).scroll(function(){
-                                    if( $("#counter_5be68b2795b27").is_on_screen() ){
-                                        counter_5be68b2795b27.start();
-                                    }
-                                });
-                            });
-                        </script>
-                    </div>
-                </div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner "><div class="wpb_wrapper">
-                <div class="stats_counter style_1 left " >
-                    <div class="inner">
-                        <h3 class="no_stripe" id="counter_5be68b2796067" >0</h3>
-                        <div class="counter_title" >Consultants</div>
-                        <script type="text/javascript">
-                            jQuery(document).ready(function($) {
-                                var counter_5be68b2796067 = new countUp("counter_5be68b2796067", 0, 27, 0, 2.5, {
-                                    useEasing : true,
-                                    useGrouping: false,
-                                    prefix : '',
-                                    suffix : ''
-                                });
-                                $(window).scroll(function(){
-                                    if( $("#counter_5be68b2796067").is_on_screen() ){
-                                        counter_5be68b2796067.start();
-                                    }
-                                });
-                            });
-                        </script>
-                    </div>
-                </div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner "><div class="wpb_wrapper">
-                <div class="stats_counter style_1 left " >
-                    <div class="inner">
-                        <h3 class="no_stripe" id="counter_5be68b27965ac" >0</h3>
-                        <div class="counter_title" >Awards winning</div>
-                        <script type="text/javascript">
-                            jQuery(document).ready(function($) {
-                                var counter_5be68b27965ac = new countUp("counter_5be68b27965ac", 0, 125, 0, 2.5, {
-                                    useEasing : true,
-                                    useGrouping: false,
-                                    prefix : '',
-                                    suffix : ''
-                                });
-                                $(window).scroll(function(){
-                                    if( $("#counter_5be68b27965ac").is_on_screen() ){
-                                        counter_5be68b27965ac.start();
-                                    }
-                                });
-                            });
-                        </script>
-                    </div>
-                </div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner "><div class="wpb_wrapper">
-                <div class="stats_counter style_1 left " >
-                    <div class="inner">
-                        <h3 class="no_stripe" id="counter_5be68b2796aef" >0</h3>
-                        <div class="counter_title" >Satisfied customers</div>
-                        <script type="text/javascript">
-                            jQuery(document).ready(function($) {
-                                var counter_5be68b2796aef = new countUp("counter_5be68b2796aef", 0, 100, 0, 2.5, {
-                                    useEasing : true,
-                                    useGrouping: false,
-                                    prefix : '',
-                                    suffix : '%'
-                                });
-                                $(window).scroll(function(){
-                                    if( $("#counter_5be68b2796aef").is_on_screen() ){
-                                        counter_5be68b2796aef.start();
-                                    }
-                                });
-                            });
-                        </script>
-                    </div>
-                </div></div></div></div></div></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1450960276268"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="vc_custom_heading base_font_color vc_custom_1495714677591 text_align_center" ><h2 style="font-size: 45px;line-height: 60px;text-align: center" >testimonials</h2></div> <div class="testimonials_carousel style_1 per_row_2" id="partners_carousel_5be68b2798815">
-
-                <div class="testimonial">
-                    <div class="image">
-                        <a href="testimonials-page/"><img class="" src="{{url('public/home/home')}}/wp-content/uploads/2016/01/testimonial-2-350x348.jpg" width="350" height="348" alt="testimonial-2" title="testimonial-2" /></a>
-                    </div>
-                    <div class="info">
-                        <h4 class="no_stripe">
-                            <a href="testimonials-page/">
-                                Amanda Seyfried                                 </a>
-                            </h4>
-                            <div class="position">Sales &amp; Marketing</div>
-                            <div class="company">Alien Ltd.</div>
-                            <p>Consulting WP really helped us achieve our financial goals. The slick presentation along with fantastic readability ensures that our financial standing is stable.</p>
-                        </div>
-                    </div>
-
-                    
-                    <div class="testimonial">
-                        <div class="image">
-                            <a href="testimonials-page/"><img class="" src="{{url('public/home/home')}}/wp-content/uploads/2016/01/testimonial-1-350x348.jpg" width="350" height="348" alt="testimonial-1" title="testimonial-1" /></a>
-                        </div>
-                        <div class="info">
-                            <h4 class="no_stripe">
-                                <a href="testimonials-page/">
-                                    Debbie Kübel-Sorger                                 </a>
-                                </h4>
-                                <div class="position">Chairman</div>
-                                <div class="company">Kreutz Airlines</div>
-                                <p>The demands for financial institutions have changed a bit. Obfuscation is no longer accepted, which is why this Business WordPress Theme is so perfect.</p>
-                            </div>
-                        </div>
-
-
-                        <div class="testimonial">
-                            <div class="image">
-                                <a href="testimonials-page/"><img class="" src="{{url('public/home/home')}}/wp-content/uploads/2016/01/testimonial-3-350x348.jpg" width="350" height="348" alt="testimonial-3" title="testimonial-3" /></a>
-                            </div>
-                            <div class="info">
-                                <h4 class="no_stripe">
-                                    <a href="testimonials-page/">
-                                        Donald Simpson                                  </a>
-                                    </h4>
-                                    <div class="position">Chief Financial Officer</div>
-                                    <div class="company">Jamaica International</div>
-                                    <p>When you are in the financial industry you know the image you have to project to people. You have to be agile and authoritative; Consulting WP is the way to go for financial institutions</p>
-                                </div>
-                            </div>
-
-
-                            <div class="testimonial">
-                                <div class="image">
-                                    <a href="testimonials-page/"><img class="" src="{{url('public/home/home')}}/wp-content/uploads/2016/01/testimonial-4-350x348.jpg" width="350" height="348" alt="testimonial-4" title="testimonial-4" /></a>
-                                </div>
-                                <div class="info">
-                                    <h4 class="no_stripe">
-                                        <a href="testimonials-page/">
-                                            Cintia Le Corre                                 </a>
-                                        </h4>
-                                        <div class="position">Chairman</div>
-                                        <div class="company">Harmony Corporation</div>
-                                        <p>We thought a lot before choosing the Financial WordPress Theme because we wanted to sure our investment would yield results. This was clearly the best choice.</p>
+                                    </ul>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-838"><a href="shop/">shop</a>
+                                    <ul  class="sub-menu">
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-923 stm_col_width_default stm_mega_cols_inside_default"><a href="shop/my-account/">my account</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-917 stm_col_width_default stm_mega_cols_inside_default"><a href="shop/cart/">cart</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-467"><a href="contact-us/">contacts</a>
+                                    <ul  class="sub-menu">
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1402 stm_col_width_default stm_mega_cols_inside_default"><a href="contact-us/">Contact one</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1401 stm_col_width_default stm_mega_cols_inside_default"><a href="contact-two/">Contact two</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1400 stm_col_width_default stm_mega_cols_inside_default"><a href="contact-three/">Contact three</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1399 stm_col_width_default stm_mega_cols_inside_default"><a href="contact-four/">Contact four</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1398 stm_col_width_default stm_mega_cols_inside_default"><a href="contact-five/">Contact five</a></li>
+                                    </ul>
+                                </li>
+                            </ul>                            </div>
+                            <div class="icon_texts">
+                                <div class="icon_text clearfix">
+                                    <div class="icon"><i class="fa stm-phone"></i></div>
+                                    <div class="text">
+
+                                        <strong>212 714 0177</strong>
+                                        <span>Free call</span>                                      
                                     </div>
                                 </div>
+                                <div class="icon_text clearfix">
+                                    <div class="icon"><i class="fa fa fa-clock-o"></i></div>
+                                    <div class="text">
+                                        <strong>Mon - Sat 9.00 - 18.00</strong>
+                                        <span>Sunday CLOSED</span>                          
+                                    </div>
+                                </div>
+                                <div class="icon_text clearfix">
+                                    <div class="icon"><i class="fa stm-marker"></i></div>
+                                    <div class="text">
+                                        <strong>1020 Avenue of the Moon<br />
+                                        </strong><br />
+                                        <span>New York, NY 10018 US.</span>                                          
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <div id="main" >
+                    <div class="container">
 
+                        <div class="content-area">
+
+                            <article id="post-2" class="post-2 page type-page status-publish hentry">
+
+                                <div class="entry-content">
+                                    <div class="vc_row wpb_row vc_row-fluid vc_custom_1450677977665"><div class="wpb_column vc_column_container vc_col-sm-12 vc_hidden-sm vc_hidden-xs"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_revslider_element wpb_content_element">
+                                        <div id="rev_slider_4_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-source="gallery" style="background:transparent;padding:0px;">
+                                            <!-- START REVOLUTION SLIDER 5.4.8 fullscreen mode -->
+
+    <script>var htmlDiv = document.getElementById("rs-plugin-settings-inline-css"); var htmlDivCss="";
+        if(htmlDiv) {
+            htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+        }else{
+            var htmlDiv = document.createElement("div");
+            htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>";
+            document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
+        }
+    </script>
+    <script type="text/javascript">
+        if (setREVStartSize!==undefined) setREVStartSize(
+            {c: '#rev_slider_4_1', gridwidth: [1170], gridheight: [574], sliderLayout: 'fullscreen', fullScreenAutoWidth:'off', fullScreenAlignForce:'off', fullScreenOffsetContainer:'', fullScreenOffset:''});
+
+            var revapi4,
+        tpj;    
+        (function() {           
+            if (!/loaded|interactive|complete/.test(document.readyState)) document.addEventListener("DOMContentLoaded",onLoad); else onLoad();  
+            function onLoad() {             
+                if (tpj===undefined) { tpj = jQuery; if("off" == "on") tpj.noConflict();}
+                if(tpj("#rev_slider_4_1").revolution == undefined){
+                    revslider_showDoubleJqueryError("#rev_slider_4_1");
+                }else{
+                    revapi4 = tpj("#rev_slider_4_1").show().revolution({
+                        sliderType:"standard",
+                        jsFileLocation:"//consulting.stylemixthemes.com/{{url('public/home/home')}}/wp-content/plugins/revslider/public/assets/js/",
+                        sliderLayout:"fullscreen",
+                        dottedOverlay:"none",
+                        delay:9000,
+                        navigation: {
+                            keyboardNavigation:"off",
+                            keyboard_direction: "horizontal",
+                            mouseScrollNavigation:"off",
+                            mouseScrollReverse:"default",
+                            onHoverStop:"off",
+                            arrows: {
+                                style:"",
+                                enable:true,
+                                hide_onmobile:true,
+                                hide_under:1200,
+                                hide_onleave:false,
+                                tmp:'',
+                                left: {
+                                    h_align:"left",
+                                    v_align:"center",
+                                    h_offset:20,
+                                    v_offset:0
+                                },
+                                right: {
+                                    h_align:"right",
+                                    v_align:"center",
+                                    h_offset:20,
+                                    v_offset:0
+                                }
+                            }
+                        },
+                        visibilityLevels:[1240,1024,778,480],
+                        gridwidth:1170,
+                        gridheight:574,
+                        lazyType:"smart",
+                        shadow:0,
+                        spinner:"spinner0",
+                        stopLoop:"off",
+                        stopAfterLoops:-1,
+                        stopAtSlide:-1,
+                        shuffle:"off",
+                        autoHeight:"off",
+                        fullScreenAutoWidth:"off",
+                        fullScreenAlignForce:"off",
+                        fullScreenOffsetContainer: "",
+                        fullScreenOffset: "",
+                        disableProgressBar:"on",
+                        hideThumbsOnMobile:"off",
+                        hideSliderAtLimit:0,
+                        hideCaptionAtLimit:0,
+                        hideAllCaptionAtLilmit:0,
+                        debugMode:false,
+                        fallbacks: {
+                            simplifyAll:"off",
+                            nextSlideOnWindowFocus:"off",
+                            disableFocusListener:false,
+                        }
+                    });
+                }; /* END OF revapi call */
+
+            }; /* END OF ON LOAD FUNCTION */
+        }()); /* END OF WRAPPING FUNCTION */
+    </script>
+</div><!-- END REVOLUTION SLIDER -->
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid third_bg_color vc_custom_1450692516354">
+    <div class="wpb_column vc_column_container vc_col-sm-12">
+        <div class="vc_column-inner ">
+            <div class="wpb_wrapper">
+
+                <div id="particles_5be6330906dc0">
+
+                </div>
+
+                <style>
+                    #particles_5be6330906dc0 {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                    }
+                    .vc_cta3_content-container {
+                        position: relative;
+                    }
+                </style>
+
+                <script type="text/javascript">
+                    jQuery(document).ready(function ($) {
+                        var screenWidth = $(window).width();
+                        if(screenWidth < 1140) {
+                            var defaultWidth = screenWidth;
+                        } else {
+                            var defaultWidth = 1140;
+                        }
+                        var marginLeft = (screenWidth - defaultWidth) / 2;
+
+                        $('#particles_5be6330906dc0').css({
+                            'width': screenWidth + 'px',
+                            'margin-left': '-' + marginLeft + 'px'
+                        });
+
+                        particlesJS('particles_5be6330906dc0',
+
+                        {
+                            "particles": {
+                                "number": {
+                                    "value": 120,
+                                    "density": {
+                                        "enable": true,
+                                        "value_area": 800
+                                    }
+                                },
+                                "color": {
+                                    "value": "#ffffff"
+                                },
+                                "opacity": {
+                                    "value": 0.5,
+                                    "random": false,
+                                    "anim": {
+                                        "enable": false,
+                                        "speed": 1,
+                                        "opacity_min": 0.1,
+                                        "sync": false
+                                    }
+                                },
+                                "size": {
+                                    "value": 8,
+                                    "random": true,
+                                    "anim": {
+                                        "enable": false,
+                                        "speed": 40,
+                                        "size_min": 0.1,
+                                        "sync": false
+                                    }
+                                },
+                                "line_linked": {
+                                    "enable": true,
+                                    "distance": 150,
+                                    "color": "#ffffff",
+                                    "opacity": 0.4,
+                                    "width": 1
+                                },
+                                "move": {
+                                    "enable": true,
+                                    "speed": 6,
+                                    "direction": "none",
+                                    "random": false,
+                                    "straight": false,
+                                    "out_mode": "out",
+                                    "attract": {
+                                        "enable": false,
+                                        "rotateX": 600,
+                                        "rotateY": 1200
+                                    }
+                                }
+                            },
+                            "interactivity": {
+                                "detect_on": "canvas",
+                                "events": {
+                                    "onhover": {
+                                        "enable": true,
+                                        "mode": "grab"
+                                    },
+                                    "onclick": {
+                                        "enable": true,
+                                        "mode": "push"
+                                    },
+                                    "resize": true
+                                }
+                            },
+                            "retina_detect": true
+                        }
+
+                        );
+                    });
+                </script>
+
+                <section class="vc_cta3-container" >
+                    <div class="vc_general vc_cta3 third_bg_color vc_cta3-style-flat vc_cta3-shape-square vc_cta3-align-left vc_cta3-color-classic vc_cta3-icon-size-md vc_cta3-actions-right vc_custom_1495630569356">
+                        <div class="vc_cta3_content-container">
+                            <div class="vc_cta3-content">
+                                <header class="vc_cta3-content-header">
+                                    <div class="vc_custom_heading" ><h2 style="font-size: 20px;color: #000000;line-height: 24px" >Looking for a First-Class Business Consultant?</h2></div>                                    </header>
+                                </div>
+                                <div class="vc_cta3-actions"><div class="vc_btn3-container vc_btn3-right" >
+                                    <a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-flat vc_btn3-block vc_btn3-icon-right vc_btn3-color-theme_style_2" href="contact-us/" title="">get a quote <i class="vc_btn3-icon fa fa-chevron-right"></i></a></div>
+                                </div>        </div>
+                            </div>
+                        </section>
+
+                    </div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1450856873482">
+                    <div class="jumbotron">
+    <div class="container">
+        <h1>Hello, world!</h1>
+        <p>Contents ...</p>
+        <p>
+            <a class="btn btn-primary btn-lg">Learn more</a>
+        </p>
+    </div>
+</div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="stm_animation stm_viewport" style="" data-animate="fadeInUp" data-animation-delay="0" data-animation-duration="1" data-viewport_position="90" >
+
+                    <div class="info_box style_3 ">
+
+
+                        <div class="info_box_wrapper">
+
+
+                            <div class="info_box_image"><img width="350" height="250" src="{{url('public/home/home')}}/wp-content/uploads/2015/12/img-why-our-consulting-350x250.jpg" class="attachment-consulting-image-350x250-croped size-consulting-image-350x250-croped" alt="" /></div>
+
+                            <div class="info_box_text">
+
+                                <div class="title">
+                                    <div class="icon">
+                                        <i class="stm-chart-monitor"></i>
+                                    </div>
+                                    <h6 class="no_stripe"><span>Why our consulting</span></h6>
+                                </div>
+                                <p>We are a full service business development group – we build strategies and systems.</p>
+                                <a class="read_more" target="_self" href="company-overview/"><span>read more</span><i class=" fa fa-chevron-right stm_icon"></i></a>                   </div>
+
+
+                            </div>
+                        </div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="stm_animation stm_viewport" style="" data-animate="fadeInUp" data-animation-delay="0.05" data-animation-duration="1" data-viewport_position="90" >
+
+                        <div class="info_box style_3 ">
+
+
+                            <div class="info_box_wrapper">
+
+
+                                <div class="info_box_image"><img width="350" height="250" src="{{url('public/home/home')}}/wp-content/uploads/2015/12/img-global-consumer-insights-350x250.jpg" class="attachment-consulting-image-350x250-croped size-consulting-image-350x250-croped" alt="" /></div>
+
+                                <div class="info_box_text">
+
+                                    <div class="title">
+                                        <div class="icon">
+                                            <i class="stm-chart-refresh"></i>
+                                        </div>
+                                        <h6 class="no_stripe"><span>Global consumer insights</span></h6>
+                                    </div>
+                                    <p>Rapid solutions to the most complex business challenges with cooperative process-driven.</p>
+                                    <a class="read_more" target="_self" href="services/turnaround-consulting/"><span>read more</span><i class=" fa fa-chevron-right stm_icon"></i></a>                 </div>
+
+
+                                </div>
+                            </div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="stm_animation stm_viewport" style="" data-animate="fadeInUp" data-animation-delay="0.1" data-animation-duration="1" data-viewport_position="90" >
+
+                            <div class="info_box style_3 ">
+
+
+                                <div class="info_box_wrapper">
+
+
+                                    <div class="info_box_image"><img width="350" height="250" src="{{url('public/home/home')}}/wp-content/uploads/2015/12/img-thought-leadership-350x250.jpg" class="attachment-consulting-image-350x250-croped size-consulting-image-350x250-croped" alt="" /></div>
+
+                                    <div class="info_box_text">
+
+                                        <div class="title">
+                                            <div class="icon">
+                                                <i class="stm-earth"></i>
+                                            </div>
+                                            <h6 class="no_stripe"><span>Thought Leadership</span></h6>
+                                        </div>
+                                        <p>A solution is proposed, from here you can action the plan with just outline assistance.</p>
+                                        <a class="read_more" target="_self" href="works/applying-commercial-excellence-in-chemicals/"><span>read more</span><i class=" fa fa-chevron-right stm_icon"></i></a>                  </div>
+
+
+                                    </div>
+                                </div></div></div></div></div></div><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1451476985704 vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="vc_custom_heading base_font_color vc_custom_1455871682892 text_align_center" ><h2 style="font-size: 45px;line-height: 60px;text-align: center" >industries</h2></div><div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1455871593995"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper">
+
+                                <div class="icon_box hexagon hexanog_animation style_1 icon_left clearfix">
+                                    <div class="icon font-color_default font-color_base_bg" style="width:78px"><i style="font-size:15px;  " class="stm-airplane"></i></div>
+                                    <div class="icon_text">
+                                        <h5 class="font-color_base no_stripe">Travel and Aviation<br />
+                                            Consulting</h5>
+                                            <p>Company that offers design and build services for you from initial sketches to the final production.</p>
+                                        </div>
+                                    </div>
+
+                                </div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper">
+
+                                <div class="icon_box hexagon hexanog_animation style_1 icon_left clearfix">
+                                    <div class="icon font-color_default font-color_base_bg" style="width:78px"><i style="font-size:22px;  " class="stm-graph"></i></div>
+                                    <div class="icon_text">
+                                        <h5 class="font-color_base no_stripe">Business Services<br />
+                                            Consulting</h5>
+                                            <p>We consider all the drivers of change &#8211; from the ground up and we&#8217;ll motivate and support you to make the change.</p>
+                                        </div>
+                                    </div>
+
+                                </div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper">
+
+                                <div class="icon_box hexagon hexanog_animation style_1 icon_left clearfix">
+                                    <div class="icon font-color_default font-color_base_bg" style="width:78px"><i style="font-size:22px;  " class="stm-cart"></i></div>
+                                    <div class="icon_text">
+                                        <h5 class="font-color_base no_stripe">Consumer Products<br />
+                                            Consulting</h5>
+                                            <p>Design repeatable growth models and innovation pipelines that generate new products with higher potential and lower risks of failure.</p>
+                                        </div>
+                                    </div>
+
+                                </div></div></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper">
+
+                                <div class="icon_box hexagon hexanog_animation style_1 icon_left clearfix">
+                                    <div class="icon font-color_default font-color_base_bg" style="width:78px"><i style="font-size:24px;  " class="stm-home"></i></div>
+                                    <div class="icon_text">
+                                        <h5 class="font-color_base no_stripe">Financial Services<br />
+                                            Consulting</h5>
+                                            <p>We work buy-side and sell-side and give our clients hard-hitting and objective answers and focus hard on the best opportunities.</p>
+                                        </div>
+                                    </div>
+
+                                </div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper">
+
+                                <div class="icon_box hexagon hexanog_animation style_1 icon_left clearfix">
+                                    <div class="icon font-color_default font-color_base_bg" style="width:78px"><i style="font-size:28px;  " class="stm-lamp"></i></div>
+                                    <div class="icon_text">
+                                        <h5 class="font-color_base no_stripe">Energy and Environment<br />
+                                            Consulting</h5>
+                                            <p>We work across all the major geographies, meaning we understand the underlying drivers in construction markets.</p>
+                                        </div>
+                                    </div>
+
+                                </div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper">
+
+                                <div class="icon_box hexagon hexanog_animation style_1 icon_left clearfix">
+                                    <div class="icon font-color_default font-color_base_bg" style="width:78px"><i style="font-size:20px;  " class="stm-truck"></i></div>
+                                    <div class="icon_text">
+                                        <h5 class="font-color_base no_stripe">Surface Transport &amp;<br />
+                                            Logistics Consulting</h5>
+                                            <p>Scheduled transport operations, from broad market trends and strategy to the development of integrated commercial strategies.</p>
+                                        </div>
+                                    </div>
+
+                                </div></div></div></div></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid overlay fixed_bg vc_custom_1483436740696 vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="vc_custom_heading no_stripe vc_custom_1495714664917 text_align_left has_icon" ><div class="icon" style="font-size: 67px; line-height: 67px;"><i class="stm-check"></i></div><h4 style="font-size: 45px;color: #ffffff;line-height: 45px;text-align: left" ><mark>Doing the right thing,</mark><br />
+                                at the right time.</h4></div></div></div></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-2 vc_col-lg-offset-1"><div class="vc_column-inner "><div class="wpb_wrapper">
+                                <div class="stats_counter style_1 left " >
+                                    <div class="inner">
+                                        <h3 class="no_stripe" id="counter_5be6330911eab" >0</h3>
+                                        <div class="counter_title" >Cases completed</div>
+                                        <script type="text/javascript">
+                                            jQuery(document).ready(function($) {
+                                                var counter_5be6330911eab = new countUp("counter_5be6330911eab", 0, 321, 0, 2.5, {
+                                                    useEasing : true,
+                                                    useGrouping: false,
+                                                    prefix : '',
+                                                    suffix : ''
+                                                });
+                                                $(window).scroll(function(){
+                                                    if( $("#counter_5be6330911eab").is_on_screen() ){
+                                                        counter_5be6330911eab.start();
+                                                    }
+                                                });
+                                            });
+                                        </script>
+                                    </div>
+                                </div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner "><div class="wpb_wrapper">
+                                <div class="stats_counter style_1 left " >
+                                    <div class="inner">
+                                        <h3 class="no_stripe" id="counter_5be63309123e8" >0</h3>
+                                        <div class="counter_title" >Consultants</div>
+                                        <script type="text/javascript">
+                                            jQuery(document).ready(function($) {
+                                                var counter_5be63309123e8 = new countUp("counter_5be63309123e8", 0, 27, 0, 2.5, {
+                                                    useEasing : true,
+                                                    useGrouping: false,
+                                                    prefix : '',
+                                                    suffix : ''
+                                                });
+                                                $(window).scroll(function(){
+                                                    if( $("#counter_5be63309123e8").is_on_screen() ){
+                                                        counter_5be63309123e8.start();
+                                                    }
+                                                });
+                                            });
+                                        </script>
+                                    </div>
+                                </div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner "><div class="wpb_wrapper">
+                                <div class="stats_counter style_1 left " >
+                                    <div class="inner">
+                                        <h3 class="no_stripe" id="counter_5be6330912911" >0</h3>
+                                        <div class="counter_title" >Awards winning</div>
+                                        <script type="text/javascript">
+                                            jQuery(document).ready(function($) {
+                                                var counter_5be6330912911 = new countUp("counter_5be6330912911", 0, 125, 0, 2.5, {
+                                                    useEasing : true,
+                                                    useGrouping: false,
+                                                    prefix : '',
+                                                    suffix : ''
+                                                });
+                                                $(window).scroll(function(){
+                                                    if( $("#counter_5be6330912911").is_on_screen() ){
+                                                        counter_5be6330912911.start();
+                                                    }
+                                                });
+                                            });
+                                        </script>
+                                    </div>
+                                </div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner "><div class="wpb_wrapper">
+                                <div class="stats_counter style_1 left " >
+                                    <div class="inner">
+                                        <h3 class="no_stripe" id="counter_5be6330912e1a" >0</h3>
+                                        <div class="counter_title" >Satisfied customers</div>
+                                        <script type="text/javascript">
+                                            jQuery(document).ready(function($) {
+                                                var counter_5be6330912e1a = new countUp("counter_5be6330912e1a", 0, 100, 0, 2.5, {
+                                                    useEasing : true,
+                                                    useGrouping: false,
+                                                    prefix : '',
+                                                    suffix : '%'
+                                                });
+                                                $(window).scroll(function(){
+                                                    if( $("#counter_5be6330912e1a").is_on_screen() ){
+                                                        counter_5be6330912e1a.start();
+                                                    }
+                                                });
+                                            });
+                                        </script>
+                                    </div>
+                                </div></div></div></div></div></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1450960276268"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="vc_custom_heading base_font_color vc_custom_1495714677591 text_align_center" ><h2 style="font-size: 45px;line-height: 60px;text-align: center" >testimonials</h2></div> <div class="testimonials_carousel style_1 per_row_2" id="partners_carousel_5be6330914bd8">
 
                                 <div class="testimonial">
                                     <div class="image">
-                                        <a href="testimonials-page/"><img class="" src="{{url('public/home/home')}}/wp-content/uploads/2016/01/testimonial-5-350x348.jpg" width="350" height="348" alt="testimonial-5" title="testimonial-5" /></a>
+                                        <a href="testimonials-page/"><img class="" src="{{url('public/home/home')}}/wp-content/uploads/2016/01/testimonial-2-350x348.jpg" width="350" height="348" alt="testimonial-2" title="testimonial-2" /></a>
                                     </div>
                                     <div class="info">
                                         <h4 class="no_stripe">
                                             <a href="testimonials-page/">
-                                                Christian Marcil                                    </a>
+                                                Amanda Seyfried                                 </a>
                                             </h4>
-                                            <div class="position">Partner &amp; Managing Director</div>
-                                            <div class="company">Grandier Co.</div>
-                                            <p>Consulting WordPress Theme is the way to go for financial institutions. We take pride in being a transparent and perfection oriented organization.</p>
+                                            <div class="position">Sales &amp; Marketing</div>
+                                            <div class="company">Alien Ltd.</div>
+                                            <p>Consulting WP really helped us achieve our financial goals. The slick presentation along with fantastic readability ensures that our financial standing is stable.</p>
                                         </div>
                                     </div>
 
 
                                     <div class="testimonial">
                                         <div class="image">
-                                            <a href="testimonials-page/"><img class="" src="{{url('public/home/home')}}/wp-content/uploads/2016/01/testimonial-6-350x348.jpg" width="350" height="348" alt="testimonial-6" title="testimonial-6" /></a>
+                                            <a href="testimonials-page/"><img class="" src="{{url('public/home/home')}}/wp-content/uploads/2016/01/testimonial-1-350x348.jpg" width="350" height="348" alt="testimonial-1" title="testimonial-1" /></a>
                                         </div>
                                         <div class="info">
                                             <h4 class="no_stripe">
                                                 <a href="testimonials-page/">
-                                                    Bianca Hammound                                 </a>
+                                                    Debbie Kübel-Sorger                                 </a>
                                                 </h4>
-                                                <div class="position">Managing Director</div>
-                                                <div class="company">Ericksson</div>
-                                                <p>Prior to joining Consulting WP, Bianca ran a project management software firm in the U.S. and worked in consulting and investment banking.</p>
+                                                <div class="position">Chairman</div>
+                                                <div class="company">Kreutz Airlines</div>
+                                                <p>The demands for financial institutions have changed a bit. Obfuscation is no longer accepted, which is why this Business WordPress Theme is so perfect.</p>
                                             </div>
                                         </div>
 
-                                    </div>
-                                    <script type="text/javascript">
-                                        jQuery(document).ready(function($) {
-                                            "use strict";
-                                            var partners_carousel_5be68b2798815 = $("#partners_carousel_5be68b2798815");
-                                            var slickRtl = false;
 
-                                            if( $('body').hasClass('rtl') ) {
-                                                slickRtl = true;
-                                            }
-
-
-                                            partners_carousel_5be68b2798815.slick({
-                                                rtl: slickRtl,
-                                                dots: false,
-                                                infinite: true,
-                                                arrows: true,prevArrow:"<div class=\"slick_prev\"><i class=\"fa fa-chevron-left\"></i></div>",nextArrow: "<div class=\"slick_next\"><i class=\"fa fa-chevron-right\"></i></div>",                   autoplaySpeed: 5000,
-                                                autoplay: false,
-                                                slidesToShow: 2,
-                                                cssEase: "cubic-bezier(0.455, 0.030, 0.515, 0.955)",
-                                                responsive: [
-                                                {
-                                                    breakpoint: 769,
-                                                    settings: {
-                                                        slidesToShow: 1
-                                                    }
-                                                }
-                                                ]
-                                            });
-                                        });
-                                    </script>
-                                </div></div></div></div><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1450961224119 vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">
-                                <div class="vc_image_carousel_wr grayscale no_paddings">
-                                    <div class="vc_image_carousel style_1" id="owl-5be68b27c9103">
-                                        <div class="item">
-                                            <a href="company-overview/our-partners/">
-                                                <img class="" src="{{url('public/home/home')}}/wp-content/uploads/2015/12/partner_6-180x96-1.png" width="180" height="96" alt="partner_6-180x96" title="partner_6-180x96" />                    </a>
+                                        <div class="testimonial">
+                                            <div class="image">
+                                                <a href="testimonials-page/"><img class="" src="{{url('public/home/home')}}/wp-content/uploads/2016/01/testimonial-3-350x348.jpg" width="350" height="348" alt="testimonial-3" title="testimonial-3" /></a>
                                             </div>
-                                            <div class="item">
-                                                <a href="company-overview/our-partners/">
-                                                    <img class="" src="{{url('public/home/home')}}/wp-content/uploads/2015/12/partner_5-180x96-1.png" width="180" height="96" alt="partner_5-180x96" title="partner_5-180x96" />                    </a>
+                                            <div class="info">
+                                                <h4 class="no_stripe">
+                                                    <a href="testimonials-page/">
+                                                        Donald Simpson                                  </a>
+                                                    </h4>
+                                                    <div class="position">Chief Financial Officer</div>
+                                                    <div class="company">Jamaica International</div>
+                                                    <p>When you are in the financial industry you know the image you have to project to people. You have to be agile and authoritative; Consulting WP is the way to go for financial institutions</p>
                                                 </div>
-                                                <div class="item">
-                                                    <a href="company-overview/our-partners/">
-                                                        <img class="" src="{{url('public/home/home')}}/wp-content/uploads/2015/12/partner_4-180x96-1.png" width="180" height="96" alt="partner_4-180x96" title="partner_4-180x96" />                    </a>
+                                            </div>
+
+
+                                            <div class="testimonial">
+                                                <div class="image">
+                                                    <a href="testimonials-page/"><img class="" src="{{url('public/home/home')}}/wp-content/uploads/2016/01/testimonial-4-350x348.jpg" width="350" height="348" alt="testimonial-4" title="testimonial-4" /></a>
+                                                </div>
+                                                <div class="info">
+                                                    <h4 class="no_stripe">
+                                                        <a href="testimonials-page/">
+                                                            Cintia Le Corre                                 </a>
+                                                        </h4>
+                                                        <div class="position">Chairman</div>
+                                                        <div class="company">Harmony Corporation</div>
+                                                        <p>We thought a lot before choosing the Financial WordPress Theme because we wanted to sure our investment would yield results. This was clearly the best choice.</p>
                                                     </div>
-                                                    <div class="item">
-                                                        <a href="company-overview/our-partners/">
-                                                            <img class="" src="{{url('public/home/home')}}/wp-content/uploads/2015/12/partner_3-180x96-1.png" width="180" height="96" alt="partner_3-180x96" title="partner_3-180x96" />                    </a>
+                                                </div>
+
+
+                                                <div class="testimonial">
+                                                    <div class="image">
+                                                        <a href="testimonials-page/"><img class="" src="{{url('public/home/home')}}/wp-content/uploads/2016/01/testimonial-5-350x348.jpg" width="350" height="348" alt="testimonial-5" title="testimonial-5" /></a>
+                                                    </div>
+                                                    <div class="info">
+                                                        <h4 class="no_stripe">
+                                                            <a href="testimonials-page/">
+                                                                Christian Marcil                                    </a>
+                                                            </h4>
+                                                            <div class="position">Partner &amp; Managing Director</div>
+                                                            <div class="company">Grandier Co.</div>
+                                                            <p>Consulting WordPress Theme is the way to go for financial institutions. We take pride in being a transparent and perfection oriented organization.</p>
                                                         </div>
+                                                    </div>
+
+
+                                                    <div class="testimonial">
+                                                        <div class="image">
+                                                            <a href="testimonials-page/"><img class="" src="{{url('public/home/home')}}/wp-content/uploads/2016/01/testimonial-6-350x348.jpg" width="350" height="348" alt="testimonial-6" title="testimonial-6" /></a>
+                                                        </div>
+                                                        <div class="info">
+                                                            <h4 class="no_stripe">
+                                                                <a href="testimonials-page/">
+                                                                    Bianca Hammound                                 </a>
+                                                                </h4>
+                                                                <div class="position">Managing Director</div>
+                                                                <div class="company">Ericksson</div>
+                                                                <p>Prior to joining Consulting WP, Bianca ran a project management software firm in the U.S. and worked in consulting and investment banking.</p>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                    <script type="text/javascript">
+                                                        jQuery(document).ready(function($) {
+                                                            "use strict";
+                                                            var partners_carousel_5be6330914bd8 = $("#partners_carousel_5be6330914bd8");
+                                                            var slickRtl = false;
+
+                                                            if( $('body').hasClass('rtl') ) {
+                                                                slickRtl = true;
+                                                            }
+
+
+                                                            partners_carousel_5be6330914bd8.slick({
+                                                                rtl: slickRtl,
+                                                                dots: false,
+                                                                infinite: true,
+                                                                arrows: true,prevArrow:"<div class=\"slick_prev\"><i class=\"fa fa-chevron-left\"></i></div>",nextArrow: "<div class=\"slick_next\"><i class=\"fa fa-chevron-right\"></i></div>",                   autoplaySpeed: 5000,
+                                                                autoplay: false,
+                                                                slidesToShow: 2,
+                                                                cssEase: "cubic-bezier(0.455, 0.030, 0.515, 0.955)",
+                                                                responsive: [
+                                                                {
+                                                                    breakpoint: 769,
+                                                                    settings: {
+                                                                        slidesToShow: 1
+                                                                    }
+                                                                }
+                                                                ]
+                                                            });
+                                                        });
+                                                    </script>
+                                                </div></div></div></div><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1450961224119 vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">
+                                                <div class="vc_image_carousel_wr grayscale no_paddings">
+                                                    <div class="vc_image_carousel style_1" id="owl-5be6330954de7">
                                                         <div class="item">
                                                             <a href="company-overview/our-partners/">
-                                                                <img class="" src="{{url('public/home/home')}}/wp-content/uploads/2015/12/partner_2-180x96-1.png" width="180" height="96" alt="partner_2-180x96" title="partner_2-180x96" />                    </a>
+                                                                <img class="" src="{{url('public/home/home')}}/wp-content/uploads/2015/12/partner_6-180x96-1.png" width="180" height="96" alt="partner_6-180x96" title="partner_6-180x96" />                    </a>
                                                             </div>
                                                             <div class="item">
                                                                 <a href="company-overview/our-partners/">
-                                                                    <img class="" src="{{url('public/home/home')}}/wp-content/uploads/2015/12/partner_1-180x96-1.png" width="180" height="96" alt="partner_1-180x96" title="partner_1-180x96" />                    </a>
+                                                                    <img class="" src="{{url('public/home/home')}}/wp-content/uploads/2015/12/partner_5-180x96-1.png" width="180" height="96" alt="partner_5-180x96" title="partner_5-180x96" />                    </a>
                                                                 </div>
                                                                 <div class="item">
-                                                                    <img class="" src="{{url('public/home/home')}}/wp-content/uploads/2015/12/partner_4-1-180x96-1.png" width="180" height="96" alt="partner_4-1-180x96" title="partner_4-1-180x96" />                          </div>
-                                                                </div>
-                                                                <script type="text/javascript">
-                                                                    jQuery(document).ready(function ($) {
-                                                                        $(window).load(function(){
-                                                                            var owlRtl = false;
-                                                                            if( $('body').hasClass('rtl') ) {
-                                                                                owlRtl = true;
-                                                                            }
-                                                                            $("#owl-5be68b27c9103").owlCarousel({
-                                                                                rtl: owlRtl,
-                                                                                dots: false,
-                                                                                autoplayTimeout: 5000,
-                                                                                smartSpeed: 250,
-                                                                                responsive: {
-                                                                                    0: {
-                                                                                        items: 1                    },
-                                                                                        768: {
-                                                                                            items: 4                    },
-                                                                                            980: {
-                                                                                                items: 5                    },
-                                                                                                1199: {
-                                                                                                    items: 6                    }
-                                                                                                }
-                                                                                            });
-                                                                        });
-                                                                    });
-                                                                </script>
-                                                            </div></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid overlay_2 fixed_bg vc_custom_1483437177602 vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="vc_custom_heading text_align_center" ><h4 style="font-size: 28px;color: #ffffff;line-height: 34px;text-align: center" >To help entrepreneurs get their act together<br />
-                                                            <mark>before they talk to investors.</mark></h4></div></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1451479401686"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="vc_custom_heading text_align_center" ><h2 style="font-size: 45px;text-align: center" >news</h2></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1451043728133"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">
-                                                            <div class="stm_news ">
-                                                                <ul class="news_list posts_per_row_4">
-                                                                    <li>
-                                                                        <div class="post_inner">
-                                                                            <div class="image">
-                                                                                <a href="within-the-construction-industry-as-their-overdraft/">
-                                                                                    <img width="350" height="250" src="{{url('public/home/home')}}/wp-content/uploads/2016/01/news4-350x250.jpg" class="attachment-consulting-image-350x250-croped size-consulting-image-350x250-croped wp-post-image" alt="" srcset="{{url('public/home/home')}}/wp-content/uploads/2016/01/news4-350x250.jpg, {{url('public/home/home')}}/wp-content/uploads/2016/01/news4-350x250@2x.jpg 2x" />                                  </a>
-                                                                                </div>
-                                                                                <div class="stm_news_unit-block">
-                                                                                    <h5 class="no_stripe"><a href="within-the-construction-industry-as-their-overdraft/">Within the construction industry as their overdraft</a></h5>
-                                                                                    <div class="stm_the_excerpt">
-                                                                                        <p>Many businesses, large and small, have a huge source of great ideas that can help them improve, innovate, and grow, and yet so many of these companies never think of using this amazing corporate asset. What is this highly valuable asset? Its own people.</p>
-                                                                                    </div>
-                                                                                    <div class="date">
-                                                                                        <span class="the_date">January 22, 2016</span>
-                                                                                        <a href="within-the-construction-industry-as-their-overdraft/" class="button size-lg hidden">Read more</a>
-                                                                                    </div>
-                                                                                </div>
+                                                                    <a href="company-overview/our-partners/">
+                                                                        <img class="" src="{{url('public/home/home')}}/wp-content/uploads/2015/12/partner_4-180x96-1.png" width="180" height="96" alt="partner_4-180x96" title="partner_4-180x96" />                    </a>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <a href="company-overview/our-partners/">
+                                                                            <img class="" src="{{url('public/home/home')}}/wp-content/uploads/2015/12/partner_3-180x96-1.png" width="180" height="96" alt="partner_3-180x96" title="partner_3-180x96" />                    </a>
+                                                                        </div>
+                                                                        <div class="item">
+                                                                            <a href="company-overview/our-partners/">
+                                                                                <img class="" src="{{url('public/home/home')}}/wp-content/uploads/2015/12/partner_2-180x96-1.png" width="180" height="96" alt="partner_2-180x96" title="partner_2-180x96" />                    </a>
                                                                             </div>
-                                                                        </li>
-                                                                        <li>
-                                                                            <div class="post_inner">
-                                                                                <div class="image">
-                                                                                    <a href="strategic-and-commercial-approach-with-technical-understanding/">
-                                                                                        <img width="350" height="250" src="{{url('public/home/home')}}/wp-content/uploads/2016/01/news3-350x250.jpg" class="attachment-consulting-image-350x250-croped size-consulting-image-350x250-croped wp-post-image" alt="" srcset="{{url('public/home/home')}}/wp-content/uploads/2016/01/news3-350x250.jpg, {{url('public/home/home')}}/wp-content/uploads/2016/01/news3-350x250@2x.jpg 2x" />                                  </a>
-                                                                                    </div>
-                                                                                    <div class="stm_news_unit-block">
-                                                                                        <h5 class="no_stripe"><a href="strategic-and-commercial-approach-with-technical-understanding/">Strategic and commercial approach with issues</a></h5>
-                                                                                        <div class="stm_the_excerpt">
-                                                                                            <p>Says Morgan Fraud, the author of The Thinking Corporation, “Given that we are all capable of contributing new ideas, the question becomes how do you successfully generate, capture, process and implement ideas?” Becoming an organization capable of answering this question can benefit in a number of ways</p>
-                                                                                        </div>
-                                                                                        <div class="date">
-                                                                                            <span class="the_date">January 22, 2016</span>
-                                                                                            <a href="strategic-and-commercial-approach-with-technical-understanding/" class="button size-lg hidden">Read more</a>
-                                                                                        </div>
-                                                                                    </div>
+                                                                            <div class="item">
+                                                                                <a href="company-overview/our-partners/">
+                                                                                    <img class="" src="{{url('public/home/home')}}/wp-content/uploads/2015/12/partner_1-180x96-1.png" width="180" height="96" alt="partner_1-180x96" title="partner_1-180x96" />                    </a>
                                                                                 </div>
-                                                                            </li>
-                                                                            <li>
-                                                                                <div class="post_inner">
-                                                                                    <div class="image">
-                                                                                        <a href="seven-weeks-working-pro-bono-with-a-national-charity/">
-                                                                                            <img width="350" height="250" src="{{url('public/home/home')}}/wp-content/uploads/2016/01/news2-350x250.jpg" class="attachment-consulting-image-350x250-croped size-consulting-image-350x250-croped wp-post-image" alt="" srcset="{{url('public/home/home')}}/wp-content/uploads/2016/01/news2-350x250.jpg, {{url('public/home/home')}}/wp-content/uploads/2016/01/news2-350x250@2x.jpg 2x" />                                  </a>
-                                                                                        </div>
-                                                                                        <div class="stm_news_unit-block">
-                                                                                            <h5 class="no_stripe"><a href="seven-weeks-working-pro-bono-with-a-national-charity/">Seven weeks working &#8216;pro bono&#8217; with a charity</a></h5>
-                                                                                            <div class="stm_the_excerpt">
-                                                                                                <p>Growth through innovation/creativity. Rather than be constrained by ideas for new products, services and new markets coming from just a few people, a Thinking Corporation can tap into the employees.</p>
-                                                                                            </div>
-                                                                                            <div class="date">
-                                                                                                <span class="the_date">January 22, 2016</span>
-                                                                                                <a href="seven-weeks-working-pro-bono-with-a-national-charity/" class="button size-lg hidden">Read more</a>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </li>
-                                                                                <li>
-                                                                                    <div class="post_inner">
-                                                                                        <div class="image">
-                                                                                            <a href="retail-banks-wake-up-to-digital-lending/">
-                                                                                                <img width="350" height="250" src="{{url('public/home/home')}}/wp-content/uploads/2015/12/news-grid-1-350x250.jpg" class="attachment-consulting-image-350x250-croped size-consulting-image-350x250-croped wp-post-image" alt="" srcset="{{url('public/home/home')}}/wp-content/uploads/2015/12/news-grid-1-350x250.jpg, {{url('public/home/home')}}/wp-content/uploads/2015/12/news-grid-1-350x250@2x.jpg 2x" />                                    </a>
-                                                                                            </div>
-                                                                                            <div class="stm_news_unit-block">
-                                                                                                <h5 class="no_stripe"><a href="retail-banks-wake-up-to-digital-lending/">Retail banks wake up to digital lending this year</a></h5>
-                                                                                                <div class="stm_the_excerpt">
-                                                                                                    <p>The effort vastly improved the company’s planning and execution functions, created and implemented a new stock policy that accounted for specific SKUs and key variables, streamlined the order preparation process and reduced distribution transport times.</p>
+                                                                                <div class="item">
+                                                                                    <img class="" src="{{url('public/home/home')}}/wp-content/uploads/2015/12/partner_4-1-180x96-1.png" width="180" height="96" alt="partner_4-1-180x96" title="partner_4-1-180x96" />                          </div>
+                                                                                </div>
+                                                                                <script type="text/javascript">
+                                                                                    jQuery(document).ready(function ($) {
+                                                                                        $(window).load(function(){
+                                                                                            var owlRtl = false;
+                                                                                            if( $('body').hasClass('rtl') ) {
+                                                                                                owlRtl = true;
+                                                                                            }
+                                                                                            $("#owl-5be6330954de7").owlCarousel({
+                                                                                                rtl: owlRtl,
+                                                                                                dots: false,
+                                                                                                autoplayTimeout: 5000,
+                                                                                                smartSpeed: 250,
+                                                                                                responsive: {
+                                                                                                    0: {
+                                                                                                        items: 1                    },
+                                                                                                        768: {
+                                                                                                            items: 4                    },
+                                                                                                            980: {
+                                                                                                                items: 5                    },
+                                                                                                                1199: {
+                                                                                                                    items: 6                    }
+                                                                                                                }
+                                                                                                            });
+                                                                                        });
+                                                                                    });
+                                                                                </script>
+                                                                            </div></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid overlay_2 fixed_bg vc_custom_1483437177602 vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="vc_custom_heading text_align_center" ><h4 style="font-size: 28px;color: #ffffff;line-height: 34px;text-align: center" >To help entrepreneurs get their act together<br />
+                                                                            <mark>before they talk to investors.</mark></h4></div></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1451479401686"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="vc_custom_heading text_align_center" ><h2 style="font-size: 45px;text-align: center" >news</h2></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1451043728133"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">
+                                                                            <div class="stm_news ">
+                                                                                <ul class="news_list posts_per_row_4">
+                                                                                    <li>
+                                                                                        <div class="post_inner">
+                                                                                            <div class="image">
+                                                                                                <a href="within-the-construction-industry-as-their-overdraft/">
+                                                                                                    <img width="350" height="250" src="{{url('public/home/home')}}/wp-content/uploads/2016/01/news4-350x250.jpg" class="attachment-consulting-image-350x250-croped size-consulting-image-350x250-croped wp-post-image" alt="" srcset="{{url('public/home/home')}}/wp-content/uploads/2016/01/news4-350x250.jpg, {{url('public/home/home')}}/wp-content/uploads/2016/01/news4-350x250@2x.jpg 2x" />                                  </a>
                                                                                                 </div>
-                                                                                                <div class="date">
-                                                                                                    <span class="the_date">January 22, 2016</span>
-                                                                                                    <a href="retail-banks-wake-up-to-digital-lending/" class="button size-lg hidden">Read more</a>
+                                                                                                <div class="stm_news_unit-block">
+                                                                                                    <h5 class="no_stripe"><a href="within-the-construction-industry-as-their-overdraft/">Within the construction industry as their overdraft</a></h5>
+                                                                                                    <div class="stm_the_excerpt">
+                                                                                                        <p>Many businesses, large and small, have a huge source of great ideas that can help them improve, innovate, and grow, and yet so many of these companies never think of using this amazing corporate asset. What is this highly valuable asset? Its own people.</p>
+                                                                                                    </div>
+                                                                                                    <div class="date">
+                                                                                                        <span class="the_date">January 22, 2016</span>
+                                                                                                        <a href="within-the-construction-industry-as-their-overdraft/" class="button size-lg hidden">Read more</a>
+                                                                                                    </div>
                                                                                                 </div>
                                                                                             </div>
-                                                                                        </div>
-                                                                                    </li>
-                                                                                </ul>
-                                                                            </div>
-                                                                        </div></div></div></div><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1451300723020 vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="vc_custom_heading vc_custom_1495776904400 text_align_left" ><h3 style="font-size: 36px;color: #ffffff;line-height: 38px;text-align: left" >request a call back.</h3></div>
-                                                                        <div class="wpb_text_column wpb_content_element " >
-                                                                            <div class="wpb_wrapper">
-                                                                                <p><span style="color: #ffffff; font-size: 13px; line-height: 22px;">Would you like to speak to one of our financial advisers over the phone? Just submit your details and we’ll be in touch shortly. You can also email us if you would prefer.</span></p>
-
-                                                                            </div>
-                                                                        </div>
-                                                                    </div></div></div><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner "><div class="wpb_wrapper"><div role="form" class="wpcf7" id="wpcf7-f4-p2-o1" lang="en-US" dir="ltr">
-                                                                    <div class="screen-reader-response"></div>
-                                                                    <form action="#wpcf7-f4-p2-o1" method="post" class="wpcf7-form" novalidate="novalidate">
-                                                                        <div style="display: none;">
-                                                                            <input type="hidden" name="_wpcf7" value="4" />
-                                                                            <input type="hidden" name="_wpcf7_version" value="5.0.3" />
-                                                                            <input type="hidden" name="_wpcf7_locale" value="en_US" />
-                                                                            <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f4-p2-o1" />
-                                                                            <input type="hidden" name="_wpcf7_container_post" value="2" />
-                                                                        </div>
-                                                                        <div class="request_callback">
-                                                                            <p>I would like to discuss:</p>
-                                                                            <div class="row">
-                                                                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                                                                    <div class="input-group">
-                                                                                        <span class="wpcf7-form-control-wrap services_consulting"><select name="services_consulting" class="wpcf7-form-control wpcf7-select" aria-invalid="false"><option value="">Business Planning</option><option value="Audit &amp; Assurance">Audit &amp; Assurance</option><option value="Strategic Planning">Strategic Planning</option><option value="Trades &amp; Stocks">Trades &amp; Stocks</option><option value="Financial Projections">Financial Projections</option></select></span>
-                                                                                    </div></div>
-                                                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                                                                        <div class="input-group">
-                                                                                            <span class="wpcf7-form-control-wrap text-name"><input type="text" name="text-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="First name" /></span>
-                                                                                        </div></div>
-                                                                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                                                                            <div class="input-group">
-                                                                                                <span class="wpcf7-form-control-wrap text-phone"><input type="tel" name="text-phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel" aria-required="true" aria-invalid="false" placeholder="Phone number" /></span>
-                                                                                            </div></div>
-                                                                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                                                                                <div class="input-group">
-                                                                                                    <button type="submit" class="button size-lg icon_right">submit <i class="fa fa-chevron-right"></i></button>
-                                                                                                </div></div></div>
-                                                                                            </div>
-                                                                                            <div class="wpcf7-response-output wpcf7-display-none"></div></form></div></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1453109987955 vc_row-no-padding"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">  <div id="map_5be68b27d80d1" class=" stm_gmap_wrapper">
-                                                                                            <div style="height: 447px;" id="stm-gmap-5be68b27d8093" class="stm_gmap"></div>
-                                                                                            <script type="text/javascript">
-                                                                                                jQuery(document).ready(function ($) {
-                                                                                                    google.maps.event.addDomListener(window, 'load', init);
-                                                                                                    var map_5be68b27d80d1, markers = [], gmarkers = [], owl_5be68b27d802b = $("#owl_5be68b27d802b"), default_marker_icon = '{{url('public/home/home')}}/wp-content/themes/consulting/assets/images/markers/map-marker-skin_default.png';
-                                                                                                    $("#skin_color span").on('click', function () {
-                                                                                                        for (var i = 0; i < gmarkers.length; i++) {
-                                                                                                            if( $(this).attr('id') == 'skin_default' ){
-                                                                                                                gmarkers[i].setIcon('{{url('public/home/home')}}/wp-content/themes/consulting/assets/images/markers/map-marker-skin_default.png');
-                                                                                                            }else{
-                                                                                                                gmarkers[i].setIcon('{{url('public/home/home')}}/wp-content/themes/consulting/assets/images/markers/map-marker-'+$(this).attr('id')+'.png');
-                                                                                                            }
-                                                                                                        }
-                                                                                                    });
-                                                                                                    function init() {
-                                                                                                        var mapStyles = [
-                                                                                                        {
-                                                                                                            "featureType": "administrative",
-                                                                                                            "elementType": "labels.text.fill",
-                                                                                                            "stylers": [
-                                                                                                            {
-                                                                                                                "color": "#444444"
-                                                                                                            }
-                                                                                                            ]
-                                                                                                        },
-                                                                                                        {
-                                                                                                            "featureType": "landscape",
-                                                                                                            "elementType": "all",
-                                                                                                            "stylers": [
-                                                                                                            {
-                                                                                                                "color": "#f2f2f2"
-                                                                                                            }
-                                                                                                            ]
-                                                                                                        },
-                                                                                                        {
-                                                                                                            "featureType": "poi",
-                                                                                                            "elementType": "all",
-                                                                                                            "stylers": [
-                                                                                                            {
-                                                                                                                "visibility": "off"
-                                                                                                            }
-                                                                                                            ]
-                                                                                                        },
-                                                                                                        {
-                                                                                                            "featureType": "road",
-                                                                                                            "elementType": "all",
-                                                                                                            "stylers": [
-                                                                                                            {
-                                                                                                                "saturation": -100
-                                                                                                            },
-                                                                                                            {
-                                                                                                                "lightness": 45
-                                                                                                            }
-                                                                                                            ]
-                                                                                                        },
-                                                                                                        {
-                                                                                                            "featureType": "road.highway",
-                                                                                                            "elementType": "all",
-                                                                                                            "stylers": [
-                                                                                                            {
-                                                                                                                "visibility": "simplified"
-                                                                                                            }
-                                                                                                            ]
-                                                                                                        },
-                                                                                                        {
-                                                                                                            "featureType": "road.arterial",
-                                                                                                            "elementType": "labels.icon",
-                                                                                                            "stylers": [
-                                                                                                            {
-                                                                                                                "visibility": "off"
-                                                                                                            }
-                                                                                                            ]
-                                                                                                        },
-                                                                                                        {
-                                                                                                            "featureType": "transit",
-                                                                                                            "elementType": "all",
-                                                                                                            "stylers": [
-                                                                                                            {
-                                                                                                                "visibility": "off"
-                                                                                                            }
-                                                                                                            ]
-                                                                                                        },
-                                                                                                        {
-                                                                                                            "featureType": "water",
-                                                                                                            "elementType": "all",
-                                                                                                            "stylers": [
-                                                                                                            {
-                                                                                                                "color": "#6c98e1"
-                                                                                                            },
-                                                                                                            {
-                                                                                                                "visibility": "on"
-                                                                                                            }
-                                                                                                            ]
-                                                                                                        }
-                                                                                                        ];
-
-
-                                                                                                        var mapOptions = {
-                                                                                                            zoom: 11,
-                                                                                                            zoomControlOptions: {
-                                                                                                                position: google.maps.ControlPosition.LEFT_TOP
-                                                                                                            },
-                                                                                                            streetViewControl: false,
-                                                                                                            scrollwheel: false,
-                                                                                                            styles: mapStyles
-
-                                                                                                        };
-                                                                                                        var mapElement = document.getElementById('stm-gmap-5be68b27d8093');
-                                                                                                        map_5be68b27d80d1 = new google.maps.Map(mapElement, mapOptions);
-
-                                                                                                        owl_5be68b27d802b.on('initialized.owl.carousel', function () {
-                                                                                                            consulting_setMarkers();
-                                                                                                        });
-
-                                                                                                        var owlRtl = false;
-
-                                                                                                        if( $('body').hasClass('rtl') ) {
-                                                                                                            owlRtl = true;
-                                                                                                        }
-
-                                                                                                        owl_5be68b27d802b.owlCarousel({
-                                                                                                            rtl: owlRtl,
-                                                                                                            dotsContainer: '#owl-nav-5be68b27d806c',
-                                                                                                            items: 3,
-                                                                                                            margin: 70,
-                                                                                                            loop: true,
-                                                                                                            responsive: {
-                                                                                                                0: {
-                                                                                                                    items: 1
-                                                                                                                },
-                                                                                                                768: {
-                                                                                                                    items: 2
-                                                                                                                },
-                                                                                                                992: {
-                                                                                                                    items: 3
-                                                                                                                }
-                                                                                                            },
-                                                                                                            onTranslated: function () {
-                                                                                                                consulting_setMarkers();
-                                                                                                            },
-                                                                                                            onInitialize: function (event) {
-                                                                                                                if ($('.owl-stage-outer .owl-item').length <= 1) {
-                                                                                                                    this.settings.loop = false;
-                                                                                                                }
-                                                                                                            }
-                                                                                                        });
-                                                                                                    }
-                                                                                                    function consulting_setMarkers(){
-                                                                                                        var latlngbounds = new google.maps.LatLngBounds();
-                                                                                                        markers = [];
-                                                                                                        owl_5be68b27d802b.find('.owl-item.active').each(function (i) {
-                                                                                                            markers.push([parseFloat($(this).find('.item').data('lat')), parseFloat($(this).find('.item').data('lng')), $(this).find('.item').data('title')]);
-                                                                                                        });
-                                                                                                        for (i = 0; i < gmarkers.length; i++) {
-                                                                                                            gmarkers[i].setMap(null);
-                                                                                                        }
-                                                                                                        for (var i = 0; i < markers.length; i++) {
-                                                                                                            var marker_array = markers[i];
-                                                                                                            marker = new google.maps.Marker({
-                                                                                                                position: {lat: marker_array[0], lng: marker_array[1]},
-                                                                                                                icon: default_marker_icon,
-                                                                                                                map: map_5be68b27d80d1,
-                                                                                                                title: marker_array[2]
-                                                                                                            });
-                                                                                                            latlngbounds.extend(new google.maps.LatLng(marker_array[0], marker_array[1]));
-                                                                                                            gmarkers.push( marker );
-                                                                                                            addInfoWindow( marker, marker_array[2], marker_array[0] );
-                                                                                                        }
-                                                                                                        map_5be68b27d80d1.fitBounds(latlngbounds);
-
-                                                                                                        if( markers.length === 1 ) {
-                                                                                                            var listener = google.maps.event.addListener(map_5be68b27d80d1, "idle", function() {
-                                                                                                                map_5be68b27d80d1.setZoom(11);
-                                                                                                                google.maps.event.removeListener(listener);
-                                                                                                            });
-                                                                                                        }
-                                                                                                    }
-
-                                                                                                    function addInfoWindow(marker, title, lat) {
-
-                                                                                                        var infowindow = new google.maps.InfoWindow({
-                                                                                                            content: '<h6>' + title + '</h6>',
-                                                                                                            pixelOffset: new google.maps.Size(0,20)
-                                                                                                        });
-
-                                                                                                        google.maps.event.addListener(marker, 'mouseover', function () {
-                                                                                                            infowindow.open(map_5be68b27d80d1, marker);
-                                                                                                            $('[data-lat="'+ lat +'"]').addClass("focused");
-                                                                                                        });
-
-                                                                                                        google.maps.event.addListener(marker, 'mouseout', function () {
-                                                                                                            infowindow.close(map_5be68b27d80d1, marker);
-                                                                                                            $('[data-lat="'+ lat +'"]').removeClass("focused");
-                                                                                                        });
-
-                                                                                                        $(".item").on("mouseenter", function() {
-                                                                                                            if( parseFloat(marker.getPosition().lat()) === parseFloat($(this).data('lat')) ) {
-                                                                                                                infowindow.open(map_5be68b27d80d1, marker);
-                                                                                                            }
-                                                                                                        });
-
-                                                                                                        $(".item").on("mouseleave", function() {
-                                                                                                            if( parseFloat(marker.getPosition().lat()) === parseFloat($(this).data('lat')) ) {
-                                                                                                                infowindow.close(map_5be68b27d80d1, marker);
-                                                                                                            }
-                                                                                                        });
-                                                                                                    }
-                                                                                                });
-                                                                                            </script>
-                                                                                            <div class="gmap_addresses">
-                                                                                                <div class="container">
-                                                                                                    <div class="row">
-                                                                                                        <div class="col-lg-11 col-md-11 col-sm-11 col-xs-12">
-                                                                                                            <div class="addresses_wr">
-                                                                                                                <div class="addresses" id="owl_5be68b27d802b">
-
-                                                                                                                    <div class="item" data-lat="51.507351" data-lng="-0.127758" data-title="United Kingdom">
-                                                                                                                        <div class="title">United Kingdom</div>
-                                                                                                                        <ul>
-                                                                                                                            <li>
-                                                                                                                                <div class="icon">
-                                                                                                                                    <i class="stm-location-2"></i>
-                                                                                                                                </div>
-                                                                                                                                <div class="text">
-                                                                                                                                    <p>14 Tottenham Road, N1 4EP, London, United Kingdom</p>
-                                                                                                                                </div>
-                                                                                                                            </li>
-                                                                                                                            <li>
-                                                                                                                                <div class="icon">
-                                                                                                                                    <i class="stm-iphone"></i>
-                                                                                                                                </div>
-                                                                                                                                <div class="text">
-                                                                                                                                    <p>+1 212-226-3126</p>
-                                                                                                                                </div>
-                                                                                                                            </li>
-                                                                                                                            <li>
-                                                                                                                                <div class="icon">
-                                                                                                                                    <i class="stm-email"></i>
-                                                                                                                                </div>
-                                                                                                                                <div class="text">
-                                                                                                                                    <a href="mailto:he&#97;&#100;&#64;&#99;&#111;nsul&#116;&#105;&#110;&#103;&#119;&#112;.c&#111;m">&#104;ea&#100;&#64;&#99;&#111;nsu&#108;tin&#103;w&#112;.&#99;o&#109;</a>
-                                                                                                                                </div>
-                                                                                                                            </li>
-                                                                                                                        </ul>
-                                                                                                                    </div>
-                                                                                                                    <div class="item" data-lat="52.520007" data-lng="13.404954" data-title="Germany">
-                                                                                                                        <div class="title">Germany</div>
-                                                                                                                        <ul>
-                                                                                                                            <li>
-                                                                                                                                <div class="icon">
-                                                                                                                                    <i class="stm-location-2"></i>
-                                                                                                                                </div>
-                                                                                                                                <div class="text">
-                                                                                                                                    <p>148 Commercity Isola Road, M1 R43 Berlin, Germany</p>
-                                                                                                                                </div>
-                                                                                                                            </li>
-                                                                                                                            <li>
-                                                                                                                                <div class="icon">
-                                                                                                                                    <i class="stm-iphone"></i>
-                                                                                                                                </div>
-                                                                                                                                <div class="text">
-                                                                                                                                    <p>+3 864-784-4848</p>
-                                                                                                                                </div>
-                                                                                                                            </li>
-                                                                                                                            <li>
-                                                                                                                                <div class="icon">
-                                                                                                                                    <i class="stm-email"></i>
-                                                                                                                                </div>
-                                                                                                                                <div class="text">
-                                                                                                                                    <a href="mailto:s&#97;te&#108;li&#116;e&#64;co&#110;&#115;&#117;&#108;&#116;i&#110;g&#119;p&#46;&#99;o&#109;">&#115;ate&#108;&#108;&#105;te&#64;&#99;on&#115;ult&#105;ngwp.c&#111;m</a>
-                                                                                                                                </div>
-                                                                                                                            </li>
-                                                                                                                        </ul>
-                                                                                                                    </div>
-                                                                                                                    <div class="item" data-lat="40.416775" data-lng="-3.703790" data-title="Spain">
-                                                                                                                        <div class="title">Spain</div>
-                                                                                                                        <ul>
-                                                                                                                            <li>
-                                                                                                                                <div class="icon">
-                                                                                                                                    <i class="stm-location-2"></i>
-                                                                                                                                </div>
-                                                                                                                                <div class="text">
-                                                                                                                                    <p>10 Via Della Consordia Road, S3 7ME Madrid, Spain</p>
-                                                                                                                                </div>
-                                                                                                                            </li>
-                                                                                                                            <li>
-                                                                                                                                <div class="icon">
-                                                                                                                                    <i class="stm-iphone"></i>
-                                                                                                                                </div>
-                                                                                                                                <div class="text">
-                                                                                                                                    <p>+1 212-226-3126</p>
-                                                                                                                                </div>
-                                                                                                                            </li>
-                                                                                                                            <li>
-                                                                                                                                <div class="icon">
-                                                                                                                                    <i class="stm-email"></i>
-                                                                                                                                </div>
-                                                                                                                                <div class="text">
-                                                                                                                                    <a href="mailto:palm&#97;&#103;&#101;ncy&#64;&#99;&#111;nsu&#108;&#116;&#105;&#110;gwp&#46;c&#111;&#109;">&#112;&#97;l&#109;ag&#101;nc&#121;&#64;&#99;&#111;n&#115;&#117;&#108;tin&#103;&#119;p.&#99;o&#109;</a>
-                                                                                                                                </div>
-                                                                                                                            </li>
-                                                                                                                        </ul>
-                                                                                                                    </div>
-                                                                                                                    <div class="item" data-lat="34.052234" data-lng="-118.243685" data-title="Head Quarter">
-                                                                                                                        <div class="title">Head Quarter</div>
-                                                                                                                        <ul>
-                                                                                                                            <li>
-                                                                                                                                <div class="icon">
-                                                                                                                                    <i class="stm-location-2"></i>
-                                                                                                                                </div>
-                                                                                                                                <div class="text">
-                                                                                                                                    <p>14 Mao Road, N1 4EP, Los Angelos, USA</p>
-                                                                                                                                </div>
-                                                                                                                            </li>
-                                                                                                                            <li>
-                                                                                                                                <div class="icon">
-                                                                                                                                    <i class="stm-iphone"></i>
-                                                                                                                                </div>
-                                                                                                                                <div class="text">
-                                                                                                                                    <p>+1 212-226-3126</p>
-                                                                                                                                </div>
-                                                                                                                            </li>
-                                                                                                                            <li>
-                                                                                                                                <div class="icon">
-                                                                                                                                    <i class="stm-email"></i>
-                                                                                                                                </div>
-                                                                                                                                <div class="text">
-                                                                                                                                    <a href="mailto:head&#64;co&#110;s&#117;l&#116;i&#110;&#103;&#119;p&#46;co&#109;">&#104;e&#97;d&#64;&#99;&#111;&#110;sultingw&#112;.&#99;&#111;m</a>
-                                                                                                                                </div>
-                                                                                                                            </li>
-                                                                                                                        </ul>
-                                                                                                                    </div>
-                                                                                                                    <div class="item" data-lat="40.712784" data-lng="-74.005941" data-title="United States">
-                                                                                                                        <div class="title">United States</div>
-                                                                                                                        <ul>
-                                                                                                                            <li>
-                                                                                                                                <div class="icon">
-                                                                                                                                    <i class="stm-location-2"></i>
-                                                                                                                                </div>
-                                                                                                                                <div class="text">
-                                                                                                                                    <p>148 Commercity Isola Road, M1 R43 New York, USA</p>
-                                                                                                                                </div>
-                                                                                                                            </li>
-                                                                                                                            <li>
-                                                                                                                                <div class="icon">
-                                                                                                                                    <i class="stm-iphone"></i>
-                                                                                                                                </div>
-                                                                                                                                <div class="text">
-                                                                                                                                    <p>+3 864-784-4848</p>
-                                                                                                                                </div>
-                                                                                                                            </li>
-                                                                                                                            <li>
-                                                                                                                                <div class="icon">
-                                                                                                                                    <i class="stm-email"></i>
-                                                                                                                                </div>
-                                                                                                                                <div class="text">
-                                                                                                                                    <a href="mailto:s&#97;t&#101;l&#108;&#105;&#116;&#101;&#64;con&#115;ult&#105;ngw&#112;&#46;com">sa&#116;&#101;lli&#116;&#101;&#64;cons&#117;&#108;tingwp.c&#111;m</a>
-                                                                                                                                </div>
-                                                                                                                            </li>
-                                                                                                                        </ul>
-                                                                                                                    </div>
-                                                                                                                    <div class="item" data-lat="25.761680" data-lng="-80.191790" data-title="Sales Office">
-                                                                                                                        <div class="title">Sales Office</div>
-                                                                                                                        <ul>
-                                                                                                                            <li>
-                                                                                                                                <div class="icon">
-                                                                                                                                    <i class="stm-location-2"></i>
-                                                                                                                                </div>
-                                                                                                                                <div class="text">
-                                                                                                                                    <p>10 Via Della Consordia Road, S3 7ME Miami, USA</p>
-                                                                                                                                </div>
-                                                                                                                            </li>
-                                                                                                                            <li>
-                                                                                                                                <div class="icon">
-                                                                                                                                    <i class="stm-iphone"></i>
-                                                                                                                                </div>
-                                                                                                                                <div class="text">
-                                                                                                                                    <p>+1 212-226-3126</p>
-                                                                                                                                </div>
-                                                                                                                            </li>
-                                                                                                                            <li>
-                                                                                                                                <div class="icon">
-                                                                                                                                    <i class="stm-email"></i>
-                                                                                                                                </div>
-                                                                                                                                <div class="text">
-                                                                                                                                    <a href="mailto:&#115;ales&#64;c&#111;n&#115;ult&#105;&#110;&#103;wp&#46;c&#111;&#109;">s&#97;&#108;&#101;s&#64;&#99;&#111;n&#115;&#117;&#108;&#116;ingwp&#46;c&#111;&#109;</a>
-                                                                                                                                </div>
-                                                                                                                            </li>
-                                                                                                                        </ul>
-                                                                                                                    </div>                          </div>
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <div class="post_inner">
+                                                                                                <div class="image">
+                                                                                                    <a href="strategic-and-commercial-approach-with-technical-understanding/">
+                                                                                                        <img width="350" height="250" src="{{url('public/home/home')}}/wp-content/uploads/2016/01/news3-350x250.jpg" class="attachment-consulting-image-350x250-croped size-consulting-image-350x250-croped wp-post-image" alt="" srcset="{{url('public/home/home')}}/wp-content/uploads/2016/01/news3-350x250.jpg, {{url('public/home/home')}}/wp-content/uploads/2016/01/news3-350x250@2x.jpg 2x" />                                  </a>
+                                                                                                    </div>
+                                                                                                    <div class="stm_news_unit-block">
+                                                                                                        <h5 class="no_stripe"><a href="strategic-and-commercial-approach-with-technical-understanding/">Strategic and commercial approach with issues</a></h5>
+                                                                                                        <div class="stm_the_excerpt">
+                                                                                                            <p>Says Morgan Fraud, the author of The Thinking Corporation, “Given that we are all capable of contributing new ideas, the question becomes how do you successfully generate, capture, process and implement ideas?” Becoming an organization capable of answering this question can benefit in a number of ways</p>
+                                                                                                        </div>
+                                                                                                        <div class="date">
+                                                                                                            <span class="the_date">January 22, 2016</span>
+                                                                                                            <a href="strategic-and-commercial-approach-with-technical-understanding/" class="button size-lg hidden">Read more</a>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <div class="post_inner">
+                                                                                                    <div class="image">
+                                                                                                        <a href="seven-weeks-working-pro-bono-with-a-national-charity/">
+                                                                                                            <img width="350" height="250" src="{{url('public/home/home')}}/wp-content/uploads/2016/01/news2-350x250.jpg" class="attachment-consulting-image-350x250-croped size-consulting-image-350x250-croped wp-post-image" alt="" srcset="{{url('public/home/home')}}/wp-content/uploads/2016/01/news2-350x250.jpg, {{url('public/home/home')}}/wp-content/uploads/2016/01/news2-350x250@2x.jpg 2x" />                                  </a>
+                                                                                                        </div>
+                                                                                                        <div class="stm_news_unit-block">
+                                                                                                            <h5 class="no_stripe"><a href="seven-weeks-working-pro-bono-with-a-national-charity/">Seven weeks working &#8216;pro bono&#8217; with a charity</a></h5>
+                                                                                                            <div class="stm_the_excerpt">
+                                                                                                                <p>Growth through innovation/creativity. Rather than be constrained by ideas for new products, services and new markets coming from just a few people, a Thinking Corporation can tap into the employees.</p>
+                                                                                                            </div>
+                                                                                                            <div class="date">
+                                                                                                                <span class="the_date">January 22, 2016</span>
+                                                                                                                <a href="seven-weeks-working-pro-bono-with-a-national-charity/" class="button size-lg hidden">Read more</a>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </li>
+                                                                                                <li>
+                                                                                                    <div class="post_inner">
+                                                                                                        <div class="image">
+                                                                                                            <a href="retail-banks-wake-up-to-digital-lending/">
+                                                                                                                <img width="350" height="250" src="{{url('public/home/home')}}/wp-content/uploads/2015/12/news-grid-1-350x250.jpg" class="attachment-consulting-image-350x250-croped size-consulting-image-350x250-croped wp-post-image" alt="" srcset="{{url('public/home/home')}}/wp-content/uploads/2015/12/news-grid-1-350x250.jpg, {{url('public/home/home')}}/wp-content/uploads/2015/12/news-grid-1-350x250@2x.jpg 2x" />                                    </a>
+                                                                                                            </div>
+                                                                                                            <div class="stm_news_unit-block">
+                                                                                                                <h5 class="no_stripe"><a href="retail-banks-wake-up-to-digital-lending/">Retail banks wake up to digital lending this year</a></h5>
+                                                                                                                <div class="stm_the_excerpt">
+                                                                                                                    <p>The effort vastly improved the company’s planning and execution functions, created and implemented a new stock policy that accounted for specific SKUs and key variables, streamlined the order preparation process and reduced distribution transport times.</p>
+                                                                                                                </div>
+                                                                                                                <div class="date">
+                                                                                                                    <span class="the_date">January 22, 2016</span>
+                                                                                                                    <a href="retail-banks-wake-up-to-digital-lending/" class="button size-lg hidden">Read more</a>
                                                                                                                 </div>
                                                                                                             </div>
-                                                                                                            <div class="owl-dots-wr">
-                                                                                                                <div class="owl-dots" id="owl-nav-5be68b27d806c"></div>
+                                                                                                        </div>
+                                                                                                    </li>
+                                                                                                </ul>
+                                                                                            </div>
+                                                                                        </div></div></div></div><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1451300723020 vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="vc_custom_heading vc_custom_1495776904400 text_align_left" ><h3 style="font-size: 36px;color: #ffffff;line-height: 38px;text-align: left" >request a call back.</h3></div>
+                                                                                        <div class="wpb_text_column wpb_content_element " >
+                                                                                            <div class="wpb_wrapper">
+                                                                                                <p><span style="color: #ffffff; font-size: 13px; line-height: 22px;">Would you like to speak to one of our financial advisers over the phone? Just submit your details and we’ll be in touch shortly. You can also email us if you would prefer.</span></p>
+
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div></div></div><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner "><div class="wpb_wrapper"><div role="form" class="wpcf7" id="wpcf7-f4-p2-o1" lang="en-US" dir="ltr">
+                                                                                    <div class="screen-reader-response"></div>
+                                                                                    <form action="#wpcf7-f4-p2-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+                                                                                        <div style="display: none;">
+                                                                                            <input type="hidden" name="_wpcf7" value="4" />
+                                                                                            <input type="hidden" name="_wpcf7_version" value="5.0.3" />
+                                                                                            <input type="hidden" name="_wpcf7_locale" value="en_US" />
+                                                                                            <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f4-p2-o1" />
+                                                                                            <input type="hidden" name="_wpcf7_container_post" value="2" />
+                                                                                        </div>
+                                                                                        <div class="request_callback">
+                                                                                            <p>I would like to discuss:</p>
+                                                                                            <div class="row">
+                                                                                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                                                                    <div class="input-group">
+                                                                                                        <span class="wpcf7-form-control-wrap services_consulting"><select name="services_consulting" class="wpcf7-form-control wpcf7-select" aria-invalid="false"><option value="">Business Planning</option><option value="Audit &amp; Assurance">Audit &amp; Assurance</option><option value="Strategic Planning">Strategic Planning</option><option value="Trades &amp; Stocks">Trades &amp; Stocks</option><option value="Financial Projections">Financial Projections</option></select></span>
+                                                                                                    </div></div>
+                                                                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                                                                        <div class="input-group">
+                                                                                                            <span class="wpcf7-form-control-wrap text-name"><input type="text" name="text-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="First name" /></span>
+                                                                                                        </div></div>
+                                                                                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                                                                            <div class="input-group">
+                                                                                                                <span class="wpcf7-form-control-wrap text-phone"><input type="tel" name="text-phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel" aria-required="true" aria-invalid="false" placeholder="Phone number" /></span>
+                                                                                                            </div></div>
+                                                                                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                                                                                <div class="input-group">
+                                                                                                                    <button type="submit" class="button size-lg icon_right">submit <i class="fa fa-chevron-right"></i></button>
+                                                                                                                </div></div></div>
+                                                                                                            </div>
+                                                                                                            <div class="wpcf7-response-output wpcf7-display-none"></div></form></div></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1453109987955 vc_row-no-padding"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">  <div id="map_5be63309628e0" class=" stm_gmap_wrapper">
+                                                                                                            <div style="height: 447px;" id="stm-gmap-5be63309628a2" class="stm_gmap"></div>
+                                                                                                            <script type="text/javascript">
+                                                                                                                jQuery(document).ready(function ($) {
+                                                                                                                    google.maps.event.addDomListener(window, 'load', init);
+                                                                                                                    var map_5be63309628e0, markers = [], gmarkers = [], owl_5be6330962824 = $("#owl_5be6330962824"), default_marker_icon = '{{url('public/home/home')}}/wp-content/themes/consulting/assets/images/markers/map-marker-skin_default.png';
+                                                                                                                    $("#skin_color span").on('click', function () {
+                                                                                                                        for (var i = 0; i < gmarkers.length; i++) {
+                                                                                                                            if( $(this).attr('id') == 'skin_default' ){
+                                                                                                                                gmarkers[i].setIcon('{{url('public/home/home')}}/wp-content/themes/consulting/assets/images/markers/map-marker-skin_default.png');
+                                                                                                                            }else{
+                                                                                                                                gmarkers[i].setIcon('{{url('public/home/home')}}/wp-content/themes/consulting/assets/images/markers/map-marker-'+$(this).attr('id')+'.png');
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    });
+                                                                                                                    function init() {
+                                                                                                                        var mapStyles = [
+                                                                                                                        {
+                                                                                                                            "featureType": "administrative",
+                                                                                                                            "elementType": "labels.text.fill",
+                                                                                                                            "stylers": [
+                                                                                                                            {
+                                                                                                                                "color": "#444444"
+                                                                                                                            }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "featureType": "landscape",
+                                                                                                                            "elementType": "all",
+                                                                                                                            "stylers": [
+                                                                                                                            {
+                                                                                                                                "color": "#f2f2f2"
+                                                                                                                            }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "featureType": "poi",
+                                                                                                                            "elementType": "all",
+                                                                                                                            "stylers": [
+                                                                                                                            {
+                                                                                                                                "visibility": "off"
+                                                                                                                            }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "featureType": "road",
+                                                                                                                            "elementType": "all",
+                                                                                                                            "stylers": [
+                                                                                                                            {
+                                                                                                                                "saturation": -100
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                                "lightness": 45
+                                                                                                                            }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "featureType": "road.highway",
+                                                                                                                            "elementType": "all",
+                                                                                                                            "stylers": [
+                                                                                                                            {
+                                                                                                                                "visibility": "simplified"
+                                                                                                                            }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "featureType": "road.arterial",
+                                                                                                                            "elementType": "labels.icon",
+                                                                                                                            "stylers": [
+                                                                                                                            {
+                                                                                                                                "visibility": "off"
+                                                                                                                            }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "featureType": "transit",
+                                                                                                                            "elementType": "all",
+                                                                                                                            "stylers": [
+                                                                                                                            {
+                                                                                                                                "visibility": "off"
+                                                                                                                            }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "featureType": "water",
+                                                                                                                            "elementType": "all",
+                                                                                                                            "stylers": [
+                                                                                                                            {
+                                                                                                                                "color": "#6c98e1"
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                                "visibility": "on"
+                                                                                                                            }
+                                                                                                                            ]
+                                                                                                                        }
+                                                                                                                        ];
+
+
+                                                                                                                        var mapOptions = {
+                                                                                                                            zoom: 11,
+                                                                                                                            zoomControlOptions: {
+                                                                                                                                position: google.maps.ControlPosition.LEFT_TOP
+                                                                                                                            },
+                                                                                                                            streetViewControl: false,
+                                                                                                                            scrollwheel: false,
+                                                                                                                            styles: mapStyles
+
+                                                                                                                        };
+                                                                                                                        var mapElement = document.getElementById('stm-gmap-5be63309628a2');
+                                                                                                                        map_5be63309628e0 = new google.maps.Map(mapElement, mapOptions);
+
+                                                                                                                        owl_5be6330962824.on('initialized.owl.carousel', function () {
+                                                                                                                            consulting_setMarkers();
+                                                                                                                        });
+
+                                                                                                                        var owlRtl = false;
+
+                                                                                                                        if( $('body').hasClass('rtl') ) {
+                                                                                                                            owlRtl = true;
+                                                                                                                        }
+
+                                                                                                                        owl_5be6330962824.owlCarousel({
+                                                                                                                            rtl: owlRtl,
+                                                                                                                            dotsContainer: '#owl-nav-5be6330962864',
+                                                                                                                            items: 3,
+                                                                                                                            margin: 70,
+                                                                                                                            loop: true,
+                                                                                                                            responsive: {
+                                                                                                                                0: {
+                                                                                                                                    items: 1
+                                                                                                                                },
+                                                                                                                                768: {
+                                                                                                                                    items: 2
+                                                                                                                                },
+                                                                                                                                992: {
+                                                                                                                                    items: 3
+                                                                                                                                }
+                                                                                                                            },
+                                                                                                                            onTranslated: function () {
+                                                                                                                                consulting_setMarkers();
+                                                                                                                            },
+                                                                                                                            onInitialize: function (event) {
+                                                                                                                                if ($('.owl-stage-outer .owl-item').length <= 1) {
+                                                                                                                                    this.settings.loop = false;
+                                                                                                                                }
+                                                                                                                            }
+                                                                                                                        });
+                                                                                                                    }
+                                                                                                                    function consulting_setMarkers(){
+                                                                                                                        var latlngbounds = new google.maps.LatLngBounds();
+                                                                                                                        markers = [];
+                                                                                                                        owl_5be6330962824.find('.owl-item.active').each(function (i) {
+                                                                                                                            markers.push([parseFloat($(this).find('.item').data('lat')), parseFloat($(this).find('.item').data('lng')), $(this).find('.item').data('title')]);
+                                                                                                                        });
+                                                                                                                        for (i = 0; i < gmarkers.length; i++) {
+                                                                                                                            gmarkers[i].setMap(null);
+                                                                                                                        }
+                                                                                                                        for (var i = 0; i < markers.length; i++) {
+                                                                                                                            var marker_array = markers[i];
+                                                                                                                            marker = new google.maps.Marker({
+                                                                                                                                position: {lat: marker_array[0], lng: marker_array[1]},
+                                                                                                                                icon: default_marker_icon,
+                                                                                                                                map: map_5be63309628e0,
+                                                                                                                                title: marker_array[2]
+                                                                                                                            });
+                                                                                                                            latlngbounds.extend(new google.maps.LatLng(marker_array[0], marker_array[1]));
+                                                                                                                            gmarkers.push( marker );
+                                                                                                                            addInfoWindow( marker, marker_array[2], marker_array[0] );
+                                                                                                                        }
+                                                                                                                        map_5be63309628e0.fitBounds(latlngbounds);
+
+                                                                                                                        if( markers.length === 1 ) {
+                                                                                                                            var listener = google.maps.event.addListener(map_5be63309628e0, "idle", function() {
+                                                                                                                                map_5be63309628e0.setZoom(11);
+                                                                                                                                google.maps.event.removeListener(listener);
+                                                                                                                            });
+                                                                                                                        }
+                                                                                                                    }
+
+                                                                                                                    function addInfoWindow(marker, title, lat) {
+
+                                                                                                                        var infowindow = new google.maps.InfoWindow({
+                                                                                                                            content: '<h6>' + title + '</h6>',
+                                                                                                                            pixelOffset: new google.maps.Size(0,20)
+                                                                                                                        });
+
+                                                                                                                        google.maps.event.addListener(marker, 'mouseover', function () {
+                                                                                                                            infowindow.open(map_5be63309628e0, marker);
+                                                                                                                            $('[data-lat="'+ lat +'"]').addClass("focused");
+                                                                                                                        });
+
+                                                                                                                        google.maps.event.addListener(marker, 'mouseout', function () {
+                                                                                                                            infowindow.close(map_5be63309628e0, marker);
+                                                                                                                            $('[data-lat="'+ lat +'"]').removeClass("focused");
+                                                                                                                        });
+
+                                                                                                                        $(".item").on("mouseenter", function() {
+                                                                                                                            if( parseFloat(marker.getPosition().lat()) === parseFloat($(this).data('lat')) ) {
+                                                                                                                                infowindow.open(map_5be63309628e0, marker);
+                                                                                                                            }
+                                                                                                                        });
+
+                                                                                                                        $(".item").on("mouseleave", function() {
+                                                                                                                            if( parseFloat(marker.getPosition().lat()) === parseFloat($(this).data('lat')) ) {
+                                                                                                                                infowindow.close(map_5be63309628e0, marker);
+                                                                                                                            }
+                                                                                                                        });
+                                                                                                                    }
+                                                                                                                });
+                                                                                                            </script>
+                                                                                                            <div class="gmap_addresses">
+                                                                                                                <div class="container">
+                                                                                                                    <div class="row">
+                                                                                                                        <div class="col-lg-11 col-md-11 col-sm-11 col-xs-12">
+                                                                                                                            <div class="addresses_wr">
+                                                                                                                                <div class="addresses" id="owl_5be6330962824">
+
+                                                                                                                                    <div class="item" data-lat="51.507351" data-lng="-0.127758" data-title="United Kingdom">
+                                                                                                                                        <div class="title">United Kingdom</div>
+                                                                                                                                        <ul>
+                                                                                                                                            <li>
+                                                                                                                                                <div class="icon">
+                                                                                                                                                    <i class="stm-location-2"></i>
+                                                                                                                                                </div>
+                                                                                                                                                <div class="text">
+                                                                                                                                                    <p>14 Tottenham Road, N1 4EP, London, United Kingdom</p>
+                                                                                                                                                </div>
+                                                                                                                                            </li>
+                                                                                                                                            <li>
+                                                                                                                                                <div class="icon">
+                                                                                                                                                    <i class="stm-iphone"></i>
+                                                                                                                                                </div>
+                                                                                                                                                <div class="text">
+                                                                                                                                                    <p>+1 212-226-3126</p>
+                                                                                                                                                </div>
+                                                                                                                                            </li>
+                                                                                                                                            <li>
+                                                                                                                                                <div class="icon">
+                                                                                                                                                    <i class="stm-email"></i>
+                                                                                                                                                </div>
+                                                                                                                                                <div class="text">
+                                                                                                                                                    <a href="mailto:head&#64;&#99;&#111;&#110;sulti&#110;g&#119;&#112;&#46;com">hea&#100;&#64;&#99;ons&#117;l&#116;&#105;&#110;gwp&#46;&#99;&#111;&#109;</a>
+                                                                                                                                                </div>
+                                                                                                                                            </li>
+                                                                                                                                        </ul>
+                                                                                                                                    </div>
+                                                                                                                                    <div class="item" data-lat="52.520007" data-lng="13.404954" data-title="Germany">
+                                                                                                                                        <div class="title">Germany</div>
+                                                                                                                                        <ul>
+                                                                                                                                            <li>
+                                                                                                                                                <div class="icon">
+                                                                                                                                                    <i class="stm-location-2"></i>
+                                                                                                                                                </div>
+                                                                                                                                                <div class="text">
+                                                                                                                                                    <p>148 Commercity Isola Road, M1 R43 Berlin, Germany</p>
+                                                                                                                                                </div>
+                                                                                                                                            </li>
+                                                                                                                                            <li>
+                                                                                                                                                <div class="icon">
+                                                                                                                                                    <i class="stm-iphone"></i>
+                                                                                                                                                </div>
+                                                                                                                                                <div class="text">
+                                                                                                                                                    <p>+3 864-784-4848</p>
+                                                                                                                                                </div>
+                                                                                                                                            </li>
+                                                                                                                                            <li>
+                                                                                                                                                <div class="icon">
+                                                                                                                                                    <i class="stm-email"></i>
+                                                                                                                                                </div>
+                                                                                                                                                <div class="text">
+                                                                                                                                                    <a href="mailto:&#115;&#97;&#116;e&#108;&#108;&#105;&#116;&#101;&#64;con&#115;&#117;&#108;tin&#103;&#119;p.co&#109;">satel&#108;i&#116;&#101;&#64;co&#110;su&#108;ti&#110;gw&#112;&#46;&#99;om</a>
+                                                                                                                                                </div>
+                                                                                                                                            </li>
+                                                                                                                                        </ul>
+                                                                                                                                    </div>
+                                                                                                                                    <div class="item" data-lat="40.416775" data-lng="-3.703790" data-title="Spain">
+                                                                                                                                        <div class="title">Spain</div>
+                                                                                                                                        <ul>
+                                                                                                                                            <li>
+                                                                                                                                                <div class="icon">
+                                                                                                                                                    <i class="stm-location-2"></i>
+                                                                                                                                                </div>
+                                                                                                                                                <div class="text">
+                                                                                                                                                    <p>10 Via Della Consordia Road, S3 7ME Madrid, Spain</p>
+                                                                                                                                                </div>
+                                                                                                                                            </li>
+                                                                                                                                            <li>
+                                                                                                                                                <div class="icon">
+                                                                                                                                                    <i class="stm-iphone"></i>
+                                                                                                                                                </div>
+                                                                                                                                                <div class="text">
+                                                                                                                                                    <p>+1 212-226-3126</p>
+                                                                                                                                                </div>
+                                                                                                                                            </li>
+                                                                                                                                            <li>
+                                                                                                                                                <div class="icon">
+                                                                                                                                                    <i class="stm-email"></i>
+                                                                                                                                                </div>
+                                                                                                                                                <div class="text">
+                                                                                                                                                    <a href="mailto:&#112;alm&#97;&#103;e&#110;&#99;&#121;&#64;&#99;on&#115;&#117;&#108;ti&#110;gwp&#46;&#99;om">p&#97;lm&#97;&#103;&#101;n&#99;y&#64;&#99;&#111;ns&#117;l&#116;ing&#119;p.c&#111;m</a>
+                                                                                                                                                </div>
+                                                                                                                                            </li>
+                                                                                                                                        </ul>
+                                                                                                                                    </div>
+                                                                                                                                    <div class="item" data-lat="34.052234" data-lng="-118.243685" data-title="Head Quarter">
+                                                                                                                                        <div class="title">Head Quarter</div>
+                                                                                                                                        <ul>
+                                                                                                                                            <li>
+                                                                                                                                                <div class="icon">
+                                                                                                                                                    <i class="stm-location-2"></i>
+                                                                                                                                                </div>
+                                                                                                                                                <div class="text">
+                                                                                                                                                    <p>14 Mao Road, N1 4EP, Los Angelos, USA</p>
+                                                                                                                                                </div>
+                                                                                                                                            </li>
+                                                                                                                                            <li>
+                                                                                                                                                <div class="icon">
+                                                                                                                                                    <i class="stm-iphone"></i>
+                                                                                                                                                </div>
+                                                                                                                                                <div class="text">
+                                                                                                                                                    <p>+1 212-226-3126</p>
+                                                                                                                                                </div>
+                                                                                                                                            </li>
+                                                                                                                                            <li>
+                                                                                                                                                <div class="icon">
+                                                                                                                                                    <i class="stm-email"></i>
+                                                                                                                                                </div>
+                                                                                                                                                <div class="text">
+                                                                                                                                                    <a href="mailto:&#104;ead&#64;c&#111;&#110;s&#117;lti&#110;&#103;&#119;&#112;&#46;&#99;om">&#104;&#101;a&#100;&#64;&#99;o&#110;su&#108;t&#105;n&#103;wp&#46;c&#111;m</a>
+                                                                                                                                                </div>
+                                                                                                                                            </li>
+                                                                                                                                        </ul>
+                                                                                                                                    </div>
+                                                                                                                                    <div class="item" data-lat="40.712784" data-lng="-74.005941" data-title="United States">
+                                                                                                                                        <div class="title">United States</div>
+                                                                                                                                        <ul>
+                                                                                                                                            <li>
+                                                                                                                                                <div class="icon">
+                                                                                                                                                    <i class="stm-location-2"></i>
+                                                                                                                                                </div>
+                                                                                                                                                <div class="text">
+                                                                                                                                                    <p>148 Commercity Isola Road, M1 R43 New York, USA</p>
+                                                                                                                                                </div>
+                                                                                                                                            </li>
+                                                                                                                                            <li>
+                                                                                                                                                <div class="icon">
+                                                                                                                                                    <i class="stm-iphone"></i>
+                                                                                                                                                </div>
+                                                                                                                                                <div class="text">
+                                                                                                                                                    <p>+3 864-784-4848</p>
+                                                                                                                                                </div>
+                                                                                                                                            </li>
+                                                                                                                                            <li>
+                                                                                                                                                <div class="icon">
+                                                                                                                                                    <i class="stm-email"></i>
+                                                                                                                                                </div>
+                                                                                                                                                <div class="text">
+                                                                                                                                                    <a href="mailto:sa&#116;&#101;&#108;&#108;&#105;&#116;&#101;&#64;c&#111;nsu&#108;ti&#110;&#103;wp.com">satel&#108;ite&#64;&#99;o&#110;&#115;&#117;lt&#105;n&#103;&#119;&#112;.&#99;om</a>
+                                                                                                                                                </div>
+                                                                                                                                            </li>
+                                                                                                                                        </ul>
+                                                                                                                                    </div>
+                                                                                                                                    <div class="item" data-lat="25.761680" data-lng="-80.191790" data-title="Sales Office">
+                                                                                                                                        <div class="title">Sales Office</div>
+                                                                                                                                        <ul>
+                                                                                                                                            <li>
+                                                                                                                                                <div class="icon">
+                                                                                                                                                    <i class="stm-location-2"></i>
+                                                                                                                                                </div>
+                                                                                                                                                <div class="text">
+                                                                                                                                                    <p>10 Via Della Consordia Road, S3 7ME Miami, USA</p>
+                                                                                                                                                </div>
+                                                                                                                                            </li>
+                                                                                                                                            <li>
+                                                                                                                                                <div class="icon">
+                                                                                                                                                    <i class="stm-iphone"></i>
+                                                                                                                                                </div>
+                                                                                                                                                <div class="text">
+                                                                                                                                                    <p>+1 212-226-3126</p>
+                                                                                                                                                </div>
+                                                                                                                                            </li>
+                                                                                                                                            <li>
+                                                                                                                                                <div class="icon">
+                                                                                                                                                    <i class="stm-email"></i>
+                                                                                                                                                </div>
+                                                                                                                                                <div class="text">
+                                                                                                                                                    <a href="mailto:&#115;&#97;les&#64;co&#110;su&#108;&#116;&#105;&#110;g&#119;&#112;&#46;c&#111;m">sale&#115;&#64;&#99;on&#115;&#117;&#108;&#116;&#105;n&#103;wp.co&#109;</a>
+                                                                                                                                                </div>
+                                                                                                                                            </li>
+                                                                                                                                        </ul>
+
+                                                                                                                                    </div>                          </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                            <div class="owl-dots-wr">
+                                                                                                                                <div class="owl-dots" id="owl-nav-5be6330962864">
+
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </div>
                                                                                                             </div>
                                                                                                         </div>
                                                                                                     </div>
                                                                                                 </div>
                                                                                             </div>
-                                                                                        </div></div></div></div><div class="vc_row-full-width vc_clearfix"></div>
-                                                                                    </div>
+                                                                                            <div class="vc_row-full-width vc_clearfix">
 
-                                                                                </article>
-                                                                            </div>
-
-                                                                        </div> <!--.container-->
-                                                                    </div> <!--#main-->
-                                                                </div> <!--.content_wrapper-->
-
-                                                                <footer id="footer" class="footer style_1">
-
-                                                                    <div class="widgets_row">
-                                                                        <div class="container">
-                                                                            <div class="footer_widgets">
-                                                                                <div class="row">
-                                                                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                                                                        <div class="footer_logo">
-                                                                                            <a href="">
-                                                                                                <img src="{{url('public/home/home')}}/wp-content/uploads/2016/12/logo_default.svg" alt="Consulting WP - New York" />
-                                                                                            </a>
-                                                                                        </div>
-                                                                                        <div class="footer_text">
-                                                                                            <p>Consulting WP - Before we talk destination, we shine a spotlight across your organization to fully understand its people, processes, and technology.
-
-                                                                                                Consulting WordPress theme / Finance WordPress theme / Business WordPress theme</p>
                                                                                             </div>
                                                                                         </div>
+
+                                                                                    </article>
+                                                                                </div>
+
+                                                                            </div> <!--.container-->
+                                                                        </div> <!--#main-->
+                                                                    </div> <!--.content_wrapper-->
+
+                                                                    <footer id="footer" class="footer style_1">
+
+                                                                        <div class="widgets_row">
+                                                                            <div class="container">
+                                                                                <div class="footer_widgets">
+                                                                                    <div class="row">
                                                                                         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                                                                            <section id="recent-posts-4" class="widget widget_recent_entries">      <h4 class="widget_title no_stripe">recent news</h4>     <ul>
-                                                                                                <li>
-                                                                                                    <a href="within-the-construction-industry-as-their-overdraft/">Within the construction industry as their overdraft</a>
-                                                                                                    <span class="post-date">January 22, 2016</span>
-                                                                                                </li>
-                                                                                                <li>
-                                                                                                    <a href="strategic-and-commercial-approach-with-technical-understanding/">Strategic and commercial approach with issues</a>
-                                                                                                    <span class="post-date">January 22, 2016</span>
-                                                                                                </li>
-                                                                                            </ul>
-                                                                                        </section>                                  </div>
+                                                                                            <div class="footer_logo">
+                                                                                                <a href="">
+                                                                                                    <img src="{{url('public/home/home')}}/wp-content/uploads/2016/12/logo_default.svg" alt="Consulting WP - New York" />
+                                                                                                </a>
+                                                                                            </div>
+                                                                                            <div class="footer_text">
+                                                                                                <p>Consulting WP - Before we talk destination, we shine a spotlight across your organization to fully understand its people, processes, and technology.
+
+                                                                                                    Consulting WordPress theme / Finance WordPress theme / Business WordPress theme</p>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                                                                                <section id="recent-posts-4" class="widget widget_recent_entries">      <h4 class="widget_title no_stripe">recent news</h4>     <ul>
+                                                                                                    <li>
+                                                                                                        <a href="within-the-construction-industry-as-their-overdraft/">Within the construction industry as their overdraft</a>
+                                                                                                        <span class="post-date">January 22, 2016</span>
+                                                                                                    </li>
+                                                                                                    <li>
+                                                                                                        <a href="strategic-and-commercial-approach-with-technical-understanding/">Strategic and commercial approach with issues</a>
+                                                                                                        <span class="post-date">January 22, 2016</span>
+                                                                                                    </li>
+                                                                                                </ul>
+                                                                                            </section>                                
+                                                                                        </div>
                                                                                         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                                                                             <section id="nav_menu-2" class="widget widget_nav_menu"><h4 class="widget_title no_stripe">extra links</h4><div class="menu-extra-links-container"><ul id="menu-extra-links" class="menu"><li id="menu-item-163" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-163"><a href="company-overview/">About</a></li>
                                                                                                 <li id="menu-item-164" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-164"><a href="blog/">News</a></li>
@@ -2008,7 +1832,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                                                             <input id="stm_newsletter_submit" type="submit" value="" />
                                                                                             <label for="stm_newsletter_submit"><i class="stm-email"></i></label>
                                                                                         </div>
-                                                                                        <p>Get latest updates and offers.</p></div><label style="display: none !important;">Leave this field empty if you're human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></label><input type="hidden" name="_mc4wp_timestamp" value="1541835559" /><input type="hidden" name="_mc4wp_form_id" value="172" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" /><div class="mc4wp-response"></div></form><!-- / MailChimp for WordPress Plugin --></section>                         </div>
+                                                                                        <p>Get latest updates and offers.</p></div><label style="display: none !important;">Leave this field empty if you're human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></label><input type="hidden" name="_mc4wp_timestamp" value="1541813001" /><input type="hidden" name="_mc4wp_form_id" value="172" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" /><div class="mc4wp-response"></div></form><!-- / MailChimp for WordPress Plugin --></section>                         </div>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -2731,7 +2555,7 @@ function revslider_showDoubleJqueryError(sliderID) {
 
 
 
-<script type='text/javascript' src='{{url("public/home/home")}}/wp-content/themes/consulting/assets/js/particles.min.js?ver=4.0.8'></script>
+<script type='text/javascript' src='{{url('public/home/home')}}/wp-content/themes/consulting/assets/js/particles.min.js?ver=4.0.8'></script>
 
 
 
@@ -2744,7 +2568,7 @@ function revslider_showDoubleJqueryError(sliderID) {
 </script>
 
 <!--[if lte IE 9]>
-<script type='text/javascript' src='{{url("public/home/home")}}/wp-content/plugins/mailchimp-for-wp/assets/js/third-party/placeholders.min.js?ver=4.2.4'></script>
+<script type='text/javascript' src='{{url('public/home/home')}}/wp-content/plugins/mailchimp-for-wp/assets/js/third-party/placeholders.min.js?ver=4.2.4'></script>
 <![endif]-->
 </body>
 </html>
