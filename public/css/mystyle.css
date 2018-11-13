@@ -183,3 +183,18 @@ img.img-project{
     border: none;
 }
 }
+.partners{
+    padding-bottom: 40px;
+    background: #fbf7f7 ;
+}
+.partners h2, .wpb_wrapper h2, h2.panel-title span, .vc_custom_heading h2, .vc_custom_heading h2{
+    font-size: 36px;
+    color: #189eff;
+}
+p.partners-p, .wpb_wrapper p span{
+    padding: 0px 30px 35px 30px;
+}
+.stm_gmap_wrapper .gmap_addresses {
+    padding: 73px 0 71px;
+    background: #002e5b;
+}
