@@ -8,7 +8,7 @@ class Slider extends Model
 {
 	protected $table='slider';
 	protected $fillable=[
-		'title','slug','created_by','cover_image','status','link','sorder'
+		'title','slug','created_by','cover_image','status','link','sorder','type'
 	];
 	public function scopeSearch($query)
 		{

@@ -16,7 +16,7 @@
 }
 
 .top-bar {
-    background-color: #189eff !important;
+    background-color: #3498db !important;
     font-size: 0.875em;
     line-height: 2.714em;
     font-weight: 300;
@@ -189,12 +189,43 @@ img.img-project{
 }
 .partners h2, .wpb_wrapper h2, h2.panel-title span, .vc_custom_heading h2, .vc_custom_heading h2{
     font-size: 36px;
-    color: #189eff;
+    color: #3498db;
 }
 p.partners-p, .wpb_wrapper p span{
-    padding: 0px 30px 35px 30px;
+    padding: 0px 30px 10px 30px;
 }
 .stm_gmap_wrapper .gmap_addresses {
     padding: 73px 0 71px;
-    background: #002e5b;
+    background: #3498db;
+}
+.stm_gmap_wrapper .gmap_addresses {
+    border-bottom: 1px solid #d8d7d7;
+}
+.gmap_add {
+    margin: auto 10%;
+}
+#footer .widgets_row {
+    background: #3498db;
+    position: relative;
+}
+body .wpb_video_widget .wpb_wrapper .wpb_video_wrapper .play_video {
+    border: 5px solid #189eff;
+    background: #189eff;
+}
+body .wpb_video_widget .wpb_wrapper .wpb_video_wrapper .play_video:after {
+    border-left: 15px solid #fff;
+}
+.carousel-caption p{
+    font-size: 18px !important;
+}
+.about p span {
+    display: block; 
+    line-height: 1.7; 
+    font-size: 18px; 
+    color: #777777;
+    color:#3498db; 
+    font-weight: bold;
+}
+.wpb_single_image .vc_box_border.vc_box_border_blue, .wpb_single_image .vc_box_border_circle.vc_box_border_blue {
+    background-color: #3498db;
 }

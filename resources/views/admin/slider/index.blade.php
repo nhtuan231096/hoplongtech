@@ -30,6 +30,23 @@
 					@endif
 				</div>
 				<div class="form-group">
+					<label for="">Type</label>
+					<select name="type" id="inputType" class="form-control">
+					@if(isset($editSlider->id))
+						@if($editSlider->type==0)
+						<option selected value="0">Slide Home</option>
+						<option value="1">Slide Product</option>
+						@else
+						<option selected value="1">Slide Product</option>					
+						<option value="0">Slide Home</option>
+						@endif
+					@else
+						<option value="0">Slide Home</option>
+						<option value="1">Slide Product</option>
+					@endif
+					</select>
+				</div>
+				<div class="form-group">
 					<label for="">Ảnh đại diện</label>
 					@if(isset($editSlider->id)) 
 					<div class="clearfix"></div>
@@ -125,6 +142,7 @@
 						<th>ID</th>
 						<th>Tiêu đề</th>
 						<th>Ảnh</th>
+						<th>Type</th>
 						<th>Người tạo</th>
 						<th>Sorder</th>
 						<th>Trạng thái</th>
@@ -138,6 +156,13 @@
 						<td>{{$slider->title}}</td>
 						<td>
 							<img height="50px" width="100px" src="{{url('uploads/slider')}}/{{$slider->cover_image}}" alt="{{$slider->cover_title}}">
+						</td>
+						<td>
+							@if($slider->type==0)
+								<span>Slide Home</span>
+							@else
+								<span>Slide Product</span>
+							@endif
 						</td>
 						<td>{{$slider->created_by}}</td>
 						<td>

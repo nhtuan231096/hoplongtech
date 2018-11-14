@@ -11268,7 +11268,7 @@ img {
     display: block;
     max-width: 100%;
     width: 100%;
-    height: 550px
+    height: 550px;
 }
 
 .img-rounded {
@@ -18076,6 +18076,18 @@ body.booked-noScroll {
 }
 
 @media only screen and (max-width:474px) {
+    .mobile_header .logo_wrapper {
+        padding-top:0px;
+    }
+    #header{
+        padding-bottom: 0px !important;
+    }
+    #footer .footer_widgets {
+    padding: 0px !important;
+    }
+    .mobile_header .logo_wrapper .logo {
+    float: left;
+    }
     .woocommerce ul.products li.product,
     .woocommerce-page ul.products li.product {
         width: 100% !important
@@ -18924,7 +18936,7 @@ body.header_style_2 .header_top .top_nav .main_menu_nav>ul>li {
 
 body.header_style_2 .header_top .top_nav .top_nav_wrapper>ul>li>a,
 body.header_style_2 .header_top .top_nav .main_menu_nav>ul>li>a {
-    color: #002e5b;
+    color: #3498db;
     padding: 10px 15px;
     height: auto
 }
@@ -18939,12 +18951,12 @@ body.header_style_2 .header_top .top_nav .main_menu_nav>ul>li.current-menu-ances
 body.header_style_2 .header_top .top_nav .main_menu_nav>ul>li.current-menu-parent>a,
 body.header_style_2 .header_top .top_nav .main_menu_nav>ul>li.current_page_parent>a,
 body.header_style_2 .header_top .top_nav .main_menu_nav>ul>li.current_page_ancestor>a {
-    color: #6c98e1
+    color: #002e5b;
 }
 
 body.header_style_2 .header_top .top_nav .top_nav_wrapper>ul>li:hover>a,
 body.header_style_2 .header_top .top_nav .main_menu_nav>ul>li:hover>a {
-    color: #6c98e1
+    color: #223746
 }
 
 body.header_style_2 .header_top .top_nav .header_socials {
@@ -19980,7 +19992,7 @@ body.header_style_8 .header_copyright {
     position: relative;
     z-index: 20;
     font-size: 13px;
-    background-color: #189eff;
+    background-color: #3498db;
 }
 
 #lang_sel {
@@ -20068,7 +20080,7 @@ body.header_style_8 .header_copyright {
     position: relative;
     cursor: pointer;
     padding: 14px 42px 16px 21px;
-    color: #002e5b;
+    color: #3498db;
     text-decoration: none !important;
     min-width: 160px
 }
@@ -20089,7 +20101,7 @@ body.header_style_8 .header_copyright {
     content: '';
     border-left: 3px solid transparent;
     border-right: 3px solid transparent;
-    border-top: 5px solid #002e5b;
+    border-top: 5px solid #3498db;
     position: absolute;
     right: 20px;
     top: 50%;
@@ -20109,7 +20121,7 @@ body.header_style_8 .header_copyright {
 }
 
 .top_bar_info_wr .top_bar_info_switcher ul a {
-    color: #2f577a;
+    color: #3498db;
     display: block;
     padding: 10px 20px;
     text-decoration: none !important;
@@ -21933,7 +21945,7 @@ body .vc_row-has-fill>.vc_vc_column_inner>.vc_column_container>.vc_column-inner 
     top: 163px;
     right: 0;
     bottom: 0;
-    background: rgba(0, 46, 91, .9);
+    background: rgb(52, 152, 219);
     padding: 17px 30px 0;
     -webkit-transition: all .3s ease;
     transition: all .3s ease
@@ -25504,11 +25516,12 @@ body .vc_row-has-fill>.vc_vc_column_inner>.vc_column_container>.vc_column-inner 
 }
 
 .stm_gmap_wrapper .gmap_addresses .addresses .item ul li .text a {
-    color: #6c98e1
+    color: #fff;
 }
 
 .stm_gmap_wrapper .gmap_addresses .addresses .item ul li .text p {
     margin: 0;
+    color: #fff;
     font-size: 13px;
     line-height: 16px
 }
@@ -28676,7 +28689,7 @@ body .portfolio_btn.vc_general.vc_btn3.vc_btn3-size-lg.vc_btn3-icon-right:not(.v
 
 @media only screen and (min-width:1025px) {
     .header_style_7 .post_links_box.style_3 .previous_post_link {
-        margin-left: 300px
+        margin-left: 200px
     }
 }
 
@@ -29245,7 +29258,7 @@ body .vc_general.vc_btn3.vc_btn3-size-md.vc_btn3-icon-right:not(.vc_btn3-o-empty
     font-size: 14px;
     height: 14px;
     line-height: 14px;
-    color: #fde428;
+    color: #3498db;
     -moz-box-sizing: content-box;
     -webkit-transition: all .3s ease;
     transition: all .3s ease
@@ -30247,7 +30260,7 @@ h6:after,
 }
 
 p {
-    line-height: 26px;
+    line-height: 15px;
     margin: 0 0 15px
 }
 
@@ -31735,7 +31748,7 @@ ul.page-numbers,
 }
 
 .widget .widget_title {
-    border-top: 3px solid #002e5b;
+    border-top: 3px solid #dbdee0;
     margin-bottom: 25px
 }
 
@@ -32360,7 +32373,7 @@ ul.page-numbers,
 #footer .footer_widgets .widget.widget_nav_menu ul li a {
     padding: 0;
     border: 0;
-    color: #6c98e1;
+    color: #fff;
     text-decoration: none
 }
 
@@ -36912,7 +36925,7 @@ form.woocommerce-checkout {
         float: left
     }
     .mobile_header .header_info {
-        background: #002e5b
+        background: #3498db;
     }
     .mobile_header .icon_texts {
         padding: 40px 40px
@@ -37032,12 +37045,12 @@ form.woocommerce-checkout {
         display: block;
         font-size: 20px;
         color: #fff;
-        text-transform: lowercase;
+        /*text-transform: lowercase;*/
         font-weight: 700;
         letter-spacing: -.04em
     }
     .mobile_header .top_nav_mobile .main_menu_nav>li:hover>a {
-        color: #fde428
+        color: #002e5b;
     }
     .mobile_header .top_nav_mobile .main_menu_nav>li.menu-item-has-children .arrow {
         position: absolute;
@@ -37259,6 +37272,9 @@ form.woocommerce-checkout {
 }
 
 @media only screen and (max-width:768px) {
+    .img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+        height: 200px;
+    }
     .stm_contacts_widget.style_3 ul li {
         display: block;
         margin-bottom: 20px
@@ -47021,7 +47037,7 @@ option.wpb_video {
 .wpb_button,
 .wpb_content_element,
 ul.wpb_thumbnails-fluid>li {
-    margin-bottom: 35px
+    margin-bottom: 15px
 }
 
 .entry-content .twitter-share-button,
@@ -53753,6 +53769,13 @@ a.wpb_button_a {
         float: none;
         display: block;
         margin: 3% auto
+    }
+    .carousel-caption p{
+        display: none;
+    }
+    .carousel-caption h2{
+        font-size: 16px;
+        margin-bottom: 0px;
     }
     .vc_responsive .cta_align_left .wpb_call_text,
     .vc_responsive .cta_align_right .wpb_call_text {

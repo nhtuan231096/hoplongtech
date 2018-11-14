@@ -32,7 +32,7 @@ Route::get('admin/logout','Admin\AdminController@logout')->name('logout');
 
 Route::group(['prefix'=>'','namespace'=>'Home'],function(){
 	Route::get('/','HomeController@index')->name('home');
-	Route::get('/1','HomeController@index_product')->name('home1');
+	Route::get('/san-pham','HomeController@index_product')->name('product');
 	Route::get('/du-an','HomeController@project')->name('projects');
 	Route::get('/du-an/{slug}','HomeController@detail_project')->name('detail_project');
 	Route::get('//{slug}','HomeController@view')->name('view');

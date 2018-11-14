@@ -185,6 +185,7 @@ desired effect
             <ul class="treeview-menu">
               <li><a href=""><i class="fa fa-cog"> </i>List widgets</a></li>
               <li><a href="{{route('webConfig')}}"> <i class="fa fa-object-group"></i>Web Configs</a></li>
+              <li><a href="{{route('office')}}"> <i class="fa fa-building"></i>Office</a></li>
               <li><a href="{{route('service')}}"> <i class="fa fa-server"></i>Service</a></li>
               <li><a href="{{route('download')}}"> <i class="fa fa-download"></i>Dowload service</a></li>
             </ul>

@@ -9,6 +9,7 @@ use App\Models\Category;
 use App\Models\Product;
 use App\Models\News;
 use App\Models\Partners;
+use App\Models\Office;
 use App\Models\Support;
 use App\Models\Comment;
 use App\Models\Quotes_product;
@@ -20,7 +21,15 @@ use Mail;
 class HomeController extends Controller
 {
 	public function index(){
-		return view('home.index_1');
+		$slider_active=Slider::where('sorder','1')->first();
+		$slider_home=Slider::where('status','enable')->where('type',0)->where('sorder','<>',1)->orderBy('sorder','ASC')->paginate(6);
+		$office=Office::where('status','enable')->get();
+		// dd($slider_home);
+		return view('home.index_1',[
+			'active'=>$slider_active,
+			'slider_homes'=>$slider_home,
+			'offices'=>$office
+			]);
 	}
 	public function index_product(){
 		$slider=Slider::orderBy('sorder','ASC')->where('status','enable')->get();
