@@ -8,7 +8,7 @@ class Office extends Model
 {
 	protected $table='office';
 	protected $fillable=[
-		'title','slug','address','email','phone','status'
+		'title','slug','address','email','phone','status','sorder'
 	];
 }
  ?>

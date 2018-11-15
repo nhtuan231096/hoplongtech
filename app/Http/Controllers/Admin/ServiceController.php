@@ -62,5 +62,21 @@ class ServiceController extends Controller
 		$update = Office::find($id)->update($req->all());
 		return redirect()->route('office')->with('success','Cập nhật thành công');
 	}
+	public function updateOffice($id,Request $req){
+		$this->validate($req,[
+			'sorder' => 'required'
+			],[	
+			'required' => 'Không được để trống'
+			]);
+		$sorder=request()->sorder > 0 ? request()->sorder : '';
+		$update=Office::find($id)->update(['sorder'=>$sorder]);
+		// dd($update);
+		if ($update) {
+			return redirect()->route('office')->with('success','Cập nhật thành công');
+		}
+		else{
+			return redirect()->back()->with('error','Có lỗi');
+		}
+	}
 }
  ?>

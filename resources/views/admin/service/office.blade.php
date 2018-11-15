@@ -80,6 +80,7 @@
 						<th>Địa chỉ</th>
 						<th>Email</th>
 						<th>Số điện thoại</th>
+						<th>Sorder</th>
 						<th>Trạng thái</th>
 						<th></th>
 					</tr>
@@ -93,6 +94,19 @@
 						<td>{{$office->address}}</td>
 						<td>{{$office->email}}</td>
 						<td>{{$office->phone}}</td>
+						<td>
+							<form action="{{route('update-office',['id'=>$office->id])}}" method="POST" class="form-inline" role="form">
+							
+								<div class="form-group">
+									<label class="sr-only" for="">label</label>
+									<input style="width: 40px;" type="" class="form-control" name="sorder" value="{{$office->sorder}}" id="" placeholder="">
+								</div>
+							@csrf()
+								
+							
+								<button type="submit" class="fa fa-save btn btn-primary"></button>
+							</form>
+						</td>
 						<td>{{$office->status}}</td>
 
 						<td>

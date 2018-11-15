@@ -23,12 +23,18 @@ class HomeController extends Controller
 	public function index(){
 		$slider_active=Slider::where('sorder','1')->first();
 		$slider_home=Slider::where('status','enable')->where('type',0)->where('sorder','<>',1)->orderBy('sorder','ASC')->paginate(6);
+		$company_news=News::Where('category_id','35')->paginate(3);
 		$office=Office::where('status','enable')->get();
+		$actoffice=Office::where('sorder','1')->first();
+		$partners=Partners::Where('status','enable')->get();
 		// dd($slider_home);
 		return view('home.index_1',[
 			'active'=>$slider_active,
 			'slider_homes'=>$slider_home,
-			'offices'=>$office
+			'actoffice'=>$actoffice,
+			'company_news'=>$company_news,
+			'offices'=>$office,
+			'partners'=>$partners
 			]);
 	}
 	public function index_product(){
