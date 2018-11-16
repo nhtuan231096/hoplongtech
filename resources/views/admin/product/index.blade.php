@@ -100,7 +100,7 @@
                                         </div>
                                         <div class="form-group">
                                             <label class="control-label" for="upload_file">Ảnh</label>
-                                            <input type="file" name="upload_file" class="form-control" id="upload_file" data-error="Please enter details.">
+                                            <input type="file" name="sortpic" class="form-control" id="file" data-error="Please enter details.">
                                             <div class="help-block with-errors"></div>
                                         </div>
 

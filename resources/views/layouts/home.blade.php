@@ -96,6 +96,9 @@
 
                                     </li>
                                     <li class="menu-item animate-dropdown">
+                                        <a title="Logitech Sale" href="product-category.html">Sản phẩm</a>
+                                    </li>
+                                    <li class="menu-item animate-dropdown">
                                         <a title="Logitech Sale" href="product-category.html">Tin tức</a>
                                     </li>
                                     <li class="menu-item animate-dropdown">
@@ -185,7 +188,7 @@
                             <form class="navbar-search" method="get">
                                 <label class="sr-only screen-reader-text" for="search">Search for:</label>
                                 <div class="input-group">
-                                    <input type="text" id="search" class="form-control search-field product-search-field" dir="ltr" value="" name="s" placeholder="Search for products" />
+                                    <input type="text" id="search" class="form-control search-field product-search-field" dir="ltr" value="" name="search" placeholder="Search for products" />
                                     <div class="input-group-addon search-categories">
                                         <select name='product_cat' id='product_cat' class='postform resizeselect'>
                                             <option value='0' selected='selected'>All Categories</option>
@@ -214,7 +217,7 @@
                                     </div>
                                     <!-- .input-group-addon -->
                                     <div class="input-group-btn">
-                                        <input type="hidden" id="search-param" name="post_type" value="product" />
+                                        <!-- <input type="hidden" id="search-param" name="post_type" value="product" /> -->
                                         <button type="submit" class="btn btn-primary">
                                             <i class="fa fa-search"></i>
                                             <span class="search-btn fa fa-search"></span>

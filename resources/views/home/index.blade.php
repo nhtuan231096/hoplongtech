@@ -176,8 +176,10 @@
                                                                                     <!-- <span class="amount"> 456.00</span> -->
                                                                                 </span>
                                                                                 <!-- /.price -->
-                                                                                <h2 class="woocommerce-loop-product__title">{{$new_product->title}}</h2>
-                                                                            </a>
+                                                                                <div class="">
+                                                                                    <h2 class="woocommerce-loop-product__title">{{$new_product->title}}</h2>
+                                                                                </div>
+                                                                            </a> 
                                                                             <div class="hover-area">
                                                                                 <a class="button add_to_cart_button" href="{{route('view',['slug'=>$new_product->slug])}}" rel="nofollow">Xem chi tiết</a>
                                                                                 <!-- <a class="add-to-compare-link" href="compare.html">Compare</a> -->
@@ -305,7 +307,7 @@
                                                                             <ins>
                                                                                 <span class="amount"> </span>
                                                                             </ins>
-                                                                            <span class="amount"> 456.00</span>
+                                                                            <span class="amount"> - 20%</span>
                                                                         </span>
                                                                         <!-- /.price -->
                                                                         <h2 class="woocommerce-loop-product__title">VeganEgg, 100% Plant Based</h2>
@@ -328,11 +330,8 @@
                                                                         <img src="{{url('public/home')}}/assets/images/garden/7.jpg" class="wp-post-image" alt="">
                                                                         <span class="price">
                                                                             <ins>
-                                                                                <span class="amount"> 789.95</span>
+                                                                                <span class="amount">-20%</span>
                                                                             </ins>
-                                                                            <del>
-                                                                                <span class="amount">999.00</span>
-                                                                            </del>
                                                                             <span class="amount"> </span>
                                                                         </span>
                                                                         <!-- /.price -->
@@ -352,9 +351,9 @@
                                                                         <img src="{{url('public/home')}}/assets/images/garden/1.jpg" class="wp-post-image" alt="">
                                                                         <span class="price">
                                                                             <ins>
-                                                                                <span class="amount"> </span>
+                                                                                <span class="amount">-30%</span>
                                                                             </ins>
-                                                                            <span class="amount"> 456.00</span>
+
                                                                         </span>
                                                                         <!-- /.price -->
                                                                         <h2 class="woocommerce-loop-product__title">Sea Salt Seaweed Snack</h2>
@@ -373,9 +372,8 @@
                                                                         <img src="{{url('public/home')}}/assets/images/garden/9.jpg" class="wp-post-image" alt="">
                                                                         <span class="price">
                                                                             <ins>
-                                                                                <span class="amount"> </span>
+                                                                                <span class="amount">-50%</span>
                                                                             </ins>
-                                                                            <span class="amount"> 456.00</span>
                                                                         </span>
                                                                         <!-- /.price -->
                                                                         <h2 class="woocommerce-loop-product__title">Organic Extra Virgin Olive Oil</h2>
@@ -394,9 +392,8 @@
                                                                         <img src="{{url('public/home')}}/assets/images/garden/6.jpg" class="wp-post-image" alt="">
                                                                         <span class="price">
                                                                             <ins>
-                                                                                <span class="amount"> </span>
+                                                                                <span class="amount">-30%</span>
                                                                             </ins>
-                                                                            <span class="amount"> 456.00</span>
                                                                         </span>
                                                                         <!-- /.price -->
                                                                         <h2 class="woocommerce-loop-product__title">Avocado Oil Mayo</h2>
@@ -415,9 +412,8 @@
                                                                         <img src="{{url('public/home')}}/assets/images/garden/7.jpg" class="wp-post-image" alt="">
                                                                         <span class="price">
                                                                             <ins>
-                                                                                <span class="amount"> </span>
+                                                                                <span class="amount">-30%</span>
                                                                             </ins>
-                                                                            <span class="amount"> 456.00</span>
                                                                         </span>
                                                                         <!-- /.price -->
                                                                         <h2 class="woocommerce-loop-product__title">One Nutritional Shake, Berry</h2>
@@ -436,9 +432,9 @@
                                                                         <img src="{{url('public/home')}}/assets/images/garden/10.jpg" class="wp-post-image" alt="">
                                                                         <span class="price">
                                                                             <ins>
-                                                                                <span class="amount"> </span>
+                                                                                <span class="amount">-80%</span>
                                                                             </ins>
-                                                                            <span class="amount"> 456.00</span>
+                                                                            <span class="amount"></span>
                                                                         </span>
                                                                         <!-- /.price -->
                                                                         <h2 class="woocommerce-loop-product__title">Cacao Chip Cookies, 6 count</h2>
@@ -457,9 +453,9 @@
                                                                         <img src="{{url('public/home')}}/assets/images/garden/9.jpg" class="wp-post-image" alt="">
                                                                         <span class="price">
                                                                             <ins>
-                                                                                <span class="amount"> </span>
+                                                                                <span class="amount">-20%</span>
                                                                             </ins>
-                                                                            <span class="amount"> 399.00</span>
+                                                                            <span class="amount"></span>
                                                                         </span>
                                                                         <!-- /.price -->
                                                                         <h2 class="woocommerce-loop-product__title">Baby Wipes, Free and Clear</h2>
@@ -478,9 +474,9 @@
                                                                         <img src="{{url('public/home')}}/assets/images/garden/1.jpg" class="wp-post-image" alt="">
                                                                         <span class="price">
                                                                             <ins>
-                                                                                <span class="amount"> </span>
+                                                                                <span class="amount">-40%</span>
                                                                             </ins>
-                                                                            <span class="amount"> 456.00</span>
+                                                                            <span class="amount"></span>
                                                                         </span>
                                                                         <!-- /.price -->
                                                                         <h2 class="woocommerce-loop-product__title">Natural Force – Organic Whey Unflavored – 13.76 oz</h2>
@@ -499,9 +495,9 @@
                                                                         <img src="{{url('public/home')}}/assets/images/garden/5.jpg" class="wp-post-image" alt="">
                                                                         <span class="price">
                                                                             <ins>
-                                                                                <span class="amount"> </span>
+                                                                                <span class="amount">-1%</span>
                                                                             </ins>
-                                                                            <span class="amount"> 456.00</span>
+                                                                            <span class="amount"></span>
                                                                         </span>
                                                                         <!-- /.price -->
                                                                         <h2 class="woocommerce-loop-product__title">Ranch Dressing with Avocado Oil, Dairy-Free</h2>
@@ -524,10 +520,10 @@
                                                                         <img src="{{url('public/home')}}/assets/images/garden/2.jpg" class="wp-post-image" alt="">
                                                                         <span class="price">
                                                                             <ins>
-                                                                                <span class="amount"> 262.81</span>
+                                                                                <span class="amount">-2%</span>
                                                                             </ins>
                                                                             <del>
-                                                                                <span class="amount">399.00</span>
+                                                                                <span class="amount"></span>
                                                                             </del>
                                                                             <span class="amount"> </span>
                                                                         </span>
@@ -550,7 +546,7 @@
                                                                             <ins>
                                                                                 <span class="amount"> </span>
                                                                             </ins>
-                                                                            <span class="amount"> 456.00</span>
+                                                                            <span class="amount">-10%</span>
                                                                         </span>
                                                                         <!-- /.price -->
                                                                         <h2 class="woocommerce-loop-product__title">Orange Organic Dark Chocolate- 70% Cocoa</h2>
@@ -571,7 +567,7 @@
                                                                             <ins>
                                                                                 <span class="amount"> </span>
                                                                             </ins>
-                                                                            <span class="amount"> 456.00</span>
+                                                                            <span class="amount">-10%</span>
                                                                         </span>
                                                                         <!-- /.price -->
                                                                         <h2 class="woocommerce-loop-product__title">Cacao Chip Cookies, 6 count</h2>
@@ -594,10 +590,10 @@
                                                                         <img src="{{url('public/home')}}/assets/images/garden/2.jpg" class="wp-post-image" alt="">
                                                                         <span class="price">
                                                                             <ins>
-                                                                                <span class="amount"> 309.95</span>
+                                                                                <span class="amount">-30%</span>
                                                                             </ins>
                                                                             <del>
-                                                                                <span class="amount">459.00</span>
+                                                                                <span class="amount"></span>
                                                                             </del>
                                                                             <span class="amount"> </span>
                                                                         </span>
@@ -618,9 +614,9 @@
                                                                         <img src="{{url('public/home')}}/assets/images/garden/8.jpg" class="wp-post-image" alt="">
                                                                         <span class="price">
                                                                             <ins>
-                                                                                <span class="amount"> </span>
+                                                                                <span class="amount">-10%</span>
                                                                             </ins>
-                                                                            <span class="amount"> 456.00</span>
+                                                                            <span class="amount"></span>
                                                                         </span>
                                                                         <!-- /.price -->
                                                                         <h2 class="woocommerce-loop-product__title">Organic Creamy Peanut Butter</h2>
@@ -639,9 +635,9 @@
                                                                         <img src="{{url('public/home')}}/assets/images/garden/4.jpg" class="wp-post-image" alt="">
                                                                         <span class="price">
                                                                             <ins>
-                                                                                <span class="amount"> </span>
+                                                                                <span class="amount">-9%</span>
                                                                             </ins>
-                                                                            <span class="amount"> 456.00</span>
+                                                                            <span class="amount"></span>
                                                                         </span>
                                                                         <!-- /.price -->
                                                                         <h2 class="woocommerce-loop-product__title">5-Day Healthy Detox Plan</h2>
@@ -792,350 +788,47 @@
                                 <!-- .section-landscape-products-carousel -->
                                 <section class="section-products-carousel" id="homev6-carousel-3">
                                     <header class="section-header">
-                                        <h2 class="section-title">Outdoor Dining Furnitures</h2>
+                                        <h2 class="section-title">Ứng dụng</h2>
                                         <nav class="custom-slick-nav"></nav>
                                         <!-- .custom-slick-nav -->
                                     </header>
                                     <!-- .section-header -->
-                                    <div class="products-carousel 6-column-carousel" data-ride="tm-slick-carousel" data-wrap=".products" data-slick="{&quot;infinite&quot;:false,&quot;slidesToShow&quot;:6,&quot;slidesToScroll&quot;:6,&quot;dots&quot;:true,&quot;arrows&quot;:true,&quot;prevArrow&quot;:&quot;&lt;a href=\&quot;#\&quot;&gt;&lt;i class=\&quot;tm tm-arrow-left\&quot;&gt;&lt;\/i&gt;&lt;\/a&gt;&quot;,&quot;nextArrow&quot;:&quot;&lt;a href=\&quot;#\&quot;&gt;&lt;i class=\&quot;tm tm-arrow-right\&quot;&gt;&lt;\/i&gt;&lt;\/a&gt;&quot;,&quot;appendArrows&quot;:&quot;#homev6-carousel-3 .custom-slick-nav&quot;,&quot;responsive&quot;:[{&quot;breakpoint&quot;:750,&quot;settings&quot;:{&quot;slidesToShow&quot;:2,&quot;slidesToScroll&quot;:2}},{&quot;breakpoint&quot;:1200,&quot;settings&quot;:{&quot;slidesToShow&quot;:3,&quot;slidesToScroll&quot;:3}},{&quot;breakpoint&quot;:1400,&quot;settings&quot;:{&quot;slidesToShow&quot;:4,&quot;slidesToScroll&quot;:4}},{&quot;breakpoint&quot;:1700,&quot;settings&quot;:{&quot;slidesToShow&quot;:5,&quot;slidesToScroll&quot;:5}}]}">
+                                    <div class="products-carousel 6-column-carousel" data-ride="tm-slick-carousel" data-wrap=".products" data-slick="{&quot;infinite&quot;:false,&quot;slidesToShow&quot;:4,&quot;slidesToScroll&quot;:6,&quot;dots&quot;:true,&quot;arrows&quot;:true,&quot;prevArrow&quot;:&quot;&lt;a href=\&quot;#\&quot;&gt;&lt;i class=\&quot;tm tm-arrow-left\&quot;&gt;&lt;\/i&gt;&lt;\/a&gt;&quot;,&quot;nextArrow&quot;:&quot;&lt;a href=\&quot;#\&quot;&gt;&lt;i class=\&quot;tm tm-arrow-right\&quot;&gt;&lt;\/i&gt;&lt;\/a&gt;&quot;,&quot;appendArrows&quot;:&quot;#homev6-carousel-3 .custom-slick-nav&quot;,&quot;responsive&quot;:[{&quot;breakpoint&quot;:750,&quot;settings&quot;:{&quot;slidesToShow&quot;:2,&quot;slidesToScroll&quot;:2}},{&quot;breakpoint&quot;:1200,&quot;settings&quot;:{&quot;slidesToShow&quot;:3,&quot;slidesToScroll&quot;:3}},{&quot;breakpoint&quot;:1400,&quot;settings&quot;:{&quot;slidesToShow&quot;:4,&quot;slidesToScroll&quot;:4}},{&quot;breakpoint&quot;:1700,&quot;settings&quot;:{&quot;slidesToShow&quot;:5,&quot;slidesToScroll&quot;:5}}]}">
                                         <div class="container-fluid">
                                             <div class="woocommerce columns-6">
                                                 <div class="products">
+                                                @foreach($news_2 as $news)
                                                     <div class="product">
                                                         <div class="yith-wcwl-add-to-wishlist">
                                                             <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                                         </div>
                                                         <a href="single-product-fullwidth.html" class="woocommerce-LoopProduct-link">
-                                                            <img src="{{url('public/home')}}/assets/images/garden/f1.jpg" class="wp-post-image" alt="">
+                                                        <div class="img-news">
+                                                            <div class="hovereffect">
+                                                                <img src="{{url('uploads/news')}}/{{$news->image_cover}}" class="wp-post-image" alt="">
+                                                                <div class="overlay">
+                                                                   <h2>{{$news->title}}</h2>
+                                                                   <a class="info" href="#">Chi tiết</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                             <span class="price">
                                                                 <ins>
                                                                     <span class="amount"> </span>
                                                                 </ins>
-                                                                <span class="amount"> 456.00</span>
+                                                                <!-- <span class="amount"> 456.00</span> -->
                                                             </span>
                                                             <!-- /.price -->
-                                                            <h2 class="woocommerce-loop-product__title">Natural Force – Organic Whey Unflavored – 13.76 oz</h2>
+                                                            <div class="news-title">
+                                                                <h2 class="woocommerce-loop-product__title">{{$news->title}}</h2>
+                                                            </div>
                                                         </a>
-                                                        <div class="hover-area">
+              <!--                                           <div class="hover-area">
                                                             <a class="button add_to_cart_button" href="{{route('view',['slug'=>$new_product->slug])}}" rel="nofollow">Xem chi tiết</a>
-                                                            <!-- <a class="add-to-compare-link" href="compare.html">Compare</a> -->
-                                                        </div>
+                                                            <a class="add-to-compare-link" href="compare.html">Compare</a>
+                                                        </div> -->
                                                     </div>
-                                                    <!-- /.product-outer -->
-                                                    <div class="product">
-                                                        <div class="yith-wcwl-add-to-wishlist">
-                                                            <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
-                                                        </div>
-                                                        <a href="single-product-fullwidth.html" class="woocommerce-LoopProduct-link">
-                                                            <img src="{{url('public/home')}}/assets/images/garden/f3.jpg" class="wp-post-image" alt="">
-                                                            <span class="price">
-                                                                <ins>
-                                                                    <span class="amount"> </span>
-                                                                </ins>
-                                                                <span class="amount"> 456.00</span>
-                                                            </span>
-                                                            <!-- /.price -->
-                                                            <h2 class="woocommerce-loop-product__title">Hallo Seat Back Pad Outdoor Beige</h2>
-                                                        </a>
-                                                        <div class="hover-area">
-                                                            <a class="button add_to_cart_button" href="{{route('view',['slug'=>$new_product->slug])}}" rel="nofollow">Xem chi tiết</a>
-                                                            <!-- <a class="add-to-compare-link" href="compare.html">Compare</a> -->
-                                                        </div>
-                                                    </div>
-                                                    <!-- /.product-outer -->
-                                                    <div class="product">
-                                                        <div class="yith-wcwl-add-to-wishlist">
-                                                            <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
-                                                        </div>
-                                                        <a href="single-product-fullwidth.html" class="woocommerce-LoopProduct-link">
-                                                            <img src="{{url('public/home')}}/assets/images/garden/f1.jpg" class="wp-post-image" alt="">
-                                                            <span class="price">
-                                                                <ins>
-                                                                    <span class="amount"> </span>
-                                                                </ins>
-                                                                <span class="amount"> 456.00</span>
-                                                            </span>
-                                                            <!-- /.price -->
-                                                            <h2 class="woocommerce-loop-product__title">Light Weight Ikea Tunholmen Table</h2>
-                                                        </a>
-                                                        <div class="hover-area">
-                                                            <a class="button add_to_cart_button" href="{{route('view',['slug'=>$new_product->slug])}}" rel="nofollow">Xem chi tiết</a>
-                                                            <!-- <a class="add-to-compare-link" href="compare.html">Compare</a> -->
-                                                        </div>
-                                                    </div>
-                                                    <!-- /.product-outer -->
-                                                    <div class="product">
-                                                        <div class="yith-wcwl-add-to-wishlist">
-                                                            <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
-                                                        </div>
-                                                        <a href="single-product-fullwidth.html" class="woocommerce-LoopProduct-link">
-                                                            <img src="{{url('public/home')}}/assets/images/garden/f6.jpg" class="wp-post-image" alt="">
-                                                            <span class="price">
-                                                                <ins>
-                                                                    <span class="amount"> </span>
-                                                                </ins>
-                                                                <span class="amount"> 456.00</span>
-                                                            </span>
-                                                            <!-- /.price -->
-                                                            <h2 class="woocommerce-loop-product__title">Falster Chair</h2>
-                                                        </a>
-                                                        <div class="hover-area">
-                                                            <a class="button add_to_cart_button" href="{{route('view',['slug'=>$new_product->slug])}}" rel="nofollow">Xem chi tiết</a>
-                                                            <!-- <a class="add-to-compare-link" href="compare.html">Compare</a> -->
-                                                        </div>
-                                                    </div>
-                                                    <!-- /.product-outer -->
-                                                    <div class="product">
-                                                        <div class="yith-wcwl-add-to-wishlist">
-                                                            <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
-                                                        </div>
-                                                        <a href="single-product-fullwidth.html" class="woocommerce-LoopProduct-link">
-                                                            <span class="onsale">
-                                                                <span class="woocommerce-Price-amount amount">
-                                                                    <span class="woocommerce-Price-currencySymbol">$</span>150.04</span>
-                                                            </span>
-                                                            <img src="{{url('public/home')}}/assets/images/garden/f5.jpg" class="wp-post-image" alt="">
-                                                            <span class="price">
-                                                                <ins>
-                                                                    <span class="amount"> 262.81</span>
-                                                                </ins>
-                                                                <del>
-                                                                    <span class="amount">399.00</span>
-                                                                </del>
-                                                                <span class="amount"> </span>
-                                                            </span>
-                                                            <!-- /.price -->
-                                                            <h2 class="woocommerce-loop-product__title">Gerber, Rice Cereal, Single Grain</h2>
-                                                        </a>
-                                                        <div class="hover-area">
-                                                            <a class="button add_to_cart_button" href="{{route('view',['slug'=>$new_product->slug])}}" rel="nofollow">Xem chi tiết</a>
-                                                            <!-- <a class="add-to-compare-link" href="compare.html">Compare</a> -->
-                                                        </div>
-                                                    </div>
-                                                    <!-- /.product-outer -->
-                                                    <div class="product">
-                                                        <div class="yith-wcwl-add-to-wishlist">
-                                                            <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
-                                                        </div>
-                                                        <a href="single-product-fullwidth.html" class="woocommerce-LoopProduct-link">
-                                                            <span class="onsale">
-                                                                <span class="woocommerce-Price-amount amount">
-                                                                    <span class="woocommerce-Price-currencySymbol">$</span>150.04</span>
-                                                            </span>
-                                                            <img src="{{url('public/home')}}/assets/images/garden/f2.jpg" class="wp-post-image" alt="">
-                                                            <span class="price">
-                                                                <ins>
-                                                                    <span class="amount"> 309.95</span>
-                                                                </ins>
-                                                                <del>
-                                                                    <span class="amount">459.00</span>
-                                                                </del>
-                                                                <span class="amount"> </span>
-                                                            </span>
-                                                            <!-- /.price -->
-                                                            <h2 class="woocommerce-loop-product__title">Tunholmen</h2>
-                                                        </a>
-                                                        <div class="hover-area">
-                                                            <a class="button add_to_cart_button" href="{{route('view',['slug'=>$new_product->slug])}}" rel="nofollow">Xem chi tiết</a>
-                                                            <!-- <a class="add-to-compare-link" href="compare.html">Compare</a> -->
-                                                        </div>
-                                                    </div>
-                                                    <!-- /.product-outer -->
-                                                    <div class="product">
-                                                        <div class="yith-wcwl-add-to-wishlist">
-                                                            <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
-                                                        </div>
-                                                        <a href="single-product-fullwidth.html" class="woocommerce-LoopProduct-link">
-                                                            <img src="{{url('public/home')}}/assets/images/garden/f5.jpg" class="wp-post-image" alt="">
-                                                            <span class="price">
-                                                                <ins>
-                                                                    <span class="amount"> </span>
-                                                                </ins>
-                                                                <span class="amount"> 456.00</span>
-                                                            </span>
-                                                            <!-- /.price -->
-                                                            <h2 class="woocommerce-loop-product__title">White Outdoor Chair</h2>
-                                                        </a>
-                                                        <div class="hover-area">
-                                                            <a class="button add_to_cart_button" href="{{route('view',['slug'=>$new_product->slug])}}" rel="nofollow">Xem chi tiết</a>
-                                                            <!-- <a class="add-to-compare-link" href="compare.html">Compare</a> -->
-                                                        </div>
-                                                    </div>
-                                                    <!-- /.product-outer -->
-                                                    <div class="product">
-                                                        <div class="yith-wcwl-add-to-wishlist">
-                                                            <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
-                                                        </div>
-                                                        <a href="single-product-fullwidth.html" class="woocommerce-LoopProduct-link">
-                                                            <img src="{{url('public/home')}}/assets/images/garden/f4.jpg" class="wp-post-image" alt="">
-                                                            <span class="price">
-                                                                <ins>
-                                                                    <span class="amount"> </span>
-                                                                </ins>
-                                                                <span class="amount"> 456.00</span>
-                                                            </span>
-                                                            <!-- /.price -->
-                                                            <h2 class="woocommerce-loop-product__title">Pale Blue Mammut Kids Children’s Chair</h2>
-                                                        </a>
-                                                        <div class="hover-area">
-                                                            <a class="button add_to_cart_button" href="{{route('view',['slug'=>$new_product->slug])}}" rel="nofollow">Xem chi tiết</a>
-                                                            <!-- <a class="add-to-compare-link" href="compare.html">Compare</a> -->
-                                                        </div>
-                                                    </div>
-                                                    <!-- /.product-outer -->
-                                                    <div class="product">
-                                                        <div class="yith-wcwl-add-to-wishlist">
-                                                            <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
-                                                        </div>
-                                                        <a href="single-product-fullwidth.html" class="woocommerce-LoopProduct-link">
-                                                            <span class="onsale">
-                                                                <span class="woocommerce-Price-amount amount">
-                                                                    <span class="woocommerce-Price-currencySymbol">$</span>150.04</span>
-                                                            </span>
-                                                            <img src="{{url('public/home')}}/assets/images/garden/f7.jpg" class="wp-post-image" alt="">
-                                                            <span class="price">
-                                                                <ins>
-                                                                    <span class="amount"> 789.95</span>
-                                                                </ins>
-                                                                <del>
-                                                                    <span class="amount">999.00</span>
-                                                                </del>
-                                                                <span class="amount"> </span>
-                                                            </span>
-                                                            <!-- /.price -->
-                                                            <h2 class="woocommerce-loop-product__title">Falster Chair</h2>
-                                                        </a>
-                                                        <div class="hover-area">
-                                                            <a class="button add_to_cart_button" href="{{route('view',['slug'=>$new_product->slug])}}" rel="nofollow">Xem chi tiết</a>
-                                                            <!-- <a class="add-to-compare-link" href="compare.html">Compare</a> -->
-                                                        </div>
-                                                    </div>
-                                                    <!-- /.product-outer -->
-                                                    <div class="product">
-                                                        <div class="yith-wcwl-add-to-wishlist">
-                                                            <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
-                                                        </div>
-                                                        <a href="single-product-fullwidth.html" class="woocommerce-LoopProduct-link">
-                                                            <img src="{{url('public/home')}}/assets/images/garden/f3.jpg" class="wp-post-image" alt="">
-                                                            <span class="price">
-                                                                <ins>
-                                                                    <span class="amount"> </span>
-                                                                </ins>
-                                                                <span class="amount"> 456.00</span>
-                                                            </span>
-                                                            <!-- /.price -->
-                                                            <h2 class="woocommerce-loop-product__title">Hallo Seat Back Pad Outdoor Beige</h2>
-                                                        </a>
-                                                        <div class="hover-area">
-                                                            <a class="button add_to_cart_button" href="{{route('view',['slug'=>$new_product->slug])}}" rel="nofollow">Xem chi tiết</a>
-                                                            <!-- <a class="add-to-compare-link" href="compare.html">Compare</a> -->
-                                                        </div>
-                                                    </div>
-                                                    <!-- /.product-outer -->
-                                                    <div class="product">
-                                                        <div class="yith-wcwl-add-to-wishlist">
-                                                            <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
-                                                        </div>
-                                                        <a href="single-product-fullwidth.html" class="woocommerce-LoopProduct-link">
-                                                            <img src="{{url('public/home')}}/assets/images/garden/f6.jpg" class="wp-post-image" alt="">
-                                                            <span class="price">
-                                                                <ins>
-                                                                    <span class="amount"> </span>
-                                                                </ins>
-                                                                <span class="amount"> 456.00</span>
-                                                            </span>
-                                                            <!-- /.price -->
-                                                            <h2 class="woocommerce-loop-product__title">White Outdoor Chair</h2>
-                                                        </a>
-                                                        <div class="hover-area">
-                                                            <a class="button add_to_cart_button" href="{{route('view',['slug'=>$new_product->slug])}}" rel="nofollow">Xem chi tiết</a>
-                                                            <!-- <a class="add-to-compare-link" href="compare.html">Compare</a> -->
-                                                        </div>
-                                                    </div>
-                                                    <!-- /.product-outer -->
-                                                    <div class="product">
-                                                        <div class="yith-wcwl-add-to-wishlist">
-                                                            <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
-                                                        </div>
-                                                        <a href="single-product-fullwidth.html" class="woocommerce-LoopProduct-link">
-                                                            <img src="{{url('public/home')}}/assets/images/garden/f8.jpg" class="wp-post-image" alt="">
-                                                            <span class="price">
-                                                                <ins>
-                                                                    <span class="amount"> </span>
-                                                                </ins>
-                                                                <span class="amount"> 456.00</span>
-                                                            </span>
-                                                            <!-- /.price -->
-                                                            <h2 class="woocommerce-loop-product__title">White Outdoor Chair</h2>
-                                                        </a>
-                                                        <div class="hover-area">
-                                                            <a class="button add_to_cart_button" href="{{route('view',['slug'=>$new_product->slug])}}" rel="nofollow">Xem chi tiết</a>
-                                                            <!-- <a class="add-to-compare-link" href="compare.html">Compare</a> -->
-                                                        </div>
-                                                    </div>
-                                                    <!-- /.product-outer -->
-                                                    <div class="product">
-                                                        <div class="yith-wcwl-add-to-wishlist">
-                                                            <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
-                                                        </div>
-                                                        <a href="single-product-fullwidth.html" class="woocommerce-LoopProduct-link">
-                                                            <img src="{{url('public/home')}}/assets/images/garden/f3.jpg" class="wp-post-image" alt="">
-                                                            <span class="price">
-                                                                <ins>
-                                                                    <span class="amount"> </span>
-                                                                </ins>
-                                                                <span class="amount"> 399.00</span>
-                                                            </span>
-                                                            <!-- /.price -->
-                                                            <h2 class="woocommerce-loop-product__title">Baby Wipes, Free and Clear</h2>
-                                                        </a>
-                                                        <div class="hover-area">
-                                                            <a class="button add_to_cart_button" href="{{route('view',['slug'=>$new_product->slug])}}" rel="nofollow">Xem chi tiết</a>
-                                                            <!-- <a class="add-to-compare-link" href="compare.html">Compare</a> -->
-                                                        </div>
-                                                    </div>
-                                                    <!-- /.product-outer -->
-                                                    <div class="product">
-                                                        <div class="yith-wcwl-add-to-wishlist">
-                                                            <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
-                                                        </div>
-                                                        <a href="single-product-fullwidth.html" class="woocommerce-LoopProduct-link">
-                                                            <img src="{{url('public/home')}}/assets/images/garden/f4.jpg" class="wp-post-image" alt="">
-                                                            <span class="price">
-                                                                <ins>
-                                                                    <span class="amount"> </span>
-                                                                </ins>
-                                                                <span class="amount"> 456.00</span>
-                                                            </span>
-                                                            <!-- /.price -->
-                                                            <h2 class="woocommerce-loop-product__title">Light Weight Ikea Tunholmen Table</h2>
-                                                        </a>
-                                                        <div class="hover-area">
-                                                            <a class="button add_to_cart_button" href="{{route('view',['slug'=>$new_product->slug])}}" rel="nofollow">Xem chi tiết</a>
-                                                            <!-- <a class="add-to-compare-link" href="compare.html">Compare</a> -->
-                                                        </div>
-                                                    </div>
-                                                    <!-- /.product-outer -->
-                                                    <div class="product">
-                                                        <div class="yith-wcwl-add-to-wishlist">
-                                                            <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
-                                                        </div>
-                                                        <a href="single-product-fullwidth.html" class="woocommerce-LoopProduct-link">
-                                                            <img src="{{url('public/home')}}/assets/images/garden/f7.jpg" class="wp-post-image" alt="">
-                                                            <span class="price">
-                                                                <ins>
-                                                                    <span class="amount"> </span>
-                                                                </ins>
-                                                                <span class="amount"> 456.00</span>
-                                                            </span>
-                                                            <!-- /.price -->
-                                                            <h2 class="woocommerce-loop-product__title">One Nutritional Shake, Berry</h2>
-                                                        </a>
-                                                        <div class="hover-area">
-                                                            <a class="button add_to_cart_button" href="{{route('view',['slug'=>$new_product->slug])}}" rel="nofollow">Xem chi tiết</a>
-                                                            <!-- <a class="add-to-compare-link" href="compare.html">Compare</a> -->
-                                                        </div>
-                                                    </div>
+                                                @endforeach
                                                     <!-- /.product-outer -->
                                                 </div>
                                             </div>
@@ -1327,7 +1020,7 @@
                                                                             <ins>
                                                                                 <span class="amount"> </span>
                                                                             </ins>
-                                                                            <span class="amount"> 456.00</span>
+                                                                            <span class="amount">-20%</span>
                                                                         </span>
                                                                         <!-- /.price -->
                                                                         <h2 class="woocommerce-loop-product__title">Sea Salt Seaweed Snack</h2>
@@ -1418,7 +1111,7 @@
                                                                             <del>
                                                                                 <span class="amount">999.00</span>
                                                                             </del>
-                                                                            <span class="amount"> </span>
+                                                                            <span class="amount">-30%</span>
                                                                         </span>
                                                                         <!-- /.price -->
                                                                         <h2 class="woocommerce-loop-product__title">Organic Fruit Strips, Strawberry</h2>
@@ -5379,74 +5072,32 @@
                         </div>
                         <!-- #primary -->
                         <div id="secondary" class="widget-area" role="complementary">
+                        @foreach($banners as $banner)
                             <div class="widget widget_techmarket_banner_widget">
                                 <div class="banner">
                                     <a href="shop.html">
-                                        <div style="background-size: cover; background-position: center center; background-image: url( {{url('public/home')}}/assets/images/garden/banner-1-1.jpg ); height: 207px;" class="banner-bg">
+                                        <div style="background-size: cover; background-position: center center; background-image: url( {{url('uploads/banner')}}/{{$banner->cover_image}} ); height: 207px;" class="banner-bg">
                                             <div class="caption">
                                                 <div class="banner-info">
                                                     <h3 class="title">
-                                                        <strong>1000 mAh</strong>
+    <!--                                                     <strong>1000 mAh</strong>
                                                         <br>
-                                                        <span>Power Bank Pro</span>
+                                                        <span>Power Bank Pro</span> -->
                                                     </h3>
                                                 </div>
                                                 <!-- .banner-info -->
-                                                <span class="price">$ 34.99</span>
-                                                <span class="banner-action button">Buy Now</span>
+                              <!--                   <span class="price">$ 34.99</span>
+                                                <span class="banner-action button">Buy Now</span> -->
                                             </div>
                                             <!-- .caption -->
                                         </div>
                                         <!-- .banner-bg -->
                                     </a>
+                                    <div class="n-banner"><a class="text-center" href="">{{$banner->name}}</a></div>
                                 </div>
                                 <!-- .banner -->
                             </div>
-                            <!-- .widget_techmarket_banner_widget -->
-                            <div class="widget widget_techmarket_banner_widget">
-                                <div class="banner">
-                                    <a href="shop.html">
-                                        <div style="background-size: cover; background-position: center center; background-image: url( {{url('public/home')}}/assets/images/garden/banner-2.jpg ); height: 207px;" class="banner-bg">
-                                            <div class="caption">
-                                                <div class="banner-info">
-                                                    <h3 class="title">New Arrivals
-                                                        <br> in
-                                                        <strong> Accesories</strong>
-                                                        <br> at Best prices</h3>
-                                                </div>
-                                                <!-- .banner-info -->
-                                                <span class="banner-action button">View all</span>
-                                            </div>
-                                            <!-- .caption -->
-                                        </div>
-                                        <!-- .banner-bg -->
-                                    </a>
-                                </div>
-                                <!-- .banner -->
-                            </div>
-                            <!-- .widget_techmarket_banner_widget -->
-                            <div class="widget widget_techmarket_banner_widget">
-                                <div class="banner">
-                                    <a href="shop.html">
-                                        <div style="background-size: cover; background-position: center center; background-image: url( {{url('public/home')}}/assets/images/garden/banner-3-1.jpg ); height: 207px;" class="banner-bg">
-                                            <div class="caption">
-                                                <div class="banner-info">
-                                                    <h3 class="title">Catch Best
-                                                        <br>
-                                                        <strong>Bathroom</strong>
-                                                        <br>Decorations &
-                                                        <br>Towels</h3>
-                                                </div>
-                                                <!-- .banner-info -->
-                                                <span class="banner-action button">Browse</span>
-                                            </div>
-                                            <!-- .caption -->
-                                        </div>
-                                        <!-- .banner-bg -->
-                                    </a>
-                                </div>
-                                <!-- .banner -->
-                            </div>
+                        @endforeach
                             <!-- .widget_techmarket_banner_widget -->
                             <div class="widget widget_techmarket_features_widget">
                                 <div class="features-list">
@@ -5455,7 +5106,7 @@
                                             <div class="media">
                                                 <i class="feature-icon d-flex mr-3 tm tm-free-delivery"></i>
                                                 <div class="media-body feature-text">
-                                                    <strong>Free Delivery</strong>from $50</div>
+                                                    <strong>Miễn phí vận chuyển</strong></div>
                                             </div>
                                             <!-- .media -->
                                         </div>
@@ -5464,7 +5115,7 @@
                                             <div class="media">
                                                 <i class="feature-icon d-flex mr-3 tm tm-feedback"></i>
                                                 <div class="media-body feature-text">
-                                                    <strong>99 % Customer</strong>Feedbacks</div>
+                                                    <strong>99% Phản hồi từ </strong>khách hàng</div>
                                             </div>
                                             <!-- .media -->
                                         </div>
@@ -5473,7 +5124,7 @@
                                             <div class="media">
                                                 <i class="feature-icon d-flex mr-3 tm tm-free-return"></i>
                                                 <div class="media-body feature-text">
-                                                    <strong>365 Days </strong>for free return</div>
+                                                    <strong>Bảo hành 365 ngày</strong></div>
                                             </div>
                                             <!-- .media -->
                                         </div>
@@ -5482,7 +5133,7 @@
                                             <div class="media">
                                                 <i class="feature-icon d-flex mr-3 tm tm-safe-payments"></i>
                                                 <div class="media-body feature-text">
-                                                    <strong>Payment</strong>Secure System</div>
+                                                    <strong>Hệ thống thanh toán an toàn</strong></div>
                                             </div>
                                             <!-- .media -->
                                         </div>
@@ -5491,7 +5142,7 @@
                                             <div class="media">
                                                 <i class="feature-icon d-flex mr-3 tm tm-best-brands"></i>
                                                 <div class="media-body feature-text">
-                                                    <strong>Only Best</strong>Brands</div>
+                                                    <strong>Đứng đầu về chất lượng</strong></div>
                                             </div>
                                             <!-- .media -->
                                         </div>

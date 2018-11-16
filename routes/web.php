@@ -17,6 +17,7 @@ Route::group(['prefix'=>'admin','namespace'=>'Admin','middleware'=>'auth'],funct
 	include('admin/account.php');
 	include('admin/news.php');
 	include('admin/slider.php');
+	include('admin/banner.php');
 	include('admin/supporter.php');
 	include('admin/webconfig.php');
 	include('admin/service.php');
@@ -32,7 +33,7 @@ Route::get('admin/logout','Admin\AdminController@logout')->name('logout');
 
 Route::group(['prefix'=>'','namespace'=>'Home'],function(){
 	Route::get('/','HomeController@index')->name('home');
-	Route::get('/san-pham','HomeController@index_product')->name('product');
+	Route::get('/san-pham','HomeController@index_product')->name('home_product');
 	Route::get('/du-an','HomeController@project')->name('projects');
 	Route::get('/du-an/{slug}','HomeController@detail_project')->name('detail_project');
 	Route::get('//{slug}','HomeController@view')->name('view');

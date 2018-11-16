@@ -79,7 +79,13 @@ class ProductController extends Controller
         'meta_title.max' => 'Meta Title vượt quá :max ký tự',
         'meta_description.max' => 'Meta Description vượt quá :max ký tự'
         ]);
-
+        if ($request->hasFile('sortpic')) {
+        $img='';
+        $file=$request->sortpic;
+        $file->move(base_path('uploads/product/test'),$file->getClientOriginalName());
+        $img=$file->getClientOriginalName();
+        $request->merge(['cover_image'=>$img]);
+        } 
       if ($validator->fails())
       {
         return Response::json(['errors' => $validator->errors()]);

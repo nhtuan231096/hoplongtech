@@ -15,30 +15,30 @@
       <link type="text/css" media="screen" href="{{url('public/home/home')}}/wp-content/cache/autoptimize/1/css/autoptimize_aa70d04ac018ff6c48774c3cb5f049f0.css" rel="stylesheet" />
       <style id='rs-plugin-settings-inline-css' type='text/css'>
        #rs-demo-id {}
-   </style>
-   <style id='consulting-layout-inline-css' type='text/css'>
+     </style>
+     <style id='consulting-layout-inline-css' type='text/css'>
        .page_title{ background-repeat: repeat !important; }.mtc, .mtc_h:hover{
-           color: #002e5b!important
+         color: #002e5b!important
        }.stc, .stc_h:hover{
-           color: #6c98e1!important
+         color: #6c98e1!important
        }.ttc, .ttc_h:hover{
-           color: #fde428!important
+         color: #fde428!important
        }.mbc, .mbc_h:hover, .stm-search .stm_widget_search button{
-           background-color: #002e5b!important
+         background-color: #002e5b!important
        }.sbc, .sbc_h:hover{
-           background-color: #6c98e1!important
+         background-color: #6c98e1!important
        }.tbc, .tbc_h:hover{
-           background-color: #fde428!important
+         background-color: #fde428!important
        }.mbdc, .mbdc_h:hover{
-           border-color: #002e5b!important
+         border-color: #002e5b!important
        }.sbdc, .sbdc_h:hover{
-           border-color: #6c98e1!important
+         border-color: #6c98e1!important
        }.tbdc, .tbdc_h:hover{
-           border-color: #fde428!important
+         border-color: #fde428!important
        }
        h2{
-          text-align:center;
-          padding: 20px;
+        text-align:center;
+        padding: 20px;
       }
       /* Slider */
 
@@ -46,15 +46,15 @@
         margin: 0px 20px;
         width: 125px !important;
         height: 55px !important;
-    }
+      }
 
-    .slick-slide img {
+      .slick-slide img {
         height: 100%;
         width: auto;
-    }
+      }
 
-    .slick-slider
-    {
+      .slick-slider
+      {
         position: relative;
         display: block;
         box-sizing: border-box;
@@ -67,127 +67,127 @@
         -ms-touch-action: pan-y;
         touch-action: pan-y;
         -webkit-tap-highlight-color: transparent;
-    }
+      }
 
-    .slick-list
-    {
+      .slick-list
+      {
         position: relative;
         display: block;
         overflow: hidden;
         margin: 0;
         padding: 0;
-    }
-    .slick-list:focus
-    {
+      }
+      .slick-list:focus
+      {
         outline: none;
-    }
-    .slick-list.dragging
-    {
+      }
+      .slick-list.dragging
+      {
         cursor: pointer;
         cursor: hand;
-    }
+      }
 
-    .slick-slider .slick-track,
-    .slick-slider .slick-list
-    {
+      .slick-slider .slick-track,
+      .slick-slider .slick-list
+      {
         -webkit-transform: translate3d(0, 0, 0);
         -moz-transform: translate3d(0, 0, 0);
         -ms-transform: translate3d(0, 0, 0);
         -o-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
-    }
+      }
 
-    .slick-track
-    {
+      .slick-track
+      {
         position: relative;
         top: 0;
         left: 0;
         display: block;
-    }
-    .slick-track:before,
-    .slick-track:after
-    {
+      }
+      .slick-track:before,
+      .slick-track:after
+      {
         display: table;
         content: '';
-    }
-    .slick-track:after
-    {
+      }
+      .slick-track:after
+      {
         clear: both;
-    }
-    .slick-loading .slick-track
-    {
+      }
+      .slick-loading .slick-track
+      {
         visibility: hidden;
-    }
+      }
 
-    .slick-slide
-    {
+      .slick-slide
+      {
         display: none;
         float: left;
         height: 100%;
         min-height: 1px;
-    }
-    [dir='rtl'] .slick-slide
-    {
+      }
+      [dir='rtl'] .slick-slide
+      {
         float: right;
-    }
-    .slick-slide img
-    {
+      }
+      .slick-slide img
+      {
         display: block;
-    }
-    .slick-slide.slick-loading img
-    {
+      }
+      .slick-slide.slick-loading img
+      {
         display: none;
-    }
-    .slick-slide.dragging img
-    {
+      }
+      .slick-slide.dragging img
+      {
         pointer-events: none;
-    }
-    .slick-initialized .slick-slide
-    {
+      }
+      .slick-initialized .slick-slide
+      {
         height: 100px;
         display: block;
-    }
-    .slick-loading .slick-slide
-    {
+      }
+      .slick-loading .slick-slide
+      {
         visibility: hidden;
-    }
-    .slick-vertical .slick-slide
-    {
+      }
+      .slick-vertical .slick-slide
+      {
         display: block;
         height: auto;
         border: 1px solid transparent;
-    }
-    .slick-arrow.slick-hidden {
+      }
+      .slick-arrow.slick-hidden {
         display: none;
-    }
-</style>
-<link rel='stylesheet' id='consulting-default-font-css'  href='https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C300%2C300italic%2C400italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%26subset%3Dlatin%2Cgreek%2Cgreek-ext%2Cvietnamese%2Ccyrillic-ext%2Clatin-ext%2Ccyrillic%7CPoppins%3A400%2C500%2C300%2C600%2C700%26subset%3Dlatin%2Clatin-ext%2Cdevanagari&#038;ver=4.0.9' type='text/css' media='all' />
-<link rel='stylesheet' id='stm-google-fonts-css'  href='//fonts.googleapis.com/css?family=Montserrat%7CMontserrat%3Aregular%2C700%2C500%2C600&#038;subset=latin&#038;ver=4.0.9' type='text/css' media='all' />
-<script type='text/javascript'>
-   /* <![CDATA[ */
-   var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"http:\/\/consulting.stylemixthemes.com\/shop\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
-   /* ]]> */
-</script>
-<link rel='https://api.w.org/' href='wp-json/' />
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" />
-<meta name="generator" content="WordPress 4.8.7" />
-<meta name="generator" content="WooCommerce 3.3.4" />
-<link rel="canonical" href="our-work-with-filter/" />
-<link rel='shortlink' href='?p=614' />
-<link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed?url=http%3A%2F%2Fconsulting.stylemixthemes.com%2Four-work-with-filter%2F" />
-<link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed?url=http%3A%2F%2Fconsulting.stylemixthemes.com%2Four-work-with-filter%2F&#038;format=xml" />
-<script data-cfasync="false">
-   window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};
-   (function(d,s,a,b){a=d.createElement(s);b=d.getElementsByTagName(s)[0];a.async=1;a.src="https://static.addtoany.com/menu/page.js";b.parentNode.insertBefore(a,b);})(document,"script");
-</script>
-<script type="text/javascript">
-   var ajaxurl = '{{url("public/home/home")}}/wp-admin/admin-ajax.php';
-</script>
-<noscript>
-   <style>.woocommerce-product-gallery{ opacity: 1 !important; }</style>
-</noscript>
-<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress.">
+      }
+    </style>
+    <link rel='stylesheet' id='consulting-default-font-css'  href='https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C300%2C300italic%2C400italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%26subset%3Dlatin%2Cgreek%2Cgreek-ext%2Cvietnamese%2Ccyrillic-ext%2Clatin-ext%2Ccyrillic%7CPoppins%3A400%2C500%2C300%2C600%2C700%26subset%3Dlatin%2Clatin-ext%2Cdevanagari&#038;ver=4.0.9' type='text/css' media='all' />
+    <link rel='stylesheet' id='stm-google-fonts-css'  href='//fonts.googleapis.com/css?family=Montserrat%7CMontserrat%3Aregular%2C700%2C500%2C600&#038;subset=latin&#038;ver=4.0.9' type='text/css' media='all' />
+    <script type='text/javascript'>
+     /* <![CDATA[ */
+     var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"http:\/\/consulting.stylemixthemes.com\/shop\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+     /* ]]> */
+   </script>
+   <link rel='https://api.w.org/' href='wp-json/' />
+   <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php?rsd" />
+   <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" />
+   <meta name="generator" content="WordPress 4.8.7" />
+   <meta name="generator" content="WooCommerce 3.3.4" />
+   <link rel="canonical" href="our-work-with-filter/" />
+   <link rel='shortlink' href='?p=614' />
+   <link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed?url=http%3A%2F%2Fconsulting.stylemixthemes.com%2Four-work-with-filter%2F" />
+   <link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed?url=http%3A%2F%2Fconsulting.stylemixthemes.com%2Four-work-with-filter%2F&#038;format=xml" />
+   <script data-cfasync="false">
+     window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};
+     (function(d,s,a,b){a=d.createElement(s);b=d.getElementsByTagName(s)[0];a.async=1;a.src="https://static.addtoany.com/menu/page.js";b.parentNode.insertBefore(a,b);})(document,"script");
+   </script>
+   <script type="text/javascript">
+     var ajaxurl = '{{url("public/home/home")}}/wp-admin/admin-ajax.php';
+   </script>
+   <noscript>
+     <style>.woocommerce-product-gallery{ opacity: 1 !important; }</style>
+   </noscript>
+   <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress.">
           <!--[if lte IE 9]>
           <link rel="stylesheet" type="text/css" href="{{url('public/home/home')}}/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen">
           <![endif]-->
@@ -197,141 +197,141 @@
           <meta name="msapplication-TileImage" content="wp-content/uploads/2016/02/cropped-cropped-favicon-2-1-300x300.png" />
           <script type="text/javascript">function setREVStartSize(e){                                 
            try{ e.c=jQuery(e.c);var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;
-               if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})                  
+             if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})                  
            }catch(d){console.log("Failure at Presize of Slider:"+d)}                       
-       };
+         };
+       </script>
+       <style type="text/css" title="dynamic-css" class="options-output">h1, .h1,
+         h2, .h2,
+         h3, .h3,
+         h4, .h4,
+         h5, .h5,
+         h6, .h6,
+         .top_nav .top_nav_wrapper > ul,
+         .top_nav .icon_text strong,
+         .stm_testimonials .item .testimonial-info .testimonial-text .name,
+         .stats_counter .counter_title,
+         .stm_contact .stm_contact_info .stm_contact_job,
+         .vacancy_table_wr .vacancy_table thead th,
+         .testimonials_carousel .testimonial .info .position,
+         .testimonials_carousel .testimonial .info .company,
+         .stm_gmap_wrapper .gmap_addresses .addresses .item .title,
+         .company_history > ul > li .year,
+         .stm_contacts_widget,
+         .stm_works_wr.grid .stm_works .item .item_wr .title,
+         .stm_works_wr.grid_with_filter .stm_works .item .info .title,
+         body .vc_general.vc_btn3,
+         .consulting-rev-title,
+         .consulting-rev-title-2,
+         .consulting-rev-title-3,
+         .consulting-rev-text,
+         body .vc_tta-container .vc_tta.vc_general.vc_tta-tabs.theme_style .vc_tta-tabs-container .vc_tta-tabs-list .vc_tta-tab a,
+         strong, b,
+         .button,
+         .woocommerce a.button,
+         .woocommerce button.button,
+         .woocommerce input.button,
+         .woocommerce-cart .wc-proceed-to-checkout a.checkout-button,
+         .woocommerce input.button.alt,
+         .request_callback p,
+         ul.comment-list .comment .comment-author,
+         .page-numbers .page-numbers,
+         #footer .footer_widgets .widget.widget_recent_entries ul li a,
+         .default_widgets .widget.widget_nav_menu ul li,
+         .default_widgets .widget.widget_categories ul li,
+         .default_widgets .widget.widget_product_categories ul li,
+         .stm_sidebar .widget.widget_nav_menu ul li, .stm_sidebar .widget.widget_categories ul li,
+         .stm_sidebar .widget.widget_product_categories ul li,
+         .shop_widgets .widget.widget_nav_menu ul li,
+         .shop_widgets .widget.widget_categories ul li,
+         .shop_widgets .widget.widget_product_categories ul li,
+         .default_widgets .widget.widget_recent_entries ul li a,
+         .stm_sidebar .widget.widget_recent_entries ul li a,
+         .shop_widgets .widget.widget_recent_entries ul li a,
+         .staff_bottom_wr .staff_bottom .infos .info,
+         .woocommerce .widget_price_filter .price_slider_amount .button,
+         .woocommerce ul.product_list_widget li .product-title,
+         .woocommerce ul.products li.product .price,
+         .woocommerce a.added_to_cart,
+         .woocommerce div.product .woocommerce-tabs ul.tabs li a,
+         .woocommerce div.product form.cart .variations label,
+         .woocommerce table.shop_table th,
+         .woocommerce-cart table.cart th.product-name a,
+         .woocommerce-cart table.cart td.product-name a,
+         .woocommerce-cart table.cart th .amount,
+         .woocommerce-cart table.cart td .amount,
+         .stm_services .item .item_wr .content .read_more,
+         .staff_list ul li .staff_info .staff_department,
+         .stm_partner.style_2 .stm_partner_content .position,
+         .staff_carousel_item .staff_department,
+         body.header_style_5 .header_top .info-text strong,
+         .stm_services_tabs .services_categories ul li a,
+         .stm_services_tabs .service_tab_item .service_name,
+         .stm_services_tabs .service_tab_item .service_cost,
+         .stm_works_wr.grid_2.style_1 .stm_works .item .item_wr .title,
+         .stm_works_wr.grid_2.style_2 .stm_works .item .item_wr .title,
+         .stm_works_wr.grid_with_filter.style_1 .stm_works .item .item_wr .title,
+         .stm_works_wr.grid_with_filter.style_2 .stm_works .item .item_wr .title,
+         body.header_style_7 .side_nav .main_menu_nav > li > a,
+         body.header_style_7 .side_nav .main_menu_nav > li ul li a,
+         body.header_style_5 .header_top .info-text b{font-family:Montserrat;}
+       </style>
+       <style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1453207105026{margin-bottom: 100px !important;}.vc_custom_1451889219674{margin-bottom: -60px !important;}.vc_custom_1495693142270{margin-bottom: 0px !important;}</style>
+       <noscript>
+         <style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style>
+       </noscript>
+       <!-- Google Tag Manager -->
+       <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+       j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+       'gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+     })(window,document,'script','dataLayer','GTM-WXK4VRR');
    </script>
-   <style type="text/css" title="dynamic-css" class="options-output">h1, .h1,
-       h2, .h2,
-       h3, .h3,
-       h4, .h4,
-       h5, .h5,
-       h6, .h6,
-       .top_nav .top_nav_wrapper > ul,
-       .top_nav .icon_text strong,
-       .stm_testimonials .item .testimonial-info .testimonial-text .name,
-       .stats_counter .counter_title,
-       .stm_contact .stm_contact_info .stm_contact_job,
-       .vacancy_table_wr .vacancy_table thead th,
-       .testimonials_carousel .testimonial .info .position,
-       .testimonials_carousel .testimonial .info .company,
-       .stm_gmap_wrapper .gmap_addresses .addresses .item .title,
-       .company_history > ul > li .year,
-       .stm_contacts_widget,
-       .stm_works_wr.grid .stm_works .item .item_wr .title,
-       .stm_works_wr.grid_with_filter .stm_works .item .info .title,
-       body .vc_general.vc_btn3,
-       .consulting-rev-title,
-       .consulting-rev-title-2,
-       .consulting-rev-title-3,
-       .consulting-rev-text,
-       body .vc_tta-container .vc_tta.vc_general.vc_tta-tabs.theme_style .vc_tta-tabs-container .vc_tta-tabs-list .vc_tta-tab a,
-       strong, b,
-       .button,
-       .woocommerce a.button,
-       .woocommerce button.button,
-       .woocommerce input.button,
-       .woocommerce-cart .wc-proceed-to-checkout a.checkout-button,
-       .woocommerce input.button.alt,
-       .request_callback p,
-       ul.comment-list .comment .comment-author,
-       .page-numbers .page-numbers,
-       #footer .footer_widgets .widget.widget_recent_entries ul li a,
-       .default_widgets .widget.widget_nav_menu ul li,
-       .default_widgets .widget.widget_categories ul li,
-       .default_widgets .widget.widget_product_categories ul li,
-       .stm_sidebar .widget.widget_nav_menu ul li, .stm_sidebar .widget.widget_categories ul li,
-       .stm_sidebar .widget.widget_product_categories ul li,
-       .shop_widgets .widget.widget_nav_menu ul li,
-       .shop_widgets .widget.widget_categories ul li,
-       .shop_widgets .widget.widget_product_categories ul li,
-       .default_widgets .widget.widget_recent_entries ul li a,
-       .stm_sidebar .widget.widget_recent_entries ul li a,
-       .shop_widgets .widget.widget_recent_entries ul li a,
-       .staff_bottom_wr .staff_bottom .infos .info,
-       .woocommerce .widget_price_filter .price_slider_amount .button,
-       .woocommerce ul.product_list_widget li .product-title,
-       .woocommerce ul.products li.product .price,
-       .woocommerce a.added_to_cart,
-       .woocommerce div.product .woocommerce-tabs ul.tabs li a,
-       .woocommerce div.product form.cart .variations label,
-       .woocommerce table.shop_table th,
-       .woocommerce-cart table.cart th.product-name a,
-       .woocommerce-cart table.cart td.product-name a,
-       .woocommerce-cart table.cart th .amount,
-       .woocommerce-cart table.cart td .amount,
-       .stm_services .item .item_wr .content .read_more,
-       .staff_list ul li .staff_info .staff_department,
-       .stm_partner.style_2 .stm_partner_content .position,
-       .staff_carousel_item .staff_department,
-       body.header_style_5 .header_top .info-text strong,
-       .stm_services_tabs .services_categories ul li a,
-       .stm_services_tabs .service_tab_item .service_name,
-       .stm_services_tabs .service_tab_item .service_cost,
-       .stm_works_wr.grid_2.style_1 .stm_works .item .item_wr .title,
-       .stm_works_wr.grid_2.style_2 .stm_works .item .item_wr .title,
-       .stm_works_wr.grid_with_filter.style_1 .stm_works .item .item_wr .title,
-       .stm_works_wr.grid_with_filter.style_2 .stm_works .item .item_wr .title,
-       body.header_style_7 .side_nav .main_menu_nav > li > a,
-       body.header_style_7 .side_nav .main_menu_nav > li ul li a,
-       body.header_style_5 .header_top .info-text b{font-family:Montserrat;}
-   </style>
-   <style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1453207105026{margin-bottom: 100px !important;}.vc_custom_1451889219674{margin-bottom: -60px !important;}.vc_custom_1495693142270{margin-bottom: 0px !important;}</style>
-   <noscript>
-       <style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style>
-   </noscript>
-   <!-- Google Tag Manager -->
-   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-       new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-   'gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-WXK4VRR');
-</script>
-<!-- End Google Tag Manager -->
-<!-- <script type="text/javascript" src="{{url('public/home/home')}}/wp-content/cache/autoptimize/1/js/autoptimize_44fd11a83e4e5cd7efa140b3a235d75c.js"></script> -->
-<script type="text/javascript" src="{{url('public/home/home')}}/wp-content/cache/autoptimize/1/js/autoptimize_f094c667fc4e187057102ea897a84833.js"></script>
-<link rel="stylesheet" href="{{url('public/css')}}/mystyle.css">
-</head>
-<body class="page-template-default page page-id-614 site_layout_1  header_style_2 sticky_menu wpb-js-composer js-comp-ver-5.4.7 vc_responsive">
+   <!-- End Google Tag Manager -->
+   <!-- <script type="text/javascript" src="{{url('public/home/home')}}/wp-content/cache/autoptimize/1/js/autoptimize_44fd11a83e4e5cd7efa140b3a235d75c.js"></script> -->
+   <script type="text/javascript" src="{{url('public/home/home')}}/wp-content/cache/autoptimize/1/js/autoptimize_f094c667fc4e187057102ea897a84833.js"></script>
+   <link rel="stylesheet" href="{{url('public/css')}}/mystyle.css">
+ </head>
+ <body class="page-template-default page page-id-614 site_layout_1  header_style_2 sticky_menu wpb-js-composer js-comp-ver-5.4.7 vc_responsive">
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="ns.html?id=GTM-WXK4VRR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
   <script type="text/javascript">
    (function($){
-       $(document).ready(function(){
-           var preview = $('.pearl-envato-preview');
-           if (preview.length) {
-               if (window.top == window.self) {
-                   $('.pearl-envato-preview').slideDown();
-                   $('.pearl-envato-preview-holder').slideDown();
-                   $('body').addClass('envato-preview-visible');
-               }
-           }
+     $(document).ready(function(){
+       var preview = $('.pearl-envato-preview');
+       if (preview.length) {
+         if (window.top == window.self) {
+           $('.pearl-envato-preview').slideDown();
+           $('.pearl-envato-preview-holder').slideDown();
+           $('body').addClass('envato-preview-visible');
+         }
+       }
 
-           $('.preview__action--close').on('click', function () {
-               $('.pearl-envato-preview').slideUp();
-               $('.pearl-envato-preview-holder').slideUp();
-               $('body').removeClass('envato-preview-visible');
-               return false;
-           });
+       $('.preview__action--close').on('click', function () {
+         $('.pearl-envato-preview').slideUp();
+         $('.pearl-envato-preview-holder').slideUp();
+         $('body').removeClass('envato-preview-visible');
+         return false;
+       });
 
-           var api_url = 'https://stylemixthemes.scdn2.secure.raxcdn.com/api/prices.json';
+       var api_url = 'https://stylemixthemes.scdn2.secure.raxcdn.com/api/prices.json';
 
-           $.ajax({
-               url: api_url,
-               dataType: 'json',
-               context: this,
-               complete: function (data) {
-                   var r = data.responseJSON;
-                   $('#stm_price_api').text(r.themes.consulting.price);
+       $.ajax({
+         url: api_url,
+         dataType: 'json',
+         context: this,
+         complete: function (data) {
+           var r = data.responseJSON;
+           $('#stm_price_api').text(r.themes.consulting.price);
 
-               }
-           });
+         }
+       });
 
-       })
+     })
    })(jQuery);
-</script>
-<div id="wrapper">
+ </script>
+ <div id="wrapper">
    <div id="fullpage" class="content_wrapper">
     <header id="header">
      <div class="top_bar">
@@ -343,36 +343,36 @@
           <ul>
            <li class="icl-fr"><a href="#fr">vietnamese</a></li>
            <li class="icl-de"><a href="#de">English</a></li>
-       </ul>
-   </li>
-</ul>
-</div>
-<div class="top_bar_info_wr">
+         </ul>
+       </li>
+     </ul>
+   </div>
+   <div class="top_bar_info_wr">
     <div class="top_bar_info_switcher">
      <div class="active">
       <span>Hà Nội</span>
-  </div>
-  <ul>
+    </div>
+    <ul>
       @foreach($offices as $office)
       <li>
-          <a href="#{{$office->id}}">{{$office->title}}</a>
+        <a href="#{{$office->id}}">{{$office->title}}</a>
       </li>
       @endforeach
-  </ul>
-</div>
-<ul class="top_bar_info" id="top_bar_info_1" style="display: block;">
- <li>
-  <i class="stm-marker"></i>
-  <span>{{$actoffice->title}}</span>
-</li>
-<li>
-  <i class="fa fa-clock-o"></i>
-  <span>Email - {{$actoffice->email}}</span>
-</li>
-<li>
-  <i class="fa fa-phone"></i>
-  <span>{{$actoffice->phone}}</span>
-</li>
+    </ul>
+  </div>
+  <ul class="top_bar_info" id="top_bar_info_1" style="display: block;">
+   <li>
+    <i class="stm-marker"></i>
+    <span>{{$actoffice->title}}</span>
+  </li>
+  <li>
+    <i class="fa fa-clock-o"></i>
+    <span>Email - {{$actoffice->email}}</span>
+  </li>
+  <li>
+    <i class="fa fa-phone"></i>
+    <span>{{$actoffice->phone}}</span>
+  </li>
 </ul>
 @foreach($offices as $office)
 <ul class="top_bar_info" id="{{$office->id}}">
@@ -394,161 +394,164 @@
 </div>
 </div>
 <div class="header_top clearfix">
-    <div class="row">
-        <div class="col-md-2">
-            <div class="logo-home text-center">
-                <a href=""><img class="" src="{{url('uploads/logo/w-logo.png')}}" alt=""></a>
-            </div>
-        </div>
-        <div class="col-md-10">
-            <div class="col-md-12">
-                <div class="menu-top">
-                    <ul>
-                        <li>
-                            <a href="">Trang chủ</a>
-                        </li>
-                        <li>
-                          <a href="">Giới thiệu</a> 
-                      </li> 
-                      <li>
-                          <a href="">Sản phẩm</a> 
-                      </li>                    
-                      <li>
-                          <a href="">Tin tức</a> 
-                      </li>                    
-                      <li>
-                          <a href="">Liên hệ</a> 
-                      </li>
-                  </ul>
-              </div>
-          </div>
-          <div class="col-md-12">
-            <div class="col-md-9">
-                <form class="navbar-search ng-pristine ng-valid" method="get">
-                    <label class="sr-only screen-reader-text" for="search">Search for:</label>
-                    <div class="input-group">
-                        <input type="text" id="search" class="form-control search-field product-search-field" dir="ltr" value="" name="s" placeholder="Search for products">
-                        <div class="input-group-addon search-categories">
-                            <select name="product_cat" id="product_cat" class="postform resizeselect" style="width: 154.609px;">
-                                <option value="0" selected="selected">All Categories</option>
-                                <option class="level-0" value="television">Televisions</option>
-                                <option class="level-0" value="home-theater-audio">Home Theater &amp; Audio</option>
-                                <option class="level-0" value="headphones">Headphones</option>
-                                <option class="level-0" value="digital-cameras">Digital Cameras</option>
-                                <option class="level-0" value="cells-tablets">Cells &amp; Tablets</option>
-                                <option class="level-0" value="smartwatches">Smartwatches</option>
-                                <option class="level-0" value="games-consoles">Games &amp; Consoles</option>
-                                <option class="level-0" value="printer">Printer</option>
-                                <option class="level-0" value="tv-video">TV &amp; Video</option>
-                                <option class="level-0" value="home-entertainment">Home Entertainment</option>
-                                <option class="level-0" value="tvs">TVs</option>
-                                <option class="level-0" value="speakers">Speakers</option>
-                                <option class="level-0" value="computers-laptops">Computers &amp; Laptops</option>
-                                <option class="level-0" value="laptops">Laptops</option>
-                                <option class="level-0" value="ultrabooks">Ultrabooks</option>
-                                <option class="level-0" value="notebooks">Notebooks</option>
-                                <option class="level-0" value="desktop-pcs">Desktop PCs</option>
-                                <option class="level-0" value="mac-computers">Mac Computers</option>
-                                <option class="level-0" value="all-in-one-pc">All in One PC</option>
-                                <option class="level-0" value="audio-music">Audio &amp; Music</option>
-                                <option class="level-0" value="pc-components">PC Components</option>
-                            </select>
-                        </div>
-                        <!-- .input-group-addon -->
-                        <div class="input-group-btn">
-                            <input type="hidden" id="search-param" name="post_type" value="product" autocomplete="off">
-                            <button type="submit" class="btn btn-s">
-                                <span class="search-btn fa fa-search"></span>
-                            </button>
-                        </div>
-                        <!-- .input-group-btn -->
-                    </div>
-                    <!-- .input-group -->
-                </form>
-            </div>
-            <div class="col-md-3">
-                <div class="hotline"><i class="fa fa-phone"></i>     Hotline: <span>     19006536</span></div>
-                <div class="email"><i class="fa fa-envelope"></i>     Email: <span>     info@hoplongtech.com.vn</span></div>
-            </div>
-        </div>
+  <div class="row">
+    <div class="col-md-2">
+      <div class="logo-home text-center">
+        <a href=""><img class="" src="{{url('uploads/logo/w-logo.png')}}" alt=""></a>
+      </div>
     </div>
-</div>
+    <div class="col-md-10">
+      <div class="col-md-12">
+        <div class="menu-top">
+          <ul>
+            <li>
+              <a href="{{route('home')}}">Trang chủ</a>
+            </li>
+            <li>
+              <a href="#h_about">Giới thiệu</a> 
+            </li> 
+            <li>
+              <a href="{{route('home_product')}}">Sản phẩm</a> 
+            </li>                    
+            <li>
+              <a href="">Tin tức</a> 
+            </li>   
+            <li>
+              <a href="{{route('projects')}}">Dự án</a> 
+            </li>                   
+            <li>
+              <a href="">Liên hệ</a> 
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="col-md-9">
+          <form class="navbar-search ng-pristine ng-valid" method="get">
+            <label class="sr-only screen-reader-text" for="search">Search for:</label>
+            <div class="input-group">
+              <input type="text" id="search" class="form-control search-field product-search-field" dir="ltr" value="" name="s" placeholder="Search for products">
+              <div class="input-group-addon search-categories">
+                <select name="product_cat" id="product_cat" class="postform resizeselect" style="width: 154.609px;">
+                  <option value="0" selected="selected">All Categories</option>
+                  <option class="level-0" value="television">Televisions</option>
+                  <option class="level-0" value="home-theater-audio">Home Theater &amp; Audio</option>
+                  <option class="level-0" value="headphones">Headphones</option>
+                  <option class="level-0" value="digital-cameras">Digital Cameras</option>
+                  <option class="level-0" value="cells-tablets">Cells &amp; Tablets</option>
+                  <option class="level-0" value="smartwatches">Smartwatches</option>
+                  <option class="level-0" value="games-consoles">Games &amp; Consoles</option>
+                  <option class="level-0" value="printer">Printer</option>
+                  <option class="level-0" value="tv-video">TV &amp; Video</option>
+                  <option class="level-0" value="home-entertainment">Home Entertainment</option>
+                  <option class="level-0" value="tvs">TVs</option>
+                  <option class="level-0" value="speakers">Speakers</option>
+                  <option class="level-0" value="computers-laptops">Computers &amp; Laptops</option>
+                  <option class="level-0" value="laptops">Laptops</option>
+                  <option class="level-0" value="ultrabooks">Ultrabooks</option>
+                  <option class="level-0" value="notebooks">Notebooks</option>
+                  <option class="level-0" value="desktop-pcs">Desktop PCs</option>
+                  <option class="level-0" value="mac-computers">Mac Computers</option>
+                  <option class="level-0" value="all-in-one-pc">All in One PC</option>
+                  <option class="level-0" value="audio-music">Audio &amp; Music</option>
+                  <option class="level-0" value="pc-components">PC Components</option>
+                </select>
+              </div>
+              <!-- .input-group-addon -->
+              <div class="input-group-btn">
+                <input type="hidden" id="search-param" name="post_type" value="product" autocomplete="off">
+                <button type="submit" class="btn btn-s">
+                  <span class="search-btn fa fa-search"></span>
+                </button>
+              </div>
+              <!-- .input-group-btn -->
+            </div>
+            <!-- .input-group -->
+          </form>
+        </div>
+        <div class="col-md-3">
+          <div class="hotline"><i class="fa fa-phone"></i>     Hotline: <span>     19006536</span></div>
+          <div class="email"><i class="fa fa-envelope"></i>     Email: <span>     info@hoplongtech.com.vn</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<div class="top_nav media-body media-middle">
+  <div class="top_nav media-body media-middle">
 
-</div>
+  </div>
 
 </div>
 <div class="mobile_header">
-    <div class="logo_wrapper clearfix">
-        <div class="logo">
-            <a href=""><img src="{{url('uploads/logo/w-logo.png')}}" style="width:110px; height: px;" alt="Consulting WP – New York"></a>
-        </div>
-        <div id="menu_toggle" class="">
-            <button></button>
-        </div>
+  <div class="logo_wrapper clearfix">
+    <div class="logo">
+      <a href=""><img src="{{url('uploads/logo/w-logo.png')}}" style="width:110px; height: px;" alt="Consulting WP – New York"></a>
     </div>
-    <div class="header_info">
-        <div class="top_nav_mobile" style="display: none;">
-            <ul id="menu-main-menu-1" class="main_menu_nav"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-13"><a href="">Trang chủ</a></li>
-
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-560"><a href="services-grid/">Giới thiệu</a><span class="arrow"><i></i></span>
-                    <ul class="sub-menu">
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-813 stm_col_width_default stm_mega_cols_inside_default"><a href="services-grid/">Services Grid</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1295 stm_col_width_default stm_mega_cols_inside_default"><a href="services-with-tabs/">Services with Tabs</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-stm_service menu-item-586 stm_col_width_default stm_mega_cols_inside_default"><a href="services/turnaround-consulting/">Service Layout 1</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-stm_service menu-item-587 stm_col_width_default stm_mega_cols_inside_default"><a href="services/bonds-commodities/">Service Layout  2</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-stm_service menu-item-588 stm_col_width_default stm_mega_cols_inside_default"><a href="services/audit-assurance/">Service Layout 3</a></li>
-                    </ul>
-                </li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1528"><a href="our-work-grid/">Sản phẩm </a><span class="arrow"><i></i></span>
-                    <ul class="sub-menu">
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-603 stm_col_width_default stm_mega_cols_inside_default"><a href="our-work-grid/">cases grid</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-617 stm_col_width_default stm_mega_cols_inside_default"><a href="our-work-with-filter/">cases with filter</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-stm_works menu-item-633 stm_col_width_default stm_mega_cols_inside_default"><a href="works/applying-commercial-excellence-in-chemicals/">single case layout 1</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-stm_works menu-item-634 stm_col_width_default stm_mega_cols_inside_default"><a href="works/constructing-a-best-in-class-global/">single case layout 2</a></li>
-                    </ul>
-                </li>
-                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-524"><a href="blog/?layout=grid&amp;sidebar_id=none">Tin tức</a><span class="arrow"><i></i></span>
-                    <ul class="sub-menu">
-                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-525 stm_col_width_default stm_mega_cols_inside_default"><a href="blog/">list view</a></li>
-                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-526 stm_col_width_default stm_mega_cols_inside_default"><a href="blog/?layout=grid&amp;sidebar_id=none">grid view</a></li>
-                    </ul>
-                </li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1368"><a href="portfolio-grid/">Liên hệ</a><span class="arrow"><i></i></span>
-                    <ul class="sub-menu">
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2012 stm_col_width_default stm_mega_cols_inside_default"><a href="portfolio-grid/">Portfolio Grid</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-stm_portfolio menu-item-1369 stm_col_width_default stm_mega_cols_inside_default"><a href="portfolio/beff-baffer-construction/">Portfolio Single One</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-stm_portfolio menu-item-1370 stm_col_width_default stm_mega_cols_inside_default"><a href="portfolio/focus-on-core-delivers-growth-for-retailer/">Portfolio Single Two</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-stm_portfolio menu-item-1371 stm_col_width_default stm_mega_cols_inside_default"><a href="portfolio/construction-of-railways/">Portfolio Single Three</a></li>
-                    </ul>
-                </li>
-                
-                
-
-            </ul>                            </div>
-            <div class="icon_texts">
-                <div class="icon_text clearfix">
-                    <div class="icon"><i class="fa stm-phone"></i></div>
-                    <div class="text">
-                        <span>Hotline</span><strong>     {{$actoffice->phone}}</strong>                                         
-                    </div>
-                </div>
-                <div class="icon_text clearfix">
-                    <div class="icon"><i class="fa fa fa-clock-o"></i></div>
-                    <div class="text">
-                        <span>Email     </span><strong>{{$actoffice->email}}</strong>                                        
-                    </div>
-                </div>
-                <div class="icon_text clearfix">
-                    <div class="icon"><i class="fa stm-marker"></i></div>
-                    <div class="text">
-                        <strong>{{$actoffice->address}}<br></strong><br>                                         
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div id="menu_toggle" class="">
+      <button></button>
     </div>
+  </div>
+  <div class="header_info">
+    <div class="top_nav_mobile" style="display: none;">
+      <ul id="menu-main-menu-1" class="main_menu_nav"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-13"><a href="">Trang chủ</a></li>
+
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-560"><a href="services-grid/">Giới thiệu</a><span class="arrow"><i></i></span>
+          <ul class="sub-menu">
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-813 stm_col_width_default stm_mega_cols_inside_default"><a href="services-grid/">Services Grid</a></li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1295 stm_col_width_default stm_mega_cols_inside_default"><a href="services-with-tabs/">Services with Tabs</a></li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-stm_service menu-item-586 stm_col_width_default stm_mega_cols_inside_default"><a href="services/turnaround-consulting/">Service Layout 1</a></li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-stm_service menu-item-587 stm_col_width_default stm_mega_cols_inside_default"><a href="services/bonds-commodities/">Service Layout  2</a></li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-stm_service menu-item-588 stm_col_width_default stm_mega_cols_inside_default"><a href="services/audit-assurance/">Service Layout 3</a></li>
+          </ul>
+        </li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1528"><a href="our-work-grid/">Sản phẩm </a><span class="arrow"><i></i></span>
+          <ul class="sub-menu">
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-603 stm_col_width_default stm_mega_cols_inside_default"><a href="our-work-grid/">cases grid</a></li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-617 stm_col_width_default stm_mega_cols_inside_default"><a href="our-work-with-filter/">cases with filter</a></li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-stm_works menu-item-633 stm_col_width_default stm_mega_cols_inside_default"><a href="works/applying-commercial-excellence-in-chemicals/">single case layout 1</a></li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-stm_works menu-item-634 stm_col_width_default stm_mega_cols_inside_default"><a href="works/constructing-a-best-in-class-global/">single case layout 2</a></li>
+          </ul>
+        </li>
+        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-524"><a href="blog/?layout=grid&amp;sidebar_id=none">Tin tức</a><span class="arrow"><i></i></span>
+          <ul class="sub-menu">
+            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-525 stm_col_width_default stm_mega_cols_inside_default"><a href="blog/">list view</a></li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-526 stm_col_width_default stm_mega_cols_inside_default"><a href="blog/?layout=grid&amp;sidebar_id=none">grid view</a></li>
+          </ul>
+        </li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1368"><a href="portfolio-grid/">Liên hệ</a><span class="arrow"><i></i></span>
+          <ul class="sub-menu">
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2012 stm_col_width_default stm_mega_cols_inside_default"><a href="portfolio-grid/">Portfolio Grid</a></li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-stm_portfolio menu-item-1369 stm_col_width_default stm_mega_cols_inside_default"><a href="portfolio/beff-baffer-construction/">Portfolio Single One</a></li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-stm_portfolio menu-item-1370 stm_col_width_default stm_mega_cols_inside_default"><a href="portfolio/focus-on-core-delivers-growth-for-retailer/">Portfolio Single Two</a></li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-stm_portfolio menu-item-1371 stm_col_width_default stm_mega_cols_inside_default"><a href="portfolio/construction-of-railways/">Portfolio Single Three</a></li>
+          </ul>
+        </li>
+
+
+
+      </ul>                            </div>
+      <div class="icon_texts">
+        <div class="icon_text clearfix">
+          <div class="icon"><i class="fa stm-phone"></i></div>
+          <div class="text">
+            <span>Hotline</span><strong>     {{$actoffice->phone}}</strong>                                         
+          </div>
+        </div>
+        <div class="icon_text clearfix">
+          <div class="icon"><i class="fa fa fa-clock-o"></i></div>
+          <div class="text">
+            <span>Email     </span><strong>{{$actoffice->email}}</strong>                                        
+          </div>
+        </div>
+        <div class="icon_text clearfix">
+          <div class="icon"><i class="fa stm-marker"></i></div>
+          <div class="text">
+            <strong>{{$actoffice->address}}<br></strong><br>                                         
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </header>
 <div id="main" >
  <div id="carousel-id" class="carousel slide" data-ride="carousel">
@@ -557,30 +560,30 @@
    @foreach($slider_homes as $dot)
    <li data-target="#carousel-id" data-slide-to="1" class=""></li>
    @endforeach
-</ol>
-<div class="carousel-inner">
+ </ol>
+ <div class="carousel-inner">
    <div class="item active">
     <img src="{{url('uploads/slider')}}/{{$active->cover_image}}">
     <div class="container">
      <div class="carousel-caption">
-      <h2>Cảm biến có vỏ kim loại - Phù hợp với nhiều ứng dụng</h2>
-      <p>Cảm biến tiệm cận loại cảm ứng từ</p>
+      <h2>{{$active->caption1}}</h2>
+      <p>{{$active->caption2}}</p>
       <br>
       <p>Vỏ kim loại Series PRF</p>
       <p><a class="btn btn-lg btn-default" href="#" role="button">Xem thêm</a></p>
+    </div>
   </div>
-</div>
 </div>
 @foreach($slider_homes as $slider)
 <div class="item">
-    <img src="{{url('uploads/slider')}}/{{$slider->cover_image}}">
-    <div class="container">
-     <div class="carousel-caption">
-      <h2>Cảm biến có vỏ kim loại - Phù hợp với nhiều ứng dụng</h2>
-      <p>Cảm biến tiệm cận loại cảm ứng từ</p>
-      <br>
-      <p>Vỏ kim loại Series PRF</p>
-      <p><a class="btn btn-lg btn-default" href="#" role="button">Xem thêm</a></p>
+  <img src="{{url('uploads/slider')}}/{{$slider->cover_image}}">
+  <div class="container">
+   <div class="carousel-caption">
+    <h2>Cảm biến có vỏ kim loại - Phù hợp với nhiều ứng dụng</h2>
+    <p>Cảm biến tiệm cận loại cảm ứng từ</p>
+    <br>
+    <p>Vỏ kim loại Series PRF</p>
+    <p><a class="btn btn-lg btn-default" href="#" role="button">Xem thêm</a></p>
   </div>
 </div>
 </div>
@@ -595,40 +598,40 @@
     <div class="vc_column-inner ">
      <div class="wpb_wrapper">
       <div class="vc_custom_heading vc_custom_1492673710092 text_align_center title_no_stripe">
-       <h2>About me<em>.</em></h2>
+       <h2 id="h_about">Giới thiệu về chúng tôi<em>.</em></h2>
+     </div>
    </div>
-</div>
-</div>
+ </div>
 </div>
 </div>
 <div class="vc_row wpb_row vc_row-fluid vc_custom_1493900844016">
-   <div class="wpb_column vc_column_container vc_col-sm-6">
-    <div class="vc_column-inner vc_custom_1493900832539">
+ <div class="wpb_column vc_column_container vc_col-sm-6">
+  <div class="vc_column-inner vc_custom_1493900832539">
+   <div class="wpb_wrapper">
+    <div class="wpb_video_widget wpb_content_element">
      <div class="wpb_wrapper">
-      <div class="wpb_video_widget wpb_content_element">
-       <div class="wpb_wrapper">
-        <div class="wpb_video_wrapper">
-         <img width="1060" height="640" src="{{url('public/home/home')}}/nineteen/wp-content/uploads/sites/19/2015/12/Layer_88082479.jpg" class="attachment-full" alt=""><a href="#" class="play_video"></a>
-         <div class="video" style="display: none; width: 714px; height: 320px;"><iframe width="1252" height="704" src="https://www.youtube.com/embed/66xTmcwz-s0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <div class="wpb_video_wrapper">
+       <img width="1060" height="640" src="{{url('public/home/home')}}/nineteen/wp-content/uploads/sites/19/2015/12/Layer_88082479.jpg" class="attachment-full" alt=""><a href="#" class="play_video"></a>
+       <div class="video" style="display: none; width: 714px; height: 320px;"><iframe width="1252" height="704" src="https://www.youtube.com/embed/66xTmcwz-s0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
      </div>
+   </div>
  </div>
 </div>
 </div>
 </div>
-</div>
 <div class="wpb_column vc_column_container vc_col-sm-6">
-    <div class="vc_column-inner vc_custom_1493900837357">
-     <div class="wpb_wrapper">
-      <div class="wpb_text_column wpb_content_element  vc_custom_1492669774993">
-       <div class="wpb_wrapper about">
-        <p><span>HOPLONGTECH tự hào là một công ty phân phối thiết bị tự động hóa hàng đầu Việt Nam</span></p>
+  <div class="vc_column-inner vc_custom_1493900837357">
+   <div class="wpb_wrapper">
+    <div class="wpb_text_column wpb_content_element  vc_custom_1492669774993">
+     <div class="wpb_wrapper about">
+      <p><span>HOPLONGTECH tự hào là một công ty phân phối thiết bị tự động hóa hàng đầu Việt Nam</span></p>
 
     </div>
-</div>
-<div class="wpb_text_column wpb_content_element ">
+  </div>
+  <div class="wpb_text_column wpb_content_element ">
    <div class="wpb_wrapper">
     <p><span style="display: block; font-size: 16px; line-height: 26px;">Thành lập năm 2010, Hợp Long là nhà cung cấp thiết bị, giải pháp và dịch vụ kỹ thuật cho khách hàng trong các ngành sản xuất công nghiệp,môi trường,năng lượng, là một công ty cung cấp các thiết bị tự động hóa công nghiệp hàng đầu Việt Nam. Hiện nay chúng tôi là Nhà phân phối chính hãng của các thương hiệu: Mitsubishi Electric, Omron Automation, Idec, Autonics, Biến tần LS, Schneider,</span></p>
-</div>
+  </div>
 </div>
 <div class="vc_btn3-container  small_icon vc_btn3-inline"> <a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-icon-right vc_btn3-color-link" href="nineteen/testimonials-page/" title="">Xem thêm <i class="vc_btn3-icon stm-stm14_right_arrow"></i></a></div>
 </div>
@@ -639,31 +642,31 @@
   <h3 class="panel-title">Chứng nhận phân phối chính thức từ hãng</h3>
 </div>
 <div class="vc_row wpb_row vc_row-fluid vc_custom_1494583924882" style="margin:0 auto 30px auto;">
-   <div class="wpb_column vc_column_container vc_col-sm-4">
-    <div class="vc_column-inner vc_custom_1493899401245">
-     <div class="wpb_wrapper">
-      <div class="wpb_single_image wpb_content_element vc_align_left   certificate about-img">
-       <figure class="wpb_wrapper vc_figure"> <a data-rel="prettyPhoto[rel-1071-634409447]" href="{{url('public/home/home')}}/nineteen/wp-content/uploads/sites/19/2015/12/certificate1.jpg" target="_self" class="vc_single_image-wrapper vc_box_border  vc_box_border_blue prettyphoto"><img src="{{url('uploads/about')}}/chung-chi-dai-ly-optimum-2018-2019-1024x744.jpg" class="vc_single_image-img attachment-full" alt=""></a></figure>
+ <div class="wpb_column vc_column_container vc_col-sm-4">
+  <div class="vc_column-inner vc_custom_1493899401245">
+   <div class="wpb_wrapper">
+    <div class="wpb_single_image wpb_content_element vc_align_left   certificate about-img">
+     <figure class="wpb_wrapper vc_figure"> <a data-rel="prettyPhoto[rel-1071-634409447]" href="{{url('public/home/home')}}/nineteen/wp-content/uploads/sites/19/2015/12/certificate1.jpg" target="_self" class="vc_single_image-wrapper vc_box_border  vc_box_border_blue prettyphoto"><img src="{{url('uploads/about')}}/chung-chi-dai-ly-optimum-2018-2019-1024x744.jpg" class="vc_single_image-img attachment-full" alt=""></a></figure>
    </div>
-</div>
+ </div>
 </div>
 </div>
 <div class="wpb_column vc_column_container vc_col-sm-4">
-    <div class="vc_column-inner vc_custom_1493899401245">
-     <div class="wpb_wrapper">
-      <div class="wpb_single_image wpb_content_element vc_align_left   certificate about-img">
-       <figure class="wpb_wrapper vc_figure"> <a data-rel="prettyPhoto[rel-1071-634409447]" href="{{url('public/home/home')}}/nineteen/wp-content/uploads/sites/19/2015/12/certificate1.jpg" target="_self" class="vc_single_image-wrapper vc_box_border  vc_box_border_blue prettyphoto"><img src="{{url('uploads/about')}}/chung-chi-dai-ly-optimum-2018-2019-1024x744.jpg" class="vc_single_image-img attachment-full" alt=""></a></figure>
+  <div class="vc_column-inner vc_custom_1493899401245">
+   <div class="wpb_wrapper">
+    <div class="wpb_single_image wpb_content_element vc_align_left   certificate about-img">
+     <figure class="wpb_wrapper vc_figure"> <a data-rel="prettyPhoto[rel-1071-634409447]" href="{{url('public/home/home')}}/nineteen/wp-content/uploads/sites/19/2015/12/certificate1.jpg" target="_self" class="vc_single_image-wrapper vc_box_border  vc_box_border_blue prettyphoto"><img src="{{url('uploads/about')}}/chung-chi-dai-ly-optimum-2018-2019-1024x744.jpg" class="vc_single_image-img attachment-full" alt=""></a></figure>
    </div>
-</div>
+ </div>
 </div>
 </div>
 <div class="wpb_column vc_column_container vc_col-sm-4">
-    <div class="vc_column-inner vc_custom_1493899401245">
-     <div class="wpb_wrapper">
-      <div class="wpb_single_image wpb_content_element vc_align_left   certificate about-img">
-       <figure class="wpb_wrapper vc_figure"> <a data-rel="prettyPhoto[rel-1071-634409447]" href="{{url('public/home/home')}}/nineteen/wp-content/uploads/sites/19/2015/12/certificate1.jpg" target="_self" class="vc_single_image-wrapper vc_box_border  vc_box_border_blue prettyphoto"><img src="{{url('uploads/about')}}/chung-chi-dai-ly-optimum-2018-2019-1024x744.jpg" class="vc_single_image-img attachment-full" alt=""></a></figure>
+  <div class="vc_column-inner vc_custom_1493899401245">
+   <div class="wpb_wrapper">
+    <div class="wpb_single_image wpb_content_element vc_align_left   certificate about-img">
+     <figure class="wpb_wrapper vc_figure"> <a data-rel="prettyPhoto[rel-1071-634409447]" href="{{url('public/home/home')}}/nineteen/wp-content/uploads/sites/19/2015/12/certificate1.jpg" target="_self" class="vc_single_image-wrapper vc_box_border  vc_box_border_blue prettyphoto"><img src="{{url('uploads/about')}}/chung-chi-dai-ly-optimum-2018-2019-1024x744.jpg" class="vc_single_image-img attachment-full" alt=""></a></figure>
    </div>
-</div>
+ </div>
 </div>
 </div>
 </div>
@@ -672,621 +675,581 @@
  <img src="{{url('uploads/imgmap/map.jpg')}}" class="img-responsive" style="opacity: 0.8" alt="Image">
 </div>
 <div class="container">
-    <h2 class="panel-title text-center"><span>What We Do</span></h2>
-    <div class="vc_row wpb_row vc_row-fluid vc_custom_1450856873482"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="stm_animation stm_viewport" style="opacity:1;-webkit-transition-delay: 0s; -moz-transition-delay: 0s; transition-delay: 0s;" data-animate="fadeInUp" data-animation-delay="0" data-animation-duration="1" data-viewport_position="90">
+  <h2 class="panel-title text-center"><span>What We Do</span></h2>
+  <div class="vc_row wpb_row vc_row-fluid vc_custom_1450856873482"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="stm_animation stm_viewport" style="opacity:1;-webkit-transition-delay: 0s; -moz-transition-delay: 0s; transition-delay: 0s;" data-animate="fadeInUp" data-animation-delay="0" data-animation-duration="1" data-viewport_position="90">
 
-        <div class="info_box style_3  animated fadeInUp" style="opacity:1;-webkit-animation-delay:0s;-webkit-animation-duration:1s; -moz-animation-delay:0s;-moz-animation-duration:1s; animation-delay:0s;">
+    <div class="info_box style_3  animated fadeInUp" style="opacity:1;-webkit-animation-delay:0s;-webkit-animation-duration:1s; -moz-animation-delay:0s;-moz-animation-duration:1s; animation-delay:0s;">
 
 
-            <div class="info_box_wrapper">
+      <div class="info_box_wrapper">
+
+
+        <div class="info_box_image"><img width="350" height="250" src="{{url('public/home/home')}}/wp-content/uploads/2015/12/img-why-our-consulting-350x250.jpg" class="attachment-consulting-image-350x250-croped size-consulting-image-350x250-croped" alt=""></div>
+
+        <div class="info_box_text">
+
+          <div class="title">
+            <div class="icon">
+              <i class="stm-chart-monitor"></i>
+            </div>
+            <h6 class="no_stripe"><span>Why our consulting</span></h6>
+          </div>
+          <p>We are&nbsp;a full service business development group – we build strategies and systems.</p>
+          <a class="read_more" target="_self" href="company-overview/"><span>read more</span><i class=" fa fa-chevron-right stm_icon"></i></a>                   </div>
+
+
+        </div>
+      </div></div></div></div>
+    </div>
+    <div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="stm_animation stm_viewport" style="opacity:1;-webkit-transition-delay: 0.05s; -moz-transition-delay: 0.05s; transition-delay: 0.05s;" data-animate="fadeInUp" data-animation-delay="0.05" data-animation-duration="1" data-viewport_position="90">
+
+      <div class="info_box style_3  animated fadeInUp" style="opacity:1;-webkit-animation-delay:0.05s;-webkit-animation-duration:1s; -moz-animation-delay:0.05s;-moz-animation-duration:1s; animation-delay:0.05s;">
+
+
+        <div class="info_box_wrapper">
+
+
+          <div class="info_box_image"><img width="350" height="250" src="{{url('public/home/home')}}/wp-content/uploads/2015/12/img-global-consumer-insights-350x250.jpg" class="attachment-consulting-image-350x250-croped size-consulting-image-350x250-croped" alt=""></div>
+
+          <div class="info_box_text">
+
+            <div class="title">
+              <div class="icon">
+                <i class="stm-chart-refresh"></i>
+              </div>
+              <h6 class="no_stripe"><span>Global consumer insights</span></h6>
+            </div>
+            <p>Rapid solutions to the most complex business challenges with cooperative process-driven.</p>
+            <a class="read_more" target="_self" href="services/turnaround-consulting/"><span>read more</span><i class=" fa fa-chevron-right stm_icon"></i></a>                 </div>
+
+
+          </div>
+        </div></div></div></div>
+      </div>
+      <div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="stm_animation stm_viewport" style="opacity:1;-webkit-transition-delay: 0.1s; -moz-transition-delay: 0.1s; transition-delay: 0.1s;" data-animate="fadeInUp" data-animation-delay="0.1" data-animation-duration="1" data-viewport_position="90">
+
+        <div class="info_box style_3  animated fadeInUp" style="opacity:1;-webkit-animation-delay:0.1s;-webkit-animation-duration:1s; -moz-animation-delay:0.1s;-moz-animation-duration:1s; animation-delay:0.1s;">
+
+
+          <div class="info_box_wrapper">
+
+
+            <div class="info_box_image"><img width="350" height="250" src="{{url('public/home/home')}}/wp-content/uploads/2015/12/img-thought-leadership-350x250.jpg" class="attachment-consulting-image-350x250-croped size-consulting-image-350x250-croped" alt=""></div>
+
+            <div class="info_box_text">
+
+              <div class="title">
+                <div class="icon">
+                  <i class="stm-earth"></i>
+                </div>
+                <h6 class="no_stripe"><span>Thought Leadership</span></h6>
+              </div>
+              <p>A solution is proposed, from here you can action the plan with just outline assistance.</p>
+              <a class="read_more" target="_self" href="works/applying-commercial-excellence-in-chemicals/"><span>read more</span><i class=" fa fa-chevron-right stm_icon"></i></a>                  </div>
+
+
+            </div>
+          </div></div></div></div></div></div>
+          <div class="vc_row wpb_row vc_row-fluid vc_custom_1450856873482"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="stm_animation stm_viewport" style="opacity:1;-webkit-transition-delay: 0s; -moz-transition-delay: 0s; transition-delay: 0s;" data-animate="fadeInUp" data-animation-delay="0" data-animation-duration="1" data-viewport_position="90">
+
+            <div class="info_box style_3  animated fadeInUp" style="opacity:1;-webkit-animation-delay:0s;-webkit-animation-duration:1s; -moz-animation-delay:0s;-moz-animation-duration:1s; animation-delay:0s;">
+
+
+              <div class="info_box_wrapper">
 
 
                 <div class="info_box_image"><img width="350" height="250" src="{{url('public/home/home')}}/wp-content/uploads/2015/12/img-why-our-consulting-350x250.jpg" class="attachment-consulting-image-350x250-croped size-consulting-image-350x250-croped" alt=""></div>
 
                 <div class="info_box_text">
 
-                    <div class="title">
-                        <div class="icon">
-                            <i class="stm-chart-monitor"></i>
-                        </div>
-                        <h6 class="no_stripe"><span>Why our consulting</span></h6>
+                  <div class="title">
+                    <div class="icon">
+                      <i class="stm-chart-monitor"></i>
                     </div>
-                    <p>We are&nbsp;a full service business development group – we build strategies and systems.</p>
-                    <a class="read_more" target="_self" href="company-overview/"><span>read more</span><i class=" fa fa-chevron-right stm_icon"></i></a>                   </div>
+                    <h6 class="no_stripe"><span>Why our consulting</span></h6>
+                  </div>
+                  <p>We are&nbsp;a full service business development group – we build strategies and systems.</p>
+                  <a class="read_more" target="_self" href="company-overview/"><span>read more</span><i class=" fa fa-chevron-right stm_icon"></i></a>                   </div>
 
 
                 </div>
-            </div></div></div></div>
-        </div>
-        <div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="stm_animation stm_viewport" style="opacity:1;-webkit-transition-delay: 0.05s; -moz-transition-delay: 0.05s; transition-delay: 0.05s;" data-animate="fadeInUp" data-animation-delay="0.05" data-animation-duration="1" data-viewport_position="90">
+              </div></div></div></div>
+            </div>
+            <div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="stm_animation stm_viewport" style="opacity:1;-webkit-transition-delay: 0.05s; -moz-transition-delay: 0.05s; transition-delay: 0.05s;" data-animate="fadeInUp" data-animation-delay="0.05" data-animation-duration="1" data-viewport_position="90">
 
-            <div class="info_box style_3  animated fadeInUp" style="opacity:1;-webkit-animation-delay:0.05s;-webkit-animation-duration:1s; -moz-animation-delay:0.05s;-moz-animation-duration:1s; animation-delay:0.05s;">
+              <div class="info_box style_3  animated fadeInUp" style="opacity:1;-webkit-animation-delay:0.05s;-webkit-animation-duration:1s; -moz-animation-delay:0.05s;-moz-animation-duration:1s; animation-delay:0.05s;">
 
 
                 <div class="info_box_wrapper">
 
 
-                    <div class="info_box_image"><img width="350" height="250" src="{{url('public/home/home')}}/wp-content/uploads/2015/12/img-global-consumer-insights-350x250.jpg" class="attachment-consulting-image-350x250-croped size-consulting-image-350x250-croped" alt=""></div>
+                  <div class="info_box_image"><img width="350" height="250" src="{{url('public/home/home')}}/wp-content/uploads/2015/12/img-global-consumer-insights-350x250.jpg" class="attachment-consulting-image-350x250-croped size-consulting-image-350x250-croped" alt=""></div>
 
-                    <div class="info_box_text">
+                  <div class="info_box_text">
 
-                        <div class="title">
-                            <div class="icon">
-                                <i class="stm-chart-refresh"></i>
-                            </div>
-                            <h6 class="no_stripe"><span>Global consumer insights</span></h6>
-                        </div>
-                        <p>Rapid solutions to the most complex business challenges with cooperative process-driven.</p>
-                        <a class="read_more" target="_self" href="services/turnaround-consulting/"><span>read more</span><i class=" fa fa-chevron-right stm_icon"></i></a>                 </div>
-
-
+                    <div class="title">
+                      <div class="icon">
+                        <i class="stm-chart-refresh"></i>
+                      </div>
+                      <h6 class="no_stripe"><span>Global consumer insights</span></h6>
                     </div>
+                    <p>Rapid solutions to the most complex business challenges with cooperative process-driven.</p>
+                    <a class="read_more" target="_self" href="services/turnaround-consulting/"><span>read more</span><i class=" fa fa-chevron-right stm_icon"></i></a>                 </div>
+
+
+                  </div>
                 </div></div></div></div>
-            </div>
-            <div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="stm_animation stm_viewport" style="opacity:1;-webkit-transition-delay: 0.1s; -moz-transition-delay: 0.1s; transition-delay: 0.1s;" data-animate="fadeInUp" data-animation-delay="0.1" data-animation-duration="1" data-viewport_position="90">
+              </div>
+              <div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="stm_animation stm_viewport" style="opacity:1;-webkit-transition-delay: 0.1s; -moz-transition-delay: 0.1s; transition-delay: 0.1s;" data-animate="fadeInUp" data-animation-delay="0.1" data-animation-duration="1" data-viewport_position="90">
 
                 <div class="info_box style_3  animated fadeInUp" style="opacity:1;-webkit-animation-delay:0.1s;-webkit-animation-duration:1s; -moz-animation-delay:0.1s;-moz-animation-duration:1s; animation-delay:0.1s;">
 
 
-                    <div class="info_box_wrapper">
+                  <div class="info_box_wrapper">
 
 
-                        <div class="info_box_image"><img width="350" height="250" src="{{url('public/home/home')}}/wp-content/uploads/2015/12/img-thought-leadership-350x250.jpg" class="attachment-consulting-image-350x250-croped size-consulting-image-350x250-croped" alt=""></div>
+                    <div class="info_box_image"><img width="350" height="250" src="{{url('public/home/home')}}/wp-content/uploads/2015/12/img-thought-leadership-350x250.jpg" class="attachment-consulting-image-350x250-croped size-consulting-image-350x250-croped" alt=""></div>
 
-                        <div class="info_box_text">
+                    <div class="info_box_text">
 
-                            <div class="title">
-                                <div class="icon">
-                                    <i class="stm-earth"></i>
-                                </div>
-                                <h6 class="no_stripe"><span>Thought Leadership</span></h6>
-                            </div>
-                            <p>A solution is proposed, from here you can action the plan with just outline assistance.</p>
-                            <a class="read_more" target="_self" href="works/applying-commercial-excellence-in-chemicals/"><span>read more</span><i class=" fa fa-chevron-right stm_icon"></i></a>                  </div>
-
-
+                      <div class="title">
+                        <div class="icon">
+                          <i class="stm-earth"></i>
                         </div>
-                    </div></div></div></div></div></div>
-                    <div class="vc_row wpb_row vc_row-fluid vc_custom_1450856873482"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="stm_animation stm_viewport" style="opacity:1;-webkit-transition-delay: 0s; -moz-transition-delay: 0s; transition-delay: 0s;" data-animate="fadeInUp" data-animation-delay="0" data-animation-duration="1" data-viewport_position="90">
-
-                        <div class="info_box style_3  animated fadeInUp" style="opacity:1;-webkit-animation-delay:0s;-webkit-animation-duration:1s; -moz-animation-delay:0s;-moz-animation-duration:1s; animation-delay:0s;">
-
-
-                            <div class="info_box_wrapper">
+                        <h6 class="no_stripe"><span>Thought Leadership</span></h6>
+                      </div>
+                      <p>A solution is proposed, from here you can action the plan with just outline assistance.</p>
+                      <a class="read_more" target="_self" href="works/applying-commercial-excellence-in-chemicals/"><span>read more</span><i class=" fa fa-chevron-right stm_icon"></i></a>                  </div>
 
 
-                                <div class="info_box_image"><img width="350" height="250" src="{{url('public/home/home')}}/wp-content/uploads/2015/12/img-why-our-consulting-350x250.jpg" class="attachment-consulting-image-350x250-croped size-consulting-image-350x250-croped" alt=""></div>
-
-                                <div class="info_box_text">
-
-                                    <div class="title">
-                                        <div class="icon">
-                                            <i class="stm-chart-monitor"></i>
-                                        </div>
-                                        <h6 class="no_stripe"><span>Why our consulting</span></h6>
-                                    </div>
-                                    <p>We are&nbsp;a full service business development group – we build strategies and systems.</p>
-                                    <a class="read_more" target="_self" href="company-overview/"><span>read more</span><i class=" fa fa-chevron-right stm_icon"></i></a>                   </div>
-
-
-                                </div>
-                            </div></div></div></div>
-                        </div>
-                        <div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="stm_animation stm_viewport" style="opacity:1;-webkit-transition-delay: 0.05s; -moz-transition-delay: 0.05s; transition-delay: 0.05s;" data-animate="fadeInUp" data-animation-delay="0.05" data-animation-duration="1" data-viewport_position="90">
-
-                            <div class="info_box style_3  animated fadeInUp" style="opacity:1;-webkit-animation-delay:0.05s;-webkit-animation-duration:1s; -moz-animation-delay:0.05s;-moz-animation-duration:1s; animation-delay:0.05s;">
-
-
-                                <div class="info_box_wrapper">
-
-
-                                    <div class="info_box_image"><img width="350" height="250" src="{{url('public/home/home')}}/wp-content/uploads/2015/12/img-global-consumer-insights-350x250.jpg" class="attachment-consulting-image-350x250-croped size-consulting-image-350x250-croped" alt=""></div>
-
-                                    <div class="info_box_text">
-
-                                        <div class="title">
-                                            <div class="icon">
-                                                <i class="stm-chart-refresh"></i>
-                                            </div>
-                                            <h6 class="no_stripe"><span>Global consumer insights</span></h6>
-                                        </div>
-                                        <p>Rapid solutions to the most complex business challenges with cooperative process-driven.</p>
-                                        <a class="read_more" target="_self" href="services/turnaround-consulting/"><span>read more</span><i class=" fa fa-chevron-right stm_icon"></i></a>                 </div>
-
-
-                                    </div>
-                                </div></div></div></div>
-                            </div>
-                            <div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="stm_animation stm_viewport" style="opacity:1;-webkit-transition-delay: 0.1s; -moz-transition-delay: 0.1s; transition-delay: 0.1s;" data-animate="fadeInUp" data-animation-delay="0.1" data-animation-duration="1" data-viewport_position="90">
-
-                                <div class="info_box style_3  animated fadeInUp" style="opacity:1;-webkit-animation-delay:0.1s;-webkit-animation-duration:1s; -moz-animation-delay:0.1s;-moz-animation-duration:1s; animation-delay:0.1s;">
-
-
-                                    <div class="info_box_wrapper">
-
-
-                                        <div class="info_box_image"><img width="350" height="250" src="{{url('public/home/home')}}/wp-content/uploads/2015/12/img-thought-leadership-350x250.jpg" class="attachment-consulting-image-350x250-croped size-consulting-image-350x250-croped" alt=""></div>
-
-                                        <div class="info_box_text">
-
-                                            <div class="title">
-                                                <div class="icon">
-                                                    <i class="stm-earth"></i>
-                                                </div>
-                                                <h6 class="no_stripe"><span>Thought Leadership</span></h6>
-                                            </div>
-                                            <p>A solution is proposed, from here you can action the plan with just outline assistance.</p>
-                                            <a class="read_more" target="_self" href="works/applying-commercial-excellence-in-chemicals/"><span>read more</span><i class=" fa fa-chevron-right stm_icon"></i></a>                  </div>
-
-
-                                        </div>
-                                    </div></div></div></div></div></div>
-
-                                </div>
-                                <div class="wraper_event" style="background: #f7f5f5;">
-                                    <div class="container">
-                                        <div class="wpb_column  vc_col-sm-12">
-                                           <div class="vc_column-inner ">
-                                            <div class="wpb_wrapper">
-                                             <div class="vc_custom_heading vc_custom_1492771464343 text_align_center title_no_stripe">
-                                              <h2>Upcoming events<em>.</em></h2>
-                                          </div>
-                                          <div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1494246872112">
-                                              <div class="wpb_column vc_column_container vc_col-sm-2">
-                                               <div class="vc_column-inner ">
-                                                <div class="wpb_wrapper"></div>
-                                            </div>
-                                        </div>
-                                        <div class="wpb_column vc_column_container vc_col-sm-8">
-                                           <div class="vc_column-inner ">
-                                            <div class="wpb_wrapper">
-                                             <div class="wpb_text_column wpb_content_element  vc_custom_1492771481256">
-                                              <div class="wpb_wrapper">
-                                               <p style="text-align: center;"><span style="display: block; line-height: 30px; font-size: 18px; color: #777777;">Product designers craft the products your business and brand depend on. When the promise doesn’t match the product, customers feel deceived.</span></p>
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                           <div class="wpb_column vc_column_container vc_col-sm-2">
-                               <div class="vc_column-inner ">
-                                <div class="wpb_wrapper"></div>
-                            </div>
-                        </div>
                     </div>
-                    <div class="stm_events_grid cols_3">
-                        @foreach($company_news as $company_new)
-                        <div class="item">
-                           <div class="item_wr">
-                            <div class="item_thumbnail"> <a href="nineteen/events/if-you-do-all-those-things-effectively-you-cant-miss/"> <img class="" src="{{url('uploads/news')}}/{{$company_new->image_cover}}" width="700" height="300" alt="event3" title="event3"> </a></div>
-                            <div class="content">
-                             <h6><a href="nineteen/events/if-you-do-all-those-things-effectively-you-cant-miss/">{{$company_new->title}}</a></h6>
-                             <ul class="stm-event__meta">
-                              <li>
-                               <div class="event__calendar"> <i class="fa fa-calendar" aria-hidden="true"></i> January 10, 2019</div>
-                           </li>
-                           <li>
-                               <div class="event__time"><i class="fa fa-clock-o"></i> 6:00 PM</div>
-                           </li>
-                           <li>
-                               <div class="event__venue"> <i class="fa fa-map-marker" aria-hidden="true"></i> Juarez &amp; Associates, 12139 National Boulevard, Los Angeles, CA, U.S.</div>
-                           </li>
-                       </ul>
+                  </div></div></div></div></div></div>
+
+                </div>
+                <div class="wraper_event" style="background: #f7f5f5;">
+                  <div class="container">
+                    <div class="wpb_column  vc_col-sm-12">
+                     <div class="vc_column-inner ">
+                      <div class="wpb_wrapper">
+                       <div class="vc_custom_heading vc_custom_1492771464343 text_align_center title_no_stripe">
+                        <h2>Những sự kiện nổi bật<em>.</em></h2>
+                      </div>
+                      <div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1494246872112">
+                        <div class="wpb_column vc_column_container vc_col-sm-2">
+                         <div class="vc_column-inner ">
+                          <div class="wpb_wrapper"></div>
+                        </div>
+                      </div>
+                      <div class="wpb_column vc_column_container vc_col-sm-8">
+                       <div class="vc_column-inner ">
+                        <div class="wpb_wrapper">
+                         <div class="wpb_text_column wpb_content_element  vc_custom_1492771481256">
+                          <div class="wpb_wrapper">
+                           <p style="text-align: center;"><span style="display: block; line-height: 30px; font-size: 18px; color: #777777;">Product designers craft the products your business and brand depend on. When the promise doesn’t match the product, customers feel deceived.</span></p>
+                         </div>
+                       </div>
+                     </div>
                    </div>
+                 </div>
+                 <div class="wpb_column vc_column_container vc_col-sm-2">
+                   <div class="vc_column-inner ">
+                    <div class="wpb_wrapper"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="stm_events_grid cols_3">
+                @foreach($company_news as $company_new)
+                <div class="item">
+                 <div class="item_wr">
+                  <div class="item_thumbnail"> <a href="nineteen/events/if-you-do-all-those-things-effectively-you-cant-miss/"> <img class="" src="{{url('uploads/news')}}/{{$company_new->image_cover}}" width="700" height="300" alt="event3" title="event3"> </a></div>
+                  <div class="content">
+                   <h6><a href="nineteen/events/if-you-do-all-those-things-effectively-you-cant-miss/">{{$company_new->title}}</a></h6>
+                   <ul class="stm-event__meta">
+                    <li>
+                     <div class="event__venue"> <i class="fa fa-map-marker" aria-hidden="true"></i>{!!$company_new->description!!}</div>
+                   </li>
+                   <li>
+                   <!-- <div class="event__time"><i class="fa fa-clock-o"></i><span>{{$company_new->created_at}}</span></div> -->
+                   </li>
+
+                 </ul>
                </div>
+             </div>
            </div>
            @endforeach
+         </div>
        </div>
+     </div>
    </div>
-</div>
-</div>
-</div>
+ </div>
 </div>
 <div class="competed">
-    <div class="container">
-        <div id="cases" class="vc_row wpb_row vc_row-fluid vc_custom_1494583815331">
-          <div class="wpb_column vc_column_container vc_col-sm-12">
-           <div class="vc_column-inner ">
-            <div class="wpb_wrapper">
-             <div class="vc_custom_heading vc_custom_1492755345270 text_align_center title_no_stripe">
-              <h2>Hình ảnh hoạt động tại công ty<em>.</em></h2>
-          </div>
+  <div class="container">
+    <div id="cases" class="vc_row wpb_row vc_row-fluid vc_custom_1494583815331">
+      <div class="wpb_column vc_column_container vc_col-sm-12">
+       <div class="vc_column-inner ">
+        <div class="wpb_wrapper">
+         <div class="vc_custom_heading vc_custom_1492755345270 text_align_center title_no_stripe">
+          <h2>Hình ảnh hoạt động tại công ty<em>.</em></h2>
+        </div>
       </div>
+    </div>
   </div>
-</div>
 </div>
 <div class="vc_row wpb_row vc_row-fluid vc_custom_1492770675514">
   <div class="wpb_column vc_column_container vc_col-sm-2">
    <div class="vc_column-inner ">
     <div class="wpb_wrapper"></div>
-</div>
+  </div>
 </div>
 <div class="wpb_column vc_column_container vc_col-sm-8">
-   <div class="vc_column-inner ">
+ <div class="vc_column-inner ">
+  <div class="wpb_wrapper">
+   <div class="wpb_text_column wpb_content_element  vc_custom_1492754994322">
     <div class="wpb_wrapper">
-     <div class="wpb_text_column wpb_content_element  vc_custom_1492754994322">
-      <div class="wpb_wrapper">
-       <p style="text-align: center;"><span style="display: block; line-height: 30px; font-size: 18px; color: #777777;">As technology has advanced, it has become clear that designers must consider the needs of all users across many platforms in different contexts.</span></p>
+     <p style="text-align: center;"><span style="display: block; line-height: 30px; font-size: 18px; color: #777777;">As technology has advanced, it has become clear that designers must consider the needs of all users across many platforms in different contexts.</span></p>
    </div>
-</div>
+ </div>
 </div>
 </div>
 </div>
 <div class="wpb_column vc_column_container vc_col-sm-2">
-   <div class="vc_column-inner ">
-    <div class="wpb_wrapper"></div>
+ <div class="vc_column-inner ">
+  <div class="wpb_wrapper"></div>
 </div>
 </div>
 </div>
 <div class="vc_row wpb_row vc_row-fluid vc_custom_1451043728133"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">
-    <div class="stm_news ">
-        <ul class="news_list posts_per_row_4">
-            <li>
-                <div class="post_inner">
-                    <div class="image">
-                        <img src="{{url('public/home/home/wp-content/uploads/2016/01/news4-350x250.jpg')}}" alt="">
-                    </div>
+  <div class="stm_news ">
+    <ul class="news_list posts_per_row_4">
+    @foreach($img_companys as $img_company)
+      <li>
+        <div class="post_inner">
+          <div class="image">
+                <div class="hovereffect">
+                    <img id="myImg" src="{{url('uploads/banner')}}/{{$img_company->cover_image}}" alt="">
+                    <!-- <img id="myImg" src="img_snow.jpg" alt="Snow" style="width:100%;max-width:300px"> -->
 
-                </div>
-            </li>
-            <li>
-                <div class="post_inner">
-                    <div class="image">
-                        <img src="{{url('public/home/home/wp-content/uploads/2016/01/news4-350x250.jpg')}}" alt="">
-                    </div>
-
-                </div>
-            </li>
-            <li>
-                <div class="post_inner">
-                    <div class="image">
-                        <img src="{{url('public/home/home/wp-content/uploads/2016/01/news4-350x250.jpg')}}" alt="">
-                    </div>
-
-                </div>
-            </li>
-            <li>
-                <div class="post_inner">
-                    <div class="image">
-                        <img src="{{url('public/home/home/wp-content/uploads/2016/01/news4-350x250.jpg')}}" alt="">
-                    </div>
-
-                </div>
-            </li>
-            <li>
-                <div class="post_inner">
-                    <div class="image">
-                        <img src="{{url('public/home/home/wp-content/uploads/2016/01/news4-350x250.jpg')}}" alt="">
-                    </div>
-
-                </div>
-            </li>
-            <li>
-                <div class="post_inner">
-                    <div class="image">
-                        <img src="{{url('public/home/home/wp-content/uploads/2016/01/news4-350x250.jpg')}}" alt="">
-                    </div>
-
-                </div>
-            </li>
-            <li>
-                <div class="post_inner">
-                    <div class="image">
-                        <img src="{{url('public/home/home/wp-content/uploads/2016/01/news4-350x250.jpg')}}" alt="">
-                    </div>
-
-                </div>
-            </li>
-            <li>
-                <div class="post_inner">
-                    <div class="image">
-                        <img src="{{url('public/home/home/wp-content/uploads/2016/01/news4-350x250.jpg')}}" alt="">
-                    </div>
-
-                </div>
-            </li>
-        
-                
-                    </ul>
-                </div>
-            </div></div></div></div>
-        </div>
-        <div class="partners text-center home-pr">
-            <!-- <div> -->
-            <h2>Đối tác</h2>
-            <div class="container">
-              <p class="partners-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam excepturi aliquam iste dignissimos numquam repudiandae quisquam, dolorem velit reiciendis non, voluptatum sunt itaque quo corporis ullam at reprehenderit odit. Dolores.</p>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+                      <!-- <div class="overlay">
+                    
+                          <p>
+                              <a href="#">
+                                  <i class="fa fa-search-plus" style="color: #fff; font-size: 40px"></i>
+                              </a>
+                          </p>
+                      </div> -->
+              </div>
           </div>
-          <section class="customer-logos slider">
-              @foreach($partners as $partner)
-              <div class="slide img-partner"><img src="{{url('uploads/partner')}}/{{$partner->cover_image}}"></div>
-              @endforeach
-          </section>
-          <!-- </div>   -->
-      </div>
+
+        </div>
+      </li>
+    @endforeach
+    </ul>
   </div>
-  <!--#main-->
+</div></div></div></div>
+</div>
+<div class="partners text-center home-pr">
+  <!-- <div> -->
+  <h2>Đối tác</h2>
+  <div class="container">
+    <p class="partners-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam excepturi aliquam iste dignissimos numquam repudiandae quisquam, dolorem velit reiciendis non, voluptatum sunt itaque quo corporis ullam at reprehenderit odit. Dolores.</p>
+  </div>
+  <section class="customer-logos slider">
+    @foreach($partners as $partner)
+    <div class="slide img-partner"><img src="{{url('uploads/partner')}}/{{$partner->cover_image}}"></div>
+    @endforeach
+  </section>
+  <!-- </div>   -->
+</div>
+</div>
+<!--#main-->
 </div>
 <!--.content_wrapper-->
 
 <footer id="footer" class="footer style_1">
-   <div class="vc_column-inner "><div class="wpb_wrapper">    
-       <div id="map_5be68b27d80d1" class=" stm_gmap_wrapper">
-        <script type="text/javascript">
-            jQuery(document).ready(function ($) {
-                google.maps.event.addDomListener(window, 'load', init);
-                var map_5be68b27d80d1, markers = [], gmarkers = [], owl_5be68b27d802b = $("#owl_5be68b27d802b"), default_marker_icon = 'wp-content/themes/consulting/assets/images/markers/map-marker-skin_default.png';
-                $("#skin_color span").on('click', function () {
-                    for (var i = 0; i < gmarkers.length; i++) {
-                        if( $(this).attr('id') == 'skin_default' ){
-                            gmarkers[i].setIcon('wp-content/themes/consulting/assets/images/markers/map-marker-skin_default.png');
-                        }else{
-                            gmarkers[i].setIcon('wp-content/themes/consulting/assets/images/markers/map-marker-'+$(this).attr('id')+'.png');
-                        }
-                    }
-                });
-                function init() {
-                    var mapStyles = [
-                    {
-                        "featureType": "administrative",
-                        "elementType": "labels.text.fill",
-                        "stylers": [
-                        {
-                            "color": "#444444"
-                        }
-                        ]
-                    },
-                    {
-                        "featureType": "landscape",
-                        "elementType": "all",
-                        "stylers": [
-                        {
-                            "color": "#f2f2f2"
-                        }
-                        ]
-                    },
-                    {
-                        "featureType": "poi",
-                        "elementType": "all",
-                        "stylers": [
-                        {
-                            "visibility": "off"
-                        }
-                        ]
-                    },
-                    {
-                        "featureType": "road",
-                        "elementType": "all",
-                        "stylers": [
-                        {
-                            "saturation": -100
-                        },
-                        {
-                            "lightness": 45
-                        }
-                        ]
-                    },
-                    {
-                        "featureType": "road.highway",
-                        "elementType": "all",
-                        "stylers": [
-                        {
-                            "visibility": "simplified"
-                        }
-                        ]
-                    },
-                    {
-                        "featureType": "road.arterial",
-                        "elementType": "labels.icon",
-                        "stylers": [
-                        {
-                            "visibility": "off"
-                        }
-                        ]
-                    },
-                    {
-                        "featureType": "transit",
-                        "elementType": "all",
-                        "stylers": [
-                        {
-                            "visibility": "off"
-                        }
-                        ]
-                    },
-                    {
-                        "featureType": "water",
-                        "elementType": "all",
-                        "stylers": [
-                        {
-                            "color": "#6c98e1"
-                        },
-                        {
-                            "visibility": "on"
-                        }
-                        ]
-                    }
-                    ];
+ <div class="vc_column-inner "><div class="wpb_wrapper">    
+   <div id="map_5be68b27d80d1" class=" stm_gmap_wrapper">
+    <script type="text/javascript">
+      jQuery(document).ready(function ($) {
+        google.maps.event.addDomListener(window, 'load', init);
+        var map_5be68b27d80d1, markers = [], gmarkers = [], owl_5be68b27d802b = $("#owl_5be68b27d802b"), default_marker_icon = 'wp-content/themes/consulting/assets/images/markers/map-marker-skin_default.png';
+        $("#skin_color span").on('click', function () {
+          for (var i = 0; i < gmarkers.length; i++) {
+            if( $(this).attr('id') == 'skin_default' ){
+              gmarkers[i].setIcon('{{url("public/home/home")}}/wp-content/themes/consulting/assets/images/markers/map-marker-skin_default.png');
+            }else{
+              gmarkers[i].setIcon('{{url("public/home/home")}}/wp-content/themes/consulting/assets/images/markers/map-marker-'+$(this).attr('id')+'.png');
+            }
+          }
+        });
+        function init() {
+          var mapStyles = [
+          {
+            "featureType": "administrative",
+            "elementType": "labels.text.fill",
+            "stylers": [
+            {
+              "color": "#444444"
+            }
+            ]
+          },
+          {
+            "featureType": "landscape",
+            "elementType": "all",
+            "stylers": [
+            {
+              "color": "#f2f2f2"
+            }
+            ]
+          },
+          {
+            "featureType": "poi",
+            "elementType": "all",
+            "stylers": [
+            {
+              "visibility": "off"
+            }
+            ]
+          },
+          {
+            "featureType": "road",
+            "elementType": "all",
+            "stylers": [
+            {
+              "saturation": -100
+            },
+            {
+              "lightness": 45
+            }
+            ]
+          },
+          {
+            "featureType": "road.highway",
+            "elementType": "all",
+            "stylers": [
+            {
+              "visibility": "simplified"
+            }
+            ]
+          },
+          {
+            "featureType": "road.arterial",
+            "elementType": "labels.icon",
+            "stylers": [
+            {
+              "visibility": "off"
+            }
+            ]
+          },
+          {
+            "featureType": "transit",
+            "elementType": "all",
+            "stylers": [
+            {
+              "visibility": "off"
+            }
+            ]
+          },
+          {
+            "featureType": "water",
+            "elementType": "all",
+            "stylers": [
+            {
+              "color": "#6c98e1"
+            },
+            {
+              "visibility": "on"
+            }
+            ]
+          }
+          ];
 
 
-                    var mapOptions = {
-                        zoom: 11,
-                        zoomControlOptions: {
-                            position: google.maps.ControlPosition.LEFT_TOP
-                        },
-                        streetViewControl: false,
-                        scrollwheel: false,
-                        styles: mapStyles
+          var mapOptions = {
+            zoom: 11,
+            zoomControlOptions: {
+              position: google.maps.ControlPosition.LEFT_TOP
+            },
+            streetViewControl: false,
+            scrollwheel: false,
+            styles: mapStyles
 
-                    };
-                    var mapElement = document.getElementById('stm-gmap-5be68b27d8093');
-                    map_5be68b27d80d1 = new google.maps.Map(mapElement, mapOptions);
+          };
+          var mapElement = document.getElementById('stm-gmap-5be68b27d8093');
+          map_5be68b27d80d1 = new google.maps.Map(mapElement, mapOptions);
 
-                    owl_5be68b27d802b.on('initialized.owl.carousel', function () {
-                        consulting_setMarkers();
-                    });
+          owl_5be68b27d802b.on('initialized.owl.carousel', function () {
+            consulting_setMarkers();
+          });
 
-                    var owlRtl = false;
+          var owlRtl = false;
 
-                    if( $('body').hasClass('rtl') ) {
-                        owlRtl = true;
-                    }
+          if( $('body').hasClass('rtl') ) {
+            owlRtl = true;
+          }
 
-                    owl_5be68b27d802b.owlCarousel({
-                        rtl: owlRtl,
-                        dotsContainer: '#owl-nav-5be68b27d806c',
-                        items: 3,
-                        margin: 70,
-                        loop: true,
-                        responsive: {
-                            0: {
-                                items: 1
-                            },
-                            768: {
-                                items: 2
-                            },
-                            992: {
-                                items: 3
-                            }
-                        },
-                        onTranslated: function () {
-                            consulting_setMarkers();
-                        },
-                        onInitialize: function (event) {
-                            if ($('.owl-stage-outer .owl-item').length <= 1) {
-                                this.settings.loop = false;
-                            }
-                        }
-                    });
-                }
-                function consulting_setMarkers(){
-                    var latlngbounds = new google.maps.LatLngBounds();
-                    markers = [];
-                    owl_5be68b27d802b.find('.owl-item.active').each(function (i) {
-                        markers.push([parseFloat($(this).find('.item').data('lat')), parseFloat($(this).find('.item').data('lng')), $(this).find('.item').data('title')]);
-                    });
-                    for (i = 0; i < gmarkers.length; i++) {
-                        gmarkers[i].setMap(null);
-                    }
-                    for (var i = 0; i < markers.length; i++) {
-                        var marker_array = markers[i];
-                        marker = new google.maps.Marker({
-                            position: {lat: marker_array[0], lng: marker_array[1]},
-                            icon: default_marker_icon,
-                            map: map_5be68b27d80d1,
-                            title: marker_array[2]
-                        });
-                        latlngbounds.extend(new google.maps.LatLng(marker_array[0], marker_array[1]));
-                        gmarkers.push( marker );
-                        addInfoWindow( marker, marker_array[2], marker_array[0] );
-                    }
-                    map_5be68b27d80d1.fitBounds(latlngbounds);
-
-                    if( markers.length === 1 ) {
-                        var listener = google.maps.event.addListener(map_5be68b27d80d1, "idle", function() {
-                            map_5be68b27d80d1.setZoom(11);
-                            google.maps.event.removeListener(listener);
-                        });
-                    }
-                }
-
-                function addInfoWindow(marker, title, lat) {
-
-                    var infowindow = new google.maps.InfoWindow({
-                        content: '<h6>' + title + '</h6>',
-                        pixelOffset: new google.maps.Size(0,20)
-                    });
-
-                    google.maps.event.addListener(marker, 'mouseover', function () {
-                        infowindow.open(map_5be68b27d80d1, marker);
-                        $('[data-lat="'+ lat +'"]').addClass("focused");
-                    });
-
-                    google.maps.event.addListener(marker, 'mouseout', function () {
-                        infowindow.close(map_5be68b27d80d1, marker);
-                        $('[data-lat="'+ lat +'"]').removeClass("focused");
-                    });
-
-                    $(".item").on("mouseenter", function() {
-                        if( parseFloat(marker.getPosition().lat()) === parseFloat($(this).data('lat')) ) {
-                            infowindow.open(map_5be68b27d80d1, marker);
-                        }
-                    });
-
-                    $(".item").on("mouseleave", function() {
-                        if( parseFloat(marker.getPosition().lat()) === parseFloat($(this).data('lat')) ) {
-                            infowindow.close(map_5be68b27d80d1, marker);
-                        }
-                    });
-                }
+          owl_5be68b27d802b.owlCarousel({
+            rtl: owlRtl,
+            dotsContainer: '#owl-nav-5be68b27d806c',
+            items: 3,
+            margin: 70,
+            loop: true,
+            responsive: {
+              0: {
+                items: 1
+              },
+              768: {
+                items: 2
+              },
+              992: {
+                items: 3
+              }
+            },
+            onTranslated: function () {
+              consulting_setMarkers();
+            },
+            onInitialize: function (event) {
+              if ($('.owl-stage-outer .owl-item').length <= 1) {
+                this.settings.loop = false;
+              }
+            }
+          });
+        }
+        function consulting_setMarkers(){
+          var latlngbounds = new google.maps.LatLngBounds();
+          markers = [];
+          owl_5be68b27d802b.find('.owl-item.active').each(function (i) {
+            markers.push([parseFloat($(this).find('.item').data('lat')), parseFloat($(this).find('.item').data('lng')), $(this).find('.item').data('title')]);
+          });
+          for (i = 0; i < gmarkers.length; i++) {
+            gmarkers[i].setMap(null);
+          }
+          for (var i = 0; i < markers.length; i++) {
+            var marker_array = markers[i];
+            marker = new google.maps.Marker({
+              position: {lat: marker_array[0], lng: marker_array[1]},
+              icon: default_marker_icon,
+              map: map_5be68b27d80d1,
+              title: marker_array[2]
             });
-        </script>
-        <div class="gmap_addresses">
-            <div class="gmap_add">
-                <div class="row">
-                    <div class="col-lg-11 col-md-11 col-sm-11 col-xs-12">
-                        <div class="addresses_wr">
-                            <div class="addresses owl-carousel owl-theme owl-loaded" id="owl_5be68b27d802b">
+            latlngbounds.extend(new google.maps.LatLng(marker_array[0], marker_array[1]));
+            gmarkers.push( marker );
+            addInfoWindow( marker, marker_array[2], marker_array[0] );
+          }
+          map_5be68b27d80d1.fitBounds(latlngbounds);
+
+          if( markers.length === 1 ) {
+            var listener = google.maps.event.addListener(map_5be68b27d80d1, "idle", function() {
+              map_5be68b27d80d1.setZoom(11);
+              google.maps.event.removeListener(listener);
+            });
+          }
+        }
+
+        function addInfoWindow(marker, title, lat) {
+
+          var infowindow = new google.maps.InfoWindow({
+            content: '<h6>' + title + '</h6>',
+            pixelOffset: new google.maps.Size(0,20)
+          });
+
+          google.maps.event.addListener(marker, 'mouseover', function () {
+            infowindow.open(map_5be68b27d80d1, marker);
+            $('[data-lat="'+ lat +'"]').addClass("focused");
+          });
+
+          google.maps.event.addListener(marker, 'mouseout', function () {
+            infowindow.close(map_5be68b27d80d1, marker);
+            $('[data-lat="'+ lat +'"]').removeClass("focused");
+          });
+
+          $(".item").on("mouseenter", function() {
+            if( parseFloat(marker.getPosition().lat()) === parseFloat($(this).data('lat')) ) {
+              infowindow.open(map_5be68b27d80d1, marker);
+            }
+          });
+
+          $(".item").on("mouseleave", function() {
+            if( parseFloat(marker.getPosition().lat()) === parseFloat($(this).data('lat')) ) {
+              infowindow.close(map_5be68b27d80d1, marker);
+            }
+          });
+        }
+      });
+    </script>
+    <div class="gmap_addresses">
+      <div class="gmap_add">
+        <div class="row">
+          <div class="col-lg-11 col-md-11 col-sm-11 col-xs-12">
+            <div class="addresses_wr">
+              <div class="addresses owl-carousel owl-theme owl-loaded" id="owl_5be68b27d802b">
 
 
 
 
 
 
-                                <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-1085px, 0px, 0px); transition: all 0s ease 0s; width: 4340px;">
+                <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-1085px, 0px, 0px); transition: all 0s ease 0s; width: 4340px;">
 
 
 
-                                    <div class="owl-item active" style="width: 291.667px; margin-right: 70px;">
-                                    </div>
+                  <div class="owl-item active" style="width: 291.667px; margin-right: 70px;">
+                  </div>
 
 
 
 
 
-                                    <div class="owl-item cloned" style="width: 291.667px; margin-right: 70px;">
-                                    </div>
-                                    <div class="owl-item cloned" style="width: 291.667px; margin-right: 70px;">
-                                    </div>
-                                    @foreach($offices as $office)
-                                    <div class="owl-item active" style="width: 291.667px; margin-right: 70px;"><div class="item" data-lat="40.416775" data-lng="-3.703790" data-title="Spain">
-                                        <div class="title">{{$office->title}}</div>
-                                        <ul>
-                                            <li>
-                                                <div class="icon">
-                                                    <i class="stm-location-2"></i>
-                                                </div>
-                                                <div class="text">
-                                                    <p>{{$office->address}}</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="icon">
-                                                    <i class="stm-iphone"></i>
-                                                </div>
-                                                <div class="text">
-                                                    <p>{{$office->phone}}</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="icon">
-                                                    <i class="stm-email"></i>
-                                                </div>
-                                                <div class="text">
-                                                    <a href="mailto:palmagency@consultingwp.com">{{$office->email}}</a>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div></div>
-                                    @endforeach
-                                </div>
-                            </div>
+                  <div class="owl-item cloned" style="width: 291.667px; margin-right: 70px;">
+                  </div>
+                  <div class="owl-item cloned" style="width: 291.667px; margin-right: 70px;">
+                  </div>
+                  @foreach($offices as $office)
+                  <div class="owl-item active" style="width: 291.667px; margin-right: 70px;"><div class="item" data-lat="40.416775" data-lng="-3.703790" data-title="Spain">
+                    <div class="title">{{$office->title}}</div>
+                    <ul>
+                      <li>
+                        <div class="icon">
+                          <i class="stm-location-2"></i>
                         </div>
-                    </div>
+                        <div class="text">
+                          <p>{{$office->address}}</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="icon">
+                          <i class="stm-iphone"></i>
+                        </div>
+                        <div class="text">
+                          <p>{{$office->phone}}</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="icon">
+                          <i class="stm-email"></i>
+                        </div>
+                        <div class="text">
+                          <a href="mailto:palmagency@consultingwp.com">{{$office->email}}</a>
+                        </div>
+                      </li>
+                    </ul>
+                  </div></div>
+                  @endforeach
                 </div>
-
+              </div>
             </div>
+          </div>
         </div>
+
+      </div>
     </div>
+  </div>
 </div>
 </div></div>
 <div class="widgets_row">
@@ -1298,45 +1261,53 @@
     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
      <div class="footer_logo text-center">
       <a href="">
-          <img src="{{url('uploads/logo/w-logo.png')}}" width="100px" alt="Consulting WP - New York" />
+        <img src="{{url('uploads/logo/w-logo.png')}}" width="100px" alt="Consulting WP - New York" />
       </a>
-  </div>
-  <div class="footer_text">
-      <p>Consulting WP - Before we talk destination, we shine a spotlight across your organization to fully understand its people, processes, and technology.
+    </div>
+    <div class="footer_text text-center">
+      <p><span style="font-weight: bold; font-size: 16px;">HOPLONGTECH - AUTOMATION</span>
       </p>
+    </div>
+    <div class="footer_n">
+      <img src="{{url('uploads/logo/logo-da-thong-bao-voi-bo-cong-thuong.png')}}" alt="">
+    </div>
   </div>
-</div>
-<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
- <section id="recent-posts-4" class="widget widget_recent_entries">
-  <h4 class="widget_title no_stripe">recent news</h4>
-  <ul>
-   <li>
-    <a href="within-the-construction-industry-as-their-overdraft/">Within the construction industry as their overdraft</a>
-    <span class="post-date">January 22, 2016</span>
-</li>
-<li>
-    <a href="strategic-and-commercial-approach-with-technical-understanding/">Strategic and commercial approach with issues</a>
-    <span class="post-date">January 22, 2016</span>
-</li>
-</ul>
+  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+   <section id="recent-posts-4" class="widget widget_recent_entries">
+    <h4 class="widget_title no_stripe">Dịch vụ</h4>
+    <ul>
+     <li>
+      <a href="within-the-construction-industry-as-their-overdraft/">Chăm sóc khách hàng</a>
+      <!-- <span class="post-date">January 22, 2016</span> -->
+    </li>
+    <li>
+      <a href="strategic-and-commercial-approach-with-technical-understanding/">Hỗ trợ kỹ thuật</a>
+      <!-- <span class="post-date">January 22, 2016</span> -->
+    </li>
+    <li>
+      <a href="strategic-and-commercial-approach-with-technical-understanding/">Bảo hành sản phẩm</a>
+      <!-- <span class="post-date">January 22, 2016</span> -->
+    </li>
+
+  </ul>
 </section>
 </div>
 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
  <section id="nav_menu-2" class="widget widget_nav_menu">
-  <h4 class="widget_title no_stripe">extra links</h4>
+  <h4 class="widget_title no_stripe">Sản phẩm</h4>
   <div class="menu-extra-links-container">
    <ul id="menu-extra-links" class="menu">
-    <li id="menu-item-163" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-163"><a href="company-overview/">About</a></li>
-    <li id="menu-item-164" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-164"><a href="blog/">News</a></li>
-    <li id="menu-item-165" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-165"><a href="contact-us/">Contacts</a></li>
-    <li id="menu-item-927" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-927"><a href="testimonials-page/">Testimonials</a></li>
-    <li id="menu-item-928" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-928"><a href="typography/">Typography</a></li>
-    <li id="menu-item-929" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-929"><a href="services-grid/">Services</a></li>
-    <li id="menu-item-930" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-930"><a href="company-overview/careers/">Careers</a></li>
-    <li id="menu-item-931" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-931"><a href="company-overview/our-team-grid/">Our team</a></li>
-    <li id="menu-item-933" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-933"><a href="shop/">Shop</a></li>
-    <li id="menu-item-934" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-934"><a href="company-overview/our-approach/">Our approach</a></li>
-</ul>
+    <li id="menu-item-163" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-163"><a href="company-overview/">Biến tần</a></li>
+    <li id="menu-item-164" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-164"><a href="blog/">Cảm biến</a></li>
+    <li id="menu-item-165" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-165"><a href="contact-us/">Bộ điều khiển</a></li>
+    <li id="menu-item-927" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-927"><a href="testimonials-page/">Thiết bị chuyển động</a></li>
+    <li id="menu-item-928" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-928"><a href="typography/">Thiết bị kết nối</a></li>
+    <li id="menu-item-929" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-929"><a href="services-grid/">Đèn báo</a></li>
+    <li id="menu-item-930" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-930"><a href="company-overview/careers/">Công tắc điều khiển</a></li>
+    <li id="menu-item-931" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-931"><a href="company-overview/our-team-grid/">Máy cắt</a></li>
+    <li id="menu-item-933" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-933"><a href="shop/">Phần mềm</a></li>
+    <li id="menu-item-934" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-934"><a href="company-overview/our-approach/">Biến áp</a></li>
+  </ul>
 </div>
 </section>
 </div>
@@ -1345,26 +1316,26 @@
   <h4 class="widget_title no_stripe">subscribe</h4>
   <script>(function() {
    if (!window.mc4wp) {
-       window.mc4wp = {
-           listeners: [],
-           forms    : {
-               on: function (event, callback) {
-                   window.mc4wp.listeners.push({
-                       event   : event,
-                       callback: callback
-                   });
-               }
-           }
+     window.mc4wp = {
+       listeners: [],
+       forms    : {
+         on: function (event, callback) {
+           window.mc4wp.listeners.push({
+             event   : event,
+             callback: callback
+           });
+         }
        }
+     }
    }
-})();
+ })();
 </script><!-- MailChimp for WordPress v4.2.4 - https://wordpress.org/plugins/mailchimp-for-wp/ -->
 <form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-172 mc4wp-form-basic" method="post" data-id="172" data-name="Subscribe" >
-   <div class="mc4wp-form-fields">
-    <div class="stm_newsletter_form">
-     <input class="form-control" type="email" name="EMAIL" placeholder="Enter Your E-mail" required />
-     <input id="stm_newsletter_submit" type="submit" value="" />
-     <label for="stm_newsletter_submit"><i class="stm-email"></i></label>
+ <div class="mc4wp-form-fields">
+  <div class="stm_newsletter_form">
+   <input class="form-control" type="email" name="EMAIL" placeholder="Enter Your E-mail" required />
+   <input id="stm_newsletter_submit" type="submit" value="" />
+   <label for="stm_newsletter_submit"><i class="stm-email"></i></label>
  </div>
  <p>Get latest updates and offers.</p>
 </div>
@@ -1385,695 +1356,158 @@
     <ul>
      <li>
       <a href="http://www.facebook.com" target="_blank" class="social-facebook">
-          <i class="fa fa-facebook"></i>
+        <i class="fa fa-facebook"></i>
       </a>
-  </li>
-  <li>
+    </li>
+    <li>
       <a href="http://www.twitter.com" target="_blank" class="social-twitter">
-          <i class="fa fa-twitter"></i>
+        <i class="fa fa-twitter"></i>
       </a>
-  </li>
-  <li>
+    </li>
+    <li>
       <a href="http://www.google.com" target="_blank" class="social-google-plus">
-          <i class="fa fa-google-plus"></i>
+        <i class="fa fa-google-plus"></i>
       </a>
-  </li>
-  <li>
+    </li>
+    <li>
       <a href="http://www.linkedin.com" target="_blank" class="social-linkedin">
-          <i class="fa fa-linkedin"></i>
+        <i class="fa fa-linkedin"></i>
       </a>
-  </li>
-</ul>
+    </li>
+  </ul>
 </div>
-    <!--                      <div class="copyright">
-                            © 2018 <a href="consulting.stylemixthemes.com/landing/" target="_blank">Consulting WordPress</a> Theme by <a href="http://stylemixthemes.com/" target="_blank">StylemixThemes</a>                                                   
-                        </div> -->
-                    </div>
-                </div>
-            </div>
-        </footer>
-    </div>
-    <!--#wrapper-->
-          <!-- <div class="stm_theme_demos">
-             <div class="stm_theme_demos__icon" id="consulting-demos">
-                <svg xmlns="http://www.w3.org/2000/svg" width="23.97" height="23.938" viewBox="0 0 23.97 23.938">
-                   <path class="cls-1"
-                      d="M1897.53,469.018h-19.05a2.458,2.458,0,0,0-2.46,2.455V486.13a2.458,2.458,0,0,0,2.46,2.455h6.34V491h-3.41a0.989,0.989,0,1,0,0,1.978h13.19a0.989,0.989,0,1,0,0-1.978h-3.41v-2.419h6.34a2.456,2.456,0,0,0,2.45-2.455V471.473A2.456,2.456,0,0,0,1897.53,469.018ZM1878.48,471h19.05a0.485,0.485,0,0,1,.48.477v10.736H1878V471.473A0.485,0.485,0,0,1,1878.48,471Zm8.31,17.589h2.42V491h-2.42v-2.419Zm10.74-1.978h-19.05a0.486,0.486,0,0,1-.48-0.477v-1.942h20.01v1.942A0.486,0.486,0,0,1,1897.53,486.607Z"
-                      transform="translate(-1876.03 -469.031)">
-                </svg>
-                <span>Demos</span>
-             </div>
-             <div class="stm_theme_demos__icon" id="consulting-settings">
-                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
-                   <path class="cls-1" d="M83.207,149.018c-0.413-.248-0.836-0.5-1.26-0.742a10.974,10.974,0,0,0,0-2.554c0.425-.245.848-0.494,1.259-0.741a1.654,1.654,0,0,0,.67-2.039h0l-0.9-2.178a1.654,1.654,0,0,0-1.916-.968c-0.465.116-.941,0.239-1.415,0.366a10.97,10.97,0,0,0-1.806-1.806c0.127-.473.25-0.949,0.366-1.415a1.654,1.654,0,0,0-.968-1.915l-2.178-.9a1.653,1.653,0,0,0-2.039.67c-0.248.411-.5,0.835-0.742,1.259a10.96,10.96,0,0,0-2.554,0c-0.245-.426-0.495-0.849-0.741-1.259a1.653,1.653,0,0,0-2.039-.67l-2.178.9a1.654,1.654,0,0,0-.968,1.915c0.116,0.467.239,0.942,0.366,1.415a10.976,10.976,0,0,0-1.805,1.806c-0.475-.127-0.951-0.251-1.415-0.366a1.653,1.653,0,0,0-1.916.968l-0.9,2.178a1.654,1.654,0,0,0,.67,2.039c0.412,0.248.835,0.5,1.26,0.742a10.971,10.971,0,0,0,0,2.553c-0.425.245-.848,0.494-1.259,0.742a1.654,1.654,0,0,0-.67,2.039l0.9,2.178a1.654,1.654,0,0,0,1.916.968c0.465-.116.94-0.239,1.414-0.366a10.964,10.964,0,0,0,1.806,1.805c-0.127.475-.25,0.95-0.366,1.415a1.655,1.655,0,0,0,.968,1.916l2.178,0.9a1.625,1.625,0,0,0,.624.124,1.655,1.655,0,0,0,1.416-.794c0.246-.409.495-0.832,0.742-1.259a11.015,11.015,0,0,0,2.554,0c0.244,0.423.493,0.846,0.741,1.259a1.653,1.653,0,0,0,2.039.67l2.178-.9a1.655,1.655,0,0,0,.968-1.916c-0.115-.462-0.238-0.938-0.366-1.414a10.985,10.985,0,0,0,1.805-1.806c0.474,0.127.949,0.25,1.415,0.366a1.654,1.654,0,0,0,1.916-.968l0.9-2.178A1.654,1.654,0,0,0,83.207,149.018Zm-1.819,3.457c-0.447-.112-0.9-0.231-1.357-0.353a1.641,1.641,0,0,0-1.726.575,9.23,9.23,0,0,1-1.607,1.608,1.64,1.64,0,0,0-.574,1.725c0.123,0.456.241,0.912,0.353,1.357l-2,.829c-0.238-.4-0.477-0.8-0.71-1.209a1.639,1.639,0,0,0-1.626-.813,9.245,9.245,0,0,1-2.273,0,1.64,1.64,0,0,0-1.627.814c-0.236.409-.474,0.816-0.71,1.209l-2-.83c0.112-.446.23-0.9,0.353-1.356A1.643,1.643,0,0,0,65.3,154.3,9.2,9.2,0,0,1,63.7,152.7a1.64,1.64,0,0,0-1.725-.575c-0.454.122-.91,0.241-1.356,0.353l-0.829-2c0.4-.238.8-0.476,1.208-0.71a1.641,1.641,0,0,0,.814-1.626,9.22,9.22,0,0,1,0-2.273,1.642,1.642,0,0,0-.814-1.628c-0.407-.234-0.813-0.472-1.209-0.71l0.829-2c0.446,0.112.9,0.23,1.357,0.353A1.641,1.641,0,0,0,63.7,141.3a9.191,9.191,0,0,1,1.607-1.607,1.642,1.642,0,0,0,.574-1.726c-0.122-.452-0.24-0.908-0.353-1.356l2-.829c0.236,0.394.475,0.8,0.71,1.208a1.641,1.641,0,0,0,1.626.814,9.2,9.2,0,0,1,2.273,0,1.64,1.64,0,0,0,1.627-.813c0.234-.407.473-0.813,0.71-1.209l2,0.829c-0.112.447-.231,0.9-0.353,1.357A1.641,1.641,0,0,0,76.7,139.7a9.213,9.213,0,0,1,1.608,1.607,1.639,1.639,0,0,0,1.725.574c0.454-.122.909-0.24,1.356-0.352l0.829,2c-0.395.237-.8,0.475-1.208,0.71a1.639,1.639,0,0,0-.814,1.626,9.21,9.21,0,0,1,0,2.273,1.64,1.64,0,0,0,.814,1.627c0.406,0.234.812,0.472,1.209,0.71Zm-4.856-7.767h0a5.994,5.994,0,1,0-3.24,7.822,5.993,5.993,0,0,0,3.24-7.822Zm-3.912,6.2a4.23,4.23,0,1,1,2.289-5.526A4.2,4.2,0,0,1,72.62,150.907Z" transform="translate(-58 -134)">
-                </svg>
-                <span>Settings</span>
-             </div>
-             <a id="consulting-buy" href="https://themeforest.net/item/consulting-business-finance-wordpress-theme/14740561?ref=stylemixthemes&license=regular&open_purchase_for_item_id=14740561&purchasable=source" target="_blank" class="stm_theme_demos__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24.031" viewBox="0 0 24 24.031">
-                   <path class="cls-3" d="M1896.04,604a0.966,0.966,0,0,0,.97-0.989,0.993,0.993,0,0,0-.97-1.02H1883.5l0.92-1.987h11.42a1.613,1.613,0,0,0,1.41-1.255l2.69-8.149a1.251,1.251,0,0,0-.15-1.109,1.327,1.327,0,0,0-1.14-.5h-17.5s-0.53-1.631-.66-2.008a1.363,1.363,0,0,0-1.18-1.02H1877a1.02,1.02,0,0,0,0,2.04h1.64l3.75,10.668a2.73,2.73,0,0,0,.15.372l-1.38,3.289a0.79,0.79,0,0,0-.05.211,1.05,1.05,0,0,0-.12.467,0.985,0.985,0,0,0,1,.989h14.05Zm-14.2-13h15.88l-2.33,6.962h-11.12Zm3.16,13a3,3,0,1,1-3,3A3,3,0,0,1,1885,604Zm0,2a1,1,0,1,1-1,1A1,1,0,0,1,1885,606Zm8-2a3,3,0,1,1-3,3A3,3,0,0,1,1893,604Zm0,2a1,1,0,1,1-1,1A1,1,0,0,1,1893,606Z" transform="translate(-1876 -585.969)">
-                </svg>
-                <span>Buy <span class="stm_price_api">$0</span></span>
-             </a>
-             <div class="stm_theme_demos__popup">
-                <div class="stm_theme_demos__close"></div>
-                <div class="stm_theme_demos__inner">
-                   <div class="stm_theme_demos__inner_container">
-                      <h3>Choose a Demo</h3>
-                      <div class="demos-list">
-                         <a href="">
-                            <div class="demo">
-                               <div class="img">
-                                  <img data-src="{{url('public/home/home')}}/landing/assets/img/demo_images/1.jpg" width="580" height="423" alt="New York" class="lazyload" />
-                               </div>
-                               <h4>New York</h4>
-                            </div>
-                         </a>
-                         <a href="beijing/">
-                            <div class="demo">
-                               <div class="img">
-                                  <img data-src="{{url('public/home/home')}}/landing/assets/img/demo_images/31.jpg" width="580" height="423" alt="Beijing" class="lazyload" />
-                               </div>
-                               <h4>Beijing</h4>
-                            </div>
-                         </a>
-                         <a href="los-angeles/">
-                            <div class="demo">
-                               <div class="img">
-                                  <img data-src="{{url('public/home/home')}}/landing/assets/img/demo_images/28.jpg" width="580" height="423" alt="Los Angeles" class="lazyload" />
-                               </div>
-                               <h4>Los Angeles</h4>
-                            </div>
-                         </a>
-                         <a href="zurich/">
-                            <div class="demo">
-                               <div class="img">
-                                  <img data-src="{{url('public/home/home')}}/landing/assets/img/demo_images/21.jpg" width="580" height="423" alt="Zurich" class="lazyload" />
-                               </div>
-                               <h4>Zurich</h4>
-                            </div>
-                         </a>
-                         <a href="six/">
-                            <div class="demo">
-                               <div class="img">
-                                  <img data-src="{{url('public/home/home')}}/landing/assets/img/demo_images/7.jpg" width="580" height="423" alt="Madrid" class="lazyload" />
-                               </div>
-                               <h4>Madrid</h4>
-                            </div>
-                         </a>
-                         <a href="five/">
-                            <div class="demo">
-                               <div class="img">
-                                  <img data-src="{{url('public/home/home')}}/landing/assets/img/demo_images/2.jpg" width="580" height="423" alt="Shanghai" class="lazyload" />
-                               </div>
-                               <h4>Shanghai</h4>
-                            </div>
-                         </a>
-                         <a href="amsterdam/">
-                            <div class="demo">
-                               <div class="img">
-                                  <img data-src="{{url('public/home/home')}}/landing/assets/img/demo_images/23.jpg" width="580" height="423" alt="Amsterdam" class="lazyload" />
-                               </div>
-                               <h4>Amsterdam</h4>
-                            </div>
-                         </a>
-                         <a href="twelve/">
-                            <div class="demo">
-                               <div class="img">
-                                  <img data-src="{{url('public/home/home')}}/landing/assets/img/demo_images/12.jpg" width="580" height="423" alt="Singapore" class="lazyload" />
-                               </div>
-                               <h4>Singapore</h4>
-                            </div>
-                         </a>
-                         <a href="thirteen/">
-                            <div class="demo">
-                               <div class="img">
-                                  <img data-src="{{url('public/home/home')}}/landing/assets/img/demo_images/13.jpg" width="580" height="423" alt="Sao Paulo" class="lazyload" />
-                               </div>
-                               <h4>Sao Paulo</h4>
-                            </div>
-                         </a>
-                         <a href="nineteen/">
-                            <div class="demo">
-                               <div class="img">
-                                  <img data-src="{{url('public/home/home')}}/landing/assets/img/demo_images/19-new.jpg" width="580" height="423" alt="Oslo" class="lazyload" />
-                               </div>
-                               <h4>Oslo</h4>
-                            </div>
-                         </a>
-                         <a href="two/">
-                            <div class="demo">
-                               <div class="img">
-                                  <img data-src="{{url('public/home/home')}}/landing/assets/img/demo_images/6.jpg" width="580" height="423" alt="London" class="lazyload" />
-                               </div>
-                               <h4>London</h4>
-                            </div>
-                         </a>
-                         <a href="mumbai/">
-                            <div class="demo">
-                               <div class="img">
-                                  <img data-src="{{url('public/home/home')}}/landing/assets/img/demo_images/22.jpg" width="580" height="423" alt="Mumbai" class="lazyload" />
-                               </div>
-                               <h4>Mumbai</h4>
-                            </div>
-                         </a>
-                         <a href="brussels/">
-                            <div class="demo">
-                               <div class="img">
-                                  <img data-src="{{url('public/home/home')}}/landing/assets/img/demo_images/26.jpg" width="580" height="423" alt="Brussels" class="lazyload" />
-                               </div>
-                               <h4>Brussels</h4>
-                            </div>
-                         </a>
-                         <a href="eleven/">
-                            <div class="demo">
-                               <div class="img">
-                                  <img data-src="{{url('public/home/home')}}/landing/assets/img/demo_images/11.jpg" width="580" height="423" alt="Paris" class="lazyload" />
-                               </div>
-                               <h4>Paris</h4>
-                            </div>
-                         </a>
-                         <a href="toronto/">
-                            <div class="demo">
-                               <div class="img">
-                                  <img data-src="{{url('public/home/home')}}/landing/assets/img/demo_images/29.jpg" width="580" height="423" alt="Toronto" class="lazyload" />
-                               </div>
-                               <h4>Toronto</h4>
-                            </div>
-                         </a>
-                         <a href="fifteen/">
-                            <div class="demo">
-                               <div class="img">
-                                  <img data-src="{{url('public/home/home')}}/landing/assets/img/demo_images/15.jpg" width="580" height="423" alt="Dublin" class="lazyload" />
-                               </div>
-                               <h4>Dublin</h4>
-                            </div>
-                         </a>
-                         <a href="seven/">
-                            <div class="demo">
-                               <div class="img">
-                                  <img data-src="{{url('public/home/home')}}/landing/assets/img/demo_images/3.jpg" width="580" height="423" alt="Tokyo" class="lazyload" />
-                               </div>
-                               <h4>Tokyo</h4>
-                            </div>
-                         </a>
-                         <a href="four/">
-                            <div class="demo">
-                               <div class="img">
-                                  <img data-src="{{url('public/home/home')}}/landing/assets/img/demo_images/5.jpg" width="580" height="423" alt="Moscow" class="lazyload" />
-                               </div>
-                               <h4>Moscow</h4>
-                            </div>
-                         </a>
-                         <a href="three/">
-                            <div class="demo">
-                               <div class="img">
-                                  <img data-src="{{url('public/home/home')}}/landing/assets/img/demo_images/9.jpg" width="580" height="423" alt="Frankfurt" class="lazyload" />
-                               </div>
-                               <h4>Frankfurt</h4>
-                            </div>
-                         </a>
-                         <a href="denver/">
-                            <div class="demo">
-                               <div class="img">
-                                  <img data-src="{{url('public/home/home')}}/landing/assets/img/demo_images/25.jpg" width="580" height="423" alt="Denver" class="lazyload" />
-                               </div>
-                               <h4>Denver</h4>
-                            </div>
-                         </a>
-                         <a href="san-francisco/">
-                            <div class="demo">
-                               <div class="img">
-                                  <img data-src="{{url('public/home/home')}}/landing/assets/img/demo_images/30.jpg" width="580" height="423" alt="San Francisco" class="lazyload" />
-                               </div>
-                               <h4>San Francisco</h4>
-                            </div>
-                         </a>
-                         <a href="twenty/">
-                            <div class="demo">
-                               <div class="img">
-                                  <img data-src="{{url('public/home/home')}}/landing/assets/img/demo_images/l20.jpg" width="580" height="423" alt="Rome" class="lazyload" />
-                               </div>
-                               <h4>Rome</h4>
-                            </div>
-                         </a>
-                         <a href="seventeen/">
-                            <div class="demo">
-                               <div class="img">
-                                  <img data-src="{{url('public/home/home')}}/landing/assets/img/demo_images/17.jpg" width="580" height="423" alt="Dubai" class="lazyload" />
-                               </div>
-                               <h4>Dubai</h4>
-                            </div>
-                         </a>
-                         <a href="ten/">
-                            <div class="demo">
-                               <div class="img">
-                                  <img data-src="{{url('public/home/home')}}/landing/assets/img/demo_images/10.jpg" width="580" height="423" alt="Hong Kong" class="lazyload" />
-                               </div>
-                               <h4>Hong Kong</h4>
-                            </div>
-                         </a>
-                         <a href="davos/">
-                            <div class="demo">
-                               <div class="img">
-                                  <img data-src="{{url('public/home/home')}}/landing/assets/img/demo_images/24.jpg" width="580" height="423" alt="Davos" class="lazyload" />
-                               </div>
-                               <h4>Davos</h4>
-                            </div>
-                         </a>
-                         <a href="eight/">
-                            <div class="demo">
-                               <div class="img">
-                                  <img data-src="{{url('public/home/home')}}/landing/assets/img/demo_images/8.jpg" width="580" height="423" alt="Seoul" class="lazyload" />
-                               </div>
-                               <h4>Seoul</h4>
-                            </div>
-                         </a>
-                         <a href="sixteen/">
-                            <div class="demo">
-                               <div class="img">
-                                  <img data-src="{{url('public/home/home')}}/landing/assets/img/demo_images/16.jpg" width="580" height="423" alt="Tel Aviv" class="lazyload" />
-                               </div>
-                               <h4>Tel Aviv</h4>
-                            </div>
-                         </a>
-                         <a href="fourteen/">
-                            <div class="demo">
-                               <div class="img">
-                                  <img data-src="{{url('public/home/home')}}/landing/assets/img/demo_images/14.jpg" width="580" height="423" alt="Abu Dhabi" class="lazyload" />
-                               </div>
-                               <h4>Abu Dhabi</h4>
-                            </div>
-                         </a>
-                         <a href="nine/">
-                            <div class="demo">
-                               <div class="img">
-                                  <img data-src="{{url('public/home/home')}}/landing/assets/img/demo_images/4.jpg" width="580" height="423" alt="Sydney" class="lazyload" />
-                               </div>
-                               <h4>Sydney</h4>
-                            </div>
-                         </a>
-                         <a href="eighteen/">
-                            <div class="demo">
-                               <div class="img">
-                                  <img data-src="{{url('public/home/home')}}/landing/assets/img/demo_images/18.jpg" width="580" height="423" alt="Tehran" class="lazyload" />
-                               </div>
-                               <h4>Tehran</h4>
-                            </div>
-                         </a>
-                      </div>
-                   </div>
-                </div>
-             </div>
-             <div class="stm_theme_demos__settings">
-                <div class="customizer_button">
-                   <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" class="fa-spin">
-                      <path class="cls-3" d="M83.207,149.018c-0.413-.248-0.836-0.5-1.26-0.742a10.974,10.974,0,0,0,0-2.554c0.425-.245.848-0.494,1.259-0.741a1.654,1.654,0,0,0,.67-2.039h0l-0.9-2.178a1.654,1.654,0,0,0-1.916-.968c-0.465.116-.941,0.239-1.415,0.366a10.97,10.97,0,0,0-1.806-1.806c0.127-.473.25-0.949,0.366-1.415a1.654,1.654,0,0,0-.968-1.915l-2.178-.9a1.653,1.653,0,0,0-2.039.67c-0.248.411-.5,0.835-0.742,1.259a10.96,10.96,0,0,0-2.554,0c-0.245-.426-0.495-0.849-0.741-1.259a1.653,1.653,0,0,0-2.039-.67l-2.178.9a1.654,1.654,0,0,0-.968,1.915c0.116,0.467.239,0.942,0.366,1.415a10.976,10.976,0,0,0-1.805,1.806c-0.475-.127-0.951-0.251-1.415-0.366a1.653,1.653,0,0,0-1.916.968l-0.9,2.178a1.654,1.654,0,0,0,.67,2.039c0.412,0.248.835,0.5,1.26,0.742a10.971,10.971,0,0,0,0,2.553c-0.425.245-.848,0.494-1.259,0.742a1.654,1.654,0,0,0-.67,2.039l0.9,2.178a1.654,1.654,0,0,0,1.916.968c0.465-.116.94-0.239,1.414-0.366a10.964,10.964,0,0,0,1.806,1.805c-0.127.475-.25,0.95-0.366,1.415a1.655,1.655,0,0,0,.968,1.916l2.178,0.9a1.625,1.625,0,0,0,.624.124,1.655,1.655,0,0,0,1.416-.794c0.246-.409.495-0.832,0.742-1.259a11.015,11.015,0,0,0,2.554,0c0.244,0.423.493,0.846,0.741,1.259a1.653,1.653,0,0,0,2.039.67l2.178-.9a1.655,1.655,0,0,0,.968-1.916c-0.115-.462-0.238-0.938-0.366-1.414a10.985,10.985,0,0,0,1.805-1.806c0.474,0.127.949,0.25,1.415,0.366a1.654,1.654,0,0,0,1.916-.968l0.9-2.178A1.654,1.654,0,0,0,83.207,149.018Zm-1.819,3.457c-0.447-.112-0.9-0.231-1.357-0.353a1.641,1.641,0,0,0-1.726.575,9.23,9.23,0,0,1-1.607,1.608,1.64,1.64,0,0,0-.574,1.725c0.123,0.456.241,0.912,0.353,1.357l-2,.829c-0.238-.4-0.477-0.8-0.71-1.209a1.639,1.639,0,0,0-1.626-.813,9.245,9.245,0,0,1-2.273,0,1.64,1.64,0,0,0-1.627.814c-0.236.409-.474,0.816-0.71,1.209l-2-.83c0.112-.446.23-0.9,0.353-1.356A1.643,1.643,0,0,0,65.3,154.3,9.2,9.2,0,0,1,63.7,152.7a1.64,1.64,0,0,0-1.725-.575c-0.454.122-.91,0.241-1.356,0.353l-0.829-2c0.4-.238.8-0.476,1.208-0.71a1.641,1.641,0,0,0,.814-1.626,9.22,9.22,0,0,1,0-2.273,1.642,1.642,0,0,0-.814-1.628c-0.407-.234-0.813-0.472-1.209-0.71l0.829-2c0.446,0.112.9,0.23,1.357,0.353A1.641,1.641,0,0,0,63.7,141.3a9.191,9.191,0,0,1,1.607-1.607,1.642,1.642,0,0,0,.574-1.726c-0.122-.452-0.24-0.908-0.353-1.356l2-.829c0.236,0.394.475,0.8,0.71,1.208a1.641,1.641,0,0,0,1.626.814,9.2,9.2,0,0,1,2.273,0,1.64,1.64,0,0,0,1.627-.813c0.234-.407.473-0.813,0.71-1.209l2,0.829c-0.112.447-.231,0.9-0.353,1.357A1.641,1.641,0,0,0,76.7,139.7a9.213,9.213,0,0,1,1.608,1.607,1.639,1.639,0,0,0,1.725.574c0.454-.122.909-0.24,1.356-0.352l0.829,2c-0.395.237-.8,0.475-1.208,0.71a1.639,1.639,0,0,0-.814,1.626,9.21,9.21,0,0,1,0,2.273,1.64,1.64,0,0,0,.814,1.627c0.406,0.234.812,0.472,1.209,0.71Zm-4.856-7.767h0a5.994,5.994,0,1,0-3.24,7.822,5.993,5.993,0,0,0,3.24-7.822Zm-3.912,6.2a4.23,4.23,0,1,1,2.289-5.526A4.2,4.2,0,0,1,72.62,150.907Z" transform="translate(-58 -134)">
-                   </svg>
-                </div>
-                <div class="customizer_wrapper">
-                   <div class="customizer_box">
-                      <h3>Color Skin</h3>
-                      <div class="customizer_element">
-                         <div class="customizer_colors" id="skin_color">
-                            <span id="skin_default"></span>
-                            <span id="skin_turquoise"></span>
-                            <span id="skin_dark_denim"></span>
-                            <span id="skin_arctic_black"></span>
-                         </div>
-                      </div>
-                      <h3>Header Style</h3>
-                      <div class="header_styles">
-                         <div class="current_header_style">
-                            <span class="current_header_style_text">Header style 2</span>
-                            <span class="select-arrow"><b></b></span>
-                         </div>
-                         <div class="header_styles_list">
-                            <ul>
-                               <li>
-                                  <a href="?header_demo=header_style_1&hide_top_bar=1">Header style 1</a>
-                               </li>
-                               <li>
-                                  <a href="?header_demo=header_style_2%2F">Header style 2</a>
-                               </li>
-                               <li>
-                                  <a href="?header_demo=header_style_3&hide_top_bar=1">Header style 3</a>
-                               </li>
-                               <li>
-                                  <a href="?header_demo=header_style_4&hide_top_bar=1">Header style 4</a>
-                               </li>
-                               <li>
-                                  <a href="?header_demo=header_style_5&hide_top_bar=1">Header style 5</a>
-                               </li>
-                               <li>
-                                  <a href="?header_demo=header_style_6">Header style 6</a>
-                               </li>
-                               <li>
-                                  <a href="?header_demo=header_style_7">Header style 7</a>
-                               </li>
-                               <li>
-                                  <a href="?header_demo=header_style_8">Header style 8</a>
-                               </li>
-                            </ul>
-                         </div>
-                      </div>
-                      <h3>Nav Mode</h3>
-                      <div class="customizer_element">
-                         <div class="stm_switcher active" id="navigation_type">
-                            <div class="switcher_label disable">Static</div>
-                            <div class="switcher_nav"></div>
-                            <div class="switcher_label enable">Sticky</div>
-                         </div>
-                      </div>
-                      <h3>Layout</h3>
-                      <div class="customizer_element">
-                         <div class="stm_switcher" id="site_layout">
-                            <div class="switcher_label disable">Wide</div>
-                            <div class="switcher_nav"></div>
-                            <div class="switcher_label enable">Boxed</div>
-                         </div>
-                      </div>
-                      <div class="customizer_bg_image" style="display: none;">
-                         <h3>Background Image</h3>
-                         <div class="customizer_element">
-                            <div class="customizer_colors" id="bg_images">
-                               <span class="image_type active" data-image="{{url('public/home/home')}}/wp-content/themes/consulting/assets/images/bg/img_1.jpg" style="background-image: url('wp-content/themes/consulting/assets/images/bg/prev_img_1.png'); "></span>
-                               <span class="image_type" data-image="{{url('public/home/home')}}/wp-content/themes/consulting/assets/images/bg/img_2.jpg" style="background-image: url('wp-content/themes/consulting/assets/images/bg/prev_img_2.png'); "></span>
-                               <span data-image="{{url('public/home/home')}}/wp-content/themes/consulting/assets/images/bg/img_3.png" style="background-image: url('wp-content/themes/consulting/assets/images/bg/prev_img_3.png'); "></span>
-                               <span data-image="{{url('public/home/home')}}/wp-content/themes/consulting/assets/images/bg/img_4.png" style="background-image: url('wp-content/themes/consulting/assets/images/bg/prev_img_4.png'); "></span>
-                            </div>
-                         </div>
-                      </div>
-                   </div>
-                </div>
-             </div>
-             <div class="stm-site-preloader preloader-wrapper big">
-                <div class="spinner-layer spinner-blue-only">
-                   <div class="circle-clipper left">
-                      <div class="circle"></div>
-                   </div>
-                   <div class="gap-patch">
-                      <div class="circle"></div>
-                   </div>
-                   <div class="circle-clipper right">
-                      <div class="circle"></div>
-                   </div>
-                </div>
-             </div>
-             <script type="text/javascript">
-                jQuery(document).ready(function ($) {
-                    "use strict";
-                
 
-                    $("#skin_color span").on('click', function () {
-                        var style_id = $(this).attr('id');
-                        $("#skin_color .active").removeClass("active");
-                        $(this).addClass("active");
-                        $("#custom_style").remove();
-                        $.removeCookie( 'site_skin', {path: ''} );
-                        if( style_id != 'skin_default' ){
-                            $("#custom_style").remove();
-                            $("head").append('<link rel="stylesheet" id="custom_style" href="{{url('public/home/home')}}/wp-content/themes/consulting/assets/css/layout_1/'+style_id+'.css" type="text/css" media="all">');
-                            $.cookie('site_skin', style_id, {expires: 7, path: ''});
-                            if( $("body").hasClass( 'header_style_2' ) || $("body").hasClass( 'header_style_4' ) ){
-                                $(".logo img").attr('src', '{{url("public/home/home")}}/wp-content/themes/consulting/assets/images/tmp/logo_dark_'+style_id+'.svg' );
-                                $(".footer_logo img").attr('src', '{{url("public/home/home")}}/wp-content/themes/consulting/assets/images/tmp/logo_'+style_id+'.svg' );
-                            }else{
-                                $(".logo img").attr('src', '{{url("public/home/home")}}/wp-content/themes/consulting/assets/images/tmp/logo_'+style_id+'.svg' );
-                                $(".footer_logo img").attr('src', '{{url("public/home/home")}}/wp-content/themes/consulting/assets/images/tmp/logo_'+style_id+'.svg' );
-                            }
-                            $(".mobile_header .logo img").attr('src', '{{url("public/home/home")}}/wp-content/themes/consulting/assets/images/tmp/logo_dark_'+style_id+'.svg' );
-                        }else{
-                            if( $("body").hasClass( 'header_style_2' ) || $("body").hasClass( 'header_style_4' ) ) {
-                                $(".logo img").attr('src', '{{url("public/home/home")}}/wp-content/themes/consulting/assets/images/tmp/logo_dark.svg');
-                                $(".footer_logo img").attr('src', '{{url("public/home/home")}}/wp-content/themes/consulting/assets/images/tmp/logo_default.svg');
-                            }else{
-                                $(".logo img").attr('src', '{{url("public/home/home")}}/wp-content/themes/consulting/assets/images/tmp/logo_default.svg');
-                                $(".footer_logo img").attr('src', '{{url("public/home/home")}}/wp-content/themes/consulting/assets/images/tmp/logo_default.svg');
-                            }
-                            $(".mobile_header .logo img").attr('src', '{{url("public/home/home")}}/wp-content/themes/consulting/assets/images/tmp/logo_dark.svg' );
-                        }
-                    });
-                
-                    if ( $.cookie('site_skin') ) {
-                        $("#skin_color #" + $.cookie('site_skin')).addClass("active");
-                        if( $.cookie('site_skin') != 'skin_default' ){
-                            $("head").append('<link rel="stylesheet" id="custom_style" href="{{url('public/home/home')}}/wp-content/themes/consulting/assets/css/layout_1/'+$.cookie('site_skin')+'.css" type="text/css" media="all">');
-                        }
-                        $("#skin_color #" + $.cookie('site_skin') ).addClass("active");
-                        if( $("body").hasClass( 'header_style_2' ) || $("body").hasClass( 'header_style_4' ) ) {
-                            $(".logo img").attr('src', '{{url("public/home/home")}}/wp-content/themes/consulting/assets/images/tmp/logo_dark_' + $.cookie('site_skin') + '.svg');
-                        }else{
-                            $(".logo img").attr('src', '{{url("public/home/home")}}/wp-content/themes/consulting/assets/images/tmp/logo_' + $.cookie('site_skin') + '.svg');
-                        }
-                        $(".footer_logo img").attr('src', '{{url("public/home/home")}}/wp-content/themes/consulting/assets/images/tmp/logo_'+$.cookie('site_skin')+'.svg' );
-                        $(".mobile_header .logo img").attr('src', '{{url("public/home/home")}}/wp-content/themes/consulting/assets/images/tmp/logo_dark_'+$.cookie('site_skin')+'.svg' );
-                    }else{
-                        $("#skin_color #skin_default").addClass("active");
-                    }
+</div>
+</div>
+</div>
 
-                var activeHeader = '?';
-                $(".header_styles_list ul li:nth-child(2) a").addClass("active");
-                $(".header_styles_list ul li a").each(function () {
-                if($(this).attr("href") === activeHeader ) {
-                    $(".header_styles_list ul li a").removeClass("active");
-                    var current_header_style_text = $(this).text();
-                    $(".current_header_style_text").empty();
-                    $(".current_header_style_text").append(current_header_style_text);
-                    $(this).addClass("active");
-                }
-                });
-                
-                $(window).on("click", function () {
-                $(".current_header_style").removeClass("open");
-                $(".current_header_style").parent().find("ul").slideUp();
-                });
-                
-                $(".current_header_style").on("click", function () {
-                $(this).toggleClass("open");
-                $(this).parent().find("ul").slideToggle();
-                return false;
-                });
-                
-                $("select[name='header_style']").on("change", function () {
-                window.location.href = $(this).val();
-                });
-                
-                if ($("body").hasClass('header_style_1')) {
-                $("select[name='header_style'] option.header_style_1").attr("selected", "selected");
-                }else if ($("body").hasClass('header_style_3')) {
-                $("select[name='header_style'] option.header_style_3").attr("selected", "selected");
-                }else if ($("body").hasClass('header_style_4')) {
-                $("select[name='header_style'] option.header_style_4").attr("selected", "selected");
-                }else if ($("body").hasClass('header_style_5')) {
-                $("select[name='header_style'] option.header_style_5").attr("selected", "selected");
-                }else if ($("body").hasClass('header_style_6')) {
-                $("select[name='header_style'] option.header_style_6").attr("selected", "selected");
-                }else if ($("body").hasClass('header_style_7')) {
-                $("select[name='header_style'] option.header_style_7").attr("selected", "selected");
-                }else{
-                $("select[name='header_style'] option.header_style_2").attr("selected", "selected");
-                }
 
-                if ($.cookie('navigation_type') && $.cookie('navigation_type') == 'sticky_header') {
-                $("body").addClass('sticky_header sticky_menu');
-                }else{
-                $("body").removeClass('sticky_header sticky_menu');
-                }
-                
-                $("#navigation_type").on("click", function () {
-                if ($(this).hasClass('active')) {
-                $(this).removeClass('active');
-                $("body").removeClass('sticky_header sticky_menu');
-                $.cookie('navigation_type', 'static_header', {expires: 7, path: ''});
-                } else {
-                $(this).addClass('active');
-                $("body").addClass('sticky_header sticky_menu');
-                $.cookie('navigation_type', 'sticky_header', {expires: 7, path: ''});
-                }
-                });
-                
-                if($("body").hasClass("sticky_header")){
-                $("#navigation_type").addClass("active");
-                }else{
-                $("#navigation_type").removeClass("active");
-                }
-
-                if( $.cookie('site_layout') && $.cookie('site_layout') == 'boxed' ){
-                $("#site_layout").addClass('active');
-                $("body").addClass('boxed_layout');
-                $(".customizer_bg_image").slideDown();
-                $('body').removeClass('boxed_bg_image_default boxed_bg_image_pattern');
-                if( $("#bg_images span.active").hasClass('image_type') ){
-                $('body').addClass('boxed_bg_image_default');
-                }else{
-                $('body').addClass('boxed_bg_image_pattern');
-                }
-                $('body').css({'background-image' : 'url(' + $("#bg_images span.active").attr('data-image') + ')'});
-                }
-                
-                $("#site_layout").on("click", function () {
-                if ($(this).hasClass('active')) {
-                $(this).removeClass('active');
-                $("body").removeClass('boxed_layout');
-                $.removeCookie( 'site_layout', {path: ''} );
-                $(".customizer_bg_image").slideUp();
-                } else {
-                $(this).addClass('active');
-                $("body").addClass('boxed_layout');
-                $.cookie('site_layout', 'boxed', {expires: 7, path: ''});
-                $(".customizer_bg_image").slideDown();
-                $('body').removeClass('boxed_bg_image_default boxed_bg_image_pattern');
-                if( $("#bg_images span.active").hasClass('image_type') ){
-                    $('body').addClass('boxed_bg_image_default');
-                }else{
-                    $('body').addClass('boxed_bg_image_pattern');
-                }
-                $('body').css({'background-image': 'url(' + $("#bg_images span.active").attr('data-image') + ')'});
-                }
-                });
-                
-                $("#bg_images span").on('click', function () {
-                $("#bg_images .active").removeClass("active");
-                $(this).addClass("active");
-                $('body').removeClass('boxed_bg_image_default boxed_bg_image_pattern');
-                if( $(this).hasClass('image_type') ){
-                $('body').addClass('boxed_bg_image_default');
-                }else{
-                $('body').addClass('boxed_bg_image_pattern');
-                }
-                $('body').css({'background-image' : 'url(' + $(this).attr('data-image') + ')'});
-                });
-
-                
-                });
-                
-             </script>
-         </div> -->
-         <!--<script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-beta.2/lazyload.js"></script>-->
-         <script type="text/javascript">
-           jQuery(document).ready(function () {
-               var $ = jQuery;
+<div id="linkBack" style="position:absolute;right:0px;top:0px;background-color:#333;margin:0;width:60px;padding:5px"><a href="http://www.f-rilling.com/projects/" target="_blank" style="font-size:14px;text-decoration:none;color:#fff;padding:0 0 0 5px;font-family:sans-serif">My Site</a></div>
+</footer>
+</div>
+<script type="text/javascript">
+ jQuery(document).ready(function () {
+   var $ = jQuery;
 
                  /*$("img.lazyload").lazyload({
                      effect : "fadeIn",
                      threshold : 200
-                 });*/
+                   });*/
 
-                 var api_url = 'https://stylemixthemes.scdn2.secure.raxcdn.com/api/prices.json';
+                   var api_url = 'https://stylemixthemes.scdn2.secure.raxcdn.com/api/prices.json';
 
-                 $.ajax({
-                   url: api_url,
-                   dataType: 'json',
-                   context: this,
-                   complete: function (data) {
+                   $.ajax({
+                     url: api_url,
+                     dataType: 'json',
+                     context: this,
+                     complete: function (data) {
                        var r = data.responseJSON;
                        $('.stm_price_api').text(r.themes.consulting.price);
-                   }
-               });
+                     }
+                   });
 
-                 $('#consulting-demos').on('click', function(){
-                   $('.stm_theme_demos__popup').addClass('opened');
-                   $('body').addClass('fancy-lock');
+                   $('#consulting-demos').on('click', function(){
+                     $('.stm_theme_demos__popup').addClass('opened');
+                     $('body').addClass('fancy-lock');
 
-                   $('.demos-list a').each(function() {
+                     $('.demos-list a').each(function() {
                        var thisDataSrc = $(this).find('img').attr('data-src');
                        var thisSrc = $(this).find('img');
 
                        $(thisSrc).attr('src',thisDataSrc);
+                     });
                    });
-               });
 
-                 $('#consulting-settings').on('click', function(){
-                   $('.stm_theme_demos__settings').addClass('opened');
-               }); $('.customizer_button').on('click', function(){
-                   $('.stm_theme_demos__settings').removeClass('opened');
-               });
+                   $('#consulting-settings').on('click', function(){
+                     $('.stm_theme_demos__settings').addClass('opened');
+                   }); $('.customizer_button').on('click', function(){
+                     $('.stm_theme_demos__settings').removeClass('opened');
+                   });
 
-               $('.stm_theme_demos__close').on('click', function(){
-                   $('.stm_theme_demos__popup').removeClass('opened');
-                   $('body').removeClass('fancy-lock');
-               })
+                   $('.stm_theme_demos__close').on('click', function(){
+                     $('.stm_theme_demos__popup').removeClass('opened');
+                     $('body').removeClass('fancy-lock');
+                   })
 
-           });
-       </script><script>(function() {function addEventListener(element,event,handler) {
-           if(element.addEventListener) {
-               element.addEventListener(event,handler, false);
-           } else if(element.attachEvent){
-               element.attachEvent('on'+event,handler);
-           }
-       }function maybePrefixUrlField() {
-           if(this.value.trim() !== '' && this.value.indexOf('http') !== 0) {
-               this.value = "http://" + this.value;
-           }
-       }
+                 });
+</script><script>(function() {function addEventListener(element,event,handler) {
+ if(element.addEventListener) {
+   element.addEventListener(event,handler, false);
+ } else if(element.attachEvent){
+   element.attachEvent('on'+event,handler);
+ }
+}function maybePrefixUrlField() {
+ if(this.value.trim() !== '' && this.value.indexOf('http') !== 0) {
+   this.value = "http://" + this.value;
+ }
+}
 
-       var urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]');
-       if( urlFields && urlFields.length > 0 ) {
-           for( var j=0; j < urlFields.length; j++ ) {
-               addEventListener(urlFields[j],'blur',maybePrefixUrlField);
-           }
-       }/* test if browser supports date fields */
-       var testInput = document.createElement('input');
-       testInput.setAttribute('type', 'date');
-       if( testInput.type !== 'date') {
+var urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]');
+if( urlFields && urlFields.length > 0 ) {
+ for( var j=0; j < urlFields.length; j++ ) {
+   addEventListener(urlFields[j],'blur',maybePrefixUrlField);
+ }
+}/* test if browser supports date fields */
+var testInput = document.createElement('input');
+testInput.setAttribute('type', 'date');
+if( testInput.type !== 'date') {
 
-           /* add placeholder & pattern to all date fields */
-           var dateFields = document.querySelectorAll('.mc4wp-form input[type="date"]');
-           for(var i=0; i<dateFields.length; i++) {
-               if(!dateFields[i].placeholder) {
-                   dateFields[i].placeholder = 'YYYY-MM-DD';
-               }
-               if(!dateFields[i].pattern) {
-                   dateFields[i].pattern = '[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])';
-               }
-           }
-       }
+ /* add placeholder & pattern to all date fields */
+ var dateFields = document.querySelectorAll('.mc4wp-form input[type="date"]');
+ for(var i=0; i<dateFields.length; i++) {
+   if(!dateFields[i].placeholder) {
+     dateFields[i].placeholder = 'YYYY-MM-DD';
+   }
+   if(!dateFields[i].pattern) {
+     dateFields[i].pattern = '[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])';
+   }
+ }
+}
 
-   })();
+})();
 </script>
 <link rel='stylesheet' id='vc_google_fonts_abril_fatfaceregular-css'  href='//fonts.googleapis.com/css?family=Abril+Fatface%3Aregular&#038;ver=4.8.7' type='text/css' media='all' />
 <script type='text/javascript'>
-   jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+ jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
 </script>
 <script type='text/javascript'>
-   /* <![CDATA[ */
-   var booked_js_vars = {"ajax_url":"http:\/\/consulting.stylemixthemes.com\/wp-admin\/admin-ajax.php","profilePage":"","publicAppointments":"","i18n_confirm_appt_delete":"Are you sure you want to cancel this appointment?","i18n_please_wait":"Please wait ...","i18n_wrong_username_pass":"Wrong username\/password combination.","i18n_fill_out_required_fields":"Please fill out all required fields.","i18n_guest_appt_required_fields":"Please enter your name to book an appointment.","i18n_appt_required_fields":"Please enter your name, your email address and choose a password to book an appointment.","i18n_appt_required_fields_guest":"Please fill in all \"Information\" fields.","i18n_password_reset":"Please check your email for instructions on resetting your password.","i18n_password_reset_error":"That username or email is not recognized."};
-   /* ]]> */
+ /* <![CDATA[ */
+ var booked_js_vars = {"ajax_url":"http:\/\/consulting.stylemixthemes.com\/wp-admin\/admin-ajax.php","profilePage":"","publicAppointments":"","i18n_confirm_appt_delete":"Are you sure you want to cancel this appointment?","i18n_please_wait":"Please wait ...","i18n_wrong_username_pass":"Wrong username\/password combination.","i18n_fill_out_required_fields":"Please fill out all required fields.","i18n_guest_appt_required_fields":"Please enter your name to book an appointment.","i18n_appt_required_fields":"Please enter your name, your email address and choose a password to book an appointment.","i18n_appt_required_fields_guest":"Please fill in all \"Information\" fields.","i18n_password_reset":"Please check your email for instructions on resetting your password.","i18n_password_reset_error":"That username or email is not recognized."};
+ /* ]]> */
 </script>
 <script type='text/javascript'>
-   /* <![CDATA[ */
-   var wpcf7 = {"apiSettings":{"root":"http:\/\/consulting.stylemixthemes.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}}};
-   /* ]]> */
+ /* <![CDATA[ */
+ var wpcf7 = {"apiSettings":{"root":"http:\/\/consulting.stylemixthemes.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}}};
+ /* ]]> */
 </script>
 <script type='text/javascript'>
-   /* <![CDATA[ */
-   var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
-   /* ]]> */
+ /* <![CDATA[ */
+ var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+ /* ]]> */
 </script>
 <script type='text/javascript'>
-   /* <![CDATA[ */
-   var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_b4cec779d62ae4868215a22610fbba17","fragment_name":"wc_fragments_b4cec779d62ae4868215a22610fbba17"};
-   /* ]]> */
+ /* <![CDATA[ */
+ var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_b4cec779d62ae4868215a22610fbba17","fragment_name":"wc_fragments_b4cec779d62ae4868215a22610fbba17"};
+ /* ]]> */
 </script>
 <script type='text/javascript' src='{{url("public/home/home")}}/wp-content/themes/consulting/assets/js/particles.min.js?ver=4.0.9'></script>
 <script type='text/javascript'>
-   /* <![CDATA[ */
-   var mc4wp_forms_config = [];
-   /* ]]> */
+ /* <![CDATA[ */
+ var mc4wp_forms_config = [];
+ /* ]]> */
 </script>
           <!--[if lte IE 9]>
           <script type='text/javascript' src='{{url("public/home/home")}}/wp-content/plugins/mailchimp-for-wp/assets/js/third-party/placeholders.min.js?ver=4.2.4'></script>
           <![endif]-->
-      </body>
-      <script>
+        </body>
+        <script>
          $(document).ready(function(){
-            $('.customer-logos').slick({
-                slidesToShow: 12,
-                slidesToScroll: 1,
-                autoplay: true,
-            // speed:5000,
-            autoplaySpeed: 50,
+          $('.customer-logos').slick({
+            slidesToShow: 12,
+            slidesToScroll: 1,
+            autoplay: true,
+            speed:2000,
+            autoplaySpeed: 1500,
             arrows: false,
             dots: false,
             infinite: true,
@@ -2082,17 +1516,17 @@
             focusOnSelect: true,
             pauseOnHover: true,
             responsive: [{
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 4
-                }
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 4
+              }
             }, {
-                breakpoint: 520,
-                settings: {
-                    slidesToShow: 3
-                }
+              breakpoint: 520,
+              settings: {
+                slidesToShow: 3
+              }
             }]
+          });
         });
-        });
-    </script>
-    </html>
+      </script>
+      </html>

@@ -20114,6 +20114,7 @@ body.header_style_8 .header_copyright {
     position: absolute;
     left: 0;
     top: 100%;
+    z-index: 10;
     display: none;
     background: #e0efed;
     list-style: none;
@@ -21948,7 +21949,7 @@ body .vc_row-has-fill>.vc_vc_column_inner>.vc_column_container>.vc_column-inner 
     top: 163px;
     right: 0;
     bottom: 0;
-    background: rgba(106, 104, 241, 0.58);
+    background: rgba(52, 152, 219, 0.91);
     padding: 17px 30px 0;
     -webkit-transition: all .3s ease;
     transition: all .3s ease
@@ -25280,7 +25281,8 @@ body .vc_row-has-fill>.vc_vc_column_inner>.vc_column_container>.vc_column-inner 
 
 .stm_news .news_list li .image a {
     position: relative;
-    display: block
+    display: block;
+    top:70px;
 }
 
 .stm_news .news_list li .image a:before {
@@ -25297,7 +25299,7 @@ body .vc_row-has-fill>.vc_vc_column_inner>.vc_column_container>.vc_column-inner 
 }
 
 .stm_news .news_list li .image a:after {
-    content: "\e920";
+    /*content: "\e923";*/
     font-family: 'stm';
     speak: none;
     font-style: normal;
@@ -25320,7 +25322,8 @@ body .vc_row-has-fill>.vc_vc_column_inner>.vc_column_container>.vc_column-inner 
 
 .stm_news .news_list li .image a:hover:before,
 .stm_news .news_list li .image a:hover:after {
-    opacity: 1
+    transition:50;
+    opacity: 0.1
 }
 
 .stm_news .news_list li h5 {
@@ -25532,7 +25535,7 @@ body .vc_row-has-fill>.vc_vc_column_inner>.vc_column_container>.vc_column-inner 
 
 .stm_gmap_wrapper .gmap_addresses .addresses .item.focused .title,
 .stm_gmap_wrapper .gmap_addresses .addresses .item:hover .title {
-    color: #331bbb
+    color: #ccc1c1
 }
 
 .stm_gmap_wrapper .gmap_addresses .addresses .item.focused ul li,
@@ -25542,15 +25545,15 @@ body .vc_row-has-fill>.vc_vc_column_inner>.vc_column_container>.vc_column-inner 
 
 .stm_gmap_wrapper .gmap_addresses .addresses .item.focused ul li .icon,
 .stm_gmap_wrapper .gmap_addresses .addresses .item:hover ul li .icon {
-    color: #331bbb
+    color: #ccc1c1
 }
 .stm_gmap_wrapper .gmap_addresses .addresses .item.focused ul li .icon,
 .stm_gmap_wrapper .gmap_addresses .addresses .item:hover ul li p{
-    color: #331bbb
+    color: #ccc1c1
 }
 .stm_gmap_wrapper .gmap_addresses .addresses .item.focused ul li a,
 .stm_gmap_wrapper .gmap_addresses .addresses .item:hover ul li a {
-    color: #331bbb
+    color: #ccc1c1
 }
 
 .stm_gmap_wrapper .gmap_addresses .owl-dots-wr {
@@ -29675,6 +29678,9 @@ body .tp-bullets .tp-bullet.selected {
 .wpb_gallery_slidesslick_slider_2.slider_main .slider_info em {
     font-style: normal
 }
+.vc_custom_heading.text_align_center h2{
+    padding: 40px 20px 10px 20px;
+}
 
 .vc_custom_heading.text_align_center *:after {
     margin-left: auto;
@@ -30200,7 +30206,7 @@ div.remove_padding .h6 {
 
 h2,
 .h2 {
-    margin-bottom: 23px;
+    margin-bottom: 15px;
     font-size: 36px;
     letter-spacing: -.06em;
     line-height: 45px;
@@ -30858,6 +30864,7 @@ textarea {
 }
 
 .input-group {
+    z-index: 1;
     margin: 0 0 30px 0;
     width: 100%
 }
@@ -33522,8 +33529,8 @@ div [class*=" stm-header"] div {
 
 #footer .widgets_row .footer_logo {
     position: relative;
-    margin: 0 0 37px;
-    padding: 0px 0 0
+    margin: 0 0 10px;
+    padding: 0px 0 0;
 }
 
 #footer .widgets_row .footer_logo a {

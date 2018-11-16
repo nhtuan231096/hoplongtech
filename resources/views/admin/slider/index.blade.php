@@ -23,6 +23,27 @@
 					@endif
 				</div>
 				<div class="form-group">
+					<label for="">Chú thích 1</label>
+					<input type="text" name="caption1" class="form-control" id="" placeholder="Nhập chú thích" @if(isset($editSlider->id)) value="{{$editSlider->caption1}}" @endif>
+					@if($errors->has('caption1'))
+						<div class="help-block error">{{$errors->first('caption1')}}</div>
+					@endif
+				</div>
+				<div class="form-group">
+					<label for="">Chú thích 2</label>
+					<input type="text" name="caption2" class="form-control" id="" placeholder="Nhập chú thích" @if(isset($editSlider->id)) value="{{$editSlider->caption2}}" @endif>
+					@if($errors->has('caption2'))
+						<div class="help-block error">{{$errors->first('caption2')}}</div>
+					@endif
+				</div>
+				<div class="form-group">
+					<label for="">Chú thích 3</label>
+					<input type="text" name="caption3" class="form-control" id="" placeholder="Nhập chú thích" @if(isset($editSlider->id)) value="{{$editSlider->caption3}}" @endif>
+					@if($errors->has('caption3'))
+						<div class="help-block error">{{$errors->first('caption3')}}</div>
+					@endif
+				</div>
+				<div class="form-group">
 					<label for="">Liên kết</label>
 					<input type="text" name="link" class="form-control" id="" placeholder="Nhập liên kết" @if(isset($editSlider->id)) value="{{$editSlider->link}}" @endif>
 					@if($errors->has('link'))
@@ -179,8 +200,8 @@
 						</td>
 						<td>{{$slider->status}}</td>
 						<td class="text-right">
-							<a href="{{route('editSlider',['id'=>$slider->id])}}" class="btn btn-primary fa fa-edit"></a>
-							<a href="{{route('delSlider',['id'=>$slider->id])}}" class="btn btn-danger fa fa-trash"></a>
+							<a href="{{route('editSlider',['id'=>$slider->id])}}" class="btn btn-primary btn-xs fa fa-edit"></a>
+							<a href="{{route('delSlider',['id'=>$slider->id])}}" class="btn btn-danger btn-xs fa fa-trash"></a>
 						</td>
 					</tr>
 				@endforeach

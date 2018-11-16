@@ -7,6 +7,7 @@ use App\Models\Slider;
 // use App\Models\Project;
 use App\Models\Category;
 use App\Models\Product;
+use App\Models\Banner;
 use App\Models\News;
 use App\Models\Partners;
 use App\Models\Office;
@@ -27,6 +28,7 @@ class HomeController extends Controller
 		$office=Office::where('status','enable')->get();
 		$actoffice=Office::where('sorder','1')->first();
 		$partners=Partners::Where('status','enable')->get();
+		$img_company=Banner::Where('type','company')->get();
 		// dd($slider_home);
 		return view('home.index_1',[
 			'active'=>$slider_active,
@@ -34,11 +36,13 @@ class HomeController extends Controller
 			'actoffice'=>$actoffice,
 			'company_news'=>$company_news,
 			'offices'=>$office,
-			'partners'=>$partners
+			'partners'=>$partners,
+			'img_companys'=>$img_company
 			]);
 	}
 	public function index_product(){
-		$slider=Slider::orderBy('sorder','ASC')->where('status','enable')->get();
+		$slider=Slider::orderBy('sorder','ASC')->where('status','enable')->where('type',1)->get();
+		$banners=Banner::paginate(3);
 		$categorys=Category::orderBy('sorder','ASC')->Where('parent_id','parent')->get();
 		$best_seller=Product::Where('is_best_seller','enable')->get();
 		$new_product=Product::Where('is_new_product','enable')->paginate(10);
@@ -46,11 +50,14 @@ class HomeController extends Controller
 		$special_product=Product::Where('special_product','enable')->get();
 		$company_news=News::Where('category_id','35')->paginate(10);
 		$news=News::Where('category_id','32')->paginate(10);
+		$news_2=News::Where('category_id','50')->paginate(10);
 		$supports=Support::Where('status','enable')->Where('type','technical')->paginate(10);
 		$sp=Support::Where('status','enable')->Where('type','business')->paginate(10);
 		$partners=Partners::Where('status','enable')->get();
+		// dd($banners);
 		return view('home.index',[
 			'sliders'=>$slider,
+			'banners'=>$banners,
 			'categorys'=>$categorys,
 			'best_seller'=>$best_seller,
 			'new_products'=>$new_product,
@@ -58,6 +65,7 @@ class HomeController extends Controller
 			'promotions'=>$promotion,
 			'news'=>$company_news,
 			'news_1'=>$news,
+			'news_2'=>$news_2,
 			'partners'=>$partners,
 			'supports'=>$supports,
 			'sp'=>$sp

@@ -183,7 +183,7 @@ desired effect
               </span>
             </a>
             <ul class="treeview-menu">
-              <li><a href=""><i class="fa fa-cog"> </i>List widgets</a></li>
+              <li><a href="{{route('banner')}}"><i class="fa fa-image"> </i>Banner</a></li>
               <li><a href="{{route('webConfig')}}"> <i class="fa fa-object-group"></i>Web Configs</a></li>
               <li><a href="{{route('office')}}"> <i class="fa fa-building"></i>Office</a></li>
               <li><a href="{{route('service')}}"> <i class="fa fa-server"></i>Service</a></li>

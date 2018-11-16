@@ -42,6 +42,7 @@ function getPageData() {
         url: url,
         data: {page:page}
     }).done(function(data) {
+        $('#file').val('');
         manageRow(data.data);
     });
 }
@@ -80,16 +81,51 @@ $(".crud-submit").click(function(e) {
      $('.error').html();
      $('.error').addClass('hidden');
     var form_action = $("#create-item").find("form").attr("action");
-    var data_form = $('#formDemo').serializeArray();
+    
+    //Lấy ra files
+    var file_data = $('#file').prop('files')[0];
+    //lấy ra kiểu file
+    var type = file_data.type;
+    //Xét kiểu file được upload
+    var match = ["image/gif", "image/png", "image/jpg",];
+    //kiểm tra kiểu file
     data_form.push({name:"upload_file",value:new FormData($("#upload_file")[0])});
     // logo:new FormData($("#upload_form")[0]),
+    if (type == match[0] || type == match[1] || type == match[2]) {
+        //khởi tạo đối tượng form data
+        // var form_data = new FormData();
+        var data_form = $('#formDemo').serializeArray();
+        //thêm files vào trong form data
+        data_form.append('file', file_data);
+        //sử dụng ajax post
+    //     $.ajax({
+    //         url: 'upload.php', // gửi đến file upload.php 
+    //         dataType: 'text',
+    //         cache: false,
+    //         contentType: false,
+    //         processData: false,
+    //         data: form_data,
+    //         type: 'post',
+    //         success: function (res) {
+    //             $('.status').text(res);
+    //             $('#file').val('');
+    //         }
+    //     });
+    // } else {
+    //     $('.status').text('Chỉ được upload file ảnh');
+    //     $('#file').val('');
+    // }
+    // return false;
     $.ajax({
         dataType: 'json',
         type:'POST',
+        cache: false,
         url: form_action,
+        contentType: false,
+        processData: false,
         data:data_form,
         success:function(res){
-            // console.log(res);
+            console.log(res);
            if (res.errors) {
             toastr.error('Validation error!', 'Error', {timeOut: 5000});
             for(var er in res.errors){
