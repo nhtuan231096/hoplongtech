@@ -19993,7 +19993,7 @@ body.header_style_8 .header_copyright {
     position: relative;
     z-index: 20;
     font-size: 13px;
-    background-color: #3498db;
+    background-color: #eaf0f1;
 }
 
 #lang_sel {
@@ -20013,7 +20013,7 @@ body.header_style_8 .header_copyright {
     position: relative;
     display: block;
     padding: 16px 24px 16px 1px;
-    color: #fff;
+    color: #3498db;
     text-decoration: none !important
 }
 
@@ -20021,7 +20021,7 @@ body.header_style_8 .header_copyright {
     content: "";
     border-left: 3px solid transparent;
     border-right: 3px solid transparent;
-    border-top: 5px solid #fff;
+    border-top: 5px solid #3498db;
     position: absolute;
     right: 2px;
     top: 50%;
@@ -20044,7 +20044,7 @@ body.header_style_8 .header_copyright {
 }
 
 #lang_sel>ul>li>ul a {
-    color: #fff;
+    color: #3498db;
     display: block;
     padding: 10px 20px;
     text-decoration: none !important;
@@ -20156,7 +20156,7 @@ body.header_style_8 .header_copyright {
     display: inline-block;
     vertical-align: middle;
     padding: 5px 23px;
-    color: #fff;
+    color: #3498db;
     font-size: 13px
 }
 
@@ -20176,7 +20176,7 @@ body.header_style_8 .header_copyright {
     vertical-align: middle;
     margin: 0 12px 0 0;
     font-size: 16px;
-    color: #fff
+    color: #3498db
 }
 
 .top_bar_info_wr .top_bar_info li span {
@@ -25282,7 +25282,7 @@ body .vc_row-has-fill>.vc_vc_column_inner>.vc_column_container>.vc_column-inner 
 .stm_news .news_list li .image a {
     position: relative;
     display: block;
-    top:70px;
+    top:106px;
 }
 
 .stm_news .news_list li .image a:before {
@@ -30865,6 +30865,7 @@ textarea {
 
 .input-group {
     z-index: 1;
+    border: 2px solid #ddd;
     margin: 0 0 30px 0;
     width: 100%
 }
@@ -30972,8 +30973,8 @@ textarea.wpcf7-form-control {
 }
 
 .select2-container.select2-container--default .select2-selection--single {
-    border-radius: 0;
-    border: 1px solid #cacaca;
+    /*border-radius: 0;*/
+    /*border: 1px solid #cacaca;*/
     height: 49px;
     line-height: 1;
     background: #cacaca;
@@ -41277,6 +41278,7 @@ form.woocommerce-checkout {
     background-color: #fff;
     border: 1px solid #aaa;
     border-radius: 4px;
+    border-top: none;
 }
 
 .select2-container--default .select2-selection--single .select2-selection__rendered {

@@ -147,7 +147,7 @@
                                                     <div class="bg-yamm-content bg-yamm-content-bottom bg-yamm-content-right">
                                                         <div class="kc-col-container">
                                                             <div class="kc_single_image">
-                                                                <img src="{{url('uploads/category')}}/category1.jpg" class="" alt="" />
+                                                                <img src="{{url('uploads/product')}}/category1.jpg" class="" alt="" />
                                                             </div>
                                                             <!-- .kc_single_image -->
                                                         </div>
@@ -185,10 +185,10 @@
                                 </ul>
                             </div>
                             <!-- .departments-menu -->
-                            <form class="navbar-search" method="get">
+                            <form class="navbar-search" action="{{route('search_product')}}" method="POST">
                                 <label class="sr-only screen-reader-text" for="search">Search for:</label>
                                 <div class="input-group">
-                                    <input type="text" id="search" class="form-control search-field product-search-field" dir="ltr" value="" name="search" placeholder="Search for products" />
+                                    <input type="text" id="search" class="form-control search-field product-search-field" dir="ltr" value="" name="search_product" placeholder="Search for products" />
                                     <div class="input-group-addon search-categories">
                                         <select name='product_cat' id='product_cat' class='postform resizeselect'>
                                             <option value='0' selected='selected'>All Categories</option>
@@ -215,6 +215,7 @@
                                             <option class="level-0" value="pc-components">PC Components</option>
                                         </select>
                                     </div>
+                                    @csrf
                                     <!-- .input-group-addon -->
                                     <div class="input-group-btn">
                                         <!-- <input type="hidden" id="search-param" name="post_type" value="product" /> -->

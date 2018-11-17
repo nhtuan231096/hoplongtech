@@ -259,7 +259,7 @@ body .wpb_video_widget .wpb_wrapper .wpb_video_wrapper .play_video:after {
     margin-left: 50px;
 }
 body.sticky_menu.header_style_2 #header .header_top, body.sticky_menu.header_style_6 #header .header_top {
-    background: #3498db;
+    background: #fff;
     border-top: 1px solid #fff;
 }
 .menu-top{
@@ -270,7 +270,7 @@ body.sticky_menu.header_style_2 #header .header_top, body.sticky_menu.header_sty
     padding-top: 15px;
 }
 .menu-top ul li a {
-    color: #fff;
+    color: #3498db;
     font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
@@ -319,7 +319,7 @@ body.header_style_2 .header_top .top_nav {
     overflow: inherit;
 }
 .hotline,.email{
-    color: #fff;
+    color: #3498db;
     line-height: 1.7;
 }
 body.sticky_menu.header_style_2 #header .header_top.affix, body.sticky_menu.header_style_6 #header .header_top.affix {
@@ -550,4 +550,3 @@ transition-delay:.2s;
         width: 100%;
     }
 }
-

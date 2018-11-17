@@ -132,7 +132,7 @@
                                             @foreach($best_seller as $product)
                                                 <div class="product-category product">
                                                     <a href="{{route('view',['slug'=>$product->slug])}}">
-                                                        <img width="224" height="197" alt="Fashion" src="{{url('public/home')}}/assets/images/garden/cat-1.png">
+                                                        <img width="224" height="197" alt="Fashion" src="{{url('uploads/product/admin123.jpg')}}">
                                                         <h2 class="woocommerce-loop-category__title">{{$product->title}}</h2>
                                                     </a>
                                                 </div>
@@ -168,7 +168,7 @@
                                                                                 <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                                                             </div>
                                                                             <a href="single-product-fullwidth.html" class="woocommerce-LoopProduct-link">
-                                                                                <img src="{{url('public/home')}}/assets/images/garden/4.jpg" class="wp-post-image" alt="">
+                                                                                <img src="{{url('uploads/product/bien-tan-schneider-atv320u55n4b-55kw-380v.jpg')}}" class="wp-post-image" alt="">
                                                                                 <span class="price">
                                                                                     <!-- <ins>
                                                                                         <span class="amount"> </span>

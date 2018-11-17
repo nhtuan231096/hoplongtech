@@ -397,7 +397,7 @@
   <div class="row">
     <div class="col-md-2">
       <div class="logo-home text-center">
-        <a href=""><img class="" src="{{url('uploads/logo/w-logo.png')}}" alt=""></a>
+        <a href=""><img class="" src="{{url('uploads/logo/Logo-hl.png')}}" alt=""></a>
       </div>
     </div>
     <div class="col-md-10">
@@ -598,7 +598,7 @@
     <div class="vc_column-inner ">
      <div class="wpb_wrapper">
       <div class="vc_custom_heading vc_custom_1492673710092 text_align_center title_no_stripe">
-       <h2 id="h_about">Giới thiệu về chúng tôi<em>.</em></h2>
+      <h2 id="h_about">Giới thiệu về chúng tôi<!-- <em>.</em> --></h2>
      </div>
    </div>
  </div>
@@ -642,15 +642,15 @@
   <h3 class="panel-title">Chứng nhận phân phối chính thức từ hãng</h3>
 </div>
 <div class="vc_row wpb_row vc_row-fluid vc_custom_1494583924882" style="margin:0 auto 30px auto;">
- <div class="wpb_column vc_column_container vc_col-sm-4">
-  <div class="vc_column-inner vc_custom_1493899401245">
-   <div class="wpb_wrapper">
-    <div class="wpb_single_image wpb_content_element vc_align_left   certificate about-img">
-     <figure class="wpb_wrapper vc_figure"> <a data-rel="prettyPhoto[rel-1071-634409447]" href="{{url('public/home/home')}}/nineteen/wp-content/uploads/sites/19/2015/12/certificate1.jpg" target="_self" class="vc_single_image-wrapper vc_box_border  vc_box_border_blue prettyphoto"><img src="{{url('uploads/about')}}/chung-chi-dai-ly-optimum-2018-2019-1024x744.jpg" class="vc_single_image-img attachment-full" alt=""></a></figure>
-   </div>
- </div>
-</div>
-</div>
+   <div class="wpb_column vc_column_container vc_col-sm-4">
+      <div class="vc_column-inner vc_custom_1493899401245">
+         <div class="wpb_wrapper">
+            <div class="wpb_single_image wpb_content_element vc_align_left   certificate about-img">
+             <figure class="wpb_wrapper vc_figure"> <a data-rel="prettyPhoto[rel-1071-634409447]" href="{{url('public/home/home')}}/nineteen/wp-content/uploads/sites/19/2015/12/certificate1.jpg" target="_self" class="vc_single_image-wrapper vc_box_border  vc_box_border_blue prettyphoto"><img src="{{url('uploads/about')}}/chung-chi-dai-ly-optimum-2018-2019-1024x744.jpg" class="vc_single_image-img attachment-full" alt=""></a></figure>
+           </div>
+       </div>
+    </div>
+  </div>
 <div class="wpb_column vc_column_container vc_col-sm-4">
   <div class="vc_column-inner vc_custom_1493899401245">
    <div class="wpb_wrapper">
@@ -832,7 +832,7 @@
                      <div class="vc_column-inner ">
                       <div class="wpb_wrapper">
                        <div class="vc_custom_heading vc_custom_1492771464343 text_align_center title_no_stripe">
-                        <h2>Những sự kiện nổi bật<em>.</em></h2>
+                        <h2>Những sự kiện nổi bật<!-- <em>.</em> --></h2>
                       </div>
                       <div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1494246872112">
                         <div class="wpb_column vc_column_container vc_col-sm-2">
@@ -869,7 +869,7 @@
                      <div class="event__venue"> <i class="fa fa-map-marker" aria-hidden="true"></i>{!!$company_new->description!!}</div>
                    </li>
                    <li>
-                   <!-- <div class="event__time"><i class="fa fa-clock-o"></i><span>{{$company_new->created_at}}</span></div> -->
+                     <!-- <div class="event__time"><i class="fa fa-clock-o"></i><span>{{$company_new->created_at}}</span></div> -->
                    </li>
 
                  </ul>
@@ -890,7 +890,7 @@
        <div class="vc_column-inner ">
         <div class="wpb_wrapper">
          <div class="vc_custom_heading vc_custom_1492755345270 text_align_center title_no_stripe">
-          <h2>Hình ảnh hoạt động tại công ty<em>.</em></h2>
+          <h2>Hình ảnh hoạt động tại công ty<!-- <em>.</em> --></h2>
         </div>
       </div>
     </div>
@@ -922,20 +922,20 @@
 <div class="vc_row wpb_row vc_row-fluid vc_custom_1451043728133"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">
   <div class="stm_news ">
     <ul class="news_list posts_per_row_4">
-    @foreach($img_companys as $img_company)
+      @foreach($img_companys as $img_company)
       <li>
         <div class="post_inner">
           <div class="image">
-                <div class="hovereffect">
-                    <img id="myImg" src="{{url('uploads/banner')}}/{{$img_company->cover_image}}" alt="">
-                    <!-- <img id="myImg" src="img_snow.jpg" alt="Snow" style="width:100%;max-width:300px"> -->
+            <div class="hovereffect">
+              <img id="myImg" src="{{url('uploads/banner')}}/{{$img_company->cover_image}}" alt="">
+              <!-- <img id="myImg" src="img_snow.jpg" alt="Snow" style="width:100%;max-width:300px"> -->
 
-<!-- The Modal -->
-<div id="myModal" class="modal">
-  <span class="close">&times;</span>
-  <img class="modal-content" id="img01">
-  <div id="caption"></div>
-</div>
+              <!-- The Modal -->
+              <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+              </div>
                       <!-- <div class="overlay">
                     
                           <p>
@@ -943,354 +943,354 @@
                                   <i class="fa fa-search-plus" style="color: #fff; font-size: 40px"></i>
                               </a>
                           </p>
-                      </div> -->
-              </div>
-          </div>
+                        </div> -->
+                      </div>
+                    </div>
 
+                  </div>
+                </li>
+                @endforeach
+              </ul>
+            </div>
+          </div></div></div></div>
         </div>
-      </li>
-    @endforeach
-    </ul>
-  </div>
-</div></div></div></div>
-</div>
-<div class="partners text-center home-pr">
-  <!-- <div> -->
-  <h2>Đối tác</h2>
-  <div class="container">
-    <p class="partners-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam excepturi aliquam iste dignissimos numquam repudiandae quisquam, dolorem velit reiciendis non, voluptatum sunt itaque quo corporis ullam at reprehenderit odit. Dolores.</p>
-  </div>
-  <section class="customer-logos slider">
-    @foreach($partners as $partner)
-    <div class="slide img-partner"><img src="{{url('uploads/partner')}}/{{$partner->cover_image}}"></div>
-    @endforeach
-  </section>
-  <!-- </div>   -->
-</div>
-</div>
-<!--#main-->
-</div>
-<!--.content_wrapper-->
+        <div class="partners text-center home-pr">
+          <!-- <div> -->
+          <h2>Đối tác</h2>
+          <div class="container">
+            <p class="partners-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam excepturi aliquam iste dignissimos numquam repudiandae quisquam, dolorem velit reiciendis non, voluptatum sunt itaque quo corporis ullam at reprehenderit odit. Dolores.</p>
+          </div>
+          <section class="customer-logos slider">
+            @foreach($partners as $partner)
+            <div class="slide img-partner"><img src="{{url('uploads/partner')}}/{{$partner->cover_image}}"></div>
+            @endforeach
+          </section>
+          <!-- </div>   -->
+        </div>
+      </div>
+      <!--#main-->
+    </div>
+    <!--.content_wrapper-->
 
-<footer id="footer" class="footer style_1">
- <div class="vc_column-inner "><div class="wpb_wrapper">    
-   <div id="map_5be68b27d80d1" class=" stm_gmap_wrapper">
-    <script type="text/javascript">
-      jQuery(document).ready(function ($) {
-        google.maps.event.addDomListener(window, 'load', init);
-        var map_5be68b27d80d1, markers = [], gmarkers = [], owl_5be68b27d802b = $("#owl_5be68b27d802b"), default_marker_icon = 'wp-content/themes/consulting/assets/images/markers/map-marker-skin_default.png';
-        $("#skin_color span").on('click', function () {
-          for (var i = 0; i < gmarkers.length; i++) {
-            if( $(this).attr('id') == 'skin_default' ){
-              gmarkers[i].setIcon('{{url("public/home/home")}}/wp-content/themes/consulting/assets/images/markers/map-marker-skin_default.png');
-            }else{
-              gmarkers[i].setIcon('{{url("public/home/home")}}/wp-content/themes/consulting/assets/images/markers/map-marker-'+$(this).attr('id')+'.png');
-            }
-          }
-        });
-        function init() {
-          var mapStyles = [
-          {
-            "featureType": "administrative",
-            "elementType": "labels.text.fill",
-            "stylers": [
-            {
-              "color": "#444444"
-            }
-            ]
-          },
-          {
-            "featureType": "landscape",
-            "elementType": "all",
-            "stylers": [
-            {
-              "color": "#f2f2f2"
-            }
-            ]
-          },
-          {
-            "featureType": "poi",
-            "elementType": "all",
-            "stylers": [
-            {
-              "visibility": "off"
-            }
-            ]
-          },
-          {
-            "featureType": "road",
-            "elementType": "all",
-            "stylers": [
-            {
-              "saturation": -100
-            },
-            {
-              "lightness": 45
-            }
-            ]
-          },
-          {
-            "featureType": "road.highway",
-            "elementType": "all",
-            "stylers": [
-            {
-              "visibility": "simplified"
-            }
-            ]
-          },
-          {
-            "featureType": "road.arterial",
-            "elementType": "labels.icon",
-            "stylers": [
-            {
-              "visibility": "off"
-            }
-            ]
-          },
-          {
-            "featureType": "transit",
-            "elementType": "all",
-            "stylers": [
-            {
-              "visibility": "off"
-            }
-            ]
-          },
-          {
-            "featureType": "water",
-            "elementType": "all",
-            "stylers": [
-            {
-              "color": "#6c98e1"
-            },
-            {
-              "visibility": "on"
-            }
-            ]
-          }
-          ];
-
-
-          var mapOptions = {
-            zoom: 11,
-            zoomControlOptions: {
-              position: google.maps.ControlPosition.LEFT_TOP
-            },
-            streetViewControl: false,
-            scrollwheel: false,
-            styles: mapStyles
-
-          };
-          var mapElement = document.getElementById('stm-gmap-5be68b27d8093');
-          map_5be68b27d80d1 = new google.maps.Map(mapElement, mapOptions);
-
-          owl_5be68b27d802b.on('initialized.owl.carousel', function () {
-            consulting_setMarkers();
-          });
-
-          var owlRtl = false;
-
-          if( $('body').hasClass('rtl') ) {
-            owlRtl = true;
-          }
-
-          owl_5be68b27d802b.owlCarousel({
-            rtl: owlRtl,
-            dotsContainer: '#owl-nav-5be68b27d806c',
-            items: 3,
-            margin: 70,
-            loop: true,
-            responsive: {
-              0: {
-                items: 1
-              },
-              768: {
-                items: 2
-              },
-              992: {
-                items: 3
+    <footer id="footer" class="footer style_1">
+     <div class="vc_column-inner "><div class="wpb_wrapper">    
+       <div id="map_5be68b27d80d1" class=" stm_gmap_wrapper">
+        <script type="text/javascript">
+          jQuery(document).ready(function ($) {
+            google.maps.event.addDomListener(window, 'load', init);
+            var map_5be68b27d80d1, markers = [], gmarkers = [], owl_5be68b27d802b = $("#owl_5be68b27d802b"), default_marker_icon = 'wp-content/themes/consulting/assets/images/markers/map-marker-skin_default.png';
+            $("#skin_color span").on('click', function () {
+              for (var i = 0; i < gmarkers.length; i++) {
+                if( $(this).attr('id') == 'skin_default' ){
+                  gmarkers[i].setIcon('{{url("public/home/home")}}/wp-content/themes/consulting/assets/images/markers/map-marker-skin_default.png');
+                }else{
+                  gmarkers[i].setIcon('{{url("public/home/home")}}/wp-content/themes/consulting/assets/images/markers/map-marker-'+$(this).attr('id')+'.png');
+                }
               }
-            },
-            onTranslated: function () {
-              consulting_setMarkers();
-            },
-            onInitialize: function (event) {
-              if ($('.owl-stage-outer .owl-item').length <= 1) {
-                this.settings.loop = false;
+            });
+            function init() {
+              var mapStyles = [
+              {
+                "featureType": "administrative",
+                "elementType": "labels.text.fill",
+                "stylers": [
+                {
+                  "color": "#444444"
+                }
+                ]
+              },
+              {
+                "featureType": "landscape",
+                "elementType": "all",
+                "stylers": [
+                {
+                  "color": "#f2f2f2"
+                }
+                ]
+              },
+              {
+                "featureType": "poi",
+                "elementType": "all",
+                "stylers": [
+                {
+                  "visibility": "off"
+                }
+                ]
+              },
+              {
+                "featureType": "road",
+                "elementType": "all",
+                "stylers": [
+                {
+                  "saturation": -100
+                },
+                {
+                  "lightness": 45
+                }
+                ]
+              },
+              {
+                "featureType": "road.highway",
+                "elementType": "all",
+                "stylers": [
+                {
+                  "visibility": "simplified"
+                }
+                ]
+              },
+              {
+                "featureType": "road.arterial",
+                "elementType": "labels.icon",
+                "stylers": [
+                {
+                  "visibility": "off"
+                }
+                ]
+              },
+              {
+                "featureType": "transit",
+                "elementType": "all",
+                "stylers": [
+                {
+                  "visibility": "off"
+                }
+                ]
+              },
+              {
+                "featureType": "water",
+                "elementType": "all",
+                "stylers": [
+                {
+                  "color": "#6c98e1"
+                },
+                {
+                  "visibility": "on"
+                }
+                ]
+              }
+              ];
+
+
+              var mapOptions = {
+                zoom: 11,
+                zoomControlOptions: {
+                  position: google.maps.ControlPosition.LEFT_TOP
+                },
+                streetViewControl: false,
+                scrollwheel: false,
+                styles: mapStyles
+
+              };
+              var mapElement = document.getElementById('stm-gmap-5be68b27d8093');
+              map_5be68b27d80d1 = new google.maps.Map(mapElement, mapOptions);
+
+              owl_5be68b27d802b.on('initialized.owl.carousel', function () {
+                consulting_setMarkers();
+              });
+
+              var owlRtl = false;
+
+              if( $('body').hasClass('rtl') ) {
+                owlRtl = true;
+              }
+
+              owl_5be68b27d802b.owlCarousel({
+                rtl: owlRtl,
+                dotsContainer: '#owl-nav-5be68b27d806c',
+                items: 3,
+                margin: 70,
+                loop: true,
+                responsive: {
+                  0: {
+                    items: 1
+                  },
+                  768: {
+                    items: 2
+                  },
+                  992: {
+                    items: 3
+                  }
+                },
+                onTranslated: function () {
+                  consulting_setMarkers();
+                },
+                onInitialize: function (event) {
+                  if ($('.owl-stage-outer .owl-item').length <= 1) {
+                    this.settings.loop = false;
+                  }
+                }
+              });
+            }
+            function consulting_setMarkers(){
+              var latlngbounds = new google.maps.LatLngBounds();
+              markers = [];
+              owl_5be68b27d802b.find('.owl-item.active').each(function (i) {
+                markers.push([parseFloat($(this).find('.item').data('lat')), parseFloat($(this).find('.item').data('lng')), $(this).find('.item').data('title')]);
+              });
+              for (i = 0; i < gmarkers.length; i++) {
+                gmarkers[i].setMap(null);
+              }
+              for (var i = 0; i < markers.length; i++) {
+                var marker_array = markers[i];
+                marker = new google.maps.Marker({
+                  position: {lat: marker_array[0], lng: marker_array[1]},
+                  icon: default_marker_icon,
+                  map: map_5be68b27d80d1,
+                  title: marker_array[2]
+                });
+                latlngbounds.extend(new google.maps.LatLng(marker_array[0], marker_array[1]));
+                gmarkers.push( marker );
+                addInfoWindow( marker, marker_array[2], marker_array[0] );
+              }
+              map_5be68b27d80d1.fitBounds(latlngbounds);
+
+              if( markers.length === 1 ) {
+                var listener = google.maps.event.addListener(map_5be68b27d80d1, "idle", function() {
+                  map_5be68b27d80d1.setZoom(11);
+                  google.maps.event.removeListener(listener);
+                });
               }
             }
-          });
-        }
-        function consulting_setMarkers(){
-          var latlngbounds = new google.maps.LatLngBounds();
-          markers = [];
-          owl_5be68b27d802b.find('.owl-item.active').each(function (i) {
-            markers.push([parseFloat($(this).find('.item').data('lat')), parseFloat($(this).find('.item').data('lng')), $(this).find('.item').data('title')]);
-          });
-          for (i = 0; i < gmarkers.length; i++) {
-            gmarkers[i].setMap(null);
-          }
-          for (var i = 0; i < markers.length; i++) {
-            var marker_array = markers[i];
-            marker = new google.maps.Marker({
-              position: {lat: marker_array[0], lng: marker_array[1]},
-              icon: default_marker_icon,
-              map: map_5be68b27d80d1,
-              title: marker_array[2]
-            });
-            latlngbounds.extend(new google.maps.LatLng(marker_array[0], marker_array[1]));
-            gmarkers.push( marker );
-            addInfoWindow( marker, marker_array[2], marker_array[0] );
-          }
-          map_5be68b27d80d1.fitBounds(latlngbounds);
 
-          if( markers.length === 1 ) {
-            var listener = google.maps.event.addListener(map_5be68b27d80d1, "idle", function() {
-              map_5be68b27d80d1.setZoom(11);
-              google.maps.event.removeListener(listener);
-            });
-          }
-        }
+            function addInfoWindow(marker, title, lat) {
 
-        function addInfoWindow(marker, title, lat) {
+              var infowindow = new google.maps.InfoWindow({
+                content: '<h6>' + title + '</h6>',
+                pixelOffset: new google.maps.Size(0,20)
+              });
 
-          var infowindow = new google.maps.InfoWindow({
-            content: '<h6>' + title + '</h6>',
-            pixelOffset: new google.maps.Size(0,20)
-          });
+              google.maps.event.addListener(marker, 'mouseover', function () {
+                infowindow.open(map_5be68b27d80d1, marker);
+                $('[data-lat="'+ lat +'"]').addClass("focused");
+              });
 
-          google.maps.event.addListener(marker, 'mouseover', function () {
-            infowindow.open(map_5be68b27d80d1, marker);
-            $('[data-lat="'+ lat +'"]').addClass("focused");
-          });
+              google.maps.event.addListener(marker, 'mouseout', function () {
+                infowindow.close(map_5be68b27d80d1, marker);
+                $('[data-lat="'+ lat +'"]').removeClass("focused");
+              });
 
-          google.maps.event.addListener(marker, 'mouseout', function () {
-            infowindow.close(map_5be68b27d80d1, marker);
-            $('[data-lat="'+ lat +'"]').removeClass("focused");
-          });
+              $(".item").on("mouseenter", function() {
+                if( parseFloat(marker.getPosition().lat()) === parseFloat($(this).data('lat')) ) {
+                  infowindow.open(map_5be68b27d80d1, marker);
+                }
+              });
 
-          $(".item").on("mouseenter", function() {
-            if( parseFloat(marker.getPosition().lat()) === parseFloat($(this).data('lat')) ) {
-              infowindow.open(map_5be68b27d80d1, marker);
+              $(".item").on("mouseleave", function() {
+                if( parseFloat(marker.getPosition().lat()) === parseFloat($(this).data('lat')) ) {
+                  infowindow.close(map_5be68b27d80d1, marker);
+                }
+              });
             }
           });
-
-          $(".item").on("mouseleave", function() {
-            if( parseFloat(marker.getPosition().lat()) === parseFloat($(this).data('lat')) ) {
-              infowindow.close(map_5be68b27d80d1, marker);
-            }
-          });
-        }
-      });
-    </script>
-    <div class="gmap_addresses">
-      <div class="gmap_add">
-        <div class="row">
-          <div class="col-lg-11 col-md-11 col-sm-11 col-xs-12">
-            <div class="addresses_wr">
-              <div class="addresses owl-carousel owl-theme owl-loaded" id="owl_5be68b27d802b">
+        </script>
+        <div class="gmap_addresses">
+          <div class="gmap_add">
+            <div class="row">
+              <div class="col-lg-11 col-md-11 col-sm-11 col-xs-12">
+                <div class="addresses_wr">
+                  <div class="addresses owl-carousel owl-theme owl-loaded" id="owl_5be68b27d802b">
 
 
 
 
 
 
-                <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-1085px, 0px, 0px); transition: all 0s ease 0s; width: 4340px;">
+                    <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-1085px, 0px, 0px); transition: all 0s ease 0s; width: 4340px;">
 
 
 
-                  <div class="owl-item active" style="width: 291.667px; margin-right: 70px;">
+                      <div class="owl-item active" style="width: 291.667px; margin-right: 70px;">
+                      </div>
+
+
+
+
+
+                      <div class="owl-item cloned" style="width: 291.667px; margin-right: 70px;">
+                      </div>
+                      <div class="owl-item cloned" style="width: 291.667px; margin-right: 70px;">
+                      </div>
+                      @foreach($offices as $office)
+                      <div class="owl-item active" style="width: 291.667px; margin-right: 70px;"><div class="item" data-lat="40.416775" data-lng="-3.703790" data-title="Spain">
+                        <div class="title">{{$office->title}}</div>
+                        <ul>
+                          <li>
+                            <div class="icon">
+                              <i class="stm-location-2"></i>
+                            </div>
+                            <div class="text">
+                              <p>{{$office->address}}</p>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="icon">
+                              <i class="stm-iphone"></i>
+                            </div>
+                            <div class="text">
+                              <p>{{$office->phone}}</p>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="icon">
+                              <i class="stm-email"></i>
+                            </div>
+                            <div class="text">
+                              <a href="mailto:palmagency@consultingwp.com">{{$office->email}}</a>
+                            </div>
+                          </li>
+                        </ul>
+                      </div></div>
+                      @endforeach
+                    </div>
                   </div>
-
-
-
-
-
-                  <div class="owl-item cloned" style="width: 291.667px; margin-right: 70px;">
-                  </div>
-                  <div class="owl-item cloned" style="width: 291.667px; margin-right: 70px;">
-                  </div>
-                  @foreach($offices as $office)
-                  <div class="owl-item active" style="width: 291.667px; margin-right: 70px;"><div class="item" data-lat="40.416775" data-lng="-3.703790" data-title="Spain">
-                    <div class="title">{{$office->title}}</div>
-                    <ul>
-                      <li>
-                        <div class="icon">
-                          <i class="stm-location-2"></i>
-                        </div>
-                        <div class="text">
-                          <p>{{$office->address}}</p>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="icon">
-                          <i class="stm-iphone"></i>
-                        </div>
-                        <div class="text">
-                          <p>{{$office->phone}}</p>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="icon">
-                          <i class="stm-email"></i>
-                        </div>
-                        <div class="text">
-                          <a href="mailto:palmagency@consultingwp.com">{{$office->email}}</a>
-                        </div>
-                      </li>
-                    </ul>
-                  </div></div>
-                  @endforeach
                 </div>
               </div>
             </div>
+
           </div>
         </div>
-
       </div>
     </div>
-  </div>
-</div>
-</div></div>
-<div class="widgets_row">
+  </div></div>
+  <div class="widgets_row">
 
- <div class="container">
+   <div class="container">
 
-  <div class="footer_widgets">
-   <div class="row">
+    <div class="footer_widgets">
+     <div class="row">
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+       <div class="footer_logo text-center">
+        <a href="">
+          <img src="{{url('uploads/logo/Logo-hl.png')}}" width="100px" alt="Consulting WP - New York" />
+        </a>
+      </div>
+      <div class="footer_text text-center">
+        <p><span style="font-weight: bold; font-size: 16px;">HOPLONGTECH - AUTOMATION</span>
+        </p>
+      </div>
+      <div class="footer_n">
+        <img src="{{url('uploads/logo/logo-da-thong-bao-voi-bo-cong-thuong.png')}}" alt="">
+      </div>
+    </div>
     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-     <div class="footer_logo text-center">
-      <a href="">
-        <img src="{{url('uploads/logo/w-logo.png')}}" width="100px" alt="Consulting WP - New York" />
-      </a>
-    </div>
-    <div class="footer_text text-center">
-      <p><span style="font-weight: bold; font-size: 16px;">HOPLONGTECH - AUTOMATION</span>
-      </p>
-    </div>
-    <div class="footer_n">
-      <img src="{{url('uploads/logo/logo-da-thong-bao-voi-bo-cong-thuong.png')}}" alt="">
-    </div>
-  </div>
-  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-   <section id="recent-posts-4" class="widget widget_recent_entries">
-    <h4 class="widget_title no_stripe">Dịch vụ</h4>
-    <ul>
-     <li>
-      <a href="within-the-construction-industry-as-their-overdraft/">Chăm sóc khách hàng</a>
-      <!-- <span class="post-date">January 22, 2016</span> -->
-    </li>
-    <li>
-      <a href="strategic-and-commercial-approach-with-technical-understanding/">Hỗ trợ kỹ thuật</a>
-      <!-- <span class="post-date">January 22, 2016</span> -->
-    </li>
-    <li>
-      <a href="strategic-and-commercial-approach-with-technical-understanding/">Bảo hành sản phẩm</a>
-      <!-- <span class="post-date">January 22, 2016</span> -->
-    </li>
+     <section id="recent-posts-4" class="widget widget_recent_entries">
+      <h4 class="widget_title no_stripe">Dịch vụ</h4>
+      <ul>
+       <li>
+        <a href="within-the-construction-industry-as-their-overdraft/">Chăm sóc khách hàng</a>
+        <!-- <span class="post-date">January 22, 2016</span> -->
+      </li>
+      <li>
+        <a href="strategic-and-commercial-approach-with-technical-understanding/">Hỗ trợ kỹ thuật</a>
+        <!-- <span class="post-date">January 22, 2016</span> -->
+      </li>
+      <li>
+        <a href="strategic-and-commercial-approach-with-technical-understanding/">Bảo hành sản phẩm</a>
+        <!-- <span class="post-date">January 22, 2016</span> -->
+      </li>
 
-  </ul>
-</section>
+    </ul>
+  </section>
 </div>
 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
  <section id="nav_menu-2" class="widget widget_nav_menu">

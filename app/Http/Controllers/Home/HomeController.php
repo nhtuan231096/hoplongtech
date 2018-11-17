@@ -22,7 +22,7 @@ use Mail;
 class HomeController extends Controller
 {
 	public function index(){
-		$slider_active=Slider::where('sorder','1')->first();
+		$slider_active=Slider::where('sorder','1')->where('type',0)->first();
 		$slider_home=Slider::where('status','enable')->where('type',0)->where('sorder','<>',1)->orderBy('sorder','ASC')->paginate(6);
 		$company_news=News::Where('category_id','35')->paginate(3);
 		$office=Office::where('status','enable')->get();
@@ -165,6 +165,10 @@ class HomeController extends Controller
 	  	}  
 	public function filter($filter){
 		return Product::where('capacity',$filter)->get();
+	}
+	public function search_product(Request $req){
+		$product = Product::search()->paginate(10);
+		return redirect()->route('');
 	}
 }
  ?>
